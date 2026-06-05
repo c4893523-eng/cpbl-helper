@@ -1,0 +1,62 @@
+name: Auto Update CPBL Data
+
+on:
+  schedule:
+    - cron: '0 18 * * *'
+    - cron: '0 10 * * *'
+    - cron: '30 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch and Save Data
+        run: |
+          cat << 'EOF' > update.js
+          const fs = require('fs');
+          const SCHEDULE_URL = "https://www.rebas.tw/api/seasons/CPBL-2026-oB/games";
+          const STANDINGS_URL = "https://www.rebas.tw/api/seasons/CPBL-2026-oB/leaders?type=team&section=standard&pa=undefined";
+          const HEADERS = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+              "Accept": "application/json",
+              "Origin": "https://www.rebas.tw",
+              "Referer": "https://www.rebas.tw/season/CPBL-2026-oB"
+          };
+          async function fetchAndSave(url, filename) {
+              try {
+                  const response = await fetch(url, { headers: HEADERS });
+                  if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
+                  const data = await response.json();
+                  if (data && data.data) {
+                      fs.writeFileSync(filename, JSON.stringify(data, null, 2));
+                      console.log(`Saved ${filename}`);
+                  }
+              } catch (e) {
+                  console.error(`Error ${filename}:`, e.message);
+                  process.exit(1);
+              }
+          }
+          async function main() {
+              await fetchAndSave(SCHEDULE_URL, 'schedule.json');
+              await fetchAndSave(STANDINGS_URL, 'standings.json');
+          }
+          main();
+          EOF
+          node update.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add schedule.json standings.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update CPBL schedule and standings" && git push)
