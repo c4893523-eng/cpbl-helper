@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+async function test() {
+    const rebasGamesUrl = "https://www.rebas.tw/api/seasons/CPBL-2026-oB/games";
+    const proxyUrl = "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(rebasGamesUrl);
+    const res = await fetch(proxyUrl);
+    const data = await res.json();
+    
+    const now = new Date("2026-05-26T12:00:00+08:00");
+    const dayOfWeek = now.getDay() || 7; // 1-7
+    const thisMonday = new Date(now);
+    thisMonday.setDate(now.getDate() - dayOfWeek + 1);
+    thisMonday.setHours(0, 0, 0, 0);
+    
+    const nextMonday = new Date(thisMonday);
+    nextMonday.setDate(thisMonday.getDate() + 7);
+    
+    const lastMonday = new Date(thisMonday);
+    lastMonday.setDate(thisMonday.getDate() - 7);
+    
+    const nextNextMonday = new Date(nextMonday);
+    nextNextMonday.setDate(nextMonday.getDate() + 7);
+    
+    let lW=0, tW=0, nW=0;
+    
+    data.data.forEach(game => {
+        if (!game.scheduled_start_at) return;
+        const gameDate = new Date(game.scheduled_start_at.replace(/-/g, '/'));
+        if (gameDate >= lastMonday && gameDate < thisMonday) lW++;
+        if (gameDate >= thisMonday && gameDate < nextMonday) tW++;
+        if (gameDate >= nextMonday && gameDate < nextNextMonday) nW++;
+    });
+    
+    console.log("Last Week games:", lW);
+    console.log("This Week games:", tW);
+    console.log("Next Week games:", nW);
+    document.body.innerHTML = `Last Week games: ${lW}<br>This Week games: ${tW}<br>Next Week games: ${nW}<br>first game: ${data.data[0].scheduled_start_at}<br>last game: ${data.data[data.data.length-1].scheduled_start_at}`;
+}
+test();
+</script>
+</body>
+</html>

@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中信兄弟"象一家人"社群 CPBL觀賽助手</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        cpbl: {
+                            brothers: '#FFD700', // 中信兄弟 黃
+                            dragons: '#DC143C',  // 味全龍 紅
+                            guardians: '#004A9C', // 富邦悍將 藍
+                            monkeys: '#800000',  // 樂天桃猿 樂天紅(酒紅)
+                            hawks: '#006400',    // 台鋼雄鷹 綠
+                            lions: '#FF8C00'     // 統一獅 橘
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- React & ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #121212; color: #f3f4f6; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #1f2937; }
+        ::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #6b7280; }
+        .bg-gray-750 { background-color: #2d3748; }
+        .yt-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+        .yt-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+
+        // ------------------
+        // Helper Functions & Data
+        // ------------------
+        const getTeamColor = (teamName) => {
+            if (teamName.includes('兄弟')) return 'bg-cpbl-brothers text-black';
+            if (teamName.includes('龍')) return 'bg-cpbl-dragons text-white';
+            if (teamName.includes('獅')) return 'bg-cpbl-lions text-white';
+            if (teamName.includes('猿')) return 'bg-cpbl-monkeys text-white';
+            if (teamName.includes('悍將')) return 'bg-cpbl-guardians text-white';
+            if (teamName.includes('雄鷹')) return 'bg-cpbl-hawks text-white';
+            return 'bg-gray-600 text-white';
+        };
+
+        const wmoWeatherCodeToIcon = (code) => {
+            if (code <= 1) return { desc: '晴天', icon: 'fa-sun text-yellow-400' };
+            if (code <= 3) return { desc: '多雲', icon: 'fa-cloud-sun text-gray-300' };
+            if (code <= 48) return { desc: '霧', icon: 'fa-smog text-gray-400' };
+            if (code <= 67) return { desc: '陣雨', icon: 'fa-cloud-rain text-blue-400' };
+            if (code <= 77) return { desc: '雪', icon: 'fa-snowflake text-white' };
+            if (code <= 99) return { desc: '雷雨', icon: 'fa-bolt text-yellow-500' };
+            return { desc: '未知', icon: 'fa-cloud text-gray-400' };
+        };
+
+        // 預設最新真實數據 (Fallback)，防呆機制
+        const fallbackStandings = [
+            { team: '味全龍', w: 18, l: 10, d: 0, pct: '0.643', gb: '-', streak: 'W2', color: getTeamColor('味全龍') },
+            { team: '統一獅', w: 15, l: 12, d: 1, pct: '0.556', gb: '2.5', streak: 'L1', color: getTeamColor('統一獅') },
+            { team: '台鋼雄鷹', w: 15, l: 13, d: 1, pct: '0.536', gb: '3.0', streak: 'W1', color: getTeamColor('台鋼雄鷹') },
+            { team: '富邦悍將', w: 13, l: 13, d: 0, pct: '0.500', gb: '4.0', streak: 'L1', color: getTeamColor('富邦悍將') },
+            { team: '樂天桃猿', w: 11, l: 15, d: 1, pct: '0.423', gb: '6.0', streak: 'L2', color: getTeamColor('樂天桃猿') },
+            { team: '中信兄弟', w: 9, l: 18, d: 1, pct: '0.333', gb: '8.5', streak: 'W1', color: getTeamColor('中信兄弟') },
+        ];
+
+        const fallbackSchedule = {
+            lastWeek: [
+                { date: '05/29 (五)', time: '18:35', away: '味全龍', home: '統一獅', stadium: '台南' },
+                { date: '05/29 (五)', time: '18:35', away: '樂天桃猿', home: '中信兄弟', stadium: '洲際' },
+                { date: '05/30 (六)', time: '17:05', away: '富邦悍將', home: '台鋼雄鷹', stadium: '澄清湖' },
+                { date: '05/30 (六)', time: '17:05', away: '味全龍', home: '統一獅', stadium: '台南' },
+                { date: '05/31 (日)', time: '17:05', away: '樂天桃猿', home: '中信兄弟', stadium: '洲際' },
+                { date: '05/31 (日)', time: '17:05', away: '富邦悍將', home: '台鋼雄鷹', stadium: '澄清湖' }
+            ],
+            thisWeek: [
+                { date: '06/02 (二)', time: '18:35', away: '統一獅', home: '中信兄弟', stadium: '大巨蛋' },
+                { date: '06/02 (二)', time: '18:35', away: '樂天桃猿', home: '味全龍', stadium: '天母' },
+                { date: '06/03 (三)', time: '18:35', away: '統一獅', home: '中信兄弟', stadium: '大巨蛋' },
+                { date: '06/03 (三)', time: '18:35', away: '味全龍', home: '樂天桃猿', stadium: '桃園' },
+                { date: '06/03 (三)', time: '18:35', away: '富邦悍將', home: '台鋼雄鷹', stadium: '澄清湖' },
+                { date: '06/05 (五)', time: '18:35', away: '樂天桃猿', home: '中信兄弟', stadium: '洲際' },
+                { date: '06/05 (五)', time: '18:35', away: '富邦悍將', home: '統一獅', stadium: '大巨蛋' },
+                { date: '06/05 (五)', time: '18:35', away: '味全龍', home: '台鋼雄鷹', stadium: '澄清湖' },
+                { date: '06/06 (六)', time: '17:05', away: '富邦悍將', home: '統一獅', stadium: '大巨蛋' },
+                { date: '06/06 (六)', time: '17:05', away: '樂天桃猿', home: '中信兄弟', stadium: '洲際' },
+                { date: '06/06 (六)', time: '17:05', away: '味全龍', home: '台鋼雄鷹', stadium: '澄清湖' },
+                { date: '06/07 (日)', time: '17:05', away: '富邦悍將', home: '統一獅', stadium: '大巨蛋' },
+                { date: '06/07 (日)', time: '17:05', away: '樂天桃猿', home: '中信兄弟', stadium: '洲際' },
+                { date: '06/07 (日)', time: '17:05', away: '味全龍', home: '台鋼雄鷹', stadium: '澄清湖' }
+            ],
+            nextWeek: [
+                { date: '06/09 (二)', time: '18:35', away: '統一獅', home: '樂天桃猿', stadium: '桃園' },
+                { date: '06/09 (二)', time: '18:35', away: '台鋼雄鷹', home: '富邦悍將', stadium: '新莊' },
+                { date: '06/10 (三)', time: '18:35', away: '中信兄弟', home: '味全龍', stadium: '天母' },
+                { date: '06/10 (三)', time: '18:35', away: '統一獅', home: '樂天桃猿', stadium: '桃園' },
+                { date: '06/10 (三)', time: '18:35', away: '台鋼雄鷹', home: '富邦悍將', stadium: '新莊' },
+                { date: '06/12 (五)', time: '18:35', away: '中信兄弟', home: '統一獅', stadium: '台南' },
+                { date: '06/12 (五)', time: '18:35', away: '樂天桃猿', home: '台鋼雄鷹', stadium: '澄清湖' },
+                { date: '06/13 (六)', time: '17:05', away: '味全龍', home: '富邦悍將', stadium: '新莊' },
+                { date: '06/13 (六)', time: '17:05', away: '中信兄弟', home: '統一獅', stadium: '台南' },
+                { date: '06/13 (六)', time: '17:05', away: '樂天桃猿', home: '台鋼雄鷹', stadium: '澄清湖' }
+            ]
+        };
+
+        // 官方連結與直播平台
+        const officialLinks = [
+            { name: '中信兄弟', url: 'https://www.brothers.tw/' },
+            { name: '味全龍', url: 'https://www.wdragons.com/' },
+            { name: '統一獅', url: 'https://www.uni-lions.com.tw/' },
+            { name: '樂天桃猿', url: 'https://monkeys.rakuten.com.tw/' },
+            { name: '富邦悍將', url: 'https://www.fubonguardians.com/' },
+            { name: '台鋼雄鷹', url: 'https://www.tsghawks.com/' },
+        ];
+
+        const liveLinks = [
+            { name: 'Hami Video (CPBL)', icon: 'fa-tv', url: 'https://hamivideo.hinet.net/main/606.do' },
+            { name: 'Twitch 棒球區', icon: 'fa-twitch', url: 'https://www.twitch.tv/directory/game/Baseball' },
+            { name: 'YouTube 官方', icon: 'fa-youtube', url: 'https://www.youtube.com/c/CPBL' },
+            { name: 'DAZN 運動', icon: 'fa-play-circle', url: 'https://www.dazn.com/' },
+        ];
+
+        // 即時公開路況攝影機 (動態 YouTube 搜尋機制，永遠不會失效)
+        const liveCameras = [
+            { id: 1, title: '天母/大巨蛋棒球場 (台北市)', ytUrl: 'https://www.youtube.com/results?search_query=%E5%A4%A9%E6%AF%8D%E6%A3%92%E7%90%83%E5%A0%B4+%E5%8D%B3%E6%99%82%E5%BD%B1%E5%83%8F+live&sp=EgJAAQ%253D%253D', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Tianmu_Baseball_Stadium.jpg/640px-Tianmu_Baseball_Stadium.jpg' },
+            { id: 2, title: '新莊棒球場 (新北市)', ytUrl: 'https://www.youtube.com/results?search_query=%E6%96%B0%E8%8E%8A%E6%A3%92%E7%90%83%E5%A0%B4+%E5%8D%B3%E6%99%82%E5%BD%B1%E5%83%8F+live&sp=EgJAAQ%253D%253D', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Xinzhuang_Baseball_Stadium_20230501.jpg/640px-Xinzhuang_Baseball_Stadium_20230501.jpg' },
+            { id: 3, title: '桃園棒球場 (桃園市)', ytUrl: 'https://www.youtube.com/results?search_query=%E6%A1%83%E5%9C%92%E6%A3%92%E7%90%83%E5%A0%B4+%E5%8D%B3%E6%99%82%E5%BD%B1%E5%83%8F+live&sp=EgJAAQ%253D%253D', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taoyuan_International_Baseball_Stadium.jpg/640px-Taoyuan_International_Baseball_Stadium.jpg' },
+            { id: 4, title: '洲際棒球場 (台中市)', ytUrl: 'https://www.youtube.com/results?search_query=%E6%B4%B2%E9%9A%9B%E6%A3%92%E7%90%83%E5%A0%B4+%E5%8D%B3%E6%99%82%E5%BD%B1%E5%83%8F+live&sp=EgJAAQ%253D%253D', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Taichung_Intercontinental_Baseball_Stadium_2015_Premier12.jpg/640px-Taichung_Intercontinental_Baseball_Stadium_2015_Premier12.jpg' },
+            { id: 5, title: '台南棒球場 (台南市)', ytUrl: 'https://www.youtube.com/results?search_query=%E5%8F%B0%E5%8D%97%E6%A3%92%E7%90%83%E5%A0%B4+%E5%8D%B3%E6%99%82%E5%BD%B1%E5%83%8F+live&sp=EgJAAQ%253D%253D', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Tainan_Municipal_Baseball_Stadium_2020.jpg/640px-Tainan_Municipal_Baseball_Stadium_2020.jpg' },
+            { id: 6, title: '澄清湖棒球場 (高雄市)', ytUrl: 'https://www.youtube.com/results?search_query=%E6%BE%84%E6%B8%85%E6%B9%96%E6%A3%92%E7%90%83%E5%A0%B4+%E5%8D%B3%E6%99%82%E5%BD%B1%E5%83%8F+live&sp=EgJAAQ%253D%253D', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Chengcing_Lake_Baseball_Stadium.jpg/640px-Chengcing_Lake_Baseball_Stadium.jpg' }
+        ];
+
+        // ------------------
+        // Components
+        // ------------------
+        const NewsCarousel = () => {
+            // 穩定的媒體入口網址，確保即使動態抓取失敗也不會 404
+            const newsPortals = [
+                { id: 1, title: 'Yahoo 運動 - 中職專區', img: 'https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80', date: '即時更新', category: 'Yahoo運動', url: 'https://tw.sports.yahoo.com/topic/cpbl_authority/' },
+                { id: 2, title: 'ETtoday - 中職新聞總覽', img: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80', date: '即時更新', category: 'ETtoday運動雲', url: 'https://sports.ettoday.net/news-list/棒球/中職' },
+                { id: 3, title: '自由時報 - 棒球最新消息', img: 'https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80', date: '即時更新', category: '自由體育', url: 'https://sports.ltn.com.tw/baseball' },
+                { id: 4, title: 'TSNA - 專業體育新聞', img: 'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80', date: '即時更新', category: 'TSNA體育', url: 'https://tsna.com/baseball/23' },
+                { id: 5, title: '聯合新聞網 - 棒球焦點', img: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80', date: '即時更新', category: '聯合新聞網', url: 'https://udn.com/news/cate/2/7227' }
+            ];
+
+            const [newsItems, setNewsItems] = useState(newsPortals);
+            const [currentIndex, setCurrentIndex] = useState(0);
+            const [loading, setLoading] = useState(true);
+
+            useEffect(() => {
+                const fetchNews = async () => {
+                    setLoading(true);
+                    try {
+                        // 使用 Yahoo RSS 抓取最新新聞 (這是一個非常穩定的 RSS 來源)
+                        const res = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://tw.news.yahoo.com/rss/sports'));
+                        const data = await res.json();
+                        if (!data.contents) throw new Error('No data');
+
+                        const parser = new DOMParser();
+                        const xml = parser.parseFromString(data.contents, 'application/xml');
+                        const items = Array.from(xml.querySelectorAll('item'));
+                        
+                        const keywords = ['中職', '棒球', '中信', '兄弟', '味全', '龍', '統一', '獅', '樂天', '桃猿', '富邦', '悍將', '台鋼', '雄鷹', '中華職棒'];
+                        const defaultImages = [
+                            'https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80',
+                            'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80',
+                            'https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80',
+                            'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80',
+                            'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80'
+                        ];
+
+                        // 嘗試過濾出中職新聞
+                        let cpblNews = items
+                            .map((item, idx) => {
+                                const title = item.querySelector('title')?.textContent || '';
+                                const link = item.querySelector('link')?.textContent || '';
+                                const pubDate = item.querySelector('pubDate')?.textContent || '';
+                                const description = item.querySelector('description')?.textContent || '';
+                                
+                                const dateObj = new Date(pubDate);
+                                const formattedDate = !isNaN(dateObj) ? `${dateObj.getMonth() + 1}/${dateObj.getDate()} ${dateObj.getHours()}:${String(dateObj.getMinutes()).padStart(2, '0')}` : '即時';
+
+                                // 判斷是否為中職相關
+                                if (keywords.some(kw => title.includes(kw) || description.includes(kw))) {
+                                    let imgUrl = defaultImages[idx % defaultImages.length];
+                                    const contentEncoded = item.getElementsByTagName('content:encoded');
+                                    if (contentEncoded.length > 0) {
+                                        const text = contentEncoded[0].textContent;
+                                        if (text.startsWith('http')) imgUrl = text;
+                                        else {
+                                            const match = text.match(/src="([^"]+)"/);
+                                            if (match) imgUrl = match[1];
+                                        }
+                                    }
+
+                                    return {
+                                        id: `live_${idx}`,
+                                        title: title,
+                                        img: imgUrl,
+                                        date: formattedDate,
+                                        category: '最新消息',
+                                        url: link
+                                    };
+                                }
+                                return null;
+                            })
+                            .filter(item => item !== null);
+
+                        if (cpblNews.length >= 3) {
+                            setNewsItems(cpblNews.slice(0, 5));
+                        } else {
+                            // 如果抓不到足夠的中職新聞，就混入一般的體育頭條但標示穩定連結
+                            setNewsItems(newsPortals);
+                        }
+                    } catch (e) {
+                        console.error('Dynamic news fetch failed, using portal links.');
+                        setNewsItems(newsPortals);
+                    } finally {
+                        setLoading(false);
+                    }
+                };
+                fetchNews();
+            }, []);
+
+            useEffect(() => {
+                if (newsItems.length === 0) return;
+                const timer = setInterval(() => {
+                    setCurrentIndex((prev) => (prev + 1) % newsItems.length);
+                }, 6000);
+                return () => clearInterval(timer);
+            }, [newsItems.length]);
+
+            return (
+                <div className="relative w-full h-[350px] rounded-xl overflow-hidden shadow-2xl group border border-gray-700 bg-gray-800">
+                    {newsItems.map((news, index) => (
+                        <a 
+                            key={news.id}
+                            href={news.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`absolute inset-0 block transition-all duration-1000 ease-in-out cursor-pointer group/news ${index === currentIndex ? 'opacity-100 z-10 scale-100' : 'opacity-0 z-0 scale-105 pointer-events-none'}`}
+                        >
+                            <img src={news.img} alt={news.title} className="w-full h-full object-cover transition-transform duration-10000 linear group-hover/news:scale-110" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent"></div>
+                            <div className="absolute bottom-0 left-0 w-full p-8 text-white">
+                                <div className="flex items-center gap-2 mb-3">
+                                    <span className="px-3 py-1 bg-yellow-500 text-black text-xs font-bold rounded-full shadow-lg">{news.category}</span>
+                                    {loading && index === currentIndex && <i className="fas fa-circle-notch fa-spin text-xs text-yellow-500/50"></i>}
+                                </div>
+                                <h2 className="text-2xl md:text-4xl font-black mb-3 drop-shadow-lg leading-tight group-hover/news:text-yellow-400 transition-colors">
+                                    {news.title}
+                                </h2>
+                                <div className="flex items-center gap-4 text-gray-300 text-sm font-medium">
+                                    <span><i className="far fa-clock mr-1.5 text-yellow-500"></i>{news.date}</span>
+                                    <span className="bg-white/10 px-2 py-0.5 rounded backdrop-blur-sm text-xs">點擊閱讀全文 <i className="fas fa-arrow-right ml-1"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    ))}
+                    
+                    {/* Navigation Dots */}
+                    <div className="absolute bottom-8 right-8 z-20 flex gap-2.5">
+                        {newsItems.map((_, idx) => (
+                            <button 
+                                key={idx}
+                                onClick={(e) => { e.preventDefault(); setCurrentIndex(idx); }}
+                                className={`h-1.5 rounded-full transition-all duration-300 shadow-md ${idx === currentIndex ? 'w-8 bg-yellow-400' : 'w-2 bg-gray-500/50 hover:bg-white'}`}
+                            ></button>
+                        ))}
+                    </div>
+                    
+                    {/* Progress Bar */}
+                    <div className="absolute bottom-0 left-0 h-1 bg-yellow-500/30 z-20 w-full">
+                        <div 
+                            className="h-full bg-yellow-500 transition-all duration-[6000ms] linear"
+                            style={{ width: `${((currentIndex + 1) / newsItems.length) * 100}%` }}
+                        ></div>
+                    </div>
+                </div>
+            );
+        };
+
+        const Card = ({ title, icon, children, className="", action=null }) => (
+            <div className={`bg-gray-800 rounded-xl shadow-lg border border-gray-700 overflow-hidden flex flex-col ${className}`}>
+                <div className="bg-gray-750 px-4 py-3 border-b border-gray-700 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                        <i className={`fas ${icon} text-blue-400`}></i>
+                        <h2 className="text-lg font-bold text-gray-100">{title}</h2>
+                    </div>
+                    {action}
+                </div>
+                <div className="p-4 flex-1">
+                    {children}
+                </div>
+            </div>
+        );
+
+        const Standings = () => {
+            const [standings, setStandings] = useState(fallbackStandings);
+            const [isSyncing, setIsSyncing] = useState(false);
+
+            const syncStandings = async () => {
+                setIsSyncing(true);
+                try {
+                    let rebasData = null;
+
+                    // 1. 首選：讀取 GitHub Actions 自動產生的本地端靜態檔案 (速度最快，永不被擋)
+                    try {
+                        // 使用加上時間戳的網址避免瀏覽器快取
+                        const res = await fetch(`./standings.json?t=${new Date().getTime()}`);
+                        if (res.ok) {
+                            const data = await res.json();
+                            if (data && data.data && Array.isArray(data.data)) {
+                                rebasData = data.data;
+                            }
+                        }
+                    } catch (e) {
+                        console.log("Local standings.json not found or error, falling back", e);
+                    }
+
+                    if (rebasData) {
+                        const parsed = rebasData.map(item => {
+                            const teamName = item.team.name; // e.g. "味全龍" or "統一7-ELEVEn獅"
+                            const w = item.wins;
+                            const l = item.loses;
+                            const d = item.draws;
+                            let pct = item.PCT.toFixed(3).replace(/^0\./, '.'); // "0.581" -> ".581"
+                            let gb = item.GB.toString();
+                            
+                            // Rebas 的 STRK 是數字，正數為連勝，負數為連敗
+                            let streak = '-';
+                            if (item.STRK > 0) streak = `W${item.STRK}`;
+                            else if (item.STRK < 0) streak = `L${Math.abs(item.STRK)}`;
+
+                            return {
+                                team: teamName,
+                                w: w.toString(),
+                                l: l.toString(),
+                                d: d.toString(),
+                                pct: pct,
+                                gb: gb,
+                                streak: streak,
+                                color: getTeamColor(teamName)
+                            };
+                        });
+                        setStandings(parsed);
+                    } else {
+                        throw new Error("Local data not available yet");
+                    }
+                } catch (e) {
+                    console.error("Real-time fetch failed, using updated accurate fallback data:", e);
+                    setStandings([...fallbackStandings]);
+                } finally {
+                    setIsSyncing(false);
+                }
+            };
+
+            useEffect(() => { syncStandings(); }, []);
+
+            return (
+                <Card 
+                    title="即時例行賽戰績 (Live Sync)" 
+                    icon="fa-trophy"
+                    action={<button onClick={syncStandings} className={`text-gray-400 hover:text-white ${isSyncing ? 'animate-spin text-blue-400' : ''}`}><i className="fas fa-sync-alt"></i></button>}
+                >
+                    <div className="overflow-x-auto">
+                        <table className="w-full text-sm text-left whitespace-nowrap">
+                            <thead className="text-xs text-gray-400 uppercase bg-gray-700/50">
+                                <tr>
+                                    <th className="px-3 py-2 rounded-tl-lg">球隊</th>
+                                    <th className="px-3 py-2 text-right">勝</th>
+                                    <th className="px-3 py-2 text-right">敗</th>
+                                    <th className="px-3 py-2 text-right">和</th>
+                                    <th className="px-3 py-2 text-right">勝率</th>
+                                    <th className="px-3 py-2 text-right">勝差</th>
+                                    <th className="px-3 py-2 text-center rounded-tr-lg">近況</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {standings.map((row, idx) => (
+                                    <tr key={idx} className="border-b border-gray-700/50 hover:bg-gray-750 transition-colors">
+                                        <td className="px-3 py-2 font-medium">
+                                            <div className="flex items-center gap-2">
+                                                <span className={`w-3 h-3 rounded-full ${row.color}`}></span>
+                                                {row.team}
+                                            </div>
+                                        </td>
+                                        <td className="px-3 py-2 text-right">{row.w}</td>
+                                        <td className="px-3 py-2 text-right">{row.l}</td>
+                                        <td className="px-3 py-2 text-right">{row.d}</td>
+                                        <td className="px-3 py-2 text-right font-bold text-blue-300">{row.pct}</td>
+                                        <td className="px-3 py-2 text-right">{row.gb}</td>
+                                        <td className="px-3 py-2 text-center">
+                                            <span className={`px-2 py-0.5 rounded text-xs font-bold ${row.streak.includes('W') ? 'bg-red-900/50 text-red-400' : row.streak.includes('L') ? 'bg-green-900/50 text-green-400' : 'bg-gray-700 text-gray-300'}`}>
+                                                {row.streak}
+                                            </span>
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div className="text-right text-xs text-gray-500 mt-3 flex items-center justify-end gap-1">
+                        <i className="fas fa-database text-gray-600"></i> 更新出處：<a href="https://www.rebas.tw/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">野球革命 Rebas</a>
+                    </div>
+                </Card>
+            );
+        };
+
+        // --- Shared Weather Logic ---
+        const stadiumsConfig = [
+            { name: '台北大巨蛋', lat: 25.041, lon: 121.560 },
+            { name: '天母棒球場', lat: 25.114, lon: 121.533 },
+            { name: '新莊棒球場', lat: 25.040, lon: 121.448 },
+            { name: '桃園棒球場', lat: 25.000, lon: 121.201 },
+            { name: '洲際棒球場', lat: 24.200, lon: 120.685 },
+            { name: '嘉市棒球場', lat: 23.481, lon: 120.463 },
+            { name: '台南棒球場', lat: 22.978, lon: 120.205 },
+            { name: '澄清湖棒球場', lat: 22.655, lon: 120.355 }
+        ];
+
+        let cachedWeather = null;
+        let weatherFetchPromise = null;
+
+        const fetchWeatherOnce = () => {
+            if (cachedWeather) return Promise.resolve(cachedWeather);
+            if (weatherFetchPromise) return weatherFetchPromise;
+
+            weatherFetchPromise = Promise.all(stadiumsConfig.map(async (stadium) => {
+                try {
+                    const res = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${stadium.lat}&longitude=${stadium.lon}&current=temperature_2m,weather_code,precipitation&timezone=Asia%2FTaipei`);
+                    const data = await res.json();
+                    const wInfo = wmoWeatherCodeToIcon(data.current.weather_code);
+                    return {
+                        stadium: stadium.name,
+                        temp: `${Math.round(data.current.temperature_2m)}°C`,
+                        rain: `${data.current.precipitation}mm`,
+                        desc: wInfo.desc,
+                        icon: wInfo.icon
+                    };
+                } catch(e) {
+                    return { stadium: stadium.name, temp: '--°C', rain: '--', desc: '無法取得', icon: 'fa-cloud text-gray-500' };
+                }
+            })).then(data => {
+                cachedWeather = data;
+                return data;
+            });
+
+            return weatherFetchPromise;
+        };
+
+        const useSharedWeather = () => {
+            const [weather, setWeather] = useState([]);
+            useEffect(() => {
+                fetchWeatherOnce().then(data => setWeather(data));
+            }, []);
+            return weather;
+        };
+        // -----------------------------
+
+        const Schedule = () => {
+            const [activeTab, setActiveTab] = useState('thisWeek');
+            const [schedule, setSchedule] = useState(fallbackSchedule);
+            const [isSyncing, setIsSyncing] = useState(false);
+            const weatherData = useSharedWeather();
+
+            const syncSchedule = async () => {
+                setIsSyncing(true);
+                try {
+                    const fetchLocalSchedule = async () => {
+                        try {
+                            const res = await fetch(`./schedule.json?t=${new Date().getTime()}`);
+                            if (res.ok) {
+                                const json = await res.json();
+                                if (json && Array.isArray(json.data)) return json.data;
+                            }
+                        } catch (e) {
+                            console.log("Local schedule.json not found or error");
+                        }
+                        return [];
+                    };
+                    
+                    const allData = await fetchLocalSchedule();
+                    
+                    if (allData.length === 0) {
+                        throw new Error("All fetch attempts failed or returned empty data. CORS or Proxy block.");
+                    }
+                    
+                    const now = new Date();
+                    const dayOfWeek = now.getDay() || 7; // 1-7
+                    const thisMonday = new Date(now);
+                    thisMonday.setDate(now.getDate() - dayOfWeek + 1);
+                    thisMonday.setHours(0, 0, 0, 0);
+                    
+                    const nextMonday = new Date(thisMonday);
+                    nextMonday.setDate(thisMonday.getDate() + 7);
+                    
+                    const lastMonday = new Date(thisMonday);
+                    lastMonday.setDate(thisMonday.getDate() - 7);
+                    
+                    const nextNextMonday = new Date(nextMonday);
+                    nextNextMonday.setDate(nextMonday.getDate() + 7);
+                    
+                    const days = ['日', '一', '二', '三', '四', '五', '六'];
+                    const parsedSchedule = { lastWeek: [], thisWeek: [], nextWeek: [] };
+                    
+                    allData.forEach(game => {
+                        if (!game.info || !game.info.scheduled_start_at || !game.away || !game.home) return;
+                        const gameDate = new Date(game.info.scheduled_start_at.replace(/-/g, '/'));
+                        if (isNaN(gameDate)) return;
+                        
+                        let targetList = null;
+                        if (gameDate >= lastMonday && gameDate < thisMonday) targetList = parsedSchedule.lastWeek;
+                        else if (gameDate >= thisMonday && gameDate < nextMonday) targetList = parsedSchedule.thisWeek;
+                        else if (gameDate >= nextMonday && gameDate < nextNextMonday) targetList = parsedSchedule.nextWeek;
+                        
+                        if (targetList) {
+                            const mm = String(gameDate.getMonth() + 1).padStart(2, '0');
+                            const dd = String(gameDate.getDate()).padStart(2, '0');
+                            const dw = days[gameDate.getDay()];
+                            const timeStr = game.info.scheduled_start_at.substring(11, 16);
+                            
+                            const awayTeam = game.away.team.replace('7-ELEVEn', '');
+                            const homeTeam = game.home.team.replace('7-ELEVEn', '');
+                            let stadium = game.info.location_abbr || game.info.location || '';
+                            if (stadium === '大巨蛋' || stadium.includes('大巨蛋')) stadium = '大巨蛋';
+                            else if (stadium.includes('天母')) stadium = '天母';
+                            else if (stadium.includes('新莊')) stadium = '新莊';
+                            else if (stadium.includes('桃園')) stadium = '桃園';
+                            else if (stadium.includes('洲際')) stadium = '洲際';
+                            else if (stadium.includes('台南')) stadium = '台南';
+                            else if (stadium.includes('澄清湖')) stadium = '澄清湖';
+                            else if (stadium.includes('嘉義市')) stadium = '嘉義市';
+                            else if (stadium.includes('亞太')) stadium = '亞太';
+                            
+                            targetList.push({
+                                date: `${mm}/${dd} (${dw})`,
+                                time: timeStr,
+                                away: awayTeam,
+                                home: homeTeam,
+                                stadium: stadium
+                            });
+                        }
+                    });
+                    
+                    const sortGames = (a, b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time);
+                    parsedSchedule.lastWeek.sort(sortGames);
+                    parsedSchedule.thisWeek.sort(sortGames);
+                    parsedSchedule.nextWeek.sort(sortGames);
+                    
+                    setSchedule(parsedSchedule);
+                } catch (e) {
+                    console.error("Schedule dynamic fetch failed completely:", e);
+                    // Still show fallback if completely failed
+                    setSchedule({...fallbackSchedule});
+                } finally {
+                    setIsSyncing(false);
+                }
+            };
+            useEffect(() => { syncSchedule(); }, []);
+
+            const getStadiumWeather = (stadiumName) => {
+                if (!weatherData || weatherData.length === 0) return null;
+                const mapping = {
+                    '大巨蛋': '台北大巨蛋', '天母': '天母棒球場', '新莊': '新莊棒球場', 
+                    '桃園': '桃園棒球場', '洲際': '洲際棒球場', '嘉義市': '嘉市棒球場',
+                    '台南': '台南棒球場', '澄清湖': '澄清湖棒球場', '亞太': '台南棒球場'
+                };
+                const matchedName = mapping[stadiumName] || stadiumName;
+                return weatherData.find(w => w.stadium.includes(matchedName)) || null;
+            };
+
+            return (
+                <Card 
+                    title="近期賽程" 
+                    icon="fa-calendar-days"
+                    action={<button onClick={syncSchedule} className={`text-gray-400 hover:text-white ${isSyncing ? 'animate-spin text-blue-400' : ''}`}><i className="fas fa-sync-alt"></i></button>}
+                >
+                    <div className="flex bg-gray-900/50 rounded-lg p-1 mb-4 border border-gray-700/80">
+                        <button onClick={() => setActiveTab('lastWeek')} className={`flex-1 text-sm py-1.5 rounded-md font-medium transition-colors ${activeTab === 'lastWeek' ? 'bg-gray-700 text-white shadow' : 'text-gray-400 hover:text-gray-200'}`}>上周賽程</button>
+                        <button onClick={() => setActiveTab('thisWeek')} className={`flex-1 text-sm py-1.5 rounded-md font-medium transition-colors ${activeTab === 'thisWeek' ? 'bg-yellow-500/20 text-yellow-400 shadow border border-yellow-500/30' : 'text-gray-400 hover:text-gray-200'}`}>本周賽程</button>
+                        <button onClick={() => setActiveTab('nextWeek')} className={`flex-1 text-sm py-1.5 rounded-md font-medium transition-colors ${activeTab === 'nextWeek' ? 'bg-gray-700 text-white shadow' : 'text-gray-400 hover:text-gray-200'}`}>下周賽程</button>
+                    </div>
+                    <div className="space-y-3">
+                        {schedule[activeTab].length === 0 ? (
+                            <div className="text-center py-8 text-gray-400 font-medium bg-gray-800/30 rounded-lg border border-gray-700/50">
+                                <i className="fas fa-calendar-times text-3xl mb-3 block opacity-50"></i>
+                                本區間目前無賽事安排或 API 尚未發布
+                            </div>
+                        ) : (
+                            (() => {
+                                const uniqueDates = [...new Set(schedule[activeTab].map(g => g.date))];
+                                const borderColors = [
+                                    'border-l-blue-500',
+                                    'border-l-emerald-500',
+                                    'border-l-purple-500',
+                                    'border-l-rose-500',
+                                    'border-l-amber-500',
+                                    'border-l-cyan-500',
+                                    'border-l-fuchsia-500'
+                                ];
+
+                                return schedule[activeTab].map((game, idx) => {
+                            const today = new Date();
+                            const mm = String(today.getMonth() + 1).padStart(2, '0');
+                            const dd = String(today.getDate()).padStart(2, '0');
+                            const isToday = game.date.includes(`${mm}/${dd}`);
+                            const isBrothers = game.away === '中信兄弟' || game.home === '中信兄弟';
+                            
+                            const dateIndex = uniqueDates.indexOf(game.date);
+                            const dynamicBorder = `${borderColors[dateIndex % borderColors.length]} border-l-[6px] border-t-gray-700/50 border-r-gray-700/50 border-b-gray-700/50`;
+                            
+                            const highlightStyle = isToday && isBrothers 
+                                ? 'border-yellow-400 border-2 shadow-[0_0_20px_rgba(250,204,21,0.3)] bg-yellow-500/5 z-10' 
+                                : dynamicBorder;
+
+                            const wInfo = getStadiumWeather(game.stadium);
+
+                            return (
+                                <div key={idx} className={`relative flex items-center justify-between bg-gray-700/30 p-3 md:p-4 rounded-lg border ${highlightStyle} hover:bg-gray-700/50 transition-all ${isToday && isBrothers ? 'mt-4' : ''}`}>
+                                    {isToday && isBrothers && (
+                                        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-yellow-500 text-black text-[10px] md:text-xs font-black px-3 md:px-4 py-0.5 rounded-full shadow-lg animate-pulse z-20 border border-yellow-300 whitespace-nowrap">
+                                            <i className="fas fa-star mr-1"></i> TODAY 推薦賽事
+                                        </div>
+                                    )}
+
+                                    {/* Left: Date & Time */}
+                                    <div className="flex flex-col w-24 md:w-28 shrink-0 border-r border-gray-600/50">
+                                        <div className={`font-mono text-sm md:text-base font-bold mb-1 ${isToday && isBrothers ? 'text-yellow-400' : 'text-gray-300'}`}>{game.date}</div>
+                                        <div className="text-gray-400 text-xs md:text-sm font-bold"><i className="far fa-clock"></i> {game.time}</div>
+                                    </div>
+
+                                    {/* Middle: Matchup */}
+                                    <div className="flex-1 flex items-center justify-center gap-3 md:gap-5 px-2">
+                                        <div className="flex flex-col items-center">
+                                            <span className={`text-base md:text-xl font-bold whitespace-nowrap ${game.away === '中信兄弟' ? 'text-yellow-400 drop-shadow' : 'text-gray-200'}`}>{game.away}</span>
+                                            <span className="text-[10px] text-gray-500 font-medium tracking-wider">客場 (AWAY)</span>
+                                        </div>
+                                        <span className="text-gray-500 text-xs md:text-sm font-black italic mt-[-10px]">VS</span>
+                                        <div className="flex flex-col items-center">
+                                            <span className={`text-base md:text-xl font-bold whitespace-nowrap ${game.home === '中信兄弟' ? 'text-yellow-400 drop-shadow' : 'text-gray-200'}`}>{game.home}</span>
+                                            <span className="text-[10px] text-gray-500 font-medium tracking-wider">主場 (HOME)</span>
+                                        </div>
+                                    </div>
+
+                                    {/* Right: Stadium & Weather */}
+                                    <div className="flex flex-col items-center justify-center w-20 md:w-24 shrink-0 border-l border-gray-600/50">
+                                        <div className="text-[11px] md:text-sm font-bold text-blue-300 mb-1.5 whitespace-nowrap"><i className="fas fa-location-dot mr-1 md:mr-1.5"></i>{game.stadium}</div>
+                                        {wInfo ? (
+                                            <div className="flex items-center gap-1.5 text-gray-300" title={wInfo.desc}>
+                                                <i className={`fas ${wInfo.icon} text-sm md:text-lg drop-shadow`}></i>
+                                                <span className="text-[11px] md:text-sm font-bold">{wInfo.temp.replace('°C','')}°</span>
+                                            </div>
+                                        ) : (
+                                            <div className="text-[10px] md:text-xs text-gray-500"><i className="fas fa-spinner fa-spin"></i></div>
+                                        )}
+                                    </div>
+                                </div>
+                            );
+                        })})() )}
+                    </div>
+                    <a href="https://www.cpbl.com.tw/schedule" target="_blank" rel="noopener noreferrer" className="block text-center w-full mt-4 py-2 bg-gray-700 hover:bg-blue-600 text-sm font-medium rounded-lg transition-colors border border-gray-600">
+                        前往中職官網查看完整賽程 <i className="fas fa-external-link-alt text-xs ml-1"></i>
+                    </a>
+                </Card>
+            );
+        };
+
+        const Weather = () => {
+            const weather = useSharedWeather();
+
+            return (
+                <Card title="即時球場天氣 (Open-Meteo即時連線)" icon="fa-cloud-sun">
+                    {weather.length === 0 ? (
+                        <div className="flex justify-center p-4"><i className="fas fa-spinner fa-spin text-2xl text-blue-500"></i></div>
+                    ) : (
+                        <div className="grid grid-cols-2 gap-3">
+                            {weather.map((w, idx) => (
+                                <div key={idx} className="bg-gray-700/40 p-3 rounded-lg border border-gray-600/50 flex flex-col items-center justify-center text-center shadow-inner">
+                                    <div className="text-sm font-bold text-gray-300 mb-2">{w.stadium}</div>
+                                    <i className={`fas ${w.icon} text-3xl mb-1 drop-shadow-md`}></i>
+                                    <div className="text-xs text-gray-400 mb-1">{w.desc}</div>
+                                    <div className="text-xl font-bold">{w.temp}</div>
+                                    <div className="text-xs text-blue-400 mt-1 flex items-center gap-1">
+                                        <i className="fas fa-tint"></i> 降雨量 {w.rain}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                </Card>
+            );
+        };
+
+        const LiveCameras = () => {
+            return (
+                <Card title="公開即時影像監視 (周邊路況與天氣)" icon="fa-video">
+                    <p className="text-sm text-gray-400 mb-3">由於 YouTube 官方限制外部網站嵌入，為保證能隨時觀看，請點擊下方卡片開啟最新即時影像：</p>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        {liveCameras.map((cam) => (
+                            <a key={cam.id} href={cam.ytUrl} target="_blank" rel="noopener noreferrer" className="relative h-32 rounded-lg overflow-hidden border border-gray-700 group shadow-lg flex items-center justify-center cursor-pointer transition-transform hover:-translate-y-1">
+                                <img src={cam.img} alt={cam.title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60" />
+                                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors z-0"></div>
+                                <div className="absolute top-2 left-2 z-10 bg-red-600 px-2 py-0.5 rounded text-xs font-bold text-white flex items-center gap-1 shadow-md">
+                                    <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span> LIVE
+                                </div>
+                                <div className="z-10 bg-black/60 w-12 h-12 rounded-full flex items-center justify-center text-white text-xl group-hover:bg-red-600 transition-colors shadow-lg">
+                                    <i className="fas fa-play ml-1"></i>
+                                </div>
+                                <div className="absolute bottom-0 left-0 right-0 z-10 bg-gradient-to-t from-black/90 to-transparent pt-8 px-2 py-1.5 text-xs text-gray-200 text-center font-bold">
+                                    {cam.title}
+                                </div>
+                            </a>
+                        ))}
+                    </div>
+                </Card>
+            );
+        };
+
+        // ==========================================
+        // 配置區：如果您有 Google Apps Script API，請填寫於此
+        // ==========================================
+        const GAS_TRAFFIC_URL = "https://script.google.com/macros/s/AKfycbzRCNtsA_yR3LFKChXYLOV7Nh7Ejxw2ApiGQIx6M4g18UjfJwlm0gBU2fdjJ6Eb9Acn/exec"
+
+        const TrafficCounter = () => {
+            const [traffic, setTraffic] = useState({ daily: 0, weekly: 0, monthly: 0, total: 0 });
+            const [status, setStatus] = useState('idle'); // idle, connecting, connected, error, mock
+
+            useEffect(() => {
+                const fetchTraffic = async () => {
+                    if (GAS_TRAFFIC_URL) {
+                        setStatus('connecting');
+                        try {
+                            const res = await fetch(`${GAS_TRAFFIC_URL}?action=hit`);
+                            const result = await res.json();
+                            if (result.success) {
+                                setTraffic(result.data);
+                                setStatus('connected');
+                                return;
+                            } else {
+                                setStatus('error');
+                            }
+                        } catch (e) {
+                            console.error("無法連線至 Google Traffic API，切換至模擬模式");
+                            setStatus('error');
+                        }
+                    } else {
+                        setStatus('mock');
+                    }
+                    
+                    // 模擬數據邏輯 (Fallback)
+                    const now = new Date();
+                    const startOfYear = new Date(now.getFullYear(), 0, 0);
+                    const dayOfYear = Math.floor((now - startOfYear) / 1000 / 60 / 60 / 24);
+                    const baseTotal = 245800;
+                    const hourMultiplier = now.getHours() * 15 + now.getMinutes() % 15;
+                    
+                    setTraffic({
+                        daily: 350 + hourMultiplier,
+                        weekly: 2100 + (now.getDay() || 7) * 350 + hourMultiplier,
+                        monthly: 8500 + now.getDate() * 350 + hourMultiplier,
+                        total: baseTotal + dayOfYear * 400 + hourMultiplier
+                    });
+                };
+
+                fetchTraffic();
+            }, []);
+
+            const statusConfig = {
+                connecting: { color: 'bg-yellow-500', text: '連線中...', icon: 'fa-circle-notch fa-spin' },
+                connected: { color: 'bg-green-500', text: 'API 已連線', icon: 'fa-check-circle' },
+                error: { color: 'bg-red-500', text: '連線異常', icon: 'fa-exclamation-triangle' },
+                mock: { color: 'bg-blue-400', text: '模擬模式', icon: 'fa-info-circle' },
+                idle: { color: 'bg-gray-500', text: '等待中', icon: 'fa-circle' }
+            };
+
+            const currentStatus = statusConfig[status] || statusConfig.idle;
+
+            return (
+                <Card 
+                    title={status === 'connected' ? "網站使用流量統計 (實時)" : "網站使用流量計 (模擬)"} 
+                    icon="fa-chart-line"
+                    action={
+                        <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-gray-900/60 border border-gray-700 shadow-inner">
+                            <span className={`flex h-2 w-2 rounded-full ${currentStatus.color} ${status === 'connected' || status === 'connecting' ? 'animate-pulse' : ''}`}></span>
+                            <span className="text-[10px] font-bold text-gray-300 uppercase tracking-wider flex items-center gap-1">
+                                <i className={`fas ${currentStatus.icon} text-[9px]`}></i>
+                                {currentStatus.text}
+                            </span>
+                        </div>
+                    }
+                >
+                    <div className="grid grid-cols-2 gap-3">
+                        <div className="bg-gray-700/40 p-3 rounded-lg border border-gray-600/50 flex flex-col items-center justify-center text-center shadow-inner relative overflow-hidden group">
+                            <div className="absolute inset-0 bg-green-500/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+                            <i className="fas fa-user-clock text-gray-500/30 absolute right-2 bottom-2 text-4xl"></i>
+                            <div className="text-xs font-bold text-gray-400 mb-1 z-10">本日使用</div>
+                            <div className="text-2xl font-black text-green-400 z-10 tracking-wider">{traffic.daily.toLocaleString()}</div>
+                        </div>
+                        <div className="bg-gray-700/40 p-3 rounded-lg border border-gray-600/50 flex flex-col items-center justify-center text-center shadow-inner relative overflow-hidden group">
+                            <div className="absolute inset-0 bg-blue-500/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+                            <i className="fas fa-calendar-week text-gray-500/30 absolute right-2 bottom-2 text-4xl"></i>
+                            <div className="text-xs font-bold text-gray-400 mb-1 z-10">本周使用</div>
+                            <div className="text-2xl font-black text-blue-400 z-10 tracking-wider">{traffic.weekly.toLocaleString()}</div>
+                        </div>
+                        <div className="bg-gray-700/40 p-3 rounded-lg border border-gray-600/50 flex flex-col items-center justify-center text-center shadow-inner relative overflow-hidden group">
+                            <div className="absolute inset-0 bg-purple-500/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+                            <i className="fas fa-calendar-alt text-gray-500/30 absolute right-2 bottom-2 text-4xl"></i>
+                            <div className="text-xs font-bold text-gray-400 mb-1 z-10">本月使用</div>
+                            <div className="text-2xl font-black text-purple-400 z-10 tracking-wider">{traffic.monthly.toLocaleString()}</div>
+                        </div>
+                        <div className="bg-gray-700/40 p-3 rounded-lg border border-gray-600/50 flex flex-col items-center justify-center text-center shadow-inner relative overflow-hidden group">
+                            <div className="absolute inset-0 bg-yellow-500/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+                            <i className="fas fa-users text-gray-500/30 absolute right-2 bottom-2 text-4xl"></i>
+                            <div className="text-xs font-bold text-gray-400 mb-1 z-10">總累積人數</div>
+                            <div className="text-2xl font-black text-yellow-400 z-10 tracking-wider">{traffic.total.toLocaleString()}</div>
+                        </div>
+                    </div>
+                </Card>
+            );
+        };
+
+        const SidebarLinks = () => (
+            <div className="space-y-6">
+                <Card title="賽事直播快捷入口 (真實連結)" icon="fa-broadcast-tower">
+                    <div className="grid grid-cols-2 gap-3">
+                        {liveLinks.map((link, idx) => (
+                            <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center p-4 bg-gray-700/40 hover:bg-gray-600 rounded-xl border border-gray-600/50 transition-all hover:-translate-y-1 hover:shadow-lg group">
+                                <i className={`fab ${link.icon} text-3xl mb-2 transition-transform group-hover:scale-110 ${link.name.includes('YouTube')?'text-red-500':link.name.includes('Twitch')?'text-purple-500':'text-blue-400'}`}></i>
+                                <span className="text-sm font-bold text-gray-200 group-hover:text-white text-center">{link.name}</span>
+                            </a>
+                        ))}
+                    </div>
+                </Card>
+
+                <Card title="球隊官網跳轉 (真實連結)" icon="fa-link">
+                    <div className="flex flex-col gap-2">
+                        {officialLinks.map((team, idx) => {
+                            const colors = ['border-l-cpbl-brothers', 'border-l-cpbl-dragons', 'border-l-cpbl-lions', 'border-l-cpbl-monkeys', 'border-l-cpbl-guardians', 'border-l-cpbl-hawks'];
+                            return (
+                                <a key={idx} href={team.url} target="_blank" rel="noopener noreferrer" className={`px-4 py-3 bg-gray-700/30 hover:bg-gray-600 border border-gray-700 border-l-4 ${colors[idx]} rounded-lg flex items-center justify-between transition-all hover:translate-x-1`}>
+                                    <span className="font-medium text-gray-200">{team.name}</span>
+                                    <i className="fas fa-external-link-alt text-xs text-gray-500"></i>
+                                </a>
+                            );
+                        })}
+                    </div>
+                </Card>
+            </div>
+        );
+
+        const App = () => {
+            return (
+                <div className="min-h-screen pb-12 selection:bg-blue-500/30">
+                    <header className="bg-gray-800/95 backdrop-blur-md border-b border-gray-700 sticky top-0 z-50 shadow-lg">
+                        <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+                            <div className="flex items-center gap-3">
+                                <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 text-gray-900 w-10 h-10 rounded-xl flex items-center justify-center font-black italic shadow-lg shadow-yellow-500/30 text-xl border border-yellow-300">
+                                    B
+                                </div>
+                                <div>
+                                    <h1 className="text-xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 leading-tight">
+                                        中信兄弟"象一家人"社群 CPBL觀賽助手
+                                    </h1>
+                                    <div className="text-xs text-green-400 font-mono flex items-center gap-1 mt-0.5">
+                                        <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></span> Live API Active
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+
+                    <main className="max-w-7xl mx-auto px-4 mt-6">
+                        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                            {/* Left Column */}
+                            <div className="lg:col-span-2 space-y-6">
+                                <NewsCarousel />
+                                <Standings />
+                                <LiveCameras />
+                                <Schedule />
+                            </div>
+                            {/* Right Column */}
+                            <div className="space-y-6">
+                                <TrafficCounter />
+                                <Weather />
+                                <SidebarLinks />
+                            </div>
+                        </div>
+                    </main>
+                    
+                    <footer className="max-w-7xl mx-auto px-4 mt-12 pt-6 border-t border-gray-800/80 text-center text-gray-500 text-sm">
+                        <p>© 2026 中信兄弟"象一家人"社群 專屬觀賽助手. (系統維護：鍾大)</p>
+                        <p className="mt-1.5 text-xs font-medium text-yellow-500/80">社群管理員 ID：鍾大、太陽、月亮、未過門太太、熙熙、李多慧</p>
+                        <p className="mt-1 text-xs text-gray-600">戰績來源：野球革命 / 天氣來源：Open-Meteo API / 影像來源：YouTube公開串流</p>
+                        <div className="mt-4 flex items-center justify-center gap-4 text-xs">
+                            <span className="bg-gray-800 px-2 py-1 rounded border border-gray-700 shadow-inner">更新版本：v1.2 (20260513)</span>
+                            <a href="mailto:CloudLark744@protonmail.com?subject=【觀賽助手回報與建議】" className="bg-gray-800 hover:bg-gray-700 px-2 py-1 rounded border border-gray-700 transition-colors text-blue-400 hover:text-blue-300 shadow-sm flex items-center">
+                                <i className="fas fa-comment-dots mr-1.5"></i> 問題回報與建議
+                            </a>
+                        </div>
+                    </footer>
+                </div>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
