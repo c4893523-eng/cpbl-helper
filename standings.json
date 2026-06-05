@@ -1,0 +1,138 @@
+{
+  "data": [
+    {
+      "DIFF": 66,
+      "E": -1,
+      "GB": 0,
+      "M": -1,
+      "PCT": 0.674,
+      "STRK": 2,
+      "draws": 0,
+      "finished": 46,
+      "last_updated_at": "2026-06-03 21:59",
+      "loses": 15,
+      "order": 1,
+      "team": {
+        "abbr": "龍",
+        "hex_color": "#bd2e34;#fefefe",
+        "name": "味全龍",
+        "season_team_uniqid": "GJ5tu",
+        "uniqid": "0MJKt"
+      },
+      "total": 120,
+      "wins": 31
+    },
+    {
+      "DIFF": 39,
+      "E": 69,
+      "GB": 5.5,
+      "M": -1,
+      "PCT": 0.556,
+      "STRK": 1,
+      "draws": 1,
+      "finished": 46,
+      "last_updated_at": "2026-06-03 21:51",
+      "loses": 20,
+      "order": 2,
+      "team": {
+        "abbr": "鷹",
+        "hex_color": "#1e4639;#fefefe",
+        "name": "台鋼雄鷹",
+        "season_team_uniqid": "UuZ3x",
+        "uniqid": "LH4lt"
+      },
+      "total": 120,
+      "wins": 25
+    },
+    {
+      "DIFF": 3,
+      "E": 70,
+      "GB": 6,
+      "M": -1,
+      "PCT": 0.545,
+      "STRK": 1,
+      "draws": 0,
+      "finished": 44,
+      "last_updated_at": "2026-06-05 21:30",
+      "loses": 20,
+      "order": 3,
+      "team": {
+        "abbr": "悍",
+        "hex_color": "#204e93;#fefefe",
+        "name": "富邦悍將",
+        "season_team_uniqid": "H0zzP",
+        "uniqid": "TPKQm"
+      },
+      "total": 120,
+      "wins": 24
+    },
+    {
+      "DIFF": -4,
+      "E": 66,
+      "GB": 8,
+      "M": -1,
+      "PCT": 0.5,
+      "STRK": -1,
+      "draws": 1,
+      "finished": 47,
+      "last_updated_at": "2026-06-05 21:30",
+      "loses": 23,
+      "order": 4,
+      "team": {
+        "abbr": "獅",
+        "hex_color": "#dd732c;#fefefe",
+        "name": "統一7-ELEVEn獅",
+        "season_team_uniqid": "NsGzj",
+        "uniqid": "hThSB"
+      },
+      "total": 120,
+      "wins": 23
+    },
+    {
+      "DIFF": -46,
+      "E": 63,
+      "GB": 12,
+      "M": -1,
+      "PCT": 0.409,
+      "STRK": -3,
+      "draws": 1,
+      "finished": 45,
+      "last_updated_at": "2026-06-05 22:19",
+      "loses": 26,
+      "order": 5,
+      "team": {
+        "abbr": "猿",
+        "hex_color": "#671a19;#fefefe",
+        "name": "樂天桃猿",
+        "season_team_uniqid": "b7yJt",
+        "uniqid": "1zODE"
+      },
+      "total": 120,
+      "wins": 18
+    },
+    {
+      "DIFF": -58,
+      "E": 58,
+      "GB": 16.5,
+      "M": -1,
+      "PCT": 0.311,
+      "STRK": 1,
+      "draws": 1,
+      "finished": 46,
+      "last_updated_at": "2026-06-05 22:19",
+      "loses": 31,
+      "order": 6,
+      "team": {
+        "abbr": "象",
+        "hex_color": "#f4cf46;#000000",
+        "name": "中信兄弟",
+        "season_team_uniqid": "RAe8S",
+        "uniqid": "HCHks"
+      },
+      "total": 120,
+      "wins": 14
+    }
+  ],
+  "error": false,
+  "message": "Get team leaders successfully"
+}
