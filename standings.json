@@ -9,7 +9,7 @@
       "STRK": 1,
       "draws": 0,
       "finished": 49,
-      "last_updated_at": "2026-06-11 22:00",
+      "last_updated_at": "2026-06-12 19:15",
       "loses": 16,
       "order": 1,
       "team": {
@@ -23,28 +23,6 @@
       "wins": 33
     },
     {
-      "DIFF": 32,
-      "E": 66,
-      "GB": 6,
-      "M": -1,
-      "PCT": 0.553,
-      "STRK": 1,
-      "draws": 1,
-      "finished": 48,
-      "last_updated_at": "2026-06-11 18:15",
-      "loses": 21,
-      "order": 2,
-      "team": {
-        "abbr": "鷹",
-        "hex_color": "#1e4639;#fefefe",
-        "name": "台鋼雄鷹",
-        "season_team_uniqid": "UuZ3x",
-        "uniqid": "LH4lt"
-      },
-      "total": 120,
-      "wins": 26
-    },
-    {
       "DIFF": 3,
       "E": 67,
       "GB": 6,
@@ -53,7 +31,7 @@
       "STRK": 2,
       "draws": 0,
       "finished": 47,
-      "last_updated_at": "2026-06-11 21:34",
+      "last_updated_at": "2026-06-12 16:15",
       "loses": 21,
       "order": 2,
       "team": {
@@ -67,6 +45,28 @@
       "wins": 26
     },
     {
+      "DIFF": 31,
+      "E": 65,
+      "GB": 6.5,
+      "M": -1,
+      "PCT": 0.542,
+      "STRK": -1,
+      "draws": 1,
+      "finished": 49,
+      "last_updated_at": "2026-06-12 22:55",
+      "loses": 22,
+      "order": 3,
+      "team": {
+        "abbr": "鷹",
+        "hex_color": "#1e4639;#fefefe",
+        "name": "台鋼雄鷹",
+        "season_team_uniqid": "UuZ3x",
+        "uniqid": "LH4lt"
+      },
+      "total": 120,
+      "wins": 26
+    },
+    {
       "DIFF": -4,
       "E": 62,
       "GB": 9,
@@ -75,7 +75,7 @@
       "STRK": -2,
       "draws": 1,
       "finished": 50,
-      "last_updated_at": "2026-06-11 21:34",
+      "last_updated_at": "2026-06-12 16:15",
       "loses": 25,
       "order": 4,
       "team": {
@@ -89,15 +89,15 @@
       "wins": 24
     },
     {
-      "DIFF": -50,
+      "DIFF": -49,
       "E": 60,
-      "GB": 13,
+      "GB": 12.5,
       "M": -1,
-      "PCT": 0.4,
-      "STRK": -4,
+      "PCT": 0.413,
+      "STRK": 1,
       "draws": 1,
-      "finished": 46,
-      "last_updated_at": "2026-06-11 18:15",
+      "finished": 47,
+      "last_updated_at": "2026-06-12 22:55",
       "loses": 27,
       "order": 5,
       "team": {
@@ -108,7 +108,7 @@
         "uniqid": "1zODE"
       },
       "total": 120,
-      "wins": 18
+      "wins": 19
     },
     {
       "DIFF": -55,
@@ -119,7 +119,7 @@
       "STRK": -1,
       "draws": 1,
       "finished": 48,
-      "last_updated_at": "2026-06-11 22:00",
+      "last_updated_at": "2026-06-12 19:15",
       "loses": 32,
       "order": 6,
       "team": {
