@@ -151,14 +151,155 @@
         // ------------------
         // Components
         // ------------------
+        // ------------------
+        // Helper Functions for News Carousel
+        // ------------------
+        const getImgUrl = (item) => {
+            // 1. Try content:encoded (with namespace fallback)
+            let encodedTag = item.querySelector('encoded') || 
+                             item.querySelector('content\\:encoded') || 
+                             item.getElementsByTagName('encoded')[0] || 
+                             item.getElementsByTagName('content:encoded')[0];
+            if (encodedTag) {
+                const text = encodedTag.textContent || encodedTag.text || '';
+                if (text.trim().startsWith('http')) {
+                    return text.trim();
+                } else {
+                    const match = text.match(/src="([^"]+)"/);
+                    if (match) return match[1];
+                }
+            }
+
+            // 2. Try enclosure
+            const enclosure = item.querySelector('enclosure');
+            if (enclosure && enclosure.getAttribute('type')?.startsWith('image')) {
+                return enclosure.getAttribute('url');
+            }
+
+            // 3. Try media:content
+            let mediaContent = item.getElementsByTagNameNS ? item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'content')[0] : null;
+            if (!mediaContent) {
+                mediaContent = item.querySelector('content') || 
+                               item.querySelector('media\\:content') || 
+                               item.getElementsByTagName('media:content')[0];
+            }
+            if (mediaContent) {
+                const url = mediaContent.getAttribute('url');
+                if (url) return url;
+            }
+
+            // 4. Try media:thumbnail
+            let mediaThumbnail = item.getElementsByTagNameNS ? item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'thumbnail')[0] : null;
+            if (!mediaThumbnail) {
+                mediaThumbnail = item.querySelector('thumbnail') || 
+                                 item.querySelector('media\\:thumbnail') || 
+                                 item.getElementsByTagName('media:thumbnail')[0];
+            }
+            if (mediaThumbnail) {
+                const url = mediaThumbnail.getAttribute('url');
+                if (url) return url;
+            }
+
+            return null;
+        };
+
+        const getTeamInfo = (title, description) => {
+            const text = (title + ' ' + description).toLowerCase();
+            if (text.includes('兄弟') || text.includes('中信')) {
+                return {
+                    name: '中信兄弟',
+                    colorClass: 'from-cpbl-brothers/40 via-cpbl-brothers/20 to-gray-950/90',
+                    textColor: 'text-cpbl-brothers',
+                    borderColor: 'border-cpbl-brothers/30',
+                    bgBadge: 'bg-cpbl-brothers text-black',
+                    logoChar: 'B',
+                    bgStyle: 'bg-yellow-500/10'
+                };
+            }
+            if (text.includes('龍') || text.includes('味全')) {
+                return {
+                    name: '味全龍',
+                    colorClass: 'from-cpbl-dragons/40 via-cpbl-dragons/20 to-gray-950/90',
+                    textColor: 'text-cpbl-dragons',
+                    borderColor: 'border-cpbl-dragons/30',
+                    bgBadge: 'bg-cpbl-dragons text-white',
+                    logoChar: 'D',
+                    bgStyle: 'bg-red-500/10'
+                };
+            }
+            if (text.includes('獅') || text.includes('統一')) {
+                return {
+                    name: '統一獅',
+                    colorClass: 'from-cpbl-lions/40 via-cpbl-lions/20 to-gray-950/90',
+                    textColor: 'text-cpbl-lions',
+                    borderColor: 'border-cpbl-lions/30',
+                    bgBadge: 'bg-cpbl-lions text-white',
+                    logoChar: 'L',
+                    bgStyle: 'bg-orange-500/10'
+                };
+            }
+            if (text.includes('猿') || text.includes('樂天') || text.includes('桃猿')) {
+                return {
+                    name: '樂天桃猿',
+                    colorClass: 'from-cpbl-monkeys/40 via-cpbl-monkeys/20 to-gray-950/90',
+                    textColor: 'text-cpbl-monkeys',
+                    borderColor: 'border-cpbl-monkeys/30',
+                    bgBadge: 'bg-cpbl-monkeys text-white',
+                    logoChar: 'M',
+                    bgStyle: 'bg-rose-950/30'
+                };
+            }
+            if (text.includes('悍將') || text.includes('富邦')) {
+                return {
+                    name: '富邦悍將',
+                    colorClass: 'from-cpbl-guardians/40 via-cpbl-guardians/20 to-gray-950/90',
+                    textColor: 'text-cpbl-guardians',
+                    borderColor: 'border-cpbl-guardians/30',
+                    bgBadge: 'bg-cpbl-guardians text-white',
+                    logoChar: 'G',
+                    bgStyle: 'bg-blue-600/15'
+                };
+            }
+            if (text.includes('雄鷹') || text.includes('台鋼')) {
+                return {
+                    name: '台鋼雄鷹',
+                    colorClass: 'from-cpbl-hawks/40 via-cpbl-hawks/20 to-gray-950/90',
+                    textColor: 'text-cpbl-hawks',
+                    borderColor: 'border-cpbl-hawks/30',
+                    bgBadge: 'bg-cpbl-hawks text-white',
+                    logoChar: 'H',
+                    bgStyle: 'bg-emerald-700/15'
+                };
+            }
+            
+            // Default / general baseball
+            return {
+                name: '中華職棒',
+                colorClass: 'from-blue-600/35 via-blue-900/15 to-gray-950/90',
+                textColor: 'text-blue-400',
+                borderColor: 'border-blue-500/20',
+                bgBadge: 'bg-yellow-500 text-black',
+                logoChar: '⚾',
+                bgStyle: 'bg-blue-900/10'
+            };
+        };
+
         const NewsCarousel = () => {
+            const fallbackImages = [
+                'https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80'
+            ];
+
             // 穩定的媒體入口網址，確保即使動態抓取失敗也不會 404
             const newsPortals = [
-                { id: 1, title: 'Yahoo 運動 - 中職專區', img: 'https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80', date: '即時更新', category: 'Yahoo運動', url: 'https://tw.sports.yahoo.com/topic/cpbl_authority/' },
-                { id: 2, title: 'ETtoday - 中職新聞總覽', img: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80', date: '即時更新', category: 'ETtoday運動雲', url: 'https://sports.ettoday.net/news-list/棒球/中職' },
-                { id: 3, title: '自由時報 - 棒球最新消息', img: 'https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80', date: '即時更新', category: '自由體育', url: 'https://sports.ltn.com.tw/baseball' },
-                { id: 4, title: 'TSNA - 專業體育新聞', img: 'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80', date: '即時更新', category: 'TSNA體育', url: 'https://tsna.com/baseball/23' },
-                { id: 5, title: '聯合新聞網 - 棒球焦點', img: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80', date: '即時更新', category: '聯合新聞網', url: 'https://udn.com/news/cate/2/7227' }
+                { id: 'portal_1', title: 'Yahoo 運動 - 中職專區', img: fallbackImages[0], hasRealImg: false, fallbackImg: fallbackImages[0], date: '即時更新', category: 'Yahoo運動', url: 'https://tw.sports.yahoo.com/topic/cpbl_authority/', team: getTeamInfo('Yahoo運動', '') },
+                { id: 'portal_2', title: 'ETtoday - 中職新聞總覽', img: fallbackImages[1], hasRealImg: false, fallbackImg: fallbackImages[1], date: '即時更新', category: 'ETtoday運動雲', url: 'https://sports.ettoday.net/news-list/棒球/中職', team: getTeamInfo('ETtoday運動雲', '') },
+                { id: 'portal_3', title: '自由時報 - 棒球最新消息', img: fallbackImages[2], hasRealImg: false, fallbackImg: fallbackImages[2], date: '即時更新', category: '自由體育', url: 'https://sports.ltn.com.tw/baseball', team: getTeamInfo('自由體育', '') },
+                { id: 'portal_4', title: 'TSNA - 專業體育新聞', img: fallbackImages[3], hasRealImg: false, fallbackImg: fallbackImages[3], date: '即時更新', category: 'TSNA體育', url: 'https://tsna.com/baseball/23', team: getTeamInfo('TSNA體育', '') },
+                { id: 'portal_5', title: '聯合新聞網 - 棒球焦點', img: fallbackImages[4], hasRealImg: false, fallbackImg: fallbackImages[4], date: '即時更新', category: '聯合新聞網', url: 'https://udn.com/news/cate/2/7227', team: getTeamInfo('聯合新聞網', '') }
             ];
 
             const [newsItems, setNewsItems] = useState(newsPortals);
@@ -178,16 +319,9 @@
                         const xml = parser.parseFromString(data.contents, 'application/xml');
                         const items = Array.from(xml.querySelectorAll('item'));
                         
-                        const keywords = ['中職', '棒球', '中信', '兄弟', '味全', '龍', '統一', '獅', '樂天', '桃猿', '富邦', '悍將', '台鋼', '雄鷹', '中華職棒'];
-                        const defaultImages = [
-                            'https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80',
-                            'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80',
-                            'https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80',
-                            'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80',
-                            'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80'
-                        ];
+                        const keywords = ['中職', '棒球', '中信', '兄弟', '味全', '龍', '統一', '獅', '樂天', '桃猿', '富邦', '悍將', '台鋼', '雄鷹', '中華職棒', '女排', '射箭', '世界盃', 'NBA', '泳將', '高爾夫', '宋家豪', '大谷'];
 
-                        // 嘗試過濾出中職新聞
+                        // 嘗試過濾出中職與體育新聞
                         let cpblNews = items
                             .map((item, idx) => {
                                 const title = item.querySelector('title')?.textContent || '';
@@ -198,25 +332,21 @@
                                 const dateObj = new Date(pubDate);
                                 const formattedDate = !isNaN(dateObj) ? `${dateObj.getMonth() + 1}/${dateObj.getDate()} ${dateObj.getHours()}:${String(dateObj.getMinutes()).padStart(2, '0')}` : '即時';
 
-                                // 判斷是否為中職相關
+                                // 判斷是否為中職或體育相關
                                 if (keywords.some(kw => title.includes(kw) || description.includes(kw))) {
-                                    let imgUrl = defaultImages[idx % defaultImages.length];
-                                    const contentEncoded = item.getElementsByTagName('content:encoded');
-                                    if (contentEncoded.length > 0) {
-                                        const text = contentEncoded[0].textContent;
-                                        if (text.startsWith('http')) imgUrl = text;
-                                        else {
-                                            const match = text.match(/src="([^"]+)"/);
-                                            if (match) imgUrl = match[1];
-                                        }
-                                    }
-
+                                    const rawImg = getImgUrl(item);
+                                    const team = getTeamInfo(title, description);
+                                    
                                     return {
                                         id: `live_${idx}`,
                                         title: title,
-                                        img: imgUrl,
+                                        description: description,
+                                        img: rawImg || fallbackImages[idx % fallbackImages.length],
+                                        hasRealImg: !!rawImg,
+                                        fallbackImg: fallbackImages[idx % fallbackImages.length],
                                         date: formattedDate,
                                         category: '最新消息',
+                                        team: team,
                                         url: link
                                     };
                                 }
@@ -227,7 +357,7 @@
                         if (cpblNews.length >= 3) {
                             setNewsItems(cpblNews.slice(0, 5));
                         } else {
-                            // 如果抓不到足夠的中職新聞，就混入一般的體育頭條但標示穩定連結
+                            // 如果抓不到足夠的中職新聞，就使用門戶網站連結
                             setNewsItems(newsPortals);
                         }
                     } catch (e) {
@@ -258,21 +388,52 @@
                             rel="noopener noreferrer"
                             className={`absolute inset-0 block transition-all duration-1000 ease-in-out cursor-pointer group/news ${index === currentIndex ? 'opacity-100 z-10 scale-100' : 'opacity-0 z-0 scale-105 pointer-events-none'}`}
                         >
-                            <img src={news.img} alt={news.title} className="w-full h-full object-cover transition-transform duration-10000 linear group-hover/news:scale-110" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent"></div>
-                            <div className="absolute bottom-0 left-0 w-full p-8 text-white">
-                                <div className="flex items-center gap-2 mb-3">
-                                    <span className="px-3 py-1 bg-yellow-500 text-black text-xs font-bold rounded-full shadow-lg">{news.category}</span>
-                                    {loading && index === currentIndex && <i className="fas fa-circle-notch fa-spin text-xs text-yellow-500/50"></i>}
+                            {news.hasRealImg ? (
+                                <>
+                                    <img src={news.img} alt={news.title} className="w-full h-full object-cover transition-transform duration-[10000ms] linear group-hover/news:scale-110" />
+                                    <div className={`absolute inset-0 bg-gradient-to-t ${news.team.colorClass}`}></div>
+                                    <div className="absolute bottom-0 left-0 w-full p-8 text-white z-10">
+                                        <div className="flex items-center gap-2 mb-3">
+                                            <span className={`px-3 py-1 ${news.team.bgBadge} text-xs font-bold rounded-full shadow-lg`}>
+                                                {news.team.name}
+                                            </span>
+                                            {loading && index === currentIndex && <i className="fas fa-circle-notch fa-spin text-xs text-yellow-500/50"></i>}
+                                        </div>
+                                        <h2 className="text-2xl md:text-4xl font-black mb-3 drop-shadow-lg leading-tight group-hover/news:text-yellow-400 transition-colors">
+                                            {news.title}
+                                        </h2>
+                                        <div className="flex items-center gap-4 text-gray-300 text-sm font-medium">
+                                            <span><i className="far fa-clock mr-1.5 text-yellow-500"></i>{news.date}</span>
+                                            <span className="bg-white/10 px-2 py-0.5 rounded backdrop-blur-sm text-xs">點擊閱讀全文 <i className="fas fa-arrow-right ml-1"></i></span>
+                                        </div>
+                                    </div>
+                                </>
+                            ) : (
+                                <div className={`absolute inset-0 w-full h-full flex items-center justify-between p-8 overflow-hidden bg-gray-950 border-b-4 ${news.team.borderColor}`}>
+                                    <img src={news.fallbackImg} className="absolute inset-0 w-full h-full object-cover opacity-20 filter blur-[2px] pointer-events-none select-none" alt="" />
+                                    <div className={`absolute inset-0 bg-gradient-to-tr ${news.team.colorClass} opacity-90`}></div>
+                                    
+                                    <div className="z-10 max-w-[85%] pr-4 md:pr-16 text-left">
+                                        <div className="flex items-center gap-2 mb-3">
+                                            <span className={`px-3 py-1 ${news.team.bgBadge} text-xs font-bold rounded-full shadow-lg`}>
+                                                {news.team.name}
+                                            </span>
+                                            {loading && index === currentIndex && <i className="fas fa-circle-notch fa-spin text-xs text-yellow-500/50"></i>}
+                                        </div>
+                                        <h2 className="text-2xl md:text-4xl font-black mb-3 drop-shadow-lg leading-tight group-hover/news:text-yellow-400 transition-colors">
+                                            {news.title}
+                                        </h2>
+                                        <div className="flex items-center gap-4 text-gray-300 text-sm font-medium">
+                                            <span><i className="far fa-clock mr-1.5 text-yellow-500"></i>{news.date}</span>
+                                            <span className="bg-white/10 px-2 py-0.5 rounded backdrop-blur-sm text-xs">點擊閱讀全文 <i className="fas fa-arrow-right ml-1"></i></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className={`hidden md:flex absolute right-16 top-1/2 -translate-y-1/2 select-none pointer-events-none text-[150px] font-black opacity-15 font-serif ${news.team.textColor} tracking-tighter`}>
+                                        {news.team.logoChar}
+                                    </div>
                                 </div>
-                                <h2 className="text-2xl md:text-4xl font-black mb-3 drop-shadow-lg leading-tight group-hover/news:text-yellow-400 transition-colors">
-                                    {news.title}
-                                </h2>
-                                <div className="flex items-center gap-4 text-gray-300 text-sm font-medium">
-                                    <span><i className="far fa-clock mr-1.5 text-yellow-500"></i>{news.date}</span>
-                                    <span className="bg-white/10 px-2 py-0.5 rounded backdrop-blur-sm text-xs">點擊閱讀全文 <i className="fas fa-arrow-right ml-1"></i></span>
-                                </div>
-                            </div>
+                            )}
                         </a>
                     ))}
                     
@@ -316,9 +477,11 @@
         const Standings = () => {
             const [standings, setStandings] = useState(fallbackStandings);
             const [isSyncing, setIsSyncing] = useState(false);
+            const [isFallback, setIsFallback] = useState(false);
 
             const syncStandings = async () => {
                 setIsSyncing(true);
+                setIsFallback(false);
                 try {
                     let rebasData = null;
 
@@ -368,6 +531,7 @@
                 } catch (e) {
                     console.error("Real-time fetch failed, using updated accurate fallback data:", e);
                     setStandings([...fallbackStandings]);
+                    setIsFallback(true);
                 } finally {
                     setIsSyncing(false);
                 }
@@ -377,7 +541,12 @@
 
             return (
                 <Card 
-                    title="即時例行賽戰績 (Live Sync)" 
+                    title={
+                        <span className="flex items-center">
+                            即時例行賽戰績 (Live Sync)
+                            {isFallback && <span className="text-red-400 text-xs ml-2 px-2 py-0.5 bg-red-900/50 rounded border border-red-500 font-normal shadow-sm animate-pulse">⚠ 目前顯示備援資料</span>}
+                        </span>
+                    } 
                     icon="fa-trophy"
                     action={<button onClick={syncStandings} className={`text-gray-400 hover:text-white ${isSyncing ? 'animate-spin text-blue-400' : ''}`}><i className="fas fa-sync-alt"></i></button>}
                 >
@@ -480,10 +649,12 @@
             const [activeTab, setActiveTab] = useState('thisWeek');
             const [schedule, setSchedule] = useState(fallbackSchedule);
             const [isSyncing, setIsSyncing] = useState(false);
+            const [isFallback, setIsFallback] = useState(false);
             const weatherData = useSharedWeather();
 
             const syncSchedule = async () => {
                 setIsSyncing(true);
+                setIsFallback(false);
                 try {
                     const fetchLocalSchedule = async () => {
                         try {
@@ -571,6 +742,7 @@
                     console.error("Schedule dynamic fetch failed completely:", e);
                     // Still show fallback if completely failed
                     setSchedule({...fallbackSchedule});
+                    setIsFallback(true);
                 } finally {
                     setIsSyncing(false);
                 }
@@ -590,7 +762,12 @@
 
             return (
                 <Card 
-                    title="近期賽程" 
+                    title={
+                        <span className="flex items-center">
+                            近期賽程
+                            {isFallback && <span className="text-red-400 text-xs ml-2 px-2 py-0.5 bg-red-900/50 rounded border border-red-500 font-normal shadow-sm animate-pulse">⚠ 目前顯示備援資料</span>}
+                        </span>
+                    } 
                     icon="fa-calendar-days"
                     action={<button onClick={syncSchedule} className={`text-gray-400 hover:text-white ${isSyncing ? 'animate-spin text-blue-400' : ''}`}><i className="fas fa-sync-alt"></i></button>}
                 >
