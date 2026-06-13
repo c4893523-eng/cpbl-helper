@@ -12,6 +12,16 @@ const HEADERS = {
     "Referer": "https://www.rebas.tw/season/CPBL-2026-oB"
 };
 
+// Helper to determine root directory dynamically
+function getOutputPath(filename) {
+    let baseDir = __dirname;
+    // If running inside scripts folder, go up one level to the root
+    if (baseDir.endsWith('scripts') || baseDir.endsWith('scripts/') || baseDir.endsWith('scripts\\')) {
+        baseDir = path.join(baseDir, '..');
+    }
+    return path.join(baseDir, filename);
+}
+
 function parseYahooRss(xmlText) {
     const items = [];
     const itemRegex = /<item>([\s\S]*?)<\/item>/g;
@@ -119,7 +129,7 @@ async function fetchAndSave(url, filename) {
         const data = await response.json();
         
         if (data && data.data) {
-            const outputPath = path.join(__dirname, '..', filename);
+            const outputPath = getOutputPath(filename);
             fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
             console.log(`✅ Successfully saved to ${filename}`);
         } else {
@@ -149,7 +159,7 @@ async function fetchAndSaveNews() {
         
         console.log(`Parsed ${parsedNews.length} matching sports news items.`);
         
-        const outputPath = path.join(__dirname, '..', 'news.json');
+        const outputPath = getOutputPath('news.json');
         fs.writeFileSync(outputPath, JSON.stringify({ success: true, data: parsedNews }, null, 2));
         console.log(`✅ Successfully saved to news.json`);
     } catch (error) {
