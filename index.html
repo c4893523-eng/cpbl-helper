@@ -204,75 +204,114 @@
         };
 
         const getTeamInfo = (title, description) => {
-            const text = (title + ' ' + description).toLowerCase();
-            if (text.includes('兄弟') || text.includes('中信')) {
-                return {
+            const titleLower = title.toLowerCase();
+            const descLower = description.toLowerCase();
+            
+            const teams = [
+                {
+                    key: 'brothers',
                     name: '中信兄弟',
+                    keywords: ['兄弟', '中信', 'brothers'],
                     colorClass: 'from-cpbl-brothers/40 via-cpbl-brothers/20 to-gray-950/90',
                     textColor: 'text-cpbl-brothers',
                     borderColor: 'border-cpbl-brothers/30',
                     bgBadge: 'bg-cpbl-brothers text-black',
                     logoChar: 'B',
                     bgStyle: 'bg-yellow-500/10'
-                };
-            }
-            if (text.includes('龍') || text.includes('味全')) {
-                return {
+                },
+                {
+                    key: 'dragons',
                     name: '味全龍',
+                    keywords: ['味全', '龍隊', 'wdragons'],
                     colorClass: 'from-cpbl-dragons/40 via-cpbl-dragons/20 to-gray-950/90',
                     textColor: 'text-cpbl-dragons',
                     borderColor: 'border-cpbl-dragons/30',
                     bgBadge: 'bg-cpbl-dragons text-white',
                     logoChar: 'D',
                     bgStyle: 'bg-red-500/10'
-                };
-            }
-            if (text.includes('獅') || text.includes('統一')) {
-                return {
+                },
+                {
+                    key: 'lions',
                     name: '統一獅',
+                    keywords: ['統一', '獅隊', 'unilions'],
                     colorClass: 'from-cpbl-lions/40 via-cpbl-lions/20 to-gray-950/90',
                     textColor: 'text-cpbl-lions',
                     borderColor: 'border-cpbl-lions/30',
                     bgBadge: 'bg-cpbl-lions text-white',
                     logoChar: 'L',
                     bgStyle: 'bg-orange-500/10'
-                };
-            }
-            if (text.includes('猿') || text.includes('樂天') || text.includes('桃猿')) {
-                return {
+                },
+                {
+                    key: 'monkeys',
                     name: '樂天桃猿',
+                    keywords: ['樂天', '桃猿', 'rakuten'],
                     colorClass: 'from-cpbl-monkeys/40 via-cpbl-monkeys/20 to-gray-950/90',
                     textColor: 'text-cpbl-monkeys',
                     borderColor: 'border-cpbl-monkeys/30',
                     bgBadge: 'bg-cpbl-monkeys text-white',
                     logoChar: 'M',
                     bgStyle: 'bg-rose-950/30'
-                };
-            }
-            if (text.includes('悍將') || text.includes('富邦')) {
-                return {
+                },
+                {
+                    key: 'guardians',
                     name: '富邦悍將',
+                    keywords: ['富邦', '悍將', 'guardians'],
                     colorClass: 'from-cpbl-guardians/40 via-cpbl-guardians/20 to-gray-950/90',
                     textColor: 'text-cpbl-guardians',
                     borderColor: 'border-cpbl-guardians/30',
                     bgBadge: 'bg-cpbl-guardians text-white',
                     logoChar: 'G',
                     bgStyle: 'bg-blue-600/15'
-                };
-            }
-            if (text.includes('雄鷹') || text.includes('台鋼')) {
-                return {
+                },
+                {
+                    key: 'hawks',
                     name: '台鋼雄鷹',
+                    keywords: ['台鋼', '雄鷹', 'tsghawks'],
                     colorClass: 'from-cpbl-hawks/40 via-cpbl-hawks/20 to-gray-950/90',
                     textColor: 'text-cpbl-hawks',
                     borderColor: 'border-cpbl-hawks/30',
                     bgBadge: 'bg-cpbl-hawks text-white',
                     logoChar: 'H',
                     bgStyle: 'bg-emerald-700/15'
-                };
-            }
+                }
+            ];
+
+            // 1. 優先匹配標題 (Title)
+            let bestTeam = null;
+            let earliestTitleIndex = Infinity;
             
-            // Default / general baseball
+            teams.forEach(team => {
+                team.keywords.forEach(keyword => {
+                    const idx = titleLower.indexOf(keyword);
+                    if (idx !== -1 && idx < earliestTitleIndex) {
+                        earliestTitleIndex = idx;
+                        bestTeam = team;
+                    }
+                });
+            });
+
+            if (bestTeam) return bestTeam;
+
+            // 2. 如果標題沒有匹配到任何隊伍關鍵字，則匹配內文描述 (Description) 且選最先出現的
+            let earliestDescIndex = Infinity;
+            teams.forEach(team => {
+                team.keywords.forEach(keyword => {
+                    const idx = descLower.indexOf(keyword);
+                    if (idx !== -1 && idx < earliestDescIndex) {
+                        earliestDescIndex = idx;
+                        bestTeam = team;
+                    }
+                });
+            });
+
+            if (bestTeam) return bestTeam;
+
+            // 3. 明星球員專屬匹配 (防呆機制，若無隊伍名稱但含有主要球員名稱)
+            if (titleLower.includes('黃子鵬') || descLower.includes('黃子鵬')) {
+                return teams.find(t => t.key === 'hawks'); // 台鋼雄鷹
+            }
+
+            // 4. 預設返回中華職棒通用樣式
             return {
                 name: '中華職棒',
                 colorClass: 'from-blue-600/35 via-blue-900/15 to-gray-950/90',
