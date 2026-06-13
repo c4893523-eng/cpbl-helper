@@ -310,58 +310,37 @@
                 const fetchNews = async () => {
                     setLoading(true);
                     try {
-                        // 使用 Yahoo RSS 抓取最新新聞 (這是一個非常穩定的 RSS 來源)
-                        const res = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://tw.news.yahoo.com/rss/sports'));
-                        const data = await res.json();
-                        if (!data.contents) throw new Error('No data');
-
-                        const parser = new DOMParser();
-                        const xml = parser.parseFromString(data.contents, 'application/xml');
-                        const items = Array.from(xml.querySelectorAll('item'));
+                        // 1. 首選：讀取 GitHub Actions 自動產生的本地端靜態新聞 JSON (極速、永不被擋、無 CORS 問題)
+                        const res = await fetch(`./news.json?t=${new Date().getTime()}`);
+                        if (!res.ok) throw new Error('Local news.json not available');
                         
-                        const keywords = ['中職', '棒球', '中信', '兄弟', '味全', '龍', '統一', '獅', '樂天', '桃猿', '富邦', '悍將', '台鋼', '雄鷹', '中華職棒', '女排', '射箭', '世界盃', 'NBA', '泳將', '高爾夫', '宋家豪', '大谷'];
-
-                        // 嘗試過濾出中職與體育新聞
-                        let cpblNews = items
-                            .map((item, idx) => {
-                                const title = item.querySelector('title')?.textContent || '';
-                                const link = item.querySelector('link')?.textContent || '';
-                                const pubDate = item.querySelector('pubDate')?.textContent || '';
-                                const description = item.querySelector('description')?.textContent || '';
-                                
-                                const dateObj = new Date(pubDate);
-                                const formattedDate = !isNaN(dateObj) ? `${dateObj.getMonth() + 1}/${dateObj.getDate()} ${dateObj.getHours()}:${String(dateObj.getMinutes()).padStart(2, '0')}` : '即時';
-
-                                // 判斷是否為中職或體育相關
-                                if (keywords.some(kw => title.includes(kw) || description.includes(kw))) {
-                                    const rawImg = getImgUrl(item);
-                                    const team = getTeamInfo(title, description);
-                                    
-                                    return {
-                                        id: `live_${idx}`,
-                                        title: title,
-                                        description: description,
-                                        img: rawImg || fallbackImages[idx % fallbackImages.length],
-                                        hasRealImg: !!rawImg,
-                                        fallbackImg: fallbackImages[idx % fallbackImages.length],
-                                        date: formattedDate,
-                                        category: '最新消息',
-                                        team: team,
-                                        url: link
-                                    };
-                                }
-                                return null;
-                            })
-                            .filter(item => item !== null);
-
-                        if (cpblNews.length >= 3) {
-                            setNewsItems(cpblNews.slice(0, 5));
-                        } else {
-                            // 如果抓不到足夠的中職新聞，就使用門戶網站連結
-                            setNewsItems(newsPortals);
+                        const json = await res.json();
+                        if (json && Array.isArray(json.data)) {
+                            const cpblNews = json.data.map((item) => {
+                                const team = getTeamInfo(item.title, item.description);
+                                return {
+                                    id: item.id,
+                                    title: item.title,
+                                    description: item.description,
+                                    img: item.rawImg || item.fallbackImg,
+                                    hasRealImg: !!item.rawImg,
+                                    fallbackImg: item.fallbackImg,
+                                    date: item.pubDate,
+                                    category: '最新消息',
+                                    team: team,
+                                    url: item.link
+                                };
+                            });
+                            
+                            if (cpblNews.length >= 3) {
+                                setNewsItems(cpblNews.slice(0, 5));
+                                setLoading(false);
+                                return;
+                            }
                         }
+                        throw new Error('Not enough news items in news.json');
                     } catch (e) {
-                        console.error('Dynamic news fetch failed, using portal links.');
+                        console.error('Static news fetch failed or returned insufficient items, using portal links:', e);
                         setNewsItems(newsPortals);
                     } finally {
                         setLoading(false);
