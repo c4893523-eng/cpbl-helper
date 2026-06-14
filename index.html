@@ -676,6 +676,21 @@
                 try {
                     const fetchLocalSchedule = async () => {
                         try {
+                            const nowHour = new Date().getHours();
+                            // 在比賽主要時段 (下午 5 點到晚上 11 點) 優先透過 GAS 代理獲取秒級即時賽況
+                            if (typeof GAS_TRAFFIC_URL !== 'undefined' && GAS_TRAFFIC_URL && nowHour >= 17 && nowHour <= 23) {
+                                console.log("Fetching real-time schedule from GAS...");
+                                const res = await fetch(`${GAS_TRAFFIC_URL}?action=schedule`);
+                                if (res.ok) {
+                                    const json = await res.json();
+                                    if (json && Array.isArray(json.data)) return json.data;
+                                }
+                            }
+                        } catch (e) {
+                            console.log("GAS real-time fetch failed, falling back to local schedule.json", e);
+                        }
+
+                        try {
                             const res = await fetch(`./schedule.json?t=${new Date().getTime()}`);
                             if (res.ok) {
                                 const json = await res.json();
