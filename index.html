@@ -746,7 +746,10 @@
                                 away: awayTeam,
                                 home: homeTeam,
                                 stadium: stadium,
-                                status: game.info.status || 'SCHEDULED'
+                                status: game.info.status || 'SCHEDULED',
+                                awayScore: game.away.runs !== undefined ? game.away.runs : null,
+                                homeScore: game.home.runs !== undefined ? game.home.runs : null,
+                                inning: game.info.innings || null
                             });
                         }
                     });
@@ -825,6 +828,9 @@
                             const dynamicBorder = `${borderColors[dateIndex % borderColors.length]} border-l-[6px] border-t-gray-700/50 border-r-gray-700/50 border-b-gray-700/50`;
                             
                             const gameStatus = game.status || 'SCHEDULED'; // SCHEDULED, PLAYING, FINISHED, POSTPONED, SUSPENDED
+                            const hasScores = (gameStatus === 'FINISHED' || gameStatus === 'PLAYING') && 
+                                              game.awayScore !== null && game.awayScore !== undefined &&
+                                              game.homeScore !== null && game.homeScore !== undefined;
                             
                             let highlightStyle = dynamicBorder;
                             let cardOpacity = 'opacity-100';
@@ -869,7 +875,7 @@
                                             </span>
                                         ) : gameStatus === 'FINISHED' ? (
                                             <span className="inline-block self-start text-[10px] md:text-xs font-bold text-gray-400 bg-gray-800 px-2 py-0.5 rounded border border-gray-700 whitespace-nowrap">
-                                                已結束
+                                                已結束 {game.inning && game.inning !== 9 ? `(${game.inning}局)` : ''}
                                             </span>
                                         ) : (
                                             <div className="text-gray-400 text-xs md:text-sm font-bold"><i className="far fa-clock"></i> {game.time}</div>
@@ -877,17 +883,52 @@
                                     </div>
 
                                     {/* Middle: Matchup */}
-                                    <div className="flex-1 flex items-center justify-center gap-3 md:gap-5 px-2">
-                                        <div className="flex flex-col items-center">
-                                            <span className={`text-base md:text-xl font-bold whitespace-nowrap ${game.away === '中信兄弟' ? 'text-yellow-400 drop-shadow' : 'text-gray-200'}`}>{game.away}</span>
-                                            <span className="text-[10px] text-gray-500 font-medium tracking-wider">客場 (AWAY)</span>
+                                    {hasScores ? (
+                                        <div className="flex-1 flex items-center justify-center gap-3 md:gap-6 px-2">
+                                            <div className="flex flex-col items-center">
+                                                <span className={`text-base md:text-xl font-bold whitespace-nowrap ${game.away === '中信兄弟' ? 'text-yellow-400 drop-shadow' : 'text-gray-200'} ${gameStatus === 'FINISHED' && Number(game.awayScore) < Number(game.homeScore) ? 'opacity-60 font-normal' : 'font-extrabold'}`}>{game.away}</span>
+                                                <span className="text-[10px] text-gray-500 font-medium tracking-wider">客場</span>
+                                            </div>
+                                            
+                                            <div className="flex flex-col items-center justify-center min-w-[65px] md:min-w-[85px] px-2 py-1 bg-gray-900/60 rounded-lg border border-gray-700/80 shadow-inner">
+                                                <div className="flex items-center gap-1.5 md:gap-2.5">
+                                                    <span className={`text-lg md:text-2xl font-black font-mono ${gameStatus === 'FINISHED' && Number(game.awayScore) > Number(game.homeScore) ? 'text-green-400 drop-shadow-[0_0_8px_rgba(74,222,128,0.2)]' : 'text-gray-200'}`}>
+                                                        {game.awayScore}
+                                                    </span>
+                                                    <span className="text-gray-500 font-bold text-xs md:text-sm">:</span>
+                                                    <span className={`text-lg md:text-2xl font-black font-mono ${gameStatus === 'FINISHED' && Number(game.homeScore) > Number(game.awayScore) ? 'text-green-400 drop-shadow-[0_0_8px_rgba(74,222,128,0.2)]' : 'text-gray-200'}`}>
+                                                        {game.homeScore}
+                                                    </span>
+                                                </div>
+                                                {gameStatus === 'PLAYING' ? (
+                                                    <span className="text-[9px] text-green-400 font-black tracking-wider animate-pulse flex items-center gap-0.5 mt-0.5">
+                                                        <i className="fas fa-circle text-[5px]"></i>{game.inning}局
+                                                    </span>
+                                                ) : (
+                                                    <span className="text-[9px] text-gray-500 font-bold mt-0.5">
+                                                        {game.inning && game.inning !== 9 ? `${game.inning}局` : '正規'}
+                                                    </span>
+                                                )}
+                                            </div>
+
+                                            <div className="flex flex-col items-center">
+                                                <span className={`text-base md:text-xl font-bold whitespace-nowrap ${game.home === '中信兄弟' ? 'text-yellow-400 drop-shadow' : 'text-gray-200'} ${gameStatus === 'FINISHED' && Number(game.homeScore) < Number(game.awayScore) ? 'opacity-60 font-normal' : 'font-extrabold'}`}>{game.home}</span>
+                                                <span className="text-[10px] text-gray-500 font-medium tracking-wider">主場</span>
+                                            </div>
                                         </div>
-                                        <span className="text-gray-500 text-xs md:text-sm font-black italic mt-[-10px]">VS</span>
-                                        <div className="flex flex-col items-center">
-                                            <span className={`text-base md:text-xl font-bold whitespace-nowrap ${game.home === '中信兄弟' ? 'text-yellow-400 drop-shadow' : 'text-gray-200'}`}>{game.home}</span>
-                                            <span className="text-[10px] text-gray-500 font-medium tracking-wider">主場 (HOME)</span>
+                                    ) : (
+                                        <div className="flex-1 flex items-center justify-center gap-3 md:gap-5 px-2">
+                                            <div className="flex flex-col items-center">
+                                                <span className={`text-base md:text-xl font-bold whitespace-nowrap ${game.away === '中信兄弟' ? 'text-yellow-400 drop-shadow' : 'text-gray-200'}`}>{game.away}</span>
+                                                <span className="text-[10px] text-gray-500 font-medium tracking-wider">客場</span>
+                                            </div>
+                                            <span className="text-gray-500 text-xs md:text-sm font-black italic mt-[-10px]">VS</span>
+                                            <div className="flex flex-col items-center">
+                                                <span className={`text-base md:text-xl font-bold whitespace-nowrap ${game.home === '中信兄弟' ? 'text-yellow-400 drop-shadow' : 'text-gray-200'}`}>{game.home}</span>
+                                                <span className="text-[10px] text-gray-500 font-medium tracking-wider">主場</span>
+                                            </div>
                                         </div>
-                                    </div>
+                                    )}
 
                                     {/* Right: Stadium & Weather */}
                                     <div className="flex flex-col items-center justify-center w-20 md:w-24 shrink-0 border-l border-gray-600/50">
