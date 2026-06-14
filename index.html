@@ -745,7 +745,8 @@
                                 time: timeStr,
                                 away: awayTeam,
                                 home: homeTeam,
-                                stadium: stadium
+                                stadium: stadium,
+                                status: game.info.status || 'SCHEDULED'
                             });
                         }
                     });
@@ -823,24 +824,56 @@
                             const dateIndex = uniqueDates.indexOf(game.date);
                             const dynamicBorder = `${borderColors[dateIndex % borderColors.length]} border-l-[6px] border-t-gray-700/50 border-r-gray-700/50 border-b-gray-700/50`;
                             
-                            const highlightStyle = isToday && isBrothers 
-                                ? 'border-yellow-400 border-2 shadow-[0_0_20px_rgba(250,204,21,0.3)] bg-yellow-500/5 z-10' 
-                                : dynamicBorder;
+                            const gameStatus = game.status || 'SCHEDULED'; // SCHEDULED, PLAYING, FINISHED, POSTPONED, SUSPENDED
+                            
+                            let highlightStyle = dynamicBorder;
+                            let cardOpacity = 'opacity-100';
+                            
+                            if (gameStatus === 'POSTPONED') {
+                                highlightStyle = 'border-gray-600 border-l-[6px] border-t-gray-700/50 border-r-gray-700/50 border-b-gray-700/50 bg-gray-800/10';
+                                cardOpacity = 'opacity-55 filter grayscale-[30%]';
+                            } else if (gameStatus === 'SUSPENDED') {
+                                highlightStyle = 'border-amber-600 border-l-[6px] border-t-gray-700/50 border-r-gray-700/50 border-b-gray-700/50 bg-amber-950/5';
+                                cardOpacity = 'opacity-80';
+                            } else if (gameStatus === 'PLAYING') {
+                                highlightStyle = 'border-green-500 border-2 border-l-[6px] shadow-[0_0_15px_rgba(34,197,94,0.2)] bg-green-500/5 z-10';
+                            } else if (isToday && isBrothers) {
+                                highlightStyle = 'border-yellow-400 border-2 shadow-[0_0_20px_rgba(250,204,21,0.3)] bg-yellow-500/5 z-10';
+                            }
 
                             const wInfo = getStadiumWeather(game.stadium);
 
                             return (
-                                <div key={idx} className={`relative flex items-center justify-between bg-gray-700/30 p-3 md:p-4 rounded-lg border ${highlightStyle} hover:bg-gray-700/50 transition-all ${isToday && isBrothers ? 'mt-4' : ''}`}>
-                                    {isToday && isBrothers && (
+                                <div key={idx} className={`relative flex items-center justify-between bg-gray-700/30 p-3 md:p-4 rounded-lg border ${highlightStyle} ${cardOpacity} hover:bg-gray-700/50 transition-all ${isToday && isBrothers && gameStatus === 'SCHEDULED' ? 'mt-4' : ''}`}>
+                                    {isToday && isBrothers && gameStatus === 'SCHEDULED' && (
                                         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-yellow-500 text-black text-[10px] md:text-xs font-black px-3 md:px-4 py-0.5 rounded-full shadow-lg animate-pulse z-20 border border-yellow-300 whitespace-nowrap">
                                             <i className="fas fa-star mr-1"></i> TODAY 推薦賽事
+                                        </div>
+                                    )}
+                                    {gameStatus === 'PLAYING' && (
+                                        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-green-500 text-white text-[10px] md:text-xs font-black px-3 md:px-4 py-0.5 rounded-full shadow-lg animate-pulse z-20 border border-green-300 whitespace-nowrap">
+                                            <i className="fas fa-circle text-[8px] mr-1 text-red-500 animate-pulse"></i> LIVE 比賽中
                                         </div>
                                     )}
 
                                     {/* Left: Date & Time */}
                                     <div className="flex flex-col w-24 md:w-28 shrink-0 border-r border-gray-600/50">
-                                        <div className={`font-mono text-sm md:text-base font-bold mb-1 ${isToday && isBrothers ? 'text-yellow-400' : 'text-gray-300'}`}>{game.date}</div>
-                                        <div className="text-gray-400 text-xs md:text-sm font-bold"><i className="far fa-clock"></i> {game.time}</div>
+                                        <div className={`font-mono text-sm md:text-base font-bold mb-1 ${isToday && isBrothers && gameStatus === 'SCHEDULED' ? 'text-yellow-400' : 'text-gray-300'}`}>{game.date}</div>
+                                        {gameStatus === 'POSTPONED' ? (
+                                            <span className="inline-block self-start text-[10px] md:text-xs font-bold text-red-400 bg-red-950/80 px-2 py-0.5 rounded border border-red-500/30 whitespace-nowrap">
+                                                <i className="fas fa-umbrella mr-1"></i> 雨天延賽
+                                            </span>
+                                        ) : gameStatus === 'SUSPENDED' ? (
+                                            <span className="inline-block self-start text-[10px] md:text-xs font-bold text-amber-400 bg-amber-950/80 px-2 py-0.5 rounded border border-amber-500/30 whitespace-nowrap">
+                                                <i className="fas fa-pause mr-1"></i> 保留比賽
+                                            </span>
+                                        ) : gameStatus === 'FINISHED' ? (
+                                            <span className="inline-block self-start text-[10px] md:text-xs font-bold text-gray-400 bg-gray-800 px-2 py-0.5 rounded border border-gray-700 whitespace-nowrap">
+                                                已結束
+                                            </span>
+                                        ) : (
+                                            <div className="text-gray-400 text-xs md:text-sm font-bold"><i className="far fa-clock"></i> {game.time}</div>
+                                        )}
                                     </div>
 
                                     {/* Middle: Matchup */}
