@@ -15847,7 +15847,7 @@
         "hex_color": "#dd732c;#fefefe",
         "hits": 8,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
-        "runs": 5,
+        "runs": 7,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -15858,7 +15858,7 @@
           "0",
           "2",
           "0",
-          "0"
+          "2"
         ],
         "season_team_uniqid": "NsGzj",
         "team": "統一7-ELEVEn獅",
@@ -15875,7 +15875,7 @@
         },
         "errors": 1,
         "hex_color": "#bd2e34;#fefefe",
-        "hits": 7,
+        "hits": 9,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
         "runs": 5,
         "scheduled_SP": null,
@@ -15887,7 +15887,8 @@
           "1",
           "0",
           "0",
-          "4"
+          "4",
+          "0"
         ],
         "season_team_uniqid": "GJ5tu",
         "team": "味全龍",
@@ -15895,7 +15896,7 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-06-14 18:59",
         "finished_status": "NORMAL",
         "history": [],
         "innings": 9,
@@ -15908,11 +15909,11 @@
         "started_at": "2026-06-14 16:05",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰短暫陣雨或雷雨;80",
-        "winner_side": "TIE"
+        "winner_side": "AWAY"
       },
       "is_formal": true,
       "season": {

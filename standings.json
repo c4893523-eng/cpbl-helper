@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "DIFF": 69,
+      "DIFF": 67,
       "E": -1,
       "GB": 0,
       "M": -1,
-      "PCT": 0.66,
-      "STRK": -1,
+      "PCT": 0.647,
+      "STRK": -2,
       "draws": 0,
-      "finished": 50,
-      "last_updated_at": "2026-06-13 20:02",
-      "loses": 17,
+      "finished": 51,
+      "last_updated_at": "2026-06-14 18:59",
+      "loses": 18,
       "order": 1,
       "team": {
         "abbr": "龍",
@@ -25,7 +25,7 @@
     {
       "DIFF": 40,
       "E": 65,
-      "GB": 5.5,
+      "GB": 5,
       "M": -1,
       "PCT": 0.551,
       "STRK": 1,
@@ -47,7 +47,7 @@
     {
       "DIFF": -6,
       "E": 66,
-      "GB": 6,
+      "GB": 5.5,
       "M": -1,
       "PCT": 0.542,
       "STRK": -1,
@@ -67,15 +67,15 @@
       "wins": 26
     },
     {
-      "DIFF": 1,
+      "DIFF": 3,
       "E": 62,
-      "GB": 8,
+      "GB": 7,
       "M": -1,
-      "PCT": 0.5,
-      "STRK": 1,
+      "PCT": 0.51,
+      "STRK": 2,
       "draws": 1,
-      "finished": 51,
-      "last_updated_at": "2026-06-13 20:02",
+      "finished": 52,
+      "last_updated_at": "2026-06-14 18:59",
       "loses": 25,
       "order": 4,
       "team": {
@@ -86,12 +86,12 @@
         "uniqid": "hThSB"
       },
       "total": 120,
-      "wins": 25
+      "wins": 26
     },
     {
       "DIFF": -49,
       "E": 60,
-      "GB": 12,
+      "GB": 11.5,
       "M": -1,
       "PCT": 0.413,
       "STRK": 0,
@@ -113,7 +113,7 @@
     {
       "DIFF": -55,
       "E": 55,
-      "GB": 16.5,
+      "GB": 16,
       "M": -1,
       "PCT": 0.319,
       "STRK": 0,
