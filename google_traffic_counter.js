@@ -35,6 +35,28 @@ function doGet(e) {
   }
 
   // ==========================================
+  // 1.5 中職賽程/比分抓取代理 (CORS Proxy)
+  // ==========================================
+  if (action === 'schedule') {
+    try {
+      var url = "https://www.rebas.tw/api/seasons/CPBL-2026-oB/games";
+      var response = UrlFetchApp.fetch(url, { 
+        muteHttpExceptions: true,
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+          "Accept": "application/json"
+        }
+      });
+      var jsonText = response.getContentText();
+      return ContentService.createTextOutput(jsonText)
+        .setMimeType(ContentService.MimeType.JSON);
+    } catch (err) {
+      return ContentService.createTextOutput(JSON.stringify({ error: err.toString() }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+  }
+
+  // ==========================================
   // 2. 流量計後端邏輯
   // ==========================================
   var props = PropertiesService.getScriptProperties();

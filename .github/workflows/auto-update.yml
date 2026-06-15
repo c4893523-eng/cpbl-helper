@@ -4,10 +4,9 @@ on:
   schedule:
     # 每天台灣時間凌晨 02:00 (UTC 18:00) 執行
     - cron: '0 18 * * *'
-    # 每天台灣時間下午 06:00 (UTC 10:00) 執行 (準備開賽前)
-    - cron: '0 10 * * *'
-    # 每天台灣時間晚上 11:30 (UTC 15:30) 執行 (賽事結束後)
-    - cron: '30 15 * * *'
+    # 每天台灣時間下午 05:00 到晚上 11:45 之間，每 15 分鐘自動執行一次 (中職賽事即時比分更新)
+    # (台北時間 17:00 ~ 23:45 對應 UTC 09:00 ~ 15:45)
+    - cron: '*/15 9-15 * * *'
   workflow_dispatch: # 允許在 GitHub 網頁上手動觸發
 
 jobs:
@@ -24,7 +23,7 @@ jobs:
           node-version: '20'
 
       - name: Run data fetch script
-        run: node update_data.js
+        run: node scripts/update_data.js
 
       - name: Commit and push if changed
         run: |

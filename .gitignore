@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build outputs, if this project is migrated later
+dist/
+build/
