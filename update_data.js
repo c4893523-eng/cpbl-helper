@@ -36,7 +36,7 @@ function parseYahooRss(xmlText) {
         'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80'
     ];
 
-    const keywords = ['中職', '棒球', '中信', '兄弟', '味全', '龍', '統一', '獅', '樂天', '桃猿', '富邦', '悍將', '台鋼', '雄鷹', '中華職棒', '女排', '射箭', '世界盃', 'NBA', '泳將', '高爾夫', '宋家豪', '大谷'];
+    const keywords = ['中職', '棒球', '中信', '兄弟', '味全', '龍隊', '龍將', '統一', '獅隊', '樂天', '桃猿', '富邦', '悍將', '台鋼', '雄鷹', '中華職棒', '宋家豪', '大谷', '張育成', '旅外'];
 
     let idx = 0;
     while ((match = itemRegex.exec(xmlText)) !== null) {
