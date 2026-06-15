@@ -311,7 +311,21 @@
                 return teams.find(t => t.key === 'hawks'); // 台鋼雄鷹
             }
 
-            // 4. 預設返回中華職棒通用樣式
+            // 4. 旅外球員/大聯盟匹配
+            const overseasKeywords = ['大谷', '宋家豪', '張育成', '林維恩', '鄧愷威', '大聯盟', 'mlb', 'milb', '旅外'];
+            if (overseasKeywords.some(kw => titleLower.includes(kw) || descLower.includes(kw))) {
+                return {
+                    name: '旅外焦點',
+                    colorClass: 'from-purple-600/35 via-purple-900/15 to-gray-950/90',
+                    textColor: 'text-purple-400',
+                    borderColor: 'border-purple-500/20',
+                    bgBadge: 'bg-purple-600 text-white',
+                    logoChar: '🌎',
+                    bgStyle: 'bg-purple-900/10'
+                };
+            }
+
+            // 5. 預設返回中華職棒通用樣式
             return {
                 name: '中華職棒',
                 colorClass: 'from-blue-600/35 via-blue-900/15 to-gray-950/90',
