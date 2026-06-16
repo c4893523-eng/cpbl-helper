@@ -142,30 +142,53 @@ async function fetchAndSave(url, filename) {
 }
 
 async function fetchAndSaveNews() {
-    try {
-        console.log(`Fetching Yahoo Sports RSS: ${NEWS_RSS_URL}...`);
-        const response = await fetch(NEWS_RSS_URL, {
-            headers: {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    const urls = [
+        "https://tw.news.yahoo.com/rss/sports",
+        "https://news.ltn.com.tw/rss/sports.xml"
+    ];
+    let allNews = [];
+
+    for (const url of urls) {
+        try {
+            console.log(`Fetching Sports RSS: ${url}...`);
+            const response = await fetch(url, {
+                headers: {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            });
+            
+            if (!response.ok) {
+                throw new Error(`HTTP Error: ${response.status} ${response.statusText}`);
             }
-        });
-        
-        if (!response.ok) {
-            throw new Error(`HTTP Error: ${response.status} ${response.statusText}`);
+            
+            const xmlText = await response.text();
+            const parsedNews = parseYahooRss(xmlText);
+            allNews = allNews.concat(parsedNews);
+            
+            console.log(`Parsed ${parsedNews.length} matching sports news items from ${url}.`);
+        } catch (error) {
+            console.error(`❌ Error fetching news from ${url}:`, error.message);
         }
-        
-        const xmlText = await response.text();
-        const parsedNews = parseYahooRss(xmlText);
-        
-        console.log(`Parsed ${parsedNews.length} matching sports news items.`);
-        
-        const outputPath = getOutputPath('news.json');
-        fs.writeFileSync(outputPath, JSON.stringify({ success: true, data: parsedNews }, null, 2));
-        console.log(`✅ Successfully saved to news.json`);
-    } catch (error) {
-        console.error(`❌ Error fetching/saving news:`, error.message);
-        // Do not fail the script if news fails, as schedule/standings are more critical
     }
+    
+    // Deduplicate by title
+    const seenTitles = new Set();
+    const uniqueNews = [];
+    for (const item of allNews) {
+        if (!seenTitles.has(item.title)) {
+            seenTitles.add(item.title);
+            uniqueNews.push(item);
+        }
+    }
+
+    // Re-assign unique IDs
+    uniqueNews.forEach((item, i) => item.id = `rss_${i}`);
+
+    console.log(`Total unique matching sports news items: ${uniqueNews.length}`);
+    
+    const outputPath = getOutputPath('news.json');
+    fs.writeFileSync(outputPath, JSON.stringify({ success: true, data: uniqueNews }, null, 2));
+    console.log(`✅ Successfully saved to news.json`);
 }
 
 async function main() {
