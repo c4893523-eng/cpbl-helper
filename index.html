@@ -870,7 +870,24 @@
                             const dateIndex = uniqueDates.indexOf(game.date);
                             const dynamicBorder = `${borderColors[dateIndex % borderColors.length]} border-l-[6px] border-t-gray-700/50 border-r-gray-700/50 border-b-gray-700/50`;
                             
-                            const gameStatus = game.status || 'SCHEDULED'; // SCHEDULED, PLAYING, FINISHED, POSTPONED, SUSPENDED
+                            let gameStatus = game.status || 'SCHEDULED'; // SCHEDULED, PLAYING, FINISHED, POSTPONED, SUSPENDED
+                            
+                            // 智慧狀態推斷：若已過開賽時間且在 5 小時內，API 仍未標記為 FINISHED/POSTPONED，則強制顯示為進行中
+                            if (gameStatus === 'SCHEDULED') {
+                                const [hh, mm_str] = game.time.split(':');
+                                const matchDate = new Date();
+                                const dParts = game.date.split(' ')[0].split('/'); // "06/16" -> ["06", "16"]
+                                matchDate.setMonth(parseInt(dParts[0], 10) - 1);
+                                matchDate.setDate(parseInt(dParts[1], 10));
+                                matchDate.setHours(parseInt(hh, 10), parseInt(mm_str, 10), 0, 0);
+                                
+                                const nowTime = new Date().getTime();
+                                const startTime = matchDate.getTime();
+                                if (nowTime >= startTime && nowTime <= startTime + 5 * 60 * 60 * 1000) {
+                                    gameStatus = 'PLAYING';
+                                }
+                            }
+
                             const hasScores = (gameStatus === 'FINISHED' || gameStatus === 'PLAYING') && 
                                               game.awayScore !== null && game.awayScore !== undefined &&
                                               game.homeScore !== null && game.homeScore !== undefined;
