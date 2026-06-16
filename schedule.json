@@ -13503,6 +13503,81 @@
     {
       "PA_list": [],
       "away": {
+        "abbr": "猿",
+        "box": {
+          "battings": [],
+          "fieldings": [],
+          "pitchings": [],
+          "records": []
+        },
+        "errors": 0,
+        "hex_color": "#671a19;#fefefe",
+        "hits": 0,
+        "icon_url": "https://usermedia.rebas.tw/t/1zODE/icon/1703833017-hSmVvyPzYd_th",
+        "runs": 0,
+        "scheduled_SP": null,
+        "scores": [],
+        "season_team_uniqid": "b7yJt",
+        "team": "樂天桃猿",
+        "team_uniqid": "1zODE"
+      },
+      "group": "例行賽",
+      "home": {
+        "abbr": "獅",
+        "box": {
+          "battings": [],
+          "fieldings": [],
+          "pitchings": [],
+          "records": []
+        },
+        "errors": 0,
+        "hex_color": "#dd732c;#fefefe",
+        "hits": 0,
+        "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
+        "runs": 0,
+        "scheduled_SP": null,
+        "scores": [],
+        "season_team_uniqid": "NsGzj",
+        "team": "統一7-ELEVEn獅",
+        "team_uniqid": "hThSB"
+      },
+      "info": {
+        "audience": "",
+        "ended_at": "",
+        "finished_status": "NORMAL",
+        "history": [],
+        "innings": 0,
+        "links": [],
+        "location": "亞太國際棒球訓練中心-主球場",
+        "location_abbr": "亞太",
+        "location_uniqid": "mLWa",
+        "public_video_url": "",
+        "scheduled_start_at": "2026-07-01 18:35",
+        "started_at": "",
+        "stats_completeness": "NONE",
+        "stats_status": "NORMAL",
+        "status": "SCHEDULED",
+        "strikezone_completeness": 0,
+        "umpire": {},
+        "weather": "",
+        "winner_side": "NONE"
+      },
+      "is_formal": true,
+      "season": {
+        "league": {
+          "name": "中華職業棒球大聯盟",
+          "uniqid": "CPBL"
+        },
+        "title": "中職2026年",
+        "type": "LEAGUE_MATCHES",
+        "uniqid": "CPBL-2026-oB"
+      },
+      "seq": 167,
+      "uniqid": "PQE7v"
+    },
+    {
+      "PA_list": [],
+      "away": {
         "abbr": "獅",
         "box": {
           "battings": [],
@@ -15581,11 +15656,11 @@
         "started_at": "",
         "stats_completeness": "NONE",
         "stats_status": "NORMAL",
-        "status": "SCHEDULED",
+        "status": "POSTPONED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
-        "winner_side": "NONE"
+        "weather": "多雲短暫陣雨;30",
+        "winner_side": "TIE"
       },
       "is_formal": true,
       "season": {
@@ -15659,8 +15734,8 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
-        "winner_side": "NONE"
+        "weather": "多雲時陰短暫陣雨;30",
+        "winner_side": "TIE"
       },
       "is_formal": true,
       "season": {
