@@ -276,6 +276,20 @@
                 }
             ];
 
+            // 0. 特殊優先規則：職籃 (Basketball) 避免富邦勇士被誤認為富邦悍將
+            const basketballKeywords = ['勇士', '特攻', '獵鷹', '領航猿', '攻城獅', '國王', '夢想家', '海神', '雲豹', '戰神', 'plg', 'tpbl', 't1', '職籃', '林書豪', '魔獸', '表弟'];
+            if (basketballKeywords.some(kw => titleLower.includes(kw))) {
+                return {
+                    name: '台灣職籃',
+                    colorClass: 'from-orange-600/40 via-orange-800/20 to-gray-950/90',
+                    textColor: 'text-orange-400',
+                    borderColor: 'border-orange-500/30',
+                    bgBadge: 'bg-orange-600 text-white',
+                    logoChar: 'B',
+                    bgStyle: 'bg-orange-600/15'
+                };
+            }
+
             // 1. 優先匹配標題 (Title)
             let bestTeam = null;
             let earliestTitleIndex = Infinity;
