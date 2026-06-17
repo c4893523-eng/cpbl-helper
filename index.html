@@ -797,6 +797,14 @@
                             else if (stadium.includes('嘉義市')) stadium = '嘉義市';
                             else if (stadium.includes('亞太')) stadium = '亞太';
                             
+                            let inningHalf = '';
+                            if (game.info.status === 'PLAYING') {
+                                const awayLen = (game.away.scores || []).length;
+                                const homeLen = (game.home.scores || []).length;
+                                if (awayLen > homeLen) inningHalf = '上';
+                                else if (awayLen > 0 && awayLen === homeLen) inningHalf = '下';
+                            }
+                            
                             targetList.push({
                                 date: `${mm}/${dd} (${dw})`,
                                 time: timeStr,
@@ -806,7 +814,8 @@
                                 status: game.info.status || 'SCHEDULED',
                                 awayScore: game.away.runs !== undefined ? game.away.runs : null,
                                 homeScore: game.home.runs !== undefined ? game.home.runs : null,
-                                inning: game.info.innings || null
+                                inning: game.info.innings || null,
+                                inningHalf: inningHalf
                             });
                         }
                     });
