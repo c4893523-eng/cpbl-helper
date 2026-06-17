@@ -826,7 +826,17 @@
                     setIsSyncing(false);
                 }
             };
-            useEffect(() => { syncSchedule(); }, []);
+            useEffect(() => { 
+                syncSchedule(); 
+                // Auto-refresh every 60 seconds during prime time
+                const interval = setInterval(() => {
+                    const nowHour = new Date().getHours();
+                    if (nowHour >= 17 && nowHour <= 23) {
+                        syncSchedule();
+                    }
+                }, 60000);
+                return () => clearInterval(interval);
+            }, []);
 
             const getStadiumWeather = (stadiumName) => {
                 if (!weatherData || weatherData.length === 0) return null;
