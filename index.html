@@ -707,21 +707,18 @@
 
         const Schedule = () => {
             const [activeTab, setActiveTab] = useState('thisWeek');
-            const [schedule, setSchedule] = useState(fallbackSchedule);
-            const [isSyncing, setIsSyncing] = useState(false);
+            const [schedule, setSchedule] = useState({ lastWeek: [], thisWeek: [], nextWeek: [] });
+            const [isSyncing, setIsSyncing] = useState(true);
             const [isFallback, setIsFallback] = useState(false);
             const weatherData = useSharedWeather();
 
             const syncSchedule = async () => {
-                setIsSyncing(true);
                 setIsFallback(false);
                 try {
                     const fetchLocalSchedule = async () => {
                         try {
                             const nowHour = new Date().getHours();
-                            // 在比賽主要時段 (下午 5 點到晚上 11 點) 優先透過 GAS 代理獲取秒級即時賽況
                             if (typeof GAS_TRAFFIC_URL !== 'undefined' && GAS_TRAFFIC_URL && nowHour >= 17 && nowHour <= 23) {
-                                console.log("Fetching real-time schedule from GAS...");
                                 const res = await fetch(`${GAS_TRAFFIC_URL}?action=schedule`);
                                 if (res.ok) {
                                     const json = await res.json();
@@ -798,9 +795,14 @@
                             else if (stadium.includes('亞太')) stadium = '亞太';
                             
                             let inningHalf = '';
+                            let realInning = game.info.innings || null;
                             if (game.info.status === 'PLAYING') {
                                 const awayLen = (game.away.scores || []).length;
                                 const homeLen = (game.home.scores || []).length;
+                                const maxLen = Math.max(awayLen, homeLen);
+                                if (maxLen > 0) {
+                                    realInning = maxLen;
+                                }
                                 if (awayLen > homeLen) inningHalf = '上';
                                 else if (awayLen > 0 && awayLen === homeLen) inningHalf = '下';
                             }
@@ -814,7 +816,7 @@
                                 status: game.info.status || 'SCHEDULED',
                                 awayScore: game.away.runs !== undefined ? game.away.runs : null,
                                 homeScore: game.home.runs !== undefined ? game.home.runs : null,
-                                inning: game.info.innings || null,
+                                inning: realInning,
                                 inningHalf: inningHalf
                             });
                         }
