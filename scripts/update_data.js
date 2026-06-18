@@ -102,7 +102,12 @@ function parseYahooRss(xmlText) {
         const dateObj = new Date(pubDate);
         const formattedDate = !isNaN(dateObj) ? `${dateObj.getMonth() + 1}/${dateObj.getDate()} ${dateObj.getHours()}:${String(dateObj.getMinutes()).padStart(2, '0')}` : '即時';
 
-        if (title && keywords.some(kw => title.includes(kw) || description.includes(kw))) {
+        const excludeKeywords = ['台球', '撞球', '桌球', '足球', '羽球', '網球', '高爾夫', '體操', '舉重', '排球', '田徑', '游泳', '射箭', '跆拳道', '柔道', '角力', '冰球', '賽車', 'F1'];
+
+        const hasKeyword = keywords.some(kw => title.includes(kw) || description.includes(kw));
+        const hasExclude = excludeKeywords.some(kw => title.includes(kw) || description.includes(kw));
+
+        if (title && hasKeyword && !hasExclude) {
             items.push({
                 id: `rss_${idx++}`,
                 title,
