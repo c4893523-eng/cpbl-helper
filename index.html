@@ -713,6 +713,7 @@
             const weatherData = useSharedWeather();
 
             const syncSchedule = async () => {
+                setIsSyncing(true);
                 setIsFallback(false);
                 try {
                     const fetchLocalSchedule = async () => {
