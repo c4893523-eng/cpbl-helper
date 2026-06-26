@@ -14047,13 +14047,16 @@
         },
         "errors": 0,
         "hex_color": "#671a19;#fefefe",
-        "hits": 1,
+        "hits": 6,
         "icon_url": "https://usermedia.rebas.tw/t/1zODE/icon/1703833017-hSmVvyPzYd_th",
-        "runs": 0,
+        "runs": 3,
         "scheduled_SP": null,
         "scores": [
           "0",
           "0",
+          "0",
+          "0",
+          "3",
           "0"
         ],
         "season_team_uniqid": "b7yJt",
@@ -14069,15 +14072,18 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 1,
         "hex_color": "#204e93;#fefefe",
-        "hits": 0,
+        "hits": 3,
         "icon_url": "https://usermedia.rebas.tw/t/TPKQm/icon/1703832992-wbJvcOUBba_th",
-        "runs": 0,
+        "runs": 1,
         "scheduled_SP": null,
         "scores": [
           "0",
-          "0"
+          "0",
+          "0",
+          "0",
+          "1"
         ],
         "season_team_uniqid": "H0zzP",
         "team": "富邦悍將",
@@ -14085,10 +14091,10 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-06-26 20:38",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 3,
+        "innings": 6,
         "links": [],
         "location": "新北市立新莊棒球場",
         "location_abbr": "新莊",
@@ -14098,11 +14104,11 @@
         "started_at": "2026-06-26 18:55",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰短暫陣雨或雷雨;40",
-        "winner_side": "TIE"
+        "winner_side": "AWAY"
       },
       "is_formal": true,
       "season": {
