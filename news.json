@@ -111,33 +111,6 @@
     },
     {
       "id": "rss_12",
-      "title": "黃靖哲運動能力突出　拚中職選秀 (圖)",
-      "description": "中華職棒選秀會今年游擊好手多，畢業自台東體中的黃靖哲（圖）也受到矚目，儘管身材不高大，但突出的運動能力是優勢。圖為黃靖哲2025年11月22日在黑豹旗青棒賽出賽畫面。",
-      "link": "https://tw.sports.yahoo.com/news/%E9%BB%83%E9%9D%96%E5%93%B2%E9%81%8B%E5%8B%95%E8%83%BD%E5%8A%9B%E7%AA%81%E5%87%BA-%E6%8B%9A%E4%B8%AD%E8%81%B7%E9%81%B8%E7%A7%80-%E5%9C%96-103040657.html",
-      "pubDate": "6/27 2:30",
-      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/9e06f939de649d4c59167bd79259a3be",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_13",
-      "title": "紅葉少棒征戰國際！挺進LLB亞太賽 饒慶鈴赴韓國力挺 首戰傳捷報10比0扣倒菲律賓",
-      "description": "【互傳媒／記者 陳志強／台東 報導】台灣棒球聖地、台東「紅葉國小」憑藉高昂鬥志與精湛球技，勇奪謝國城盃全國少棒",
-      "link": "https://tw.news.yahoo.com/%E7%B4%85%E8%91%89%E5%B0%91%E6%A3%92%E5%BE%81%E6%88%B0%E5%9C%8B%E9%9A%9B-%E6%8C%BA%E9%80%B2llb%E4%BA%9E%E5%A4%AA%E8%B3%BD-%E9%A5%92%E6%85%B6%E9%88%B4%E8%B5%B4%E9%9F%93%E5%9C%8B%E5%8A%9B%E6%8C%BA-%E9%A6%96%E6%88%B0%E5%82%B3%E6%8D%B7%E5%A0%B110%E6%AF%940%E6%89%A3%E5%80%92%E8%8F%B2%E5%BE%8B%E8%B3%93-102644987.html",
-      "pubDate": "6/27 2:26",
-      "rawImg": "https://media.zenfs.com/zh-tw/hoomedia_675/291ee5ddd8250755dbb6281299d76c16",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_14",
-      "title": "中職》洲際獅象戰因雨泡湯  何時何地補賽是個謎！",
-      "description": "原訂今天下午5點05分在洲際球場所進行的中信兄弟對統一獅之戰，受到雨勢影響，無法進行比賽，稍早聯盟宣布延賽，另行補賽的時間、場地尚未確定。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%B4%B2%E9%9A%9B%E7%8D%85%E8%B1%A1%E6%88%B0%E5%9B%A0%E9%9B%A8%E6%B3%A1%E6%B9%AF-%E4%BD%95%E6%99%82%E4%BD%95%E5%9C%B0%E8%A3%9C%E8%B3%BD%E6%98%AF%E5%80%8B%E8%AC%8E-101346333.html",
-      "pubDate": "6/27 2:13",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/347bcd400a18370167f6c5193530ef99",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_15",
       "title": "MLB》天使總管下台一鞠躬 外媒：未交易大谷翔平讓球隊倒退多年",
       "description": "連11年無緣季後賽的洛杉磯天使，本季至今只打出34勝49敗戰績與皇家隊並列美聯最差。天使今天宣布開除總經理米納斯安（Perry Minasian），並聘請曾擔任紅雀棒球事務...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5486247",
@@ -146,7 +119,16 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_16",
+      "id": "rss_13",
+      "title": "中職》洲際獅象戰因雨泡湯  何時何地補賽是個謎！",
+      "description": "原訂今天下午5點05分在洲際球場所進行的中信兄弟對統一獅之戰，受到雨勢影響，無法進行比賽，稍早聯盟宣布延賽，另行補賽的時間、場地尚未確定。…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5486202",
+      "pubDate": "6/27 10:13",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_14",
       "title": "中職》在台首次參與選秀 猿日籍領隊：想法保留到當天分享",
       "description": "中職預計將在下週一（6/29）舉辦年度新人選秀會，本屆選秀會相隔18年再度出現旅外海歸球員無人參選，報名人數則來到突破歷史新高的200人。\n\n\n樂天桃猿去年奪冠，因此選秀...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5486108",
@@ -155,7 +137,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_17",
+      "id": "rss_15",
       "title": "中職》董子恩守外野「Surprise」成常態？後藤監督還未能給評價",
       "description": "富邦悍將19日客場11:6大勝中信兄弟，賽前打序安排上一大亮點，是擔任開路先鋒的董子恩，他生涯首度先發鎮守左外野。隔天受訪，董子恩曾透露，總教練後藤光尊在宣布完先發打序後...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5486097",
@@ -164,7 +146,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_18",
+      "id": "rss_16",
       "title": "中職》昨大雨等待途中比「X」被拍 魔爾曼笑回：覺得應該不打了",
       "description": "昨樂天桃猿和富邦悍將之戰，打完5局就因雨裁定結束。一度等待復賽途中，猿隊洋投魔爾曼從休息室跑出來比了「X」的手勢，被鏡頭拍下，形成有趣插曲。\n\n\n魔爾曼笑說，不知道自己有...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5486081",
@@ -173,7 +155,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_19",
+      "id": "rss_17",
       "title": "中職》威戈神恢復中、新洋投報到 後藤監督盼良性競爭更強",
       "description": "富邦悍將開季之初期許很深的威戈神，日前終於從右手肘傷勢恢復，相隔66天於二軍投復健賽。今天賽前，威戈神進行牛棚，總教練後藤光尊也關心其狀況。\n\n\n後藤光尊說：「剛剛觀察，...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5486077",
@@ -182,7 +164,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_20",
+      "id": "rss_18",
       "title": "MLB》台灣隊主力左投林維恩TJ手術 曾總給予關心",
       "description": "效力運動家3A的左投林維恩，日前傳出傷情，今天在個人社群上宣布，自己將要動手肘韌帶置換手術（俗稱Tommy John或TJ），今年球季報銷。\n\n\n林維恩曾入選去年世界棒球...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5486074",
@@ -191,7 +173,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_21",
+      "id": "rss_19",
       "title": "中職》不再是敗戰組！兄弟1指大升級 隊友驚呼猛：跟之前都不一樣",
       "description": "中信兄弟第一指名陳琥近日升格牛棚勝利組，連續3場奪下中繼成功，刷新生涯單季最多紀錄，連隊友都看出不一樣，岳東華直呼：「心態很強壯，很有自信、霸氣，跟之前都不一樣，我覺得就...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5486048",
@@ -200,7 +182,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_22",
+      "id": "rss_20",
       "title": "中職》富邦193公分洋左投報到 投教許銘傑談第一印象",
       "description": "富邦悍將備戰下半季，日前宣布簽下美國籍左投手Quinton Martinez，中文命名為「瑪帝斯」，而開季前就抵台的預備洋將愛力戈，在合約到期後未獲球團續約。\n\n\n瑪帝斯...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5486028",
@@ -209,7 +191,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_23",
+      "id": "rss_21",
       "title": "MLB》誰才是大聯盟最強？勇士勇奪本季第49勝 緊咬衛冕軍道奇",
       "description": "「斧頭幫」勇士今天成功振作，將士用命以3：1擊敗巨人，終結4連敗低潮。\n\n\n勇士先發投手羅培茲（Reynaldo López）首局就被突破，但打線馬上討回來，2上史密斯（D...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5485911",
@@ -218,7 +200,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_22",
       "title": "NBA》哪隊會要？前勇士3冠中鋒成自由球員 未來動向成謎",
       "description": "根據NBA資深記者海恩斯（Chris Haynes）爆料，鵜鶘將不執行老將中鋒魯尼（Kevon Looney）價值800萬美元的球隊選項，讓他成為一名不受限制的自由球員。\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5485871",
