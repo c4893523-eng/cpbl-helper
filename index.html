@@ -202,11 +202,14 @@
 
             return null;
         };
-
         const getTeamInfo = (title, description) => {
             const titleLower = title.toLowerCase();
             const descLower = description.toLowerCase();
             
+            // 防呆機制：去除「親屬關係」的兄弟詞彙，避免誤判為中信兄弟
+            const cleanTitle = titleLower.replace(/親兄弟|兩兄弟|兄弟同隊|兄弟同心|兄弟檔|兄弟鬩牆/g, '');
+            const cleanDesc = descLower.replace(/親兄弟|兩兄弟|兄弟同隊|兄弟同心|兄弟檔|兄弟鬩牆/g, '');
+
             const teams = [
                 {
                     key: 'brothers',
@@ -278,7 +281,7 @@
 
             // 0. 特殊優先規則：職籃 (Basketball) 避免富邦勇士被誤認為富邦悍將
             const basketballKeywords = ['勇士', '特攻', '獵鷹', '領航猿', '攻城獅', '國王', '夢想家', '海神', '雲豹', '戰神', 'plg', 'tpbl', 't1', '職籃', '林書豪', '魔獸', '表弟'];
-            if (basketballKeywords.some(kw => titleLower.includes(kw))) {
+            if (basketballKeywords.some(kw => cleanTitle.includes(kw))) {
                 return {
                     name: '台灣職籃',
                     colorClass: 'from-orange-600/40 via-orange-800/20 to-gray-950/90',
@@ -296,7 +299,7 @@
             
             teams.forEach(team => {
                 team.keywords.forEach(keyword => {
-                    const idx = titleLower.indexOf(keyword);
+                    const idx = cleanTitle.indexOf(keyword);
                     if (idx !== -1 && idx < earliestTitleIndex) {
                         earliestTitleIndex = idx;
                         bestTeam = team;
@@ -310,7 +313,7 @@
             let earliestDescIndex = Infinity;
             teams.forEach(team => {
                 team.keywords.forEach(keyword => {
-                    const idx = descLower.indexOf(keyword);
+                    const idx = cleanDesc.indexOf(keyword);
                     if (idx !== -1 && idx < earliestDescIndex) {
                         earliestDescIndex = idx;
                         bestTeam = team;
