@@ -3,318 +3,75 @@
   "data": [
     {
       "id": "rss_0",
-      "title": "NBA》震撼！勇士真要找詹皇、AD組四巨頭？D.格林拒絕8.8億球員選項",
-      "description": "勇士在上季附加賽遭淘汰，今年休賽季盼能有顯著補強。今天外媒指出，他們有意追逐巫師明星長人A.戴維斯（Anthony Davis）和湖人球星詹姆斯（LeBron James），目標組成「四巨頭」，為柯瑞（Stephen Curry）再拚一座冠軍。稍早美國知名記者查拉尼亞（ Shams Charania",
-      "link": "https://tw.sports.yahoo.com/news/nba-%E9%9C%87%E6%92%BC-%E5%8B%87%E5%A3%AB%E7%9C%9F%E8%A6%81%E6%89%BE%E8%A9%B9%E7%9A%87-ad%E7%B5%84%E5%9B%9B%E5%B7%A8%E9%A0%AD-d-150909177.html",
-      "pubDate": "6/29 7:09",
+      "title": "中職》葉君璋雙喜臨門 帶隊獲上半季冠軍後又取得碩士學位",
+      "description": "味全龍總教練葉君璋最近雙喜臨門，繼日前率隊贏得中職2026年上半季冠軍後，碩士論文也在今天正式通過，取得國立台灣體育運動大學（簡稱台體大）碩士學位，成為目前中職6隊唯一具有碩士學歷的總教練。葉君璋指出，會去念碩士的起因是台體大找上他，認為他擔任職棒總教練多年，取得相關資料與數據做為研究題材並不困難，",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E8%91%89%E5%90%9B%E7%92%8B%E9%9B%99%E5%96%9C%E8%87%A8%E9%96%80-%E5%B8%B6%E9%9A%8A%E7%8D%B2%E4%B8%8A%E5%8D%8A%E5%AD%A3%E5%86%A0%E8%BB%8D%E5%BE%8C%E5%8F%88%E5%8F%96%E5%BE%97%E7%A2%A9%E5%A3%AB%E5%AD%B8%E4%BD%8D-092759273.html",
+      "pubDate": "6/30 9:27",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_1",
-      "title": "中職》從普悠瑪事故到職棒殿堂！王羽飛選秀圓夢感動台東",
-      "description": "棒球生命鬥士王羽飛，今天在中華職棒選秀會中，順利獲得中信兄弟隊選入，消息傳來台東地方和棒球界人士，都感到很振奮，也盼望走過黑暗和復健的王羽飛，能繼續打拼下去。他說，棒球教會了自己許多事，也帶自己走到世界各地，同時也是讓自己能順利復健的動力。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%BE%9E%E6%99%AE%E6%82%A0%E7%91%AA%E4%BA%8B%E6%95%85%E5%88%B0%E8%81%B7%E6%A3%92%E6%AE%BF%E5%A0%82-%E7%8E%8B%E7%BE%BD%E9%A3%9B%E9%81%B8%E7%A7%80%E5%9C%93%E5%A4%A2%E6%84%9F%E5%8B%95%E5%8F%B0%E6%9D%B1-144946615.html",
-      "pubDate": "6/29 6:49",
-      "rawImg": "",
+      "title": "近6週大谷翔平天下無敵！羅伯斯盼下一戰解鎖執教生涯千勝成就",
+      "description": "體育中心／綜合報導道奇日籍二刀流巨星大谷翔平，今（6/30）炸裂暴力三分砲，率隊9：4痛宰運動家，生涯300轟M2，獲總教練羅伯斯（Dave Roberts）盛讚：「近6週狀況無懈可擊，可以說是當今棒球界最頂尖球員。」",
+      "link": "https://tw.sports.yahoo.com/news/%E8%BF%916%E9%80%B1%E5%A4%A7%E8%B0%B7%E7%BF%94%E5%B9%B3%E5%A4%A9%E4%B8%8B%E7%84%A1%E6%95%B5-%E7%BE%85%E4%BC%AF%E6%96%AF%E7%9B%BC%E4%B8%8B-%E6%88%B0%E8%A7%A3%E9%8E%96%E5%9F%B7%E6%95%99%E7%94%9F%E6%B6%AF%E5%8D%83%E5%8B%9D%E6%88%90%E5%B0%B1-091938672.html",
+      "pubDate": "6/30 9:19",
+      "rawImg": "https://media.zenfs.com/en/ftvn_sports_106/80b2309d6945875aee91d61c5ea453b1",
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_2",
-      "title": "中職》金門郎許書誠放棄旅外 加入兄弟想學張志豪拚勁",
-      "description": "中職選秀會共有50人獲得指名，中信兄弟挑選11人是各隊之最，其中首輪挑選高苑工商內野手許書誠，原本考慮旅外發展的他，在報名截止前決定留台投入選秀，他成為史上第2位金門出身的中職球員。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E9%87%91%E9%96%80%E9%83%8E%E8%A8%B1%E6%9B%B8%E8%AA%A0%E6%94%BE%E6%A3%84%E6%97%85%E5%A4%96-%E5%8A%A0%E5%85%A5%E5%85%84%E5%BC%9F%E6%83%B3%E5%AD%B8%E5%BC%B5%E5%BF%97%E8%B1%AA%E6%8B%9A%E5%8B%81-143513096.html",
-      "pubDate": "6/29 6:35",
-      "rawImg": "",
+      "title": "飆145k火球！嘉大雙投李崧睿、顏承恩 獲中職球團選秀指名",
+      "description": "2026年中華職棒選秀會昨（29）日登場，傳統棒球勁旅，嘉義大學棒球隊傳出超級大捷報！就讀體育與健康休閒學系二年級的王牌投手，左投李崧睿與右投顏承恩，憑藉近年在各大賽事的頂級宰制力，分別獲得味全龍隊第三指名與台鋼雄鷹隊第四指名，雙雙以高順位，風光闖進台灣職棒最高殿堂。",
+      "link": "https://tw.sports.yahoo.com/news/%E9%A3%86145k%E7%81%AB%E7%90%83-%E5%98%89%E5%A4%A7%E9%9B%99%E6%8A%95%E6%9D%8E%E5%B4%A7%E7%9D%BF-%E9%A1%8F%E6%89%BF%E6%81%A9-%E7%8D%B2%E4%B8%AD%E8%81%B7%E7%90%83%E5%9C%98%E9%81%B8%E7%A7%80%E6%8C%87%E5%90%8D-090236714.html",
+      "pubDate": "6/30 9:02",
+      "rawImg": "https://media.zenfs.com/ko/chinatimes.com.tw/7d280d3495d03faee2837a977aeda449",
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_3",
-      "title": "左投余冠諭獲悍將指名　再與好兄弟劉承佑當隊友",
-      "description": "（中央社記者謝靜雯台北29日電）文化大學左投余冠諭中職選秀會2輪獲得富邦悍將指名，余冠諭的好兄弟是去年悍將第2輪指名野手劉承佑；余冠諭表示，多到大學磨練1年，各方面都成長，很開心獲得悍將指名。",
-      "link": "https://tw.sports.yahoo.com/news/%E5%B7%A6%E6%8A%95%E4%BD%99%E5%86%A0%E8%AB%AD%E7%8D%B2%E6%82%8D%E5%B0%87%E6%8C%87%E5%90%8D-%E5%86%8D%E8%88%87%E5%A5%BD%E5%85%84%E5%BC%9F%E5%8A%89%E6%89%BF%E4%BD%91%E7%95%B6%E9%9A%8A%E5%8F%8B-142935604.html",
-      "pubDate": "6/29 6:29",
-      "rawImg": "",
+      "title": "孫易磊殺翻了！6局狂飆9K宰制樂天二軍　飆速151公里第3勝入袋",
+      "description": "體育中心／綜合報導北海道日本火腿鬥士「台灣至寶」孫易磊，今（6/30）在二軍掛帥先發，面對東北樂天金鷲二軍，主投6局狂飆9K僅失2分，笑納本季二軍第3勝。",
+      "link": "https://tw.sports.yahoo.com/news/%E5%AD%AB%E6%98%93%E7%A3%8A%E6%AE%BA%E7%BF%BB%E4%BA%86-6%E5%B1%80%E7%8B%82%E9%A3%869k%E5%AE%B0%E5%88%B6%E6%A8%82%E5%A4%A9%E4%BA%8C%E8%BB%8D-%E9%A3%86%E9%80%9F151%E5%85%AC%E9%87%8C%E7%AC%AC3%E5%8B%9D%E5%85%A5%E8%A2%8B-084613932.html",
+      "pubDate": "6/30 8:46",
+      "rawImg": "https://media.zenfs.com/en/ftvn_sports_106/97cef0e0f7a008def015ae3d8ca5639d",
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_4",
-      "title": "高中都在鋁棒組獲獅指名　李星漢：努力就會被看見",
-      "description": "（中央社記者謝靜雯台北29日電）平鎮畢業投手李星漢高中3年都是鋁棒組球員，選秀會在第2輪獲統一7-ELEVEn獅隊指名，他希望成為好的例子，讓大家知道木棒組、鋁棒組沒絕對好壞，只要努力就會被看見。",
-      "link": "https://tw.sports.yahoo.com/news/%E9%AB%98%E4%B8%AD%E9%83%BD%E5%9C%A8%E9%8B%81%E6%A3%92%E7%B5%84%E7%8D%B2%E7%8D%85%E6%8C%87%E5%90%8D-%E6%9D%8E%E6%98%9F%E6%BC%A2-%E5%8A%AA%E5%8A%9B%E5%B0%B1%E6%9C%83%E8%A2%AB%E7%9C%8B%E8%A6%8B-140624083.html",
-      "pubDate": "6/29 6:06",
+      "title": "孫易磊二軍6局失2分優質先發勝　助火腿擊敗樂天",
+      "description": "（中央社記者謝靜雯台北30日電）日職北海道日本火腿鬥士隊台灣投手孫易磊21日下二軍，今天在二軍先發出賽，投6局失2分優質先發，火腿終場以5比2擊敗樂天金鷲，孫易磊拿下勝投。",
+      "link": "https://tw.sports.yahoo.com/news/%E5%AD%AB%E6%98%93%E7%A3%8A%E4%BA%8C%E8%BB%8D6%E5%B1%80%E5%A4%B12%E5%88%86%E5%84%AA%E8%B3%AA%E5%85%88%E7%99%BC%E5%8B%9D-%E5%8A%A9%E7%81%AB%E8%85%BF%E6%93%8A%E6%95%97%E6%A8%82%E5%A4%A9-071319570.html",
+      "pubDate": "6/30 7:13",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_5",
-      "title": "黃宥儒「把心臟準備好」獲龍指名 謝已故教練王國慶",
-      "description": "（中央社記者謝靜雯台北29日電）畢業自北科附工的投手黃宥儒在中職選秀會第2輪獲味全龍指名，表哥賴胤豪十分關注，傳訊息要他「把心臟準備好」；他也感謝國中已故教練王國慶指導，讓他在投手丘投出一片天。",
-      "link": "https://tw.sports.yahoo.com/news/%E9%BB%83%E5%AE%A5%E5%84%92-%E6%8A%8A%E5%BF%83%E8%87%9F%E6%BA%96%E5%82%99%E5%A5%BD-%E7%8D%B2%E9%BE%8D%E6%8C%87%E5%90%8D-%E8%AC%9D%E5%B7%B2%E6%95%85%E6%95%99%E7%B7%B4%E7%8E%8B%E5%9C%8B%E6%85%B6-135814607.html",
-      "pubDate": "6/29 5:58",
+      "title": "世足》又是他！曾擋下西班牙 摩洛哥門將布努PK大戰神撲救再成功臣",
+      "description": "摩洛哥門將布努（Yassine Bounou）繼上屆世界盃PK大戰中擋下西班牙後，今天面對荷蘭，他也在PK大戰扮演重要角色，在第5點時拍下荷蘭薩默維爾（Crysencio...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5488811",
+      "pubDate": "6/30 13:46",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_6",
-      "title": "黃玠瀚準備成為兄弟即戰力　以鄭浩均為榜樣",
-      "description": "（中央社記者蘇志畬台中29日電）國立體大193公分的投手「巨漢」黃玠瀚，在今年中華職棒選秀會第4輪被中信兄弟挑中，他準備好成為即戰力回報，也以學長「美美」鄭浩均作為學習榜樣。",
-      "link": "https://tw.sports.yahoo.com/news/%E9%BB%83%E7%8E%A0%E7%80%9A%E6%BA%96%E5%82%99%E6%88%90%E7%82%BA%E5%85%84%E5%BC%9F%E5%8D%B3%E6%88%B0%E5%8A%9B-%E4%BB%A5%E9%84%AD%E6%B5%A9%E5%9D%87%E7%82%BA%E6%A6%9C%E6%A8%A3-135811773.html",
-      "pubDate": "6/29 5:58",
+      "title": "MLB》300轟M2 ！大谷翔平怪力彈 道奇3連勝、教頭收生涯999勝",
+      "description": "道奇日本巨星大谷翔平今天擊出一發三分砲，本季第18轟出爐，單場貢獻2安，道奇打線全場擊出17支安打，最終道奇在客場以9比4擊敗運動家。道奇仍以55勝30敗獨居全大聯盟最佳。...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5488612",
+      "pubDate": "6/30 12:49",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_7",
-      "title": "中職》狀元陳柏凱圓夢兄弟同隊 林威助鬆口挑戰600萬？",
-      "description": "大溪高中游擊手陳柏凱成為富邦悍將新科狀元，29日在家人的陪同下迎來生涯重要時刻，他坦言，昨天透過新聞才得知哥哥陳品宏會前來助陣。富邦悍將執行副領隊林威助被問到，陳柏凱是否有機會突破600萬簽約金的門檻，語帶保留說：「機會是有啦！」",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E7%8B%80%E5%85%83%E9%99%B3%E6%9F%8F%E5%87%B1%E5%9C%93%E5%A4%A2%E5%85%84%E5%BC%9F%E5%90%8C%E9%9A%8A-%E6%9E%97%E5%A8%81%E5%8A%A9%E9%AC%86%E5%8F%A3%E6%8C%91%E6%88%B0600%E8%90%AC-135049666.html",
-      "pubDate": "6/29 5:50",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_8",
-      "title": "許書誠獲兄弟指名成里程碑　盼帶起金門棒球風氣",
-      "description": "（中央社記者謝靜雯台北29日電）中職選秀會中信兄弟今天首輪指名游擊手許書誠，也是睽違36年再有金門出身球員獲中職指名；許書誠表示，這對金門來說算是里程碑，希望能藉此把金門棒球風氣帶起來。",
-      "link": "https://tw.sports.yahoo.com/news/%E8%A8%B1%E6%9B%B8%E8%AA%A0%E7%8D%B2%E5%85%84%E5%BC%9F%E6%8C%87%E5%90%8D%E6%88%90%E9%87%8C%E7%A8%8B%E7%A2%91-%E7%9B%BC%E5%B8%B6%E8%B5%B7%E9%87%91%E9%96%80%E6%A3%92%E7%90%83%E9%A2%A8%E6%B0%A3-133803692.html",
-      "pubDate": "6/29 5:38",
+      "title": "MLB》生涯300轟M2！大谷翔平夯怪力三分彈 擊球初速高達180公里",
+      "description": "道奇日本巨星大谷翔平今天在第6局擊出一發三分砲，本季第18轟出爐，幫助道奇隊在6局上打完取得8比3領先運動家。\n\n\n大谷翔平首打席敲滾地球出局，第二打席吞三振，第三打席敲二...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5488501",
+      "pubDate": "6/30 11:34",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_9",
-      "title": "樂天桃猿首輪指名陳趙羿勳  開南大學棒球培育再開花結果",
-      "description": "中華職棒2026年新人球員選秀會今（29）日舉行，開南大學棒球隊再傳佳音。就讀開南大學觀光與餐飲旅館學系三年級的投手陳趙羿勳，以第一輪第六順位獲樂天桃猿隊指名，成為今年首輪入選職棒的新秀之一，也為開南大學棒球培育再添亮眼成績。 身高出色、球速與控球兼具的陳趙羿勳，大學期間在開南棒球隊持",
-      "link": "https://tw.news.yahoo.com/%E6%A8%82%E5%A4%A9%E6%A1%83%E7%8C%BF%E9%A6%96%E8%BC%AA%E6%8C%87%E5%90%8D%E9%99%B3%E8%B6%99%E7%BE%BF%E5%8B%B3-%E9%96%8B%E5%8D%97%E5%A4%A7%E5%AD%B8%E6%A3%92%E7%90%83%E5%9F%B9%E8%82%B2%E5%86%8D%E9%96%8B%E8%8A%B1%E7%B5%90%E6%9E%9C-133521369.html",
-      "pubDate": "6/29 5:35",
-      "rawImg": "https://media.zenfs.com/ko/tyenews_com_537/463e136e0cb274bbd5394e1f6849216c",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_10",
-      "title": "洪總看好邱文佑右打特質  盼永田颯太郎當即戰力",
-      "description": "（中央社記者蘇志畬台中29日電）台鋼雄鷹隊今年中華職棒選秀會上選了6名新秀就收工，總教練洪一中期待首輪邱文佑成為重要右打戰力，而第2輪指名的永田颯太郎則期待在二壘、游擊成為即戰力。",
-      "link": "https://tw.sports.yahoo.com/news/%E6%B4%AA%E7%B8%BD%E7%9C%8B%E5%A5%BD%E9%82%B1%E6%96%87%E4%BD%91%E5%8F%B3%E6%89%93%E7%89%B9%E8%B3%AA-%E7%9B%BC%E6%B0%B8%E7%94%B0%E9%A2%AF%E5%A4%AA%E9%83%8E%E7%95%B6%E5%8D%B3%E6%88%B0%E5%8A%9B-133252895.html",
-      "pubDate": "6/29 5:32",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_11",
-      "title": "兄弟指名高大游擊手許書誠　平野惠一看好跑打守",
-      "description": "（中央社記者蘇志畬台中29日電）中信兄弟隊今天在中華職業棒球大聯盟選秀會選進11人，總教練平野惠一說，以第5順位看，成果可算100分，而首輪選進身材高大的游擊手許書誠，跑、打、守方面都很期待。",
-      "link": "https://tw.sports.yahoo.com/news/%E5%85%84%E5%BC%9F%E6%8C%87%E5%90%8D%E9%AB%98%E5%A4%A7%E6%B8%B8%E6%93%8A%E6%89%8B%E8%A8%B1%E6%9B%B8%E8%AA%A0-%E5%B9%B3%E9%87%8E%E6%83%A0-%E7%9C%8B%E5%A5%BD%E8%B7%91%E6%89%93%E5%AE%88-133050303.html",
-      "pubDate": "6/29 5:30",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_12",
-      "title": "中職》黃靖哲曾去味全龍、富邦悍將測試 第1輪卻被統一獅指名",
-      "description": "東大體中游擊手黃靖哲今天在2026年中職新人選秀會第1輪第4順位被統一獅指名，他笑說，選秀前曾經去味全龍、富邦悍將參加測試，沒想到最後卻是被統一獅選到。黃靖哲指出，高中時期曾經吸引國外球探的注意，包括美國職棒費城人、紅人兩隊，被統一選到雖然有點意外，希望盡快適應職棒環境，首要之務是加強身體素質，讓自",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E9%BB%83%E9%9D%96%E5%93%B2%E6%9B%BE%E5%8E%BB%E5%91%B3%E5%85%A8%E9%BE%8D-%E5%AF%8C%E9%82%A6%E6%82%8D%E5%B0%87%E6%B8%AC%E8%A9%A6-%E7%AC%AC1%E8%BC%AA%E5%8D%BB%E8%A2%AB%E7%B5%B1-%E7%8D%85%E6%8C%87%E5%90%8D-133032824.html",
-      "pubDate": "6/29 5:30",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/32fe31cfa4d1377366f4eb2dd76ef262",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_13",
-      "title": "邱文佑開心回報媽媽辛苦　盼與曾子祐雙ㄧㄡˋ連線",
-      "description": "（中央社記者謝靜雯台北29日電）平鎮高中畢業好手邱文佑選秀首輪獲得台鋼雄鷹指名，高中學長曾子祐期待組「雙ㄧㄡˋ連線」，邱文佑媽媽到場見證，邱文佑很開心終於可以回報媽媽的辛苦。",
-      "link": "https://tw.sports.yahoo.com/news/%E9%82%B1%E6%96%87%E4%BD%91%E9%96%8B%E5%BF%83%E5%9B%9E%E5%A0%B1%E5%AA%BD%E5%AA%BD%E8%BE%9B%E8%8B%A6-%E7%9B%BC%E8%88%87%E6%9B%BE%E5%AD%90%E7%A5%90%E9%9B%99-%E9%80%A3%E7%B7%9A-132848632.html",
-      "pubDate": "6/29 5:28",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_14",
-      "title": "中職》統一獅首輪指名黃靖哲 林岳平：今年選秀最重要的收穫",
-      "description": "中職今天舉行2026年新人選秀會，統一獅在第1輪指名東大體中內野手黃靖哲，總教練林岳平表示，根據球團在選秀前的評估，投手首選是陳昱勛（選秀會前1天決定退出），野手首選就是黃靖哲，能在第1輪選到黃靖哲，球探認為是今年選秀最重要的收穫。林岳平指出，黃靖哲的身材雖然比較矮小，但是不論爆發力、速度、敏捷度，",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E7%B5%B1-%E7%8D%85%E9%A6%96%E8%BC%AA%E6%8C%87%E5%90%8D%E9%BB%83%E9%9D%96%E5%93%B2-%E6%9E%97%E5%B2%B3%E5%B9%B3-%E4%BB%8A%E5%B9%B4%E9%81%B8%E7%A7%80%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E6%94%B6%E7%A9%AB-132405721.html",
-      "pubDate": "6/29 5:24",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/e2efce89beb518fcb28fdfbf67b82885",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_15",
-      "title": "中職／選秀點評！陳柏凱成狀元後再狂補投手 悍將這屆選得好",
-      "description": "26年中職選秀會於29日晚間進行，今年不但是18年後首次沒有旅外球員回歸，且有不少潛力新秀也因與海外球團簽約或想等待出國機會而未報名參加，因此被認為是選秀小年，即使如此，6支球團仍在前幾輪針對戰...",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E9%81%B8%E7%A7%80%E9%BB%9E%E8%A9%95-%E9%99%B3%E6%9F%8F%E5%87%B1%E6%88%90%E7%8B%80%E5%85%83%E5%BE%8C%E5%86%8D%E7%8B%82%E8%A3%9C%E6%8A%95%E6%89%8B-%E6%82%8D%E5%B0%87%E9%80%99%E5%B1%86%E9%81%B8%E5%BE%97%E5%A5%BD-132238785.html",
-      "pubDate": "6/29 5:22",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_16",
-      "title": "中職》曾在國小就一度放棄職棒夢 白井雄登和「麻吉」同隊入選好開心",
-      "description": "來台灣就讀台北市立大學的日本籍捕手白井雄登，符合「永田條款」報名今年中職選秀。樂天桃猿先於第7輪指名白井、第8輪再指名他在北市大的投捕搭檔好友莊承翰，讓兩人再續隊友緣。首次報名中職選秀就入選，白井雄登坦言開心，直言不可思議。白井還說：「畢竟要打職棒的目標，國小的時候就一度放棄了。當時也不知道為什麼，",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%9B%BE%E5%9C%A8%E5%9C%8B%E5%B0%8F%E5%B0%B1-%E5%BA%A6%E6%94%BE%E6%A3%84%E8%81%B7%E6%A3%92%E5%A4%A2-%E7%99%BD%E4%BA%95%E9%9B%84%E7%99%BB%E5%92%8C-%E9%BA%BB%E5%90%89-131937101.html",
-      "pubDate": "6/29 5:19",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/bcd89fd54010e7ecc9eea9a9c4dc4f57",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_17",
-      "title": "中職》味全龍指名「二刀流」廖永詮為榜眼 葉君璋：投打同時發展",
-      "description": "中職今天舉行2026年新人選秀會，味全龍在第2順位指名南華大學「二刀流」外野手廖永詮為本屆榜眼，總教練葉君璋表示，廖永詮在投手與打擊兩端都有不錯表現，目前考慮讓他同時發展，守備位置還要再評估。葉君璋指出，其實他也很喜歡邱文佑，因為廖永詮參加測試時，展現的能力、打擊的力量都不錯，才會在第1輪選擇他，被",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%91%B3%E5%85%A8%E9%BE%8D%E6%8C%87%E5%90%8D-%E4%BA%8C%E5%88%80%E6%B5%81-%E5%BB%96%E6%B0%B8%E8%A9%AE%E7%82%BA%E6%A6%9C%E7%9C%BC-%E8%91%89%E5%90%9B%E7%92%8B-131806961.html",
-      "pubDate": "6/29 5:18",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/dc17cd398fa3f5e696bfc5d2b35cbab2",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_18",
-      "title": "桃猿選秀指名8人　曾總對白井雄登蹲捕引導印象深",
-      "description": "（中央社記者謝靜雯台北29日電）中職選秀會樂天桃猿首輪指名投手陳趙羿勳，總計選入8人中，亮點是台日混血捕手白井雄登，總教練曾豪駒對白井雄登測試會印象深，他與首次搭配的投手就能展現引導能力。",
-      "link": "https://tw.sports.yahoo.com/news/%E6%A1%83%E7%8C%BF%E9%81%B8%E7%A7%80%E6%8C%87%E5%90%8D8%E4%BA%BA-%E6%9B%BE%E7%B8%BD%E5%B0%8D%E7%99%BD%E4%BA%95%E9%9B%84%E7%99%BB%E8%B9%B2%E6%8D%95%E5%BC%95%E5%B0%8E%E5%8D%B0%E8%B1%A1%E6%B7%B1-130943402.html",
-      "pubDate": "6/29 5:09",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_19",
-      "title": "NBA》上季僅打39場就提前報銷 拉文執行15.6億約續留國王",
-      "description": "國王明星後衛拉文（Zach LaVine）將執行2026-27賽季價值4900萬美元（約合新台幣15.6億元）的球員選項，此消息由其經紀公司證實，這也是他5年合約的最後一年...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488203",
-      "pubDate": "6/29 14:43",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_20",
-      "title": "中職》台鋼雄鷹首輪指名邱文佑 洪一中：希望跟曾子祐「祐佑連線」",
-      "description": "中職今天舉行2026年新人選秀會，台鋼雄鷹在第1輪指名平鎮高中內野手邱文佑，總教練洪一中表示，台鋼是新球隊，很多位置都需要人手替換，因為游擊手曾子祐也是平鎮出身，希望兩人...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488155",
-      "pubDate": "6/29 13:05",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_21",
-      "title": "中職》補強投手戰力「理所當然」 本屆選秀各隊共識",
-      "description": "中職選秀今晚落幕，各隊各自針對球隊狀況補強新人戰力，多支球隊瞄準投手戰力，合計共29位投手被選到。\n\n\n樂天桃猿首輪就選擇開南大學右投手陳趙羿勳，合計選擇5位投手。樂天總...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488153",
-      "pubDate": "6/29 13:03",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_22",
-      "title": "中職》廖永詮獲味全龍指名為榜眼 最想向郭天信學習",
-      "description": "中職今天舉行2026年新人選秀會，剛拿到上半季冠軍的味全龍在第2順位，指名南華大學「二刀流」外野手廖永詮為本屆榜眼，他表示，雖然預期會在前3輪被選，沒想到名字在首輪就被念...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488132",
-      "pubDate": "6/29 12:42",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_23",
-      "title": "中職》「身形是他的魅力」平野評價兄弟首輪新人許書誠",
-      "description": "中信兄弟今年選秀會選進11人，是各隊最多。其中，首輪兄弟選進出身金門、畢業自高苑工商的186公分游擊手許書誠。許書誠原本目標計劃旅外，最終在選秀報名截止前投入中職選秀。\n...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488130",
-      "pubDate": "6/29 12:40",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_24",
-      "title": "中職》富邦副領隊林威助談狀元人選陳柏凱 笑說沒對陳品宏「暴雷」",
-      "description": "富邦悍將手握今年狀元籤，用狀元選進大溪高中游擊手陳柏凱，之後依序選擇投手余冠諭、陳霆豪、外野手帕蘇拉．塔基斯利尼安、投手秦琮恩、內野手全永樂、投手李聖韓、劉建利，和一壘手...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488123",
-      "pubDate": "6/29 12:35",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_25",
-      "title": "中職》和學長曾子祐成隊友 邱文佑盼組「雙祐」內野搭檔",
-      "description": "中職選秀會，握有探花籤的台鋼雄鷹，首輪選進平鎮高中隊長邱文佑，他將和台鋼隊史首位狀元、平鎮高中學長曾子祐同隊。\n\n\n邱文佑說，學長曾子祐曾經跟他分享職棒環境，也分享台鋼雄...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488092",
-      "pubDate": "6/29 11:51",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_26",
-      "title": "中職》「生命鬥士」王羽飛曾盼披黃衫 如願成中信兄弟新兵！",
-      "description": "中信兄弟在今年選秀會上，第11輪選擇2018年普悠瑪事件倖存者、中信金融管理學院的外野手王羽飛。\n\n\n王羽飛2020年曾受邀赴中信兄弟主場開球，當時由偶像「恰恰」彭政閔擔...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488091",
-      "pubDate": "6/29 11:49",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_27",
-      "title": "中職》陳柏凱成新科狀元！許下目標：希望在哥哥身後守備",
-      "description": "大溪高中大物游擊手陳柏凱，一度傳出已有美職隊伍初步出價。考量過後，陳柏凱最終決定選擇留在台灣，投入今年中職選秀。手握本屆選秀狀元籤的富邦悍將，於首輪指名選擇陳柏凱，讓他成...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488080",
-      "pubDate": "6/29 11:35",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_28",
-      "title": "中職》金門出身高苑游擊手許書誠 首輪披黃衫成兄弟一員",
-      "description": "許書誠出身金門、畢業自高苑工商，身高達186公分，和大溪高中陳柏凱都屬身形高大的游擊手。身為U18國手，許書誠原本目標計劃旅外，最終在選秀報名截止前，決定留在台灣發展，投...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488069",
-      "pubDate": "6/29 11:20",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_29",
-      "title": "中職》選秀首輪底定 陳柏凱狀元、首輪共4位高中內野手",
-      "description": "中職選秀今晚舉行，首輪選秀會共有4位內野手入選，4人皆是高中畢業生。\n\n\n在陳柏凱狀元、廖永詮榜眼之後，台鋼和統一都選擇高中內野手，台鋼選擇平鎮隊長邱文佑，統一獅則拿下東...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488067",
-      "pubDate": "6/29 11:19",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_30",
-      "title": "中職》球速153公里！南華「二刀流」廖永詮成味全榜眼",
-      "description": "中職選秀今晚舉行，在富邦悍將用狀元籤選進大溪高中內野手陳柏凱後，手握榜眼籤的味全龍，選擇南華大學外野手、具二刀流潛力的廖永詮。\n\n\n廖永詮出身南華大學，大學生涯累積8轟，外野3...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488026",
-      "pubDate": "6/29 10:47",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_31",
-      "title": "中職》2王牌旅美+游擊手狀元 大溪高中風光一屆",
-      "description": "桃園大溪高中近幾年好手量產，繼去年內野手廖宥霖和釀酒人隊簽約後，今年兩位強投林珺希、賴謙凡先後旅美，分別效力海盜和洋基，原本意圖挑戰旅外的游擊手陳柏凱也成為新科狀元郎，大...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488021",
-      "pubDate": "6/29 10:45",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_32",
-      "title": "中職》陳柏凱成富邦新科狀元！將和哥哥陳品宏當隊友",
-      "description": "大溪高中大物游擊手陳柏凱，具有185公分出色身形，一度受到美、日職棒關注，甚至傳出已有美職隊伍初步出價。考量過後，陳柏凱最終決定選擇留在台灣，投入今年中職選秀。手握本屆選...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5487916",
-      "pubDate": "6/29 10:42",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_33",
-      "title": "中職》2026年新人選秀會 大溪高中陳柏凱狀元呼聲高",
-      "description": "中職今晚18:30在台中舉行2026年新人選秀會，報名人數來到歷史新高的200人，相隔18年再次沒有旅外球員返台參加，雙雙寫下選秀會紀錄，狀元呼聲頗高的陳柏凱由父母與哥哥...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5488008",
-      "pubDate": "6/29 10:33",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_34",
-      "title": "MLB》將比肩棒球之神！ 日媒期待大谷翔平挑戰罕見偉業",
-      "description": "道奇二刀流球星大谷翔平近期喜事連連，不僅迎來第二個孩子誕生，更當選明星賽人氣王，最近也展現了「六月狂谷」的身手，如今距離大聯盟生涯300轟里程碑只差一步之遙。日媒《日刊體育...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5487793",
-      "pubDate": "6/29 8:11",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
