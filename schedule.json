@@ -13709,8 +13709,8 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
-        "winner_side": "NONE"
+        "weather": "多雲;20",
+        "winner_side": "TIE"
       },
       "is_formal": true,
       "season": {
@@ -13784,7 +13784,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "多雲時陰;20",
         "winner_side": "NONE"
       },
       "is_formal": true,
