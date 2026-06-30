@@ -36,7 +36,7 @@ function parseYahooRss(xmlText) {
         'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80'
     ];
 
-    const keywords = ['中職', '棒球', '中信', '兄弟', '味全', '龍隊', '龍將', '統一', '獅隊', '樂天', '桃猿', '富邦', '悍將', '台鋼', '雄鷹', '中華職棒', '宋家豪', '大谷', '張育成', '旅外', '勇士', '特攻', '獵鷹', '領航猿', '攻城獅', '國王', '夢想家', '海神', '雲豹', '戰神', 'plg', 'tpbl', 't1', '職籃', '林書豪'];
+    const keywords = ['中職', '棒球', '中信', '兄弟', '味全', '龍隊', '龍將', '統一', '獅隊', '樂天', '桃猿', '富邦', '悍將', '台鋼', '雄鷹', '中華職棒', '宋家豪', '大谷', '張育成', '旅外', '勇士', '特攻', '獵鷹', '領航猿', '攻城獅', '國王', '夢想家', '海神', '雲豹', '戰神', 'plg', 'tpbl', 't1', '職籃', '林書豪', '孫易磊', '日職'];
 
     let idx = 0;
     while ((match = itemRegex.exec(xmlText)) !== null) {
@@ -102,7 +102,7 @@ function parseYahooRss(xmlText) {
         const dateObj = new Date(pubDate);
         const formattedDate = !isNaN(dateObj) ? `${dateObj.getMonth() + 1}/${dateObj.getDate()} ${dateObj.getHours()}:${String(dateObj.getMinutes()).padStart(2, '0')}` : '即時';
 
-        const excludeKeywords = ['台球', '撞球', '桌球', '足球', '羽球', '網球', '高爾夫', '體操', '舉重', '排球', '田徑', '游泳', '射箭', '跆拳道', '柔道', '角力', '冰球', '賽車', 'F1', '政大', 'UBA', 'HBL', '高中籃球', '大專籃球', '國中籃球', '金州', '沙加緬度', '美國職籃', 'NBA總冠軍', 'NBA季後賽', '湖人', '塞爾提克', '獨行俠', '金塊'];
+        const excludeKeywords = ['台球', '撞球', '桌球', '足球', '羽球', '網球', '高爾夫', '體操', '舉重', '排球', '田徑', '游泳', '射箭', '跆拳道', '柔道', '角力', '冰球', '賽車', 'F1', '政大', 'UBA', 'HBL', '高中籃球', '大專籃球', '國中籃球', '金州', '沙加緬度', '美國職籃', 'NBA總冠軍', 'NBA季後賽', '湖人', '塞爾提克', '獨行俠', '金塊', '世足', 'FIFA', '世界盃足球'];
 
         const hasKeyword = keywords.some(kw => title.includes(kw) || description.includes(kw));
         const hasExclude = excludeKeywords.some(kw => title.includes(kw) || description.includes(kw));

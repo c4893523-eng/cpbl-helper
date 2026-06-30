@@ -206,9 +206,9 @@
             const titleLower = title.toLowerCase();
             const descLower = description.toLowerCase();
             
-            // 防呆機制：去除「親屬關係」的兄弟詞彙，避免誤判為中信兄弟
-            const cleanTitle = titleLower.replace(/親兄弟|兩兄弟|兄弟同隊|兄弟同心|兄弟檔|兄弟鬩牆/g, '');
-            const cleanDesc = descLower.replace(/親兄弟|兩兄弟|兄弟同隊|兄弟同心|兄弟檔|兄弟鬩牆/g, '');
+            // 防呆機制：去除「親屬關係」的兄弟詞彙，以及日職「樂天金鷲」，避免誤判為中職球隊
+            const cleanTitle = titleLower.replace(/親兄弟|兩兄弟|兄弟同隊|兄弟同心|兄弟檔|兄弟鬩牆|樂天金鷲|東北樂天/g, '');
+            const cleanDesc = descLower.replace(/親兄弟|兩兄弟|兄弟同隊|兄弟同心|兄弟檔|兄弟鬩牆|樂天金鷲|東北樂天/g, '');
 
             const teams = [
                 {
@@ -329,8 +329,8 @@
             }
 
             // 4. 旅外球員/大聯盟匹配
-            const overseasKeywords = ['大谷', '宋家豪', '林維恩', '鄧愷威', '大聯盟', 'mlb', 'milb', '旅外'];
-            if (overseasKeywords.some(kw => titleLower.includes(kw) || descLower.includes(kw))) {
+            const overseasKeywords = ['大谷', '宋家豪', '林維恩', '鄧愷威', '大聯盟', 'mlb', 'milb', '旅外', '孫易磊', '日職', '火腿'];
+            if (overseasKeywords.some(kw => cleanTitle.includes(kw) || cleanDesc.includes(kw))) {
                 return {
                     name: '旅外焦點',
                     colorClass: 'from-purple-600/35 via-purple-900/15 to-gray-950/90',
