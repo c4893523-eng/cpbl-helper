@@ -102,7 +102,7 @@ function parseYahooRss(xmlText) {
         const dateObj = new Date(pubDate);
         const formattedDate = !isNaN(dateObj) ? `${dateObj.getMonth() + 1}/${dateObj.getDate()} ${dateObj.getHours()}:${String(dateObj.getMinutes()).padStart(2, '0')}` : '即時';
 
-        const excludeKeywords = ['台球', '撞球', '桌球', '足球', '羽球', '網球', '高爾夫', '體操', '舉重', '排球', '田徑', '游泳', '射箭', '跆拳道', '柔道', '角力', '冰球', '賽車', 'F1', '政大', 'UBA', 'HBL', '高中籃球', '大專籃球', '國中籃球'];
+        const excludeKeywords = ['台球', '撞球', '桌球', '足球', '羽球', '網球', '高爾夫', '體操', '舉重', '排球', '田徑', '游泳', '射箭', '跆拳道', '柔道', '角力', '冰球', '賽車', 'F1', '政大', 'UBA', 'HBL', '高中籃球', '大專籃球', '國中籃球', '金州', '沙加緬度', '美國職籃', 'NBA總冠軍', 'NBA季後賽', '湖人', '塞爾提克', '獨行俠', '金塊'];
 
         const hasKeyword = keywords.some(kw => title.includes(kw) || description.includes(kw));
         const hasExclude = excludeKeywords.some(kw => title.includes(kw) || description.includes(kw));
