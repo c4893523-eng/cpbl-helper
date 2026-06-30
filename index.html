@@ -293,7 +293,21 @@
                 };
             }
 
-            // 1. 優先匹配標題 (Title)
+            // 1. 優先匹配：旅外球員/大聯盟 (避免日職球隊如「樂天二軍」被誤判為台灣樂天桃猿)
+            const overseasKeywords = ['大谷', '宋家豪', '林維恩', '鄧愷威', '大聯盟', 'mlb', 'milb', '旅外', '孫易磊', '日職', '火腿'];
+            if (overseasKeywords.some(kw => cleanTitle.includes(kw) || cleanDesc.includes(kw))) {
+                return {
+                    name: '旅外焦點',
+                    colorClass: 'from-purple-600/35 via-purple-900/15 to-gray-950/90',
+                    textColor: 'text-purple-400',
+                    borderColor: 'border-purple-500/20',
+                    bgBadge: 'bg-purple-600 text-white',
+                    logoChar: '🌎',
+                    bgStyle: 'bg-purple-900/10'
+                };
+            }
+
+            // 2. 匹配標題 (Title)
             let bestTeam = null;
             let earliestTitleIndex = Infinity;
             
@@ -323,23 +337,9 @@
 
             if (bestTeam) return bestTeam;
 
-            // 3. 明星球員專屬匹配 (防呆機制，若無隊伍名稱但含有主要球員名稱)
+            // 4. 明星球員專屬匹配 (防呆機制，若無隊伍名稱但含有主要球員名稱)
             if (titleLower.includes('黃子鵬') || descLower.includes('黃子鵬')) {
                 return teams.find(t => t.key === 'hawks'); // 台鋼雄鷹
-            }
-
-            // 4. 旅外球員/大聯盟匹配
-            const overseasKeywords = ['大谷', '宋家豪', '林維恩', '鄧愷威', '大聯盟', 'mlb', 'milb', '旅外', '孫易磊', '日職', '火腿'];
-            if (overseasKeywords.some(kw => cleanTitle.includes(kw) || cleanDesc.includes(kw))) {
-                return {
-                    name: '旅外焦點',
-                    colorClass: 'from-purple-600/35 via-purple-900/15 to-gray-950/90',
-                    textColor: 'text-purple-400',
-                    borderColor: 'border-purple-500/20',
-                    bgBadge: 'bg-purple-600 text-white',
-                    logoChar: '🌎',
-                    bgStyle: 'bg-purple-900/10'
-                };
             }
 
             // 5. 預設返回中華職棒通用樣式
