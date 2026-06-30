@@ -13729,7 +13729,7 @@
         "scheduled_start_at": "2026-06-30 18:35",
         "started_at": "2026-06-30 18:36",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
+        "stats_status": "PITCH_MISSING",
         "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},

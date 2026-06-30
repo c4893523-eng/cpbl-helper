@@ -49,8 +49,8 @@
     {
       "id": "rss_5",
       "title": "中職》韓職球隊有意網羅 蔣銲：我喜歡這裡",
-      "description": "蔣銲今天用91球投7局，被打6支安打失1分，連續9場交出優質先發，補足局數後以防禦率1.42重新登上首位，對於傳出韓職有意網羅，最終卻選擇續留味全，他表示，「味全是支很棒的球隊，我喜歡這裡！」蔣銲指出，上半季很享受每場與隊友打拚的感覺，贏得季冠軍是大家一起努力的成果，他很喜歡台灣，也很喜歡球隊現在的",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E9%9F%93%E8%81%B7%E7%90%83%E9%9A%8A%E6%9C%89%E6%84%8F%E7%B6%B2%E7%BE%85-%E8%94%A3%E9%8A%B2-%E6%88%91%E5%96%9C%E6%AD%A1%E9%80%99%E8%A3%A1-150952903.html",
+      "description": "蔣銲6月30日用91球投7局，被打6支安打失1分，連續9場交出優質先發，補足局數後以防禦率1.42重新登上首位，對於傳出韓職有意網羅，最終卻選擇續留味全，他表示，「味全是支很棒的球隊，我喜歡這裡！」蔣銲指出，上半季很享受每場與隊友打拚的感覺，贏得季冠軍是大家一起努力的成果，他很喜歡台灣，也很喜歡球隊現在的",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E3%80%8B%E9%9F%93%E8%81%B7%E7%90%83%E9%9A%8A%E6%9C%89%E6%84%8F%E7%B6%B2%E7%BE%85-%E8%94%A3%E9%8A%B2%EF%BC%9A%E6%88%91%E5%96%9C%E6%AD%A1%E9%80%99%E8%A3%A1-150952903.html",
       "pubDate": "6/30 7:09",
       "rawImg": "https://media.zenfs.com/zh-tw/libertytimes_786/524ad400c359e3a67e109630bdceaf8e",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
@@ -138,15 +138,6 @@
     },
     {
       "id": "rss_15",
-      "title": "PLG》「怕選到空氣」 勇士選莫森考量很多",
-      "description": "P. LEAGUE+ 2026-27新人選秀會僅選完首輪就快速結束，本賽季在總冠將賽鎩羽的台北富邦勇士，選擇來自輔仁大學的伊朗籍外籍生莫森，領隊兼任總教練許晉哲分享做出決定的想法。",
-      "link": "https://tw.sports.yahoo.com/news/plg-%E6%80%95%E9%81%B8%E5%88%B0%E7%A9%BA%E6%B0%A3-%E5%8B%87%E5%A3%AB%E9%81%B8%E8%8E%AB%E6%A3%AE%E8%80%83%E9%87%8F%E5%BE%88%E5%A4%9A-123425379.html",
-      "pubDate": "6/30 4:34",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_16",
       "title": "中職》吳俊偉下二軍調整投球機制 平野惠一期待其他投手抓住機會",
       "description": "吳俊偉於5月15日升上一軍，僅出賽9場投7.2局又於6月22日降回二軍，終結者再次由老將李振昌擔任，中信兄弟總教練平野惠一表示，吳俊偉這次下二軍並非因為傷勢，期待其他投手...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489347",
@@ -155,7 +146,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_17",
+      "id": "rss_16",
       "title": "中職》宋晟睿生涯首次扛先發4棒 平野惠一：作為下半季安排陣容的參考",
       "description": "中信兄弟今天在天母棒球場對味全龍，先發打線做出很特別的安排，宋晟睿生涯首次扛先發第4棒，曾是中心打者的曾頌恩卻排在第9棒，總教練平野惠一，最做這樣安排的目的，是希望觀察不...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489320",
@@ -164,7 +155,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_18",
+      "id": "rss_17",
       "title": "PLG選秀》獵鷹榜眼籤挑中李盛新 柯納點出他的優勢也期待他能轉型",
       "description": "台鋼獵鷹今於 P. LEAGUE+ 新人選秀會中，以第一輪第二順位選進來自輔仁大學的新秀球員李盛新，為新賽季陣容注入年輕戰力與全新能量。\n\n\n李盛新身高191公分、體重8...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489317",
@@ -173,7 +164,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_19",
+      "id": "rss_18",
       "title": "日職》二軍虐菜！林安可重返一軍遭前大聯盟強投壓制 打擊率跌破2成",
       "description": "西武獅台灣重砲林安可今天重返一軍，面對軟銀擔任先發第5棒指定打擊，可惜4打數0安打苦吞2K，終場西武獅0：6遭到完封，吞下3連敗。\n\n\n林安可先前在一軍出賽38場，打擊三圍...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489270",
@@ -182,7 +173,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_20",
+      "id": "rss_19",
       "title": "PLG選秀》洋基工程狀元籤挑中王鼎鈞 李盛新為榜眼",
       "description": "2026-27球季PLG新人選秀會今天登場，握有狀元籤的洋基工程選中來自健行科大的後衛王鼎鈞，榜眼則是輔仁大學李盛新，富邦勇士則以探花籤選進來自伊朗的莫森，至於衛冕軍桃園...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489314",
@@ -191,7 +182,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_21",
+      "id": "rss_20",
       "title": "中職》味全龍選進6名投手 葉君璋：傅振閎某些方面比賴謙凡更好",
       "description": "味全在今年中職選秀指名9位新人，扣除第1輪二刀流的廖永詮，光是投手就有黃宥儒、李崧睿、傅振閎、黃子睿、施博翔、洪嘉恩6人，總教練葉君璋表示，印象最深的是第4輪選進的傅振閎...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489290",
@@ -200,7 +191,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_22",
+      "id": "rss_21",
       "title": "NBA》不輕易言退！37歲MVP魏少下季會去哪？美媒爆老東家有興趣",
       "description": "37歲前MVP控衛「魏少」魏斯布魯克（Russell Westbrook），上季以非保障底薪合約加盟國王，休季又成自由身，不輕易言退的他有意續戰下賽季。根據NBA資深記者史...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489055",
@@ -209,7 +200,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_23",
+      "id": "rss_22",
       "title": "中職》和學弟全永樂在富邦續隊友緣 張育豪掛保證：守備是他拿手絕活",
       "description": "富邦悍將今年選秀會瞄準投手與內野中線戰力，於第6輪選進普門中學畢業的內野手全永樂。全永樂和去年榜眼的學長張育豪再次成為隊友，張育豪透露，昨選秀會後就先向學弟說恭喜。\n\n\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489262",
@@ -218,7 +209,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_23",
       "title": "中職》餅總有兩新秀中線搭檔藍圖 王翾祐笑說想先跟學長搭",
       "description": "統一獅隊昨天在選秀會首輪，選進「東體粉紅超跑」黃靖哲，補強內野戰力。今天受訪時，獅隊總教練林岳平笑說：「或許未來他能和王翾祐一起打出成績來。」\n\n\n王翾祐透露，他以前高中...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489243",
@@ -227,7 +218,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_25",
+      "id": "rss_24",
       "title": "MLB》最新MVP預測！大谷翔平持續稱霸國聯 官網：四連霸可能穩了",
       "description": "大聯盟官網本季第3次MVP民調結果出爐，共有33位專家參與投票，每人在各聯盟選出前5名，依序給予5、4、3、2、1的分數。目前國聯依舊由道奇日本二刀流巨星大谷翔平稱霸，至於...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489168",
@@ -236,7 +227,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_26",
+      "id": "rss_25",
       "title": "中職》台鋼雄鷹首輪指名邱文佑 葉君璋：我也很喜歡，本來第1個就想選",
       "description": "味全龍今年在季中選秀第1輪第2順位指名南華大學「二刀流」外野手廖永詮，台鋼雄鷹隨後指名平鎮高中內野手邱文佑，味全總教練葉君璋表示，他也很喜歡運動能力僅次於廖永詮的邱文佑，...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489231",
@@ -245,7 +236,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_27",
+      "id": "rss_26",
       "title": "中職》富邦選秀鎖定投手戰力！後藤監督評價兩位左投新秀",
       "description": "富邦悍將昨在選秀會上大有斬獲，不僅以狀元籤選進大溪高中游擊手陳柏凱，9輪當中還選進3位左投，包括2輪的文化大學余冠諭、3輪南華大學和新北凱撒陳霆豪，和第7輪台東大學李聖韓...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489220",
@@ -254,7 +245,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_28",
+      "id": "rss_27",
       "title": "中職》後藤監督愛說笑 打趣說狀元郎陳柏凱「看顏值選的」",
       "description": "中職選秀昨晚結束，富邦悍將用狀元籤選走大溪高中大物游擊手陳柏凱，補強的9人中還有3位左投。\n\n\n今天被問及選秀方針，富邦悍將總教練後藤光尊說，球隊的補強方針很明確，首先是...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489184",
@@ -263,7 +254,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_29",
+      "id": "rss_28",
       "title": "中職》葉君璋雙喜臨門 帶隊獲上半季冠軍後又取得碩士學位",
       "description": "味全龍總教練葉君璋最近雙喜臨門，繼日前率隊贏得中職2026年上半季冠軍後，碩士論文也在今天正式通過，取得國立台灣體育運動大學（簡稱台體大）碩士學位，成為目前中職6隊唯一具...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489147",
@@ -272,7 +263,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_30",
+      "id": "rss_29",
       "title": "日職》下二軍瘋狂虐菜敲6轟、攻擊指數破1！台灣重砲林安可重返一軍",
       "description": "西武獅台灣重砲林安可在5月29日遭抹消登錄，不過下二軍後手感越來越火燙，15戰狂敲6發全壘打。今天根據日職官網最新異動，林安可被西武獅重新拉上一軍。\n\n\n林安可本季在一軍出...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5489060",
@@ -281,7 +272,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_31",
+      "id": "rss_30",
       "title": "日職》超狂三振秀！台灣火球新星孫易磊6局猛飆9K奪勝 最快球速曝光",
       "description": "日本火腿台灣火球新星孫易磊，今天迎來日前遭下放二軍後的首場先發，主投6局僅失2分，勇奪二軍本季第3勝。\n\n\n孫易磊於20日在一軍先發對決軟銀，然而投4局就失掉5分（4責失）...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5488974",
