@@ -13587,11 +13587,13 @@
         },
         "errors": 0,
         "hex_color": "#671a19;#fefefe",
-        "hits": 3,
+        "hits": 8,
         "icon_url": "https://usermedia.rebas.tw/t/1zODE/icon/1703833017-hSmVvyPzYd_th",
         "runs": 0,
         "scheduled_SP": null,
         "scores": [
+          "0",
+          "0",
           "0",
           "0",
           "0",
@@ -13615,9 +13617,9 @@
         },
         "errors": 0,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 2,
+        "hits": 5,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
-        "runs": 0,
+        "runs": 1,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -13625,7 +13627,10 @@
           "0",
           "0",
           "0",
-          "0"
+          "0",
+          "0",
+          "0",
+          "1"
         ],
         "season_team_uniqid": "NsGzj",
         "team": "統一7-ELEVEn獅",
@@ -13633,10 +13638,10 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-07-01 20:58",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 7,
+        "innings": 9,
         "links": [],
         "location": "亞太國際棒球訓練中心-主球場",
         "location_abbr": "亞太",
@@ -13645,12 +13650,12 @@
         "scheduled_start_at": "2026-07-01 18:35",
         "started_at": "2026-07-01 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "stats_status": "PITCH_MISSING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "晴時多雲;0",
-        "winner_side": "TIE"
+        "winner_side": "HOME"
       },
       "is_formal": true,
       "season": {
