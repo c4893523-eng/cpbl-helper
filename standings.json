@@ -89,15 +89,15 @@
       "wins": 29
     },
     {
-      "DIFF": -66,
+      "DIFF": -63,
       "E": 47,
-      "GB": 14.5,
+      "GB": 14,
       "M": -1,
-      "PCT": 0.404,
-      "STRK": -1,
+      "PCT": 0.414,
+      "STRK": 1,
       "draws": 2,
-      "finished": 59,
-      "last_updated_at": "2026-07-01 20:58",
+      "finished": 60,
+      "last_updated_at": "2026-07-02 21:49",
       "loses": 34,
       "order": 5,
       "team": {
@@ -108,19 +108,19 @@
         "uniqid": "1zODE"
       },
       "total": 120,
-      "wins": 23
+      "wins": 24
     },
     {
-      "DIFF": -62,
-      "E": 45,
-      "GB": 17,
+      "DIFF": -65,
+      "E": 44,
+      "GB": 17.5,
       "M": -1,
-      "PCT": 0.357,
-      "STRK": -2,
+      "PCT": 0.351,
+      "STRK": -3,
       "draws": 2,
-      "finished": 58,
-      "last_updated_at": "2026-06-30 21:39",
-      "loses": 36,
+      "finished": 59,
+      "last_updated_at": "2026-07-02 21:49",
+      "loses": 37,
       "order": 6,
       "team": {
         "abbr": "象",
