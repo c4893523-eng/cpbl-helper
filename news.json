@@ -3,6 +3,51 @@
   "data": [
     {
       "id": "rss_0",
+      "title": "中職天母戰　龍隊3局追分（2） (圖)",
+      "description": "中華職棒味全龍3日在天母棒球場交手富邦悍將，3局下，龍隊朱育賢（圖）敲出右外野方向安打，帶有1分打點。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E5%A4%A9%E6%AF%8D%E6%88%B0-%E9%BE%8D%E9%9A%8A3%E5%B1%80%E8%BF%BD%E5%88%86-2-%E5%9C%96-120031955.html",
+      "pubDate": "7/3 4:00",
+      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/3648f5dcad82c0f56cb4581a156cdc7b",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_1",
+      "title": "中職天母戰　龍隊3局追分（1） (圖)",
+      "description": "中華職棒3日在天母棒球場由味全龍與富邦悍將交手，3局下，龍隊蔣少宏（圖）敲出左外野安打上到一壘，再靠著隊友安打，回到本壘得分。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E5%A4%A9%E6%AF%8D%E6%88%B0-%E9%BE%8D%E9%9A%8A3%E5%B1%80%E8%BF%BD%E5%88%86-1-%E5%9C%96-115929205.html",
+      "pubDate": "7/3 3:59",
+      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/c4567287e2899b1e140fa572d1a38b72",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_2",
+      "title": "中職天母龍戰悍將　梅賽鍶先發 (圖)",
+      "description": "中華職棒味全龍3日在天母棒球場迎戰富邦悍將，龍隊洋投梅賽鍶（Cristopher MERCEDES）掛帥先發。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E5%A4%A9%E6%AF%8D%E9%BE%8D%E6%88%B0%E6%82%8D%E5%B0%87-%E6%A2%85%E8%B3%BD%E9%8D%B6%E5%85%88%E7%99%BC-%E5%9C%96-115416208.html",
+      "pubDate": "7/3 3:54",
+      "rawImg": "https://media.zenfs.com/en/cna.com.tw/9c3627cc1aa1a8a77c37739588f39e31",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_3",
+      "title": "中職天母悍將戰龍　魔力藍先發 (圖)",
+      "description": "中華職棒3日在天母棒球場由味全龍交手富邦悍將，悍將推出洋投魔力藍（Shawn MORIMANDO）登板先發。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E5%A4%A9%E6%AF%8D%E6%82%8D%E5%B0%87%E6%88%B0%E9%BE%8D-%E9%AD%94%E5%8A%9B%E8%97%8D%E5%85%88%E7%99%BC-%E5%9C%96-115114308.html",
+      "pubDate": "7/3 3:51",
+      "rawImg": "https://media.zenfs.com/en/cna.com.tw/80a2dfe1463054e54b61e8f89cf6b44a",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_4",
+      "title": "攜手谷立言為中職開球　蕭美琴：民主是台美共同信念",
+      "description": "（中央社記者蘇志畬台北3日電）為慶祝美國建國250週年，今日在天母棒球場的中職賽事，由AIT處長谷立言與副總統蕭美琴共同參與開球儀式，蕭美琴強調，民主自由是台美相同信念，棒球則是拉近距離的共同嗜好。",
+      "link": "https://tw.sports.yahoo.com/news/%E6%94%9C%E6%89%8B%E8%B0%B7%E7%AB%8B%E8%A8%80%E7%82%BA%E4%B8%AD%E8%81%B7%E9%96%8B%E7%90%83-%E8%95%AD%E7%BE%8E%E7%90%B4-%E6%B0%91%E4%B8%BB%E6%98%AF%E5%8F%B0%E7%BE%8E%E5%85%B1%E5%90%8C%E4%BF%A1%E5%BF%B5-113418198.html",
+      "pubDate": "7/3 3:34",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_5",
       "title": "中職》富邦悍將征戰亞運人選 林威助清楚說明",
       "description": "2026年名古屋亞運棒球項目將在9月底開打，近期中職各隊陸續收到國家隊徵詢、徵召通知，味全龍三壘手劉基鴻今天就證實自己有收到通知，第一代「龍狀元」可望參賽。至於其他球隊方面，富邦悍將執行副領隊林威助說，「之前有收到棒協詢問，我們也有提供名單，當初提供名單人選還滿多的，目前應該還沒有確定人選，如果有確",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%AF%8C%E9%82%A6%E6%82%8D%E5%B0%87%E5%BE%81%E6%88%B0%E4%BA%9E%E9%81%8B%E4%BA%BA%E9%81%B8-%E6%9E%97%E5%A8%81%E5%8A%A9%E6%B8%85%E6%A5%9A%E8%AA%AA%E6%98%8E-110922561.html",
@@ -11,16 +56,16 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_1",
-      "title": "中職》同為選秀榜眼  王念好暢談高中同學「投打怪物」廖永詮",
+      "id": "rss_6",
+      "title": "中職》同為選秀榜眼  王念好暢談高中同學「投打怪傑」廖永詮",
       "description": "今年味全龍選秀榜眼廖永詮與2023年富邦悍將選秀榜眼王念好，兩人是高中同學，看到昔日高中同窗經過大學3年磨練表現大躍進，王念好說，「以今年選秀這樣看下來，我覺得廖永詮有能力成為狀元。」2023年從北科附工畢業，王念好投入選秀獲富邦第1指名，廖永詮就讀南華大學延續生涯，今年暑假升大四報名選秀獲味全第1",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%90%8C%E7%82%BA%E9%81%B8%E7%A7%80%E6%A6%9C%E7%9C%BC-%E7%8E%8B%E5%BF%B5%E5%A5%BD%E6%9A%A2%E8%AB%87%E9%AB%98%E4%B8%AD%E5%90%8C%E5%AD%B8-%E6%8A%95%E6%89%93%E6%80%AA%E7%89%A9-%E5%BB%96%E6%B0%B8%E8%A9%AE-105302168.html",
       "pubDate": "7/3 2:53",
-      "rawImg": "https://media.zenfs.com/zh-tw/libertytimes_786/e0de82df21d9aed0bedb04a2a4c46a4c",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/e0de82df21d9aed0bedb04a2a4c46a4c",
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_2",
+      "id": "rss_7",
       "title": "悍將收到亞運支援徵詢　林威助：參賽人選未定",
       "description": "（中央社記者蘇志畬台北3日電）今年名古屋亞運棒球項目尋求中職戰力支援，味全龍隊劉基鴻有望出賽，富邦悍將也有提供名單供中華民國棒球協會參考，但執行副領隊林威助表示，確定人選尚未出爐。",
       "link": "https://tw.sports.yahoo.com/news/%E6%82%8D%E5%B0%87%E6%94%B6%E5%88%B0%E4%BA%9E%E9%81%8B%E6%94%AF%E6%8F%B4%E5%BE%B5%E8%A9%A2-%E6%9E%97%E5%A8%81%E5%8A%A9-%E5%8F%83%E8%B3%BD%E4%BA%BA%E9%81%B8%E6%9C%AA%E5%AE%9A-102537869.html",
@@ -29,7 +74,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_3",
+      "id": "rss_8",
       "title": "中職》「目標達成之前都沒辦法滿足」  林威助高標準檢視富邦悍將",
       "description": "去年上半季富邦悍將戰績21勝39敗，勝率3成50位居墊底，全年度戰績46勝74敗，勝率3成83同樣排名墊底，今年上半季富邦完全蛻變，戰績34勝26敗，勝率5成67排名全聯盟第二，富邦真的不一樣了。對於球隊的蛻變，富邦執行副領隊林威助表示，這兩年球隊戰績相比，今年打得算滿精彩、滿不錯的，但身為職棒球員",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E7%9B%AE%E6%A8%99%E9%81%94%E6%88%90%E4%B9%8B%E5%89%8D%E9%83%BD%E6%B2%92%E8%BE%A6%E6%B3%95%E6%BB%BF%E8%B6%B3-%E6%9E%97%E5%A8%81%E5%8A%A9%E9%AB%98%E6%A8%99%E6%BA%96%E6%AA%A2%E8%A6%96%E5%AF%8C%E9%82%A6%E6%82%8D%E5%B0%87-100845764.html",
@@ -38,52 +83,16 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_4",
+      "id": "rss_9",
       "title": "中職》ERA暴漲！5月0.93→6月6.65  阿部雄大遭下放二軍",
       "description": "具日本社會人資歷的富邦悍將日籍左投阿部雄大今天遭下放一軍，富邦總教練後藤光尊今天賽前解釋，最近阿部投球內容不理想，沒辦法展現像之前的好狀態，因此下二軍調整。本季阿部先發8場戰績3勝3敗、防禦率（ERA）4.04，他在5月防禦率0.93，6月防禦率高達6.65，狀態明顯下滑。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-era%E6%9A%B4%E6%BC%B2-5%E6%9C%880-93-6%E6%9C%886-095350139.html",
       "pubDate": "7/3 1:53",
-      "rawImg": "https://media.zenfs.com/zh-tw/libertytimes_786/a982d56964a3ff018d0c9444d62b3b2a",
+      "rawImg": "https://media.zenfs.com/zh-tw/libertytimes_786/18ad2fb3010b9bdda015ab2972a2a66a",
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_5",
-      "title": "林書豪喊「99.9%不當教練」斜槓解鎖新身份！",
-      "description": "林書豪喊「99.9%不當教練」斜槓解鎖新身份！",
-      "link": "https://tw.news.yahoo.com/%E6%9E%97%E6%9B%B8%E8%B1%AA%E5%96%8A-99-9-%E4%B8%8D%E7%95%B6%E6%95%99%E7%B7%B4-%E6%96%9C%E6%A7%93%E8%A7%A3%E9%8E%96%E6%96%B0%E8%BA%AB%E4%BB%BD-092200725.html",
-      "pubDate": "7/3 1:22",
-      "rawImg": "https://media.zenfs.com/ko/ebc.net.tw/e7fc597083d13127669f04e02b4462bf",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_6",
-      "title": "棒球》新明國中前進美國世界大賽 紅葉少棒無緣威廉波特",
-      "description": "在南韓舉行的世界少棒聯盟（LLB）少棒組及次青少棒組賽事，台灣代表隊桃園市新明國中以14：0再次擊敗日本隊，順利奪冠取得亞太中東區代表權，將前往美國泰勒參加世界賽；首次代表台灣參賽的紅葉國小在冠軍戰以1：3不敵地主南韓隊，無緣前進美國威廉波特。",
-      "link": "https://tw.sports.yahoo.com/news/%E6%A3%92%E7%90%83-%E6%96%B0%E6%98%8E%E5%9C%8B%E4%B8%AD%E5%89%8D%E9%80%B2%E7%BE%8E%E5%9C%8B%E4%B8%96%E7%95%8C%E5%A4%A7%E8%B3%BD-%E7%B4%85%E8%91%89%E5%B0%91%E6%A3%92%E7%84%A1%E7%B7%A3%E5%A8%81%E5%BB%89%E6%B3%A2%E7%89%B9-092137249.html",
-      "pubDate": "7/3 1:21",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_7",
-      "title": "林書豪生涯里程碑再+1！跨界挑戰「飲品研發員」台灣品牌接招「書豪障礙」",
-      "description": "體育中心／黃崇超報導前職籃球星林書豪今天（3日）旋風返台，他攜手台灣本土機能飲品牌 PASSION 24 展開跨界合作，共同研發推出「JLIN x PASSION 24 果力水」電解質補給飲。不同於一般藝人代言，此次林書豪不僅掛名合作，更親自參與產品開發，從方向規劃、配方討論到風味測試皆投入心力，希望打造符合自己對健康與運動補給要求的飲品。",
-      "link": "https://tw.sports.yahoo.com/news/%E6%9E%97%E6%9B%B8%E8%B1%AA%E7%94%9F%E6%B6%AF%E9%87%8C%E7%A8%8B%E7%A2%91%E5%86%8D-1-%E8%B7%A8%E7%95%8C%E6%8C%91%E6%88%B0-%E9%A3%B2%E5%93%81%E7%A0%94%E7%99%BC%E5%93%A1-%E5%8F%B0%E7%81%A3%E5%93%81%E7%89%8C%E6%8E%A5%E6%8B%9B-092029518.html",
-      "pubDate": "7/3 1:20",
-      "rawImg": "https://media.zenfs.com/ko/ftvn_sports_106/0df77c657de8b6b8c39351aac0f75d56",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_8",
-      "title": "寫下冠軍八連霸傳奇　接棒未來與元夢女棒隊員可望前進世界盃小組賽",
-      "description": "【互傳媒／記者 林明佑／彰化 報導】「115年全國女子棒球錦標賽」7月3日落幕，今年共12支女子棒球勁旅、在為",
-      "link": "https://tw.news.yahoo.com/%E5%AF%AB%E4%B8%8B%E5%86%A0%E8%BB%8D%E5%85%AB%E9%80%A3%E9%9C%B8%E5%82%B3%E5%A5%87-%E6%8E%A5%E6%A3%92%E6%9C%AA%E4%BE%86%E8%88%87%E5%85%83%E5%A4%A2%E5%A5%B3%E6%A3%92%E9%9A%8A%E5%93%A1%E5%8F%AF%E6%9C%9B%E5%89%8D%E9%80%B2%E4%B8%96%E7%95%8C%E7%9B%83%E5%B0%8F%E7%B5%84%E8%B3%BD-090423578.html",
-      "pubDate": "7/3 1:04",
-      "rawImg": "https://media.zenfs.com/ko/hoomedia_675/0ff9177789e9cae51a36416191cd005c",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_9",
+      "id": "rss_10",
       "title": "世界盃資格賽直擊》超有心！關達祐自費6千買票力挺台灣隊",
       "description": "2027世界盃籃球亞洲區資格賽首輪第三階段今天登場，桃園領航猿後衛關達祐此次雖因傷無緣入選台灣隊，今仍現身南韓高陽體育館，自費6千元買了兩張票進場力挺，相當有心。\n\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493111",
@@ -92,16 +101,16 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_10",
-      "title": "中職》同為選秀榜眼  王念好暢談高中同學「投打怪傑」廖永詮",
-      "description": "今年味全龍選秀榜眼廖永詮與2023年富邦悍將選秀榜眼王念好，兩人是高中同學，看到昔日高中同窗經過大學3年磨練表現大躍進，王念好說，「以今年選秀這樣看下來，我覺得廖永詮有能...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5493094",
-      "pubDate": "7/3 10:53",
+      "id": "rss_11",
+      "title": "棒球》新明國中前進美國世界大賽 紅葉少棒無緣威廉波特",
+      "description": "在南韓舉行的世界少棒聯盟（LLB）少棒組及次青少棒組賽事，台灣代表隊桃園市新明國中以14：0再次擊敗日本隊，順利奪冠取得亞太中東區代表權，將前往美國泰勒參加世界賽；首次代...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5492972",
+      "pubDate": "7/3 9:21",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_11",
+      "id": "rss_12",
       "title": "中職》味全龍「珍稀左投」從先發轉調牛棚  葉總有不得已的苦衷",
       "description": "今年上半季味全龍牛棚只用了一名左投王伯洋，他出賽15場共投11局拿下2次中繼成功，防禦率2.45，每局被上壘率1.36，6月29日被下放二軍，隔天拉上21歲左投黃侰程，成...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492898",
@@ -110,7 +119,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_12",
+      "id": "rss_13",
       "title": "中職》「這樣講又矛盾了...」  葉總有個甜蜜的負荷",
       "description": "中職下半季賽程今天開打，味全龍上半季奪冠，已先取得季後賽門票，展望下半季，總教練葉君璋說，「我跟教練團和選手講過，應該是用一整季去看球隊，而不是只有上半季，拿到上半季冠軍...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492880",
@@ -119,7 +128,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_13",
+      "id": "rss_14",
       "title": "中職》放行三壘重砲打亞運  葉總有一個請求",
       "description": "2026年名古屋亞運棒球項目將在9月底開打，近期中職受國家隊徵召的球員陸續收到通知，原則上每隊支援1名球員，總計6名中職球員參賽，味全龍當家三壘手劉基鴻近期收到通知，今天...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492867",
@@ -128,7 +137,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_14",
+      "id": "rss_15",
       "title": "NBA》「99.9％不會當教練！」林書豪無意當主帥 但大讚洪志善執教天分高",
       "description": "新北國王這季在TPBL總冠軍賽不敵福爾摩沙夢想家，獲得亞軍，林書豪坦言，雖然相當可惜，但他仍對球隊的表現感到驕傲。被問到關於未來執教話題，林書豪表示，「我99.9%永遠不...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492862",
@@ -137,7 +146,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_15",
+      "id": "rss_16",
       "title": "中職》亞運國家隊徵召劉基鴻  「感覺有點兩難...」",
       "description": "2026年名古屋亞運棒球項目將在9月底開打，近期中職受國家隊徵召的球員陸續收到通知，原則上每隊支援1名球員，總計6名中職球員參賽，今天賽前味全龍總教練葉君璋透露，目前兵役...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492835",
@@ -146,7 +155,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_16",
+      "id": "rss_17",
       "title": "TPBL》高雄海神辦「金築雄心萬浪U12邀請賽」余純安等球星熱情教學",
       "description": "TPBL休賽季期間，高雄海神職業籃球隊持續在當地基層校園推廣籃球運動，繼去年之後，再度於高雄市華山國小舉辦「金築雄心萬浪U12邀請賽」，邀請中南部共8所國小籃球隊齊聚高雄...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492812",
@@ -155,7 +164,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_17",
+      "id": "rss_18",
       "title": "MLB》曾惹火大谷翔平！明天再度搭檔 道奇捕手有話要說",
       "description": "道奇捕手拉辛（Dalton Rushing）今天敲出本季第10轟，全場貢獻4安4打點，助隊12：7打爆教士，而明天將和大谷翔平搭檔，他表示：「希望能一起完成一場好比賽。」\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492781",
@@ -164,7 +173,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_18",
+      "id": "rss_19",
       "title": "李灝宇砲轟遊騎兵明星右投 今日MLB戰績",
       "description": "海盜6：1費城人\n\n\n紅人7：2釀酒人\n\n\n馬林魚4：14洛磯\n\n\n白襪5：6守護者\n\n\n紅雀11：5勇士\n\n\n光芒5：2皇家\n\n\n老虎4：10遊騎兵\n\n\n天使0：1水手\n\n\n教士7：12海盜…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492583",
@@ -173,7 +182,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_19",
+      "id": "rss_20",
       "title": "MLB》大谷翔平敲安、佐佐木朗希飆速160公里！ 道奇狂敲17安打爆教士",
       "description": "道奇「令和怪物」佐佐木朗希今天狀況欠佳，僅投3局就被KO，挨3轟痛失6分，但道奇打線火力全開，狂掃17支安打，終場以12：7打趴教士。\n\n\n佐佐木朗希開賽就被小塔提斯（Fe...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492603",
