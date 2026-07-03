@@ -3,192 +3,264 @@
   "data": [
     {
       "id": "rss_0",
+      "title": "中職》劉時豪、王柏融開轟 林詩翔驚險關門助台鋼雄鷹中止2連敗",
+      "description": "經過完整1週的休養生息，台鋼雄鷹在下半季首戰就發揮強大攻勢，擊出12支安打含劉時豪、王柏融各1發全壘打，配合艾速特6局無失分的優質先發，與林詩翔9局上有驚無險守住滿壘危機，以6：3擊敗統一獅中止2連敗。劉時豪於3局下擊出陽春彈，是他繼2020年10月4日後，時隔近6年再次開砲，助台鋼自開賽起連續3局",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%8A%89%E6%99%82%E8%B1%AA-%E7%8E%8B%E6%9F%8F%E8%9E%8D%E9%96%8B%E8%BD%9F-%E6%9E%97%E8%A9%A9%E7%BF%94%E9%A9%9A%E9%9A%AA%E9%97%9C%E9%96%80%E5%8A%A9%E5%8F%B0%E9%8B%BC%E9%9B%84%E9%B7%B9%E4%B8%AD%E6%AD%A22%E9%80%A3%E6%95%97-144410627.html",
+      "pubDate": "7/3 6:44",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_1",
+      "title": "中職下半季開打　8678球迷天母觀戰 (圖)",
+      "description": "中華職棒下半季3日全面開打，味全龍隊3日晚間在天母棒球場迎戰來訪的富邦悍將隊，並攜手美國在台協會舉辦「台美友好之夜」，吸引8678名球迷進場共襄盛舉。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E4%B8%8B%E5%8D%8A%E5%AD%A3%E9%96%8B%E6%89%93-8678%E7%90%83%E8%BF%B7%E5%A4%A9%E6%AF%8D%E8%A7%80%E6%88%B0-%E5%9C%96-144339310.html",
+      "pubDate": "7/3 6:43",
+      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/fe443e4a91654fb72d50a2783be91ca6",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_2",
+      "title": "天母球場台美友好之夜　美式餐車進駐 (圖)",
+      "description": "美國在台協會（AIT）3日在天母棒球場舉辦「台美友好之夜」慶祝活動，在球場售票大廳外邀集多家美式口味餐車進駐，歡迎球迷朋友享用。",
+      "link": "https://tw.sports.yahoo.com/news/%E5%A4%A9%E6%AF%8D%E7%90%83%E5%A0%B4%E5%8F%B0%E7%BE%8E%E5%8F%8B%E5%A5%BD%E4%B9%8B%E5%A4%9C-%E7%BE%8E%E5%BC%8F%E9%A4%90%E8%BB%8A%E9%80%B2%E9%A7%90-%E5%9C%96-144137841.html",
+      "pubDate": "7/3 6:41",
+      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/5364fb1bd1c159adaab84fca8531ac93",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_3",
+      "title": "富邦悍將擊敗味全龍　奪下半季首勝（2） (圖)",
+      "description": "中華職棒富邦悍將隊3日在天母棒球場以6比3擊敗味全龍隊，下半季旗開得勝，選手們賽後到場中向右外野球迷致意，感謝他們的支持。",
+      "link": "https://tw.sports.yahoo.com/news/%E5%AF%8C%E9%82%A6%E6%82%8D%E5%B0%87%E6%93%8A%E6%95%97%E5%91%B3%E5%85%A8%E9%BE%8D-%E5%A5%AA%E4%B8%8B%E5%8D%8A%E5%AD%A3%E9%A6%96%E5%8B%9D-2-%E5%9C%96-144035067.html",
+      "pubDate": "7/3 6:40",
+      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/865ac19c765d424732b7b3b3a84134c6",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_4",
+      "title": "富邦悍將擊敗味全龍　奪下半季首勝（1） (圖)",
+      "description": "中華職棒富邦悍將隊（圖）3日晚間在天母棒球場以6比3擊敗味全龍隊，拿下下半季首勝，賽後選手在場中擊掌致意。",
+      "link": "https://tw.sports.yahoo.com/news/%E5%AF%8C%E9%82%A6%E6%82%8D%E5%B0%87%E6%93%8A%E6%95%97%E5%91%B3%E5%85%A8%E9%BE%8D-%E5%A5%AA%E4%B8%8B%E5%8D%8A%E5%AD%A3%E9%A6%96%E5%8B%9D-1-%E5%9C%96-143932564.html",
+      "pubDate": "7/3 6:39",
+      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/d0ade089c781f90a79e7af6c844ea041",
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_5",
+      "title": "悍將下半季旗開得勝　范國宸奪MVP苦惱自問自答",
+      "description": "（中央社記者蘇志畬台北3日電）富邦悍將隊長范國宸今天3安打、2打點演出，幫助球隊以6比3擊敗味全龍，在下半季首戰取得勝利，獲選單場MVP的范國宸賽後苦惱的問題是「該如何訪問自己」。",
+      "link": "https://tw.sports.yahoo.com/news/%E6%82%8D%E5%B0%87%E4%B8%8B%E5%8D%8A%E5%AD%A3%E6%97%97%E9%96%8B%E5%BE%97%E5%8B%9D-%E8%8C%83%E5%9C%8B%E5%AE%B8%E5%A5%AAmvp%E8%8B%A6%E6%83%B1%E8%87%AA%E5%95%8F%E8%87%AA%E7%AD%94-143549643.html",
+      "pubDate": "7/3 6:35",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_6",
+      "title": "中職天母悍將戰龍　戴培峰5局回本壘得分 (圖)",
+      "description": "中華職棒3日在天母棒球場由富邦悍將隊作客交手味全龍隊，5局上，悍將戴培峰（前）敲安上壘，再靠隊友推進成功回到本壘得分，在休息區與隊友擊掌致意。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E5%A4%A9%E6%AF%8D%E6%82%8D%E5%B0%87%E6%88%B0%E9%BE%8D-%E6%88%B4%E5%9F%B9%E5%B3%B05%E5%B1%80%E5%9B%9E%E6%9C%AC%E5%A3%98%E5%BE%97%E5%88%86-%E5%9C%96-142930093.html",
+      "pubDate": "7/3 6:29",
+      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/c54178a51a08421923fd1d0d85acefed",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_7",
+      "title": "中職天母悍將戰龍　蔡佳諺敲安 (圖)",
+      "description": "中華職棒下半季開打，3日晚間在天母棒球場由味全龍隊與富邦悍將隊交手，5局上，悍將蔡佳諺擊出左外方向一壘安打，帶有2分打點，幫助球隊擴大領先。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E5%A4%A9%E6%AF%8D%E6%82%8D%E5%B0%87%E6%88%B0%E9%BE%8D-%E8%94%A1%E4%BD%B3%E8%AB%BA%E6%95%B2%E5%AE%89-%E5%9C%96-142728845.html",
+      "pubDate": "7/3 6:27",
+      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/eeba3781ed2bb1bca747f4194b63e47c",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_8",
+      "title": "范國宸3安2打點　助悍將擊敗龍 (圖)",
+      "description": "中華職棒3日在天母棒球場進行味全龍隊與富邦悍將隊賽事，悍將范國宸（圖）單場4打數敲出3支安打，打下2分打點、跑回1分，幫助球隊以6比3獲勝，賽後獲選單場MVP。",
+      "link": "https://tw.sports.yahoo.com/news/%E8%8C%83%E5%9C%8B%E5%AE%B83%E5%AE%892%E6%89%93%E9%BB%9E-%E5%8A%A9%E6%82%8D%E5%B0%87%E6%93%8A%E6%95%97%E9%BE%8D-%E5%9C%96-142626769.html",
+      "pubDate": "7/3 6:26",
+      "rawImg": "https://media.zenfs.com/ko/cna.com.tw/1a75ffcb2963651f93759b7b2b8ba31c",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_9",
+      "title": "中職》下半季首戰扳倒「冠軍龍」 富邦悍將隊長認為意義重大",
+      "description": "今年上半季富邦悍將戰績34勝26敗排名全聯盟第二，一掃去年勝率墊底的陰霾，下半季今晚開戰，富邦火力全開，全場掃出14支安打，最終就以6：3擊敗上半季冠軍球隊味全龍旗開得勝。今天賽後富邦總教練後藤光尊表示，從第1局大家就拿出專注力做攻擊，每位選手都有非常積極前進的意識，雖然魔力藍表現不太穩定，不過危機",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E4%B8%8B%E5%8D%8A%E5%AD%A3%E9%A6%96%E6%88%B0%E6%89%B3%E5%80%92-%E5%86%A0%E8%BB%8D%E9%BE%8D-%E5%AF%8C%E9%82%A6%E6%82%8D%E5%B0%87%E9%9A%8A%E9%95%B7%E8%AA%8D%E7%82%BA%E6%84%8F%E7%BE%A9%E9%87%8D%E5%A4%A7-142051425.html",
+      "pubDate": "7/3 6:20",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/ed16d88ed10816f30106f5a37fa40b9b",
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_10",
+      "title": "中職》中信兄弟對戰樂天桃猿吞3連敗 黃衫軍本季第3次4連敗",
+      "description": "中信兄弟帶著3連敗在主場洲際展開下半季，打完3局雖然快速扳平比數，卻被傷癒復出的林立帶領樂天桃猿重啟攻勢超前比數，打線又被威能帝及時回穩壓制，下半季首戰以3：5敗給樂天，本季已經第3次4連敗，對樂天則是3連敗、4連不勝。林立1局上就擊出樂天下半季第1支安打，帶動打線單局灌進3分以3：0先馳得點，兄弟",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F%E5%B0%8D%E6%88%B0%E6%A8%82%E5%A4%A9%E6%A1%83%E7%8C%BF%E5%90%9E3%E9%80%A3%E6%95%97-%E9%BB%83%E8%A1%AB%E8%BB%8D%E6%9C%AC%E5%AD%A3%E7%AC%AC3%E6%AC%A14%E9%80%A3%E6%95%97-142045023.html",
+      "pubDate": "7/3 6:20",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_11",
+      "title": "名古屋亞運徵召名單曝光　樂天桃猿陳晨威、味全龍劉基鴻接通知",
+      "description": "2026年名古屋亞運將於9月19日至10月4日舉辦，棒球項目預計向中職6隊各徵召1名球員出賽。味全龍三壘手劉基鴻證實已收到徵召通知，有望披上國家隊戰袍；樂天桃猿外野手陳晨威也已接獲通知。兩隊總教練皆表示，國家有需要一定全力配合；富邦悍將執行副領隊林威助今（3日）則透露，球團已應棒協詢問並提供名單，但最終人選尚未確定。",
+      "link": "https://tw.news.yahoo.com/%E5%90%8D%E5%8F%A4%E5%B1%8B%E4%BA%9E%E9%81%8B%E5%BE%B5%E5%8F%AC%E5%90%8D%E5%96%AE%E6%9B%9D%E5%85%89-%E6%A8%82%E5%A4%A9%E6%A1%83%E7%8C%BF%E9%99%B3%E6%99%A8%E5%A8%81-%E5%91%B3%E5%85%A8%E9%BE%8D%E5%8A%89%E5%9F%BA%E9%B4%BB%E6%8E%A5%E9%80%9A%E7%9F%A5-135600095.html",
+      "pubDate": "7/3 5:56",
+      "rawImg": "https://media.zenfs.com/ko/mnews_tw_258/606490dc7801aa3d5de345c10b3aace9",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_12",
+      "title": "中職》不只上半季很猛！  下半季富邦扳倒「冠軍龍」旗開得勝",
+      "description": "今年上半季富邦悍將戰績34勝26敗排名全聯盟第二，一掃去年勝率墊底的陰霾，下半季今晚開戰，富邦火力全開，全場掃出14支安打，最終就以6：3擊敗上半季冠軍球隊味全龍旗開得勝。此役1局上一出局一、二壘有人，范國宸敲出帶有2分打點二壘安打，富邦悍將先馳得點取得領先，2局上王念好、林澤彬先後擊出二壘安打再添",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E4%B8%8D%E5%8F%AA%E4%B8%8A%E5%8D%8A%E5%AD%A3%E5%BE%88%E7%8C%9B-%E4%B8%8B%E5%8D%8A%E5%AD%A3%E5%AF%8C%E9%82%A6%E6%89%B3%E5%80%92-%E5%86%A0%E8%BB%8D%E9%BE%8D-%E6%97%97%E9%96%8B%E5%BE%97%E5%8B%9D-134459561.html",
+      "pubDate": "7/3 5:44",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/99c1c7ac3b0de8b146ba4e2514d0a586",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_13",
       "title": "中職天母戰　龍隊3局追分（2） (圖)",
       "description": "中華職棒味全龍3日在天母棒球場交手富邦悍將，3局下，龍隊朱育賢（圖）敲出右外野方向安打，帶有1分打點。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E5%A4%A9%E6%AF%8D%E6%88%B0-%E9%BE%8D%E9%9A%8A3%E5%B1%80%E8%BF%BD%E5%88%86-2-%E5%9C%96-120031955.html",
       "pubDate": "7/3 4:00",
       "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/3648f5dcad82c0f56cb4581a156cdc7b",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_1",
+      "id": "rss_14",
       "title": "中職天母戰　龍隊3局追分（1） (圖)",
       "description": "中華職棒3日在天母棒球場由味全龍與富邦悍將交手，3局下，龍隊蔣少宏（圖）敲出左外野安打上到一壘，再靠著隊友安打，回到本壘得分。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E5%A4%A9%E6%AF%8D%E6%88%B0-%E9%BE%8D%E9%9A%8A3%E5%B1%80%E8%BF%BD%E5%88%86-1-%E5%9C%96-115929205.html",
       "pubDate": "7/3 3:59",
       "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/c4567287e2899b1e140fa572d1a38b72",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_2",
+      "id": "rss_15",
       "title": "中職天母龍戰悍將　梅賽鍶先發 (圖)",
       "description": "中華職棒味全龍3日在天母棒球場迎戰富邦悍將，龍隊洋投梅賽鍶（Cristopher MERCEDES）掛帥先發。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E5%A4%A9%E6%AF%8D%E9%BE%8D%E6%88%B0%E6%82%8D%E5%B0%87-%E6%A2%85%E8%B3%BD%E9%8D%B6%E5%85%88%E7%99%BC-%E5%9C%96-115416208.html",
       "pubDate": "7/3 3:54",
       "rawImg": "https://media.zenfs.com/en/cna.com.tw/9c3627cc1aa1a8a77c37739588f39e31",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_3",
-      "title": "中職天母悍將戰龍　魔力藍先發 (圖)",
-      "description": "中華職棒3日在天母棒球場由味全龍交手富邦悍將，悍將推出洋投魔力藍（Shawn MORIMANDO）登板先發。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E5%A4%A9%E6%AF%8D%E6%82%8D%E5%B0%87%E6%88%B0%E9%BE%8D-%E9%AD%94%E5%8A%9B%E8%97%8D%E5%85%88%E7%99%BC-%E5%9C%96-115114308.html",
-      "pubDate": "7/3 3:51",
-      "rawImg": "https://media.zenfs.com/en/cna.com.tw/80a2dfe1463054e54b61e8f89cf6b44a",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_4",
-      "title": "攜手谷立言為中職開球　蕭美琴：民主是台美共同信念",
-      "description": "（中央社記者蘇志畬台北3日電）為慶祝美國建國250週年，今日在天母棒球場的中職賽事，由AIT處長谷立言與副總統蕭美琴共同參與開球儀式，蕭美琴強調，民主自由是台美相同信念，棒球則是拉近距離的共同嗜好。",
-      "link": "https://tw.sports.yahoo.com/news/%E6%94%9C%E6%89%8B%E8%B0%B7%E7%AB%8B%E8%A8%80%E7%82%BA%E4%B8%AD%E8%81%B7%E9%96%8B%E7%90%83-%E8%95%AD%E7%BE%8E%E7%90%B4-%E6%B0%91%E4%B8%BB%E6%98%AF%E5%8F%B0%E7%BE%8E%E5%85%B1%E5%90%8C%E4%BF%A1%E5%BF%B5-113418198.html",
-      "pubDate": "7/3 3:34",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_5",
-      "title": "中職》富邦悍將征戰亞運人選 林威助清楚說明",
-      "description": "2026年名古屋亞運棒球項目將在9月底開打，近期中職各隊陸續收到國家隊徵詢、徵召通知，味全龍三壘手劉基鴻今天就證實自己有收到通知，第一代「龍狀元」可望參賽。至於其他球隊方面，富邦悍將執行副領隊林威助說，「之前有收到棒協詢問，我們也有提供名單，當初提供名單人選還滿多的，目前應該還沒有確定人選，如果有確",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%AF%8C%E9%82%A6%E6%82%8D%E5%B0%87%E5%BE%81%E6%88%B0%E4%BA%9E%E9%81%8B%E4%BA%BA%E9%81%B8-%E6%9E%97%E5%A8%81%E5%8A%A9%E6%B8%85%E6%A5%9A%E8%AA%AA%E6%98%8E-110922561.html",
-      "pubDate": "7/3 3:09",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/19b88112f8a32563b4ec0dcaa12a2dde",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_6",
-      "title": "中職》同為選秀榜眼  王念好暢談高中同學「投打怪傑」廖永詮",
-      "description": "今年味全龍選秀榜眼廖永詮與2023年富邦悍將選秀榜眼王念好，兩人是高中同學，看到昔日高中同窗經過大學3年磨練表現大躍進，王念好說，「以今年選秀這樣看下來，我覺得廖永詮有能力成為狀元。」2023年從北科附工畢業，王念好投入選秀獲富邦第1指名，廖永詮就讀南華大學延續生涯，今年暑假升大四報名選秀獲味全第1",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%90%8C%E7%82%BA%E9%81%B8%E7%A7%80%E6%A6%9C%E7%9C%BC-%E7%8E%8B%E5%BF%B5%E5%A5%BD%E6%9A%A2%E8%AB%87%E9%AB%98%E4%B8%AD%E5%90%8C%E5%AD%B8-%E6%8A%95%E6%89%93%E6%80%AA%E7%89%A9-%E5%BB%96%E6%B0%B8%E8%A9%AE-105302168.html",
-      "pubDate": "7/3 2:53",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/e0de82df21d9aed0bedb04a2a4c46a4c",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_7",
-      "title": "悍將收到亞運支援徵詢　林威助：參賽人選未定",
-      "description": "（中央社記者蘇志畬台北3日電）今年名古屋亞運棒球項目尋求中職戰力支援，味全龍隊劉基鴻有望出賽，富邦悍將也有提供名單供中華民國棒球協會參考，但執行副領隊林威助表示，確定人選尚未出爐。",
-      "link": "https://tw.sports.yahoo.com/news/%E6%82%8D%E5%B0%87%E6%94%B6%E5%88%B0%E4%BA%9E%E9%81%8B%E6%94%AF%E6%8F%B4%E5%BE%B5%E8%A9%A2-%E6%9E%97%E5%A8%81%E5%8A%A9-%E5%8F%83%E8%B3%BD%E4%BA%BA%E9%81%B8%E6%9C%AA%E5%AE%9A-102537869.html",
-      "pubDate": "7/3 2:25",
+      "id": "rss_16",
+      "title": "中職》富邦悍將征戰亞運人選 林威助清楚說明",
+      "description": "2026年名古屋亞運棒球項目將在9月底開打，近期中職各隊陸續收到國家隊徵詢、徵召通知，味全龍三壘手劉基鴻今天就證實自己有收到通知，第一代「龍狀元」可望參賽。\n\n\n至於其他...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5493112",
+      "pubDate": "7/3 11:09",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_8",
-      "title": "中職》「目標達成之前都沒辦法滿足」  林威助高標準檢視富邦悍將",
-      "description": "去年上半季富邦悍將戰績21勝39敗，勝率3成50位居墊底，全年度戰績46勝74敗，勝率3成83同樣排名墊底，今年上半季富邦完全蛻變，戰績34勝26敗，勝率5成67排名全聯盟第二，富邦真的不一樣了。對於球隊的蛻變，富邦執行副領隊林威助表示，這兩年球隊戰績相比，今年打得算滿精彩、滿不錯的，但身為職棒球員",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E7%9B%AE%E6%A8%99%E9%81%94%E6%88%90%E4%B9%8B%E5%89%8D%E9%83%BD%E6%B2%92%E8%BE%A6%E6%B3%95%E6%BB%BF%E8%B6%B3-%E6%9E%97%E5%A8%81%E5%8A%A9%E9%AB%98%E6%A8%99%E6%BA%96%E6%AA%A2%E8%A6%96%E5%AF%8C%E9%82%A6%E6%82%8D%E5%B0%87-100845764.html",
-      "pubDate": "7/3 2:08",
-      "rawImg": "https://media.zenfs.com/zh-tw/libertytimes_786/84ca665875e9abe79fd1247149879b22",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_9",
-      "title": "中職》ERA暴漲！5月0.93→6月6.65  阿部雄大遭下放二軍",
-      "description": "具日本社會人資歷的富邦悍將日籍左投阿部雄大今天遭下放一軍，富邦總教練後藤光尊今天賽前解釋，最近阿部投球內容不理想，沒辦法展現像之前的好狀態，因此下二軍調整。本季阿部先發8場戰績3勝3敗、防禦率（ERA）4.04，他在5月防禦率0.93，6月防禦率高達6.65，狀態明顯下滑。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-era%E6%9A%B4%E6%BC%B2-5%E6%9C%880-93-6%E6%9C%886-095350139.html",
-      "pubDate": "7/3 1:53",
-      "rawImg": "https://media.zenfs.com/zh-tw/libertytimes_786/18ad2fb3010b9bdda015ab2972a2a66a",
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_10",
+      "id": "rss_17",
       "title": "世界盃資格賽直擊》超有心！關達祐自費6千買票力挺台灣隊",
       "description": "2027世界盃籃球亞洲區資格賽首輪第三階段今天登場，桃園領航猿後衛關達祐此次雖因傷無緣入選台灣隊，今仍現身南韓高陽體育館，自費6千元買了兩張票進場力挺，相當有心。\n\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493111",
       "pubDate": "7/3 11:09",
       "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_18",
+      "title": "中職》同為選秀榜眼  王念好暢談高中同學「投打怪傑」廖永詮",
+      "description": "今年味全龍選秀榜眼廖永詮與2023年富邦悍將選秀榜眼王念好，兩人是高中同學，看到昔日高中同窗經過大學3年磨練表現大躍進，王念好說，「以今年選秀這樣看下來，我覺得廖永詮有能...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5493094",
+      "pubDate": "7/3 10:53",
+      "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_11",
+      "id": "rss_19",
+      "title": "中職》「目標達成之前都沒辦法滿足」  林威助高標準檢視富邦悍將",
+      "description": "去年上半季富邦悍將戰績21勝39敗，勝率3成50位居墊底，全年度戰績46勝74敗，勝率3成83同樣排名墊底，今年上半季富邦完全蛻變，戰績34勝26敗，勝率5成67排名全聯...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5493053",
+      "pubDate": "7/3 10:08",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_20",
+      "title": "中職》ERA暴漲！5月0.93→6月6.65  阿部雄大遭下放二軍",
+      "description": "具日本社會人資歷的富邦悍將日籍左投阿部雄大今天遭下放一軍，富邦總教練後藤光尊今天賽前解釋，最近阿部投球內容不理想，沒辦法展現像之前的好狀態，因此下二軍調整。\n\n\n本季阿部...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5493018",
+      "pubDate": "7/3 9:53",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_21",
       "title": "棒球》新明國中前進美國世界大賽 紅葉少棒無緣威廉波特",
       "description": "在南韓舉行的世界少棒聯盟（LLB）少棒組及次青少棒組賽事，台灣代表隊桃園市新明國中以14：0再次擊敗日本隊，順利奪冠取得亞太中東區代表權，將前往美國泰勒參加世界賽；首次代...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492972",
       "pubDate": "7/3 9:21",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_12",
+      "id": "rss_22",
       "title": "中職》味全龍「珍稀左投」從先發轉調牛棚  葉總有不得已的苦衷",
       "description": "今年上半季味全龍牛棚只用了一名左投王伯洋，他出賽15場共投11局拿下2次中繼成功，防禦率2.45，每局被上壘率1.36，6月29日被下放二軍，隔天拉上21歲左投黃侰程，成...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492898",
       "pubDate": "7/3 8:33",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_13",
+      "id": "rss_23",
       "title": "中職》「這樣講又矛盾了...」  葉總有個甜蜜的負荷",
       "description": "中職下半季賽程今天開打，味全龍上半季奪冠，已先取得季後賽門票，展望下半季，總教練葉君璋說，「我跟教練團和選手講過，應該是用一整季去看球隊，而不是只有上半季，拿到上半季冠軍...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492880",
       "pubDate": "7/3 8:23",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_14",
+      "id": "rss_24",
       "title": "中職》放行三壘重砲打亞運  葉總有一個請求",
       "description": "2026年名古屋亞運棒球項目將在9月底開打，近期中職受國家隊徵召的球員陸續收到通知，原則上每隊支援1名球員，總計6名中職球員參賽，味全龍當家三壘手劉基鴻近期收到通知，今天...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492867",
       "pubDate": "7/3 8:14",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_15",
+      "id": "rss_25",
       "title": "NBA》「99.9％不會當教練！」林書豪無意當主帥 但大讚洪志善執教天分高",
       "description": "新北國王這季在TPBL總冠軍賽不敵福爾摩沙夢想家，獲得亞軍，林書豪坦言，雖然相當可惜，但他仍對球隊的表現感到驕傲。被問到關於未來執教話題，林書豪表示，「我99.9%永遠不...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492862",
       "pubDate": "7/3 8:08",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_16",
+      "id": "rss_26",
       "title": "中職》亞運國家隊徵召劉基鴻  「感覺有點兩難...」",
       "description": "2026年名古屋亞運棒球項目將在9月底開打，近期中職受國家隊徵召的球員陸續收到通知，原則上每隊支援1名球員，總計6名中職球員參賽，今天賽前味全龍總教練葉君璋透露，目前兵役...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492835",
       "pubDate": "7/3 7:52",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_17",
+      "id": "rss_27",
       "title": "TPBL》高雄海神辦「金築雄心萬浪U12邀請賽」余純安等球星熱情教學",
       "description": "TPBL休賽季期間，高雄海神職業籃球隊持續在當地基層校園推廣籃球運動，繼去年之後，再度於高雄市華山國小舉辦「金築雄心萬浪U12邀請賽」，邀請中南部共8所國小籃球隊齊聚高雄...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492812",
       "pubDate": "7/3 7:26",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_18",
+      "id": "rss_28",
       "title": "MLB》曾惹火大谷翔平！明天再度搭檔 道奇捕手有話要說",
       "description": "道奇捕手拉辛（Dalton Rushing）今天敲出本季第10轟，全場貢獻4安4打點，助隊12：7打爆教士，而明天將和大谷翔平搭檔，他表示：「希望能一起完成一場好比賽。」\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5492781",
       "pubDate": "7/3 7:03",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_19",
-      "title": "李灝宇砲轟遊騎兵明星右投 今日MLB戰績",
-      "description": "海盜6：1費城人\n\n\n紅人7：2釀酒人\n\n\n馬林魚4：14洛磯\n\n\n白襪5：6守護者\n\n\n紅雀11：5勇士\n\n\n光芒5：2皇家\n\n\n老虎4：10遊騎兵\n\n\n天使0：1水手\n\n\n教士7：12海盜…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5492583",
-      "pubDate": "7/3 5:34",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_20",
-      "title": "MLB》大谷翔平敲安、佐佐木朗希飆速160公里！ 道奇狂敲17安打爆教士",
-      "description": "道奇「令和怪物」佐佐木朗希今天狀況欠佳，僅投3局就被KO，挨3轟痛失6分，但道奇打線火力全開，狂掃17支安打，終場以12：7打趴教士。\n\n\n佐佐木朗希開賽就被小塔提斯（Fe...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5492603",
-      "pubDate": "7/3 5:19",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
