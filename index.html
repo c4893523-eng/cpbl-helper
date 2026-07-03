@@ -281,7 +281,7 @@
 
             // 0. 特殊優先規則：職籃 (Basketball) 避免富邦勇士被誤認為富邦悍將
             const basketballKeywords = ['勇士', '特攻', '獵鷹', '領航猿', '攻城獅', '國王', '夢想家', '海神', '雲豹', '戰神', 'plg', 'tpbl', 't1', '職籃', '林書豪', '魔獸', '表弟'];
-            if (basketballKeywords.some(kw => cleanTitle.includes(kw))) {
+            if (basketballKeywords.some(kw => cleanTitle.includes(kw) || cleanDesc.includes(kw))) {
                 return {
                     name: '台灣職籃',
                     colorClass: 'from-orange-600/40 via-orange-800/20 to-gray-950/90',
@@ -355,21 +355,29 @@
         };
 
         const NewsCarousel = () => {
-            const fallbackImages = [
+            const baseballFallbacks = [
+                'https://images.unsplash.com/photo-1471295253337-3ceaaedca402?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1529768167801-9173d94c2a42?auto=format&fit=crop&w=1200&q=80',
                 'https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80',
-                'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80',
-                'https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80',
-                'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80',
-                'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80'
+                'https://images.unsplash.com/photo-1581644341995-17180bf8ccb4?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=1200&q=80'
+            ];
+
+            const basketballFallbacks = [
+                'https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1608245449230-4ac19066d2d0?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1504450758481-7338eba7524a?auto=format&fit=crop&w=1200&q=80'
             ];
 
             // 穩定的媒體入口網址，確保即使動態抓取失敗也不會 404
             const newsPortals = [
-                { id: 'portal_1', title: 'Yahoo 運動 - 中職專區', img: fallbackImages[0], hasRealImg: false, fallbackImg: fallbackImages[0], date: '即時更新', category: 'Yahoo運動', url: 'https://tw.sports.yahoo.com/topic/cpbl_authority/', team: getTeamInfo('Yahoo運動', '') },
-                { id: 'portal_2', title: 'ETtoday - 中職新聞總覽', img: fallbackImages[1], hasRealImg: false, fallbackImg: fallbackImages[1], date: '即時更新', category: 'ETtoday運動雲', url: 'https://sports.ettoday.net/news-list/棒球/中職', team: getTeamInfo('ETtoday運動雲', '') },
-                { id: 'portal_3', title: '自由時報 - 棒球最新消息', img: fallbackImages[2], hasRealImg: false, fallbackImg: fallbackImages[2], date: '即時更新', category: '自由體育', url: 'https://sports.ltn.com.tw/baseball', team: getTeamInfo('自由體育', '') },
-                { id: 'portal_4', title: 'TSNA - 專業體育新聞', img: fallbackImages[3], hasRealImg: false, fallbackImg: fallbackImages[3], date: '即時更新', category: 'TSNA體育', url: 'https://tsna.com/baseball/23', team: getTeamInfo('TSNA體育', '') },
-                { id: 'portal_5', title: '聯合新聞網 - 棒球焦點', img: fallbackImages[4], hasRealImg: false, fallbackImg: fallbackImages[4], date: '即時更新', category: '聯合新聞網', url: 'https://udn.com/news/cate/2/7227', team: getTeamInfo('聯合新聞網', '') }
+                { id: 'portal_1', title: 'Yahoo 運動 - 中職專區', img: baseballFallbacks[0], hasRealImg: false, fallbackImg: baseballFallbacks[0], date: '即時更新', category: 'Yahoo運動', url: 'https://tw.sports.yahoo.com/topic/cpbl_authority/', team: getTeamInfo('Yahoo運動', '') },
+                { id: 'portal_2', title: 'ETtoday - 中職新聞總覽', img: baseballFallbacks[1], hasRealImg: false, fallbackImg: baseballFallbacks[1], date: '即時更新', category: 'ETtoday運動雲', url: 'https://sports.ettoday.net/news-list/棒球/中職', team: getTeamInfo('ETtoday運動雲', '') },
+                { id: 'portal_3', title: '自由時報 - 棒球最新消息', img: baseballFallbacks[2], hasRealImg: false, fallbackImg: baseballFallbacks[2], date: '即時更新', category: '自由體育', url: 'https://sports.ltn.com.tw/baseball', team: getTeamInfo('自由體育', '') },
+                { id: 'portal_4', title: 'TSNA - 專業體育新聞', img: baseballFallbacks[3], hasRealImg: false, fallbackImg: baseballFallbacks[3], date: '即時更新', category: 'TSNA體育', url: 'https://tsna.com/baseball/23', team: getTeamInfo('TSNA體育', '') },
+                { id: 'portal_5', title: '聯合新聞網 - 棒球焦點', img: baseballFallbacks[4], hasRealImg: false, fallbackImg: baseballFallbacks[4], date: '即時更新', category: '聯合新聞網', url: 'https://udn.com/news/cate/2/7227', team: getTeamInfo('聯合新聞網', '') }
             ];
 
             const [newsItems, setNewsItems] = useState(newsPortals);
@@ -386,15 +394,20 @@
                         
                         const json = await res.json();
                         if (json && Array.isArray(json.data)) {
-                            const cpblNews = json.data.map((item) => {
+                            const cpblNews = json.data.map((item, index) => {
                                 const team = getTeamInfo(item.title, item.description);
+                                
+                                const isBasketball = team.name === '台灣職籃';
+                                const fallbackList = isBasketball ? basketballFallbacks : baseballFallbacks;
+                                const assignedFallback = fallbackList[index % fallbackList.length];
+
                                 return {
                                     id: item.id,
                                     title: item.title,
                                     description: item.description,
-                                    img: item.rawImg || item.fallbackImg,
+                                    img: item.rawImg || assignedFallback,
                                     hasRealImg: !!item.rawImg,
-                                    fallbackImg: item.fallbackImg,
+                                    fallbackImg: assignedFallback,
                                     date: item.pubDate,
                                     category: '最新消息',
                                     team: team,
