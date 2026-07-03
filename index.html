@@ -206,9 +206,9 @@
             const titleLower = title.toLowerCase();
             const descLower = description.toLowerCase();
             
-            // 防呆機制：去除「親屬關係」的兄弟詞彙，以及日職「樂天金鷲」，避免誤判為中職球隊
-            const cleanTitle = titleLower.replace(/親兄弟|兩兄弟|兄弟同隊|兄弟同心|兄弟檔|兄弟鬩牆|樂天金鷲|東北樂天/g, '');
-            const cleanDesc = descLower.replace(/親兄弟|兩兄弟|兄弟同隊|兄弟同心|兄弟檔|兄弟鬩牆|樂天金鷲|東北樂天/g, '');
+            // 防呆機制：去除「親屬關係」的兄弟詞彙，以及日職「樂天金鷲」、「西武獅」，避免誤判為中職球隊
+            const cleanTitle = titleLower.replace(/親兄弟|兩兄弟|兄弟同隊|兄弟同心|兄弟檔|兄弟鬩牆|樂天金鷲|東北樂天|西武獅/g, '');
+            const cleanDesc = descLower.replace(/親兄弟|兩兄弟|兄弟同隊|兄弟同心|兄弟檔|兄弟鬩牆|樂天金鷲|東北樂天|西武獅/g, '');
 
             const teams = [
                 {
@@ -279,21 +279,7 @@
                 }
             ];
 
-            // 0. 特殊優先規則：職籃 (Basketball) 避免富邦勇士被誤認為富邦悍將
-            const basketballKeywords = ['勇士', '特攻', '獵鷹', '領航猿', '攻城獅', '國王', '夢想家', '海神', '雲豹', '戰神', 'plg', 'tpbl', 't1', '職籃', '林書豪', '魔獸', '表弟'];
-            if (basketballKeywords.some(kw => cleanTitle.includes(kw) || cleanDesc.includes(kw))) {
-                return {
-                    name: '台灣職籃',
-                    colorClass: 'from-orange-600/40 via-orange-800/20 to-gray-950/90',
-                    textColor: 'text-orange-400',
-                    borderColor: 'border-orange-500/30',
-                    bgBadge: 'bg-orange-600 text-white',
-                    logoChar: 'B',
-                    bgStyle: 'bg-orange-600/15'
-                };
-            }
-
-            // 1. 優先匹配：旅外球員/大聯盟 (避免日職球隊如「樂天二軍」被誤判為台灣樂天桃猿)
+            // 0. 絕對優先匹配：旅外球員/大聯盟 (避免 MLB 勇士隊被誤判為台灣職籃勇士，或日職球隊被誤判為 CPBL)
             const overseasKeywords = ['大谷', '宋家豪', '林維恩', '鄧愷威', '大聯盟', 'mlb', 'milb', '旅外', '孫易磊', '日職', '火腿'];
             if (overseasKeywords.some(kw => cleanTitle.includes(kw) || cleanDesc.includes(kw))) {
                 return {
@@ -304,6 +290,20 @@
                     bgBadge: 'bg-purple-600 text-white',
                     logoChar: '🌎',
                     bgStyle: 'bg-purple-900/10'
+                };
+            }
+
+            // 1. 次優先規則：職籃 (Basketball) 避免富邦勇士被誤認為富邦悍將
+            const basketballKeywords = ['勇士', '特攻', '獵鷹', '領航猿', '攻城獅', '國王', '夢想家', '海神', '雲豹', '戰神', 'plg', 'tpbl', 't1', '職籃', '林書豪', '魔獸', '表弟'];
+            if (basketballKeywords.some(kw => cleanTitle.includes(kw) || cleanDesc.includes(kw))) {
+                return {
+                    name: '台灣職籃',
+                    colorClass: 'from-orange-600/40 via-orange-800/20 to-gray-950/90',
+                    textColor: 'text-orange-400',
+                    borderColor: 'border-orange-500/30',
+                    bgBadge: 'bg-orange-600 text-white',
+                    logoChar: 'B',
+                    bgStyle: 'bg-orange-600/15'
                 };
             }
 
