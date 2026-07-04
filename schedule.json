@@ -13169,6 +13169,7 @@
           "0",
           "0",
           "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "H0zzP",
@@ -13198,6 +13199,7 @@
           "0",
           "3",
           "3",
+          "0",
           "0"
         ],
         "season_team_uniqid": "GJ5tu",
@@ -13206,10 +13208,10 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-07-04 20:06",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 8,
+        "innings": 9,
         "links": [],
         "location": "臺北市立天母棒球場",
         "location_abbr": "天母",
@@ -13219,7 +13221,7 @@
         "started_at": "2026-07-04 17:05",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "晴時多雲;20",
