@@ -45,16 +45,16 @@
       "wins": 35
     },
     {
-      "DIFF": 26,
-      "E": 52,
-      "GB": 7.5,
+      "DIFF": 25,
+      "E": 51,
+      "GB": 8,
       "M": -1,
-      "PCT": 0.517,
-      "STRK": 1,
+      "PCT": 0.508,
+      "STRK": -1,
       "draws": 1,
-      "finished": 61,
-      "last_updated_at": "2026-07-03 21:41",
-      "loses": 29,
+      "finished": 62,
+      "last_updated_at": "2026-07-04 19:05",
+      "loses": 30,
       "order": 3,
       "team": {
         "abbr": "鷹",
@@ -67,15 +67,15 @@
       "wins": 31
     },
     {
-      "DIFF": -2,
+      "DIFF": -1,
       "E": 51,
-      "GB": 9,
+      "GB": 8.5,
       "M": -1,
-      "PCT": 0.492,
-      "STRK": -1,
+      "PCT": 0.5,
+      "STRK": 1,
       "draws": 1,
-      "finished": 60,
-      "last_updated_at": "2026-07-03 21:41",
+      "finished": 61,
+      "last_updated_at": "2026-07-04 19:05",
       "loses": 30,
       "order": 4,
       "team": {
@@ -86,19 +86,19 @@
         "uniqid": "hThSB"
       },
       "total": 120,
-      "wins": 29
+      "wins": 30
     },
     {
-      "DIFF": -61,
-      "E": 47,
-      "GB": 13,
+      "DIFF": -62,
+      "E": 46,
+      "GB": 13.5,
       "M": -1,
-      "PCT": 0.424,
-      "STRK": 2,
+      "PCT": 0.417,
+      "STRK": -1,
       "draws": 2,
-      "finished": 61,
-      "last_updated_at": "2026-07-03 21:24",
-      "loses": 34,
+      "finished": 62,
+      "last_updated_at": "2026-07-04 19:39",
+      "loses": 35,
       "order": 5,
       "team": {
         "abbr": "猿",
@@ -111,15 +111,15 @@
       "wins": 25
     },
     {
-      "DIFF": -67,
+      "DIFF": -66,
       "E": 43,
-      "GB": 17.5,
+      "GB": 17,
       "M": -1,
-      "PCT": 0.345,
-      "STRK": -4,
+      "PCT": 0.356,
+      "STRK": 1,
       "draws": 2,
-      "finished": 60,
-      "last_updated_at": "2026-07-03 21:24",
+      "finished": 61,
+      "last_updated_at": "2026-07-04 19:39",
       "loses": 38,
       "order": 6,
       "team": {
@@ -130,7 +130,7 @@
         "uniqid": "HCHks"
       },
       "total": 120,
-      "wins": 20
+      "wins": 21
     }
   ],
   "error": false,
