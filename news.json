@@ -124,7 +124,7 @@
       "description": "樂天桃猿外野手陳晨威日前傳出入選亞運名單，4日賽前他表示，以為棒協會先挑選尚未服完兵役的選手參賽，但既然自己身為列管球員，也只能服從國家規定。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%EF%BC%8F%E4%BB%A5%E7%82%BA%E6%9C%83%E6%8C%91%E6%9C%89%E5%85%B5%E5%BD%B9%E9%9C%80%E6%B1%82%E9%81%B8%E6%89%8B%EF%BC%81%E9%99%B3%E6%99%A8%E5%A8%81%E5%BE%97%E7%9F%A5%E5%85%A5%E9%81%B8%E4%BA%9E%E9%81%8B%E9%8C%AF%E6%84%95%EF%BC%9A%E5%8F%AA%E8%83%BD%E6%9C%8D%E5%BE%9E%E8%A6%8F%E5%AE%9A-111700714.html",
       "pubDate": "7/4 3:17",
-      "rawImg": "https://media.zenfs.com/ko/setn.com.tw/4d0ca37f461870cb08b7bdf900c08a67",
+      "rawImg": "https://media.zenfs.com/zh-tw/setn.com.tw/4d0ca37f461870cb08b7bdf900c08a67",
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
@@ -147,24 +147,6 @@
     },
     {
       "id": "rss_16",
-      "title": "中職》林承飛遭球砸後頸送醫 樂天桃猿回報檢查結果",
-      "description": "樂天桃猿4日作客洲際球場面對中信兄弟，桃猿內野手林承飛賽前傳出意外，遭球砸到頸部倒地送醫，球團稍早回報初步檢查結果。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%9E%97%E6%89%BF%E9%A3%9B%E9%81%AD%E7%90%83%E7%A0%B8%E5%BE%8C%E9%A0%B8%E9%80%81%E9%86%AB-%E6%A8%82%E5%A4%A9%E6%A1%83%E7%8C%BF%E5%9B%9E%E5%A0%B1%E6%AA%A2%E6%9F%A5%E7%B5%90%E6%9E%9C-100234307.html",
-      "pubDate": "7/4 2:02",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_17",
-      "title": "中職／桃猿林承飛賽前練習被球「直擊頸部」倒地　太太發文報平安",
-      "description": "樂天桃猿今（4）日作客洲際棒球場對戰中信兄弟，賽前練習驚傳意外。內野手林承飛在三壘守備練習時，遭隊友練打的強襲球直擊右側頸部倒地不起，被防護員以擔架固定脖子緊急送醫。所幸已恢復意識、脫離險境，太太也在社群發文向球迷報平安。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%EF%BC%8F%E6%A1%83%E7%8C%BF%E6%9E%97%E6%89%BF%E9%A3%9B%E8%B3%BD%E5%89%8D%E7%B7%B4%E7%BF%92%E8%A2%AB%E7%90%83%E3%80%8C%E7%9B%B4%E6%93%8A%E9%A0%B8%E9%83%A8%E3%80%8D%E5%80%92%E5%9C%B0-%E5%A4%AA%E5%A4%AA%E7%99%BC%E6%96%87%E5%A0%B1%E5%B9%B3%E5%AE%89-100039913.html",
-      "pubDate": "7/4 2:00",
-      "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/3c2a6e853b5b1cc50ee46d6e98fde7c7",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_18",
       "title": "日職》百勝M1！38歲前田健太8.2局好投摘勝 差點飆相隔12年完封勝",
       "description": "樂天金鷲38歲日本老將前田健太今天交出8.2局失1分好投，幫助樂天在主場以4比1擊敗日本火腿，樂天在這次雙方的3連戰前2場都贏球。前田健太收下日職生涯第99勝，只差1勝就能...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5494050",
@@ -173,7 +155,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_19",
+      "id": "rss_17",
       "title": "中職》手感正好卻退場！台鋼曝王柏融大腿緊繃",
       "description": "「台鋼大王」王柏融昨才轟出本季第6轟，今在3局下敲出安打也展現好手感，只是跑向一壘時就出現一拐一拐狀況，隨後也換上曾昱磬代跑。台鋼雄鷹球團回報狀況，指王柏融的左大腿出現緊...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493910",
@@ -182,7 +164,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_20",
+      "id": "rss_18",
       "title": "中職》暌違3312天！劉時豪生涯第4盜出爐",
       "description": "繼昨天開轟後，台鋼雄鷹捕手劉時豪今天又有令人意想不到的表現，他在3局下盜向二壘成功，僅是他生涯第4次盜壘成功，上一盜已是2017年6月9日在Lamigo桃猿時期，兩盜之間...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493892",
@@ -191,7 +173,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_21",
+      "id": "rss_19",
       "title": "中職》林承飛賽前被球打到緊急送醫 樂天球團報告初步檢查結果",
       "description": "樂天桃猿今天在洲際球場客場面對中信兄弟，稍早賽前練習時，內野手林承飛在三壘附近跑壘，卻意外遭練打的打者擊出的球，擊中頸部附近位置，隨即送醫接受治療與檢查。\n\n\n稍早，樂天...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493890",
@@ -200,7 +182,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_22",
+      "id": "rss_20",
       "title": "中職》江承諺達成1000局里程碑 31歲又31天史上第3年輕",
       "description": "台鋼雄鷹左投江承諺今天在澄清湖主場先發迎戰統一獅，投完3局後正式達成生涯1000局，成為中職史上第18位完成這項里程碑的投手；他也以31歲又31天之齡，成為繼勇壯、潘威倫...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493850",
@@ -209,7 +191,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_23",
+      "id": "rss_21",
       "title": "中職》富邦22歲小將太過鬆懈出包 日籍教頭有話要說",
       "description": "富邦悍將22歲小將池恩齊昨在5局上內野安打上一壘，卻聽見一壘教練葉竹軒說二壘空著，加上二壘手張政禹趕緊跑向二壘，因而被釣出一壘遭觸殺出局，富邦總教練後藤光尊直言，這個pl...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493848",
@@ -218,7 +200,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_22",
       "title": "中職》張政禹戲耍兄弟新星 陳江和：你連弟弟都騙喔？",
       "description": "富邦悍將池恩齊昨在5局上內野安打上一壘，卻聽見一壘教練葉竹軒說二壘空著，加上二壘手張政禹趕緊跑向二壘，因而被釣出一壘遭觸殺出局，不少球迷都以為是張政禹「騙」到跑者，他直接...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493829",
@@ -227,7 +209,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_25",
+      "id": "rss_23",
       "title": "中職》賽前練習出意外挨球吻 林承飛緊急送醫",
       "description": "樂天桃猿本周末作客洲際面對中信兄弟，今天賽前練習時，內野手林承飛在三壘附近意外遭球擊中頸部附近位置，隨即送醫接受治療與檢查。\n\n\n樂天桃猿球團初步表示，林承飛意外被球打到...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493817",
@@ -236,7 +218,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_26",
+      "id": "rss_24",
       "title": "中職》第一指名突然守外野 味全龍有個新計劃",
       "description": "味全龍第1指名劉俊緯昨天在8局上從三壘驚喜移防至左外野，生涯首度鎮守外野，早在吉力吉撈·鞏冠歸隊卡住指定打擊，味全教練團就考慮讓打擊不錯的劉俊緯嘗試外野，未來有機會變成內...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493771",
@@ -245,7 +227,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_27",
+      "id": "rss_25",
       "title": "中職》味全龍接觸台美混血球星費爾柴德 領隊回應了！",
       "description": "台美混血好手「費仔」費爾柴德（Stuart Fairchild）遭守護者DFA（指定讓渡），今天正式成為自由身。味全龍總教練葉君璋透露，「有跟領隊討論過，確實有跟他接觸。...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493767",
@@ -254,22 +236,13 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_28",
+      "id": "rss_26",
       "title": "中職》台美混血球星費爾柴德 已有中職隊伍接觸",
       "description": "台美混血好手「費仔」費爾柴德（Stuart Fairchild）遭守護者DFA（指定讓渡），今天正式成為自由身。味全龍總教練葉君璋透露，「有跟領隊討論過，確實有跟他接觸。...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5493725",
       "pubDate": "7/4 6:36",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_29",
-      "title": "MLB》大谷翔平明天高掛免戰牌！道奇主帥透露下回二刀流登板有變數",
-      "description": "道奇今天靠著赫南德茲（Teoscar Hernández）逆轉滿貫砲擊敗教士，道奇日本二刀流巨星大谷翔平今主投6局失3分無關勝負，打擊方面卻只打3打席就提前退場，賽後總教練...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5493639",
-      "pubDate": "7/4 5:40",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
