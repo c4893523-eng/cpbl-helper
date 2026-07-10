@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "DIFF": 91,
+      "DIFF": 88,
       "E": -1,
       "GB": 0,
       "M": -1,
-      "PCT": 0.631,
-      "STRK": -2,
+      "PCT": 0.621,
+      "STRK": -3,
       "draws": 0,
-      "finished": 65,
-      "last_updated_at": "2026-07-09 21:19",
-      "loses": 24,
+      "finished": 66,
+      "last_updated_at": "2026-07-11 00:16",
+      "loses": 25,
       "order": 1,
       "team": {
         "abbr": "龍",
@@ -25,13 +25,13 @@
     {
       "DIFF": 4,
       "E": 50,
-      "GB": 6,
+      "GB": 5.5,
       "M": -1,
       "PCT": 0.538,
       "STRK": -4,
       "draws": 0,
       "finished": 65,
-      "last_updated_at": "2026-07-09 23:30",
+      "last_updated_at": "2026-07-11 00:16",
       "loses": 30,
       "order": 2,
       "team": {
@@ -47,13 +47,13 @@
     {
       "DIFF": 34,
       "E": 49,
-      "GB": 6.5,
+      "GB": 6,
       "M": -1,
       "PCT": 0.531,
       "STRK": 3,
       "draws": 1,
       "finished": 65,
-      "last_updated_at": "2026-07-09 23:30",
+      "last_updated_at": "2026-07-11 00:16",
       "loses": 30,
       "order": 3,
       "team": {
@@ -67,15 +67,15 @@
       "wins": 34
     },
     {
-      "DIFF": -1,
+      "DIFF": 2,
       "E": 47,
-      "GB": 9,
+      "GB": 8,
       "M": -1,
-      "PCT": 0.492,
-      "STRK": -1,
+      "PCT": 0.5,
+      "STRK": 1,
       "draws": 1,
-      "finished": 64,
-      "last_updated_at": "2026-07-08 21:38",
+      "finished": 65,
+      "last_updated_at": "2026-07-11 00:16",
       "loses": 32,
       "order": 4,
       "team": {
@@ -86,18 +86,18 @@
         "uniqid": "hThSB"
       },
       "total": 120,
-      "wins": 31
+      "wins": 32
     },
     {
       "DIFF": -57,
       "E": 44,
-      "GB": 12,
+      "GB": 11.5,
       "M": -1,
       "PCT": 0.444,
       "STRK": 3,
       "draws": 2,
       "finished": 65,
-      "last_updated_at": "2026-07-09 23:30",
+      "last_updated_at": "2026-07-11 00:16",
       "loses": 35,
       "order": 5,
       "team": {
@@ -113,13 +113,13 @@
     {
       "DIFF": -71,
       "E": 39,
-      "GB": 17.5,
+      "GB": 17,
       "M": -1,
       "PCT": 0.355,
       "STRK": 1,
       "draws": 2,
       "finished": 64,
-      "last_updated_at": "2026-07-09 23:30",
+      "last_updated_at": "2026-07-11 00:16",
       "loses": 40,
       "order": 6,
       "team": {
