@@ -1481,7 +1481,7 @@
         "started_at": "",
         "stats_completeness": "NONE",
         "stats_status": "NORMAL",
-        "status": "SCHEDULED",
+        "status": "POSTPONED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "",
