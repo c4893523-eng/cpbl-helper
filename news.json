@@ -3,336 +3,381 @@
   "data": [
     {
       "id": "rss_0",
+      "title": "中職》本季最嚴重低潮！  富邦悍將貧打無解慘吞5連敗",
+      "description": "今天新莊金控大戰，中信兄弟全場敲出14支安打，包含詹子賢轟陽春砲助陣，最終兄弟就以8：2擊敗富邦悍將，也讓富邦苦吞本季最長的5連敗，期間只拿到10分，平均每場比賽得2分，要贏球談何容易。此役1局上兄弟率先發動攻勢，張士綸安打、王威晨挨觸身球形成一出局一、二壘有人，岳東華掃出直擊右外野大牆的2分打點三",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%9C%AC%E5%AD%A3%E6%9C%80%E5%9A%B4%E9%87%8D%E4%BD%8E%E6%BD%AE-%E5%AF%8C%E9%82%A6%E6%82%8D%E5%B0%87%E8%B2%A7%E6%89%93%E7%84%A1%E8%A7%A3%E6%85%98%E5%90%9E5%E9%80%A3%E6%95%97-121621912.html",
+      "pubDate": "7/12 4:16",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/41ab0c0c67f277e824436adaa2a5b52b",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_1",
+      "title": "獅隊單局至少得10分隊史第7次　對戰龍隊5連勝",
+      "description": "（中央社記者謝靜雯台北12日電）中職統一7-ELEVEn獅隊今天抓準機會，3局下一口氣打16人次、攻下10分奠定勝基，單局至少10得分為隊史第7次，終場以11比6擊敗味全龍、拿下對戰5連勝。",
+      "link": "https://tw.sports.yahoo.com/news/%E7%8D%85%E9%9A%8A%E5%96%AE%E5%B1%80%E8%87%B3%E5%B0%91%E5%BE%9710%E5%88%86%E9%9A%8A%E5%8F%B2%E7%AC%AC7%E6%AC%A1-%E5%B0%8D%E6%88%B0%E9%BE%8D%E9%9A%8A5%E9%80%A3%E5%8B%9D-121020316.html",
+      "pubDate": "7/12 4:10",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_2",
+      "title": "中職新莊戰　兄弟張士綸8局敲安帶打點 (圖)",
+      "description": "中華職棒中信兄弟12日晚間在新莊棒球場與富邦悍將交手，兄弟隊張士綸（圖）8局上敲一壘安打，帶有1分打點。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E5%85%84%E5%BC%9F%E5%BC%B5%E5%A3%AB%E7%B6%B88%E5%B1%80%E6%95%B2%E5%AE%89%E5%B8%B6%E6%89%93%E9%BB%9E-%E5%9C%96-115606614.html",
+      "pubDate": "7/12 3:56",
+      "rawImg": "https://media.zenfs.com/ko/cna.com.tw/48b3be34e31acaedd4fc7f4fa08f80ad",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_3",
+      "title": "中職新莊戰　兄弟黃韋盛8局敲安帶打點 (圖)",
+      "description": "中華職棒中信兄弟12日晚間在新莊棒球場交手富邦悍將，兄弟隊黃韋盛（圖）8局上敲出二壘安打，帶有2分打點。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E5%85%84%E5%BC%9F%E9%BB%83%E9%9F%8B%E7%9B%9B8%E5%B1%80%E6%95%B2%E5%AE%89%E5%B8%B6%E6%89%93%E9%BB%9E-%E5%9C%96-115504432.html",
+      "pubDate": "7/12 3:55",
+      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/43dce667ab6cebcf96d21aa24f78e881",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_4",
+      "title": "中職新莊戰　悍將王苡丞開轟 (圖)",
+      "description": "中華職棒12日晚間在新莊棒球場由富邦悍將交手中信兄弟，7局下，悍將隊王苡丞（圖）轟出陽春全壘打。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E6%82%8D%E5%B0%87%E7%8E%8B%E8%8B%A1%E4%B8%9E%E9%96%8B%E8%BD%9F-%E5%9C%96-115502286.html",
+      "pubDate": "7/12 3:55",
+      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/379b921ca5b867f57d85021ff45bb898",
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_5",
+      "title": "獨家》接棒辜仲諒出任棒協理事長？林華韋向本報證實：有意願",
+      "description": "首屆四國菁英棒球對抗賽今天在洲際棒球場舉行，棒協副理事長林華韋出席並觀看午場日本對南韓之戰，但本報傍晚接獲消息指出，棒協下午針對林華韋出任理事長召開會議；對於本報詢問，棒協表示並無開會一事，而林華韋受訪時則證實有意願角逐，但強調畢竟是選舉，必須尊重制度，自己也不曉得結果會如何。",
+      "link": "https://tw.sports.yahoo.com/news/%E7%8D%A8%E5%AE%B6-%E6%8E%A5%E6%A3%92%E8%BE%9C%E4%BB%B2%E8%AB%92%E5%87%BA%E4%BB%BB%E6%A3%92%E5%8D%94%E7%90%86%E4%BA%8B%E9%95%B7-%E6%9E%97%E8%8F%AF%E9%9F%8B%E5%90%91%E6%9C%AC%E5%A0%B1%E8%AD%89%E5%AF%A6-%E6%9C%89%E6%84%8F%E9%A1%98-114547109.html",
+      "pubDate": "7/12 3:45",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/b7352ae971dbd5491d91d5378374e33a",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_6",
+      "title": "中職》712神巧合！林安可連2年雙響 統一獅連3年開魯閣",
+      "description": "效力日職西武獅的林安可，12日面對日本火腿隊炸裂雙響炮，助西武獅12比1大勝，連續2天開轟打擊率上升至2成15，這是他連續2年在7月12日單場雙響炮；前東家中職統一獅今日也火力全開，對戰味全龍單局狂灌10分，巧合的是，已經連續3年在7月12日單場雙位數得分。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-712%E7%A5%9E%E5%B7%A7%E5%90%88-%E6%9E%97%E5%AE%89%E5%8F%AF%E9%80%A32%E5%B9%B4%E9%9B%99%E9%9F%BF-%E7%B5%B1-%E7%8D%85%E9%80%A33%E5%B9%B4%E9%96%8B%E9%AD%AF%E9%96%A3-114316587.html",
+      "pubDate": "7/12 3:43",
+      "rawImg": "https://media.zenfs.com/zh-tw/chinatimes.com.tw/5ac8279d0b490f43b20dc1997f7ba496",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_7",
+      "title": "中職》樂天桃猿預計明星賽後 推出雙洋砲打線",
+      "description": "樂天桃猿洋砲道威聖今天第2次在中職出賽，先發守左外野打第3棒，6局下擊出來台首安延續攻勢，隨後跑回生涯首得分。總教練曾豪駒賽前表示，道威聖的打擊與守備都沒有問題，另1位洋砲威克也於日前抵台，預計明星賽後推出雙洋砲打線。道威聖7月8日首次在中職出賽，3打數0安打有1次觸身球。曾豪駒賽前指出，道威聖在中",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%A8%82%E5%A4%A9%E6%A1%83%E7%8C%BF%E9%A0%90%E8%A8%88%E6%98%8E%E6%98%9F%E8%B3%BD%E5%BE%8C-%E6%8E%A8%E5%87%BA%E9%9B%99%E6%B4%8B%E7%A0%B2%E6%89%93%E7%B7%9A-113201839.html",
+      "pubDate": "7/12 3:32",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/a07706b375a728700a1d1cc59cb38a8b",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_8",
       "title": "中職》廖健富在二軍連續3場1打席退場 曾豪駒：等打滿整場再評估",
       "description": "樂天桃猿廖健富本週在二軍展開復健賽，出賽3場都只完成1個打席就退場，總教練曾豪駒表示，這是防護團隊設定的計畫，現階段的目標是逐漸增加負荷，直到可以打滿整場比賽，再去評估何時回到一軍。廖健富去年於5月、6月兩度受傷，直到8月底才重回一軍，不料9月29日守一壘時又受傷，就醫檢查發現左肩關節唇受損，季後接",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%BB%96%E5%81%A5%E5%AF%8C%E5%9C%A8%E4%BA%8C%E8%BB%8D%E9%80%A3%E7%BA%8C3%E5%A0%B41%E6%89%93%E5%B8%AD%E9%80%80%E5%A0%B4-%E6%9B%BE%E8%B1%AA%E9%A7%92-%E7%AD%89%E6%89%93%E6%BB%BF%E6%95%B4%E5%A0%B4%E5%86%8D%E8%A9%95%E4%BC%B0-111804304.html",
       "pubDate": "7/12 3:18",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/334bde771f6ac201f4a66012e719e357",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_1",
+      "id": "rss_9",
       "title": "與張育成火力牽動悍將勝敗　范國宸不給自己壓力 (圖)",
       "description": "中華職棒富邦悍將隊近期4連敗，有3場范國宸（圖）、張育成一起熄火，2人雖是悍將火力支柱，范國宸認為不需因此將壓力一肩扛起，棒球要看整體，也會有其他人跳出來。",
       "link": "https://tw.sports.yahoo.com/news/%E8%88%87%E5%BC%B5%E8%82%B2%E6%88%90%E7%81%AB%E5%8A%9B%E7%89%BD%E5%8B%95%E6%82%8D%E5%B0%87%E5%8B%9D%E6%95%97-%E8%8C%83%E5%9C%8B%E5%AE%B8%E4%B8%8D%E7%B5%A6%E8%87%AA%E5%B7%B1%E5%A3%93%E5%8A%9B-%E5%9C%96-105414130.html",
       "pubDate": "7/12 2:54",
       "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/dbf72a6cb0ad8edf5d35188f970502dd",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_2",
+      "id": "rss_10",
       "title": "中職》時隔近一年傷癒復出 呂詠臻珍惜出賽機會",
       "description": "樂天桃猿呂詠臻因為手肘傷勢沒能趕上開季，直到6月才在二軍展開復健賽，經過出賽5場各投1局的調整，終於在7日首次升上一軍，呂詠臻表示，距離上次在一軍出賽已經快要1年，很開心可以再次回到一軍。呂詠臻前次在一軍登板是去年9月12日，之後因為右手韌帶傷勢下二軍休養，他指出，去年5月底、6月初覺得手肘有些不適",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%99%82%E9%9A%94%E8%BF%91-%E5%B9%B4%E5%82%B7%E7%99%92%E5%BE%A9%E5%87%BA-%E5%91%82%E8%A9%A0%E8%87%BB%E7%8F%8D%E6%83%9C%E5%87%BA%E8%B3%BD%E6%A9%9F%E6%9C%83-104421145.html",
       "pubDate": "7/12 2:44",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/f7a45514e5ad3bb2e73b90dd012d6cb7",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_3",
+      "id": "rss_11",
       "title": "中職新莊戰　兄弟黃韋盛敲安帶打點 (圖)",
       "description": "中華職棒中信兄弟12日在新莊棒球場對上富邦悍將，兄弟黃韋盛（圖）4局上敲出二壘安打，帶有1分打點，助隊擴大領先優勢。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E5%85%84%E5%BC%9F%E9%BB%83%E9%9F%8B%E7%9B%9B%E6%95%B2%E5%AE%89%E5%B8%B6%E6%89%93%E9%BB%9E-%E5%9C%96-103807296.html",
       "pubDate": "7/12 2:38",
       "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/bee546f4c51796c3a7e9dc56da229842",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_4",
+      "id": "rss_12",
       "title": "中職新莊戰　兄弟詹子賢開轟 (圖)",
       "description": "中華職棒中信兄弟與富邦悍將12日在新莊棒球場交手，3局上，兄弟詹子賢（右）擊出陽春全壘打，助隊以4比0暫時領先。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E5%85%84%E5%BC%9F%E8%A9%B9%E5%AD%90%E8%B3%A2%E9%96%8B%E8%BD%9F-%E5%9C%96-103605744.html",
       "pubDate": "7/12 2:36",
       "rawImg": "https://media.zenfs.com/ko/cna.com.tw/d23c6aa0d95150ea015753264e0551cf",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_5",
+      "id": "rss_13",
       "title": "團隊3連霸大於個人榮譽！大谷與道奇有共識「10月比塞揚獎重要」",
       "description": "洛杉磯道奇二刀流球星大谷翔平昨（11日）因左膝發炎傷勢突取消二刀流出賽計畫，僅以打者身分登場，總教練羅伯斯（Dave Roberts）強調，「翔平本人與我們都認為，最重要的是10月，當然他以塞揚獎為目標，但更優先的是健康地迎接10月季後賽的到來」。",
       "link": "https://tw.sports.yahoo.com/news/%E5%9C%98%E9%9A%8A3%E9%80%A3%E9%9C%B8%E5%A4%A7%E6%96%BC%E5%80%8B%E4%BA%BA%E6%A6%AE%E8%AD%BD-%E5%A4%A7%E8%B0%B7%E8%88%87%E9%81%93%E5%A5%87%E6%9C%89%E5%85%B1%E8%AD%98-10%E6%9C%88%E6%AF%94%E5%A1%9E%E6%8F%9A%E7%8D%8E%E9%87%8D%E8%A6%81-103009798.html",
       "pubDate": "7/12 2:30",
       "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/c7c6c991962dfe6ea992d250b6c83b4d",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_6",
+      "id": "rss_14",
       "title": "中職新莊戰　兄弟岳東華敲安帶打點 (圖)",
       "description": "中華職棒中信兄弟12日在新莊棒球場交手富邦悍將，兄弟岳東華（圖）1局上敲出三壘安打，帶有2分打點，帶領球隊以2比0暫時領先。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E5%85%84%E5%BC%9F%E5%B2%B3%E6%9D%B1%E8%8F%AF%E6%95%B2%E5%AE%89%E5%B8%B6%E6%89%93%E9%BB%9E-%E5%9C%96-101201466.html",
       "pubDate": "7/12 2:12",
       "rawImg": "https://media.zenfs.com/ko/cna.com.tw/338d552a1dbeb2e6b16f48e0894f08e8",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_7",
+      "id": "rss_15",
       "title": "日職》和林安可同場寫紀錄！小島大河「新秀滿貫彈」隊史第11人",
       "description": "西武隊今天12:1大勝日本火腿，台灣重砲林安可前兩打席都開轟、3打點，除了為比賽定調，自身也寫下赴日首次單場雙響紀錄。而在比賽後段，西武22歲新秀捕手小島大河從齋藤友貴哉手中擊出滿貫砲，不僅為比分錦上添花，也寫下多項紀錄。小島大河來自明治大學，以職棒新人身分擊出滿貫砲，是日職史上第63支由新人球員擊",
       "link": "https://tw.sports.yahoo.com/news/%E6%97%A5%E8%81%B7-%E5%92%8C%E6%9E%97%E5%AE%89%E5%8F%AF%E5%90%8C%E5%A0%B4%E5%AF%AB%E7%B4%80%E9%8C%84-%E5%B0%8F%E5%B3%B6%E5%A4%A7%E6%B2%B3-%E6%96%B0%E7%A7%80%E6%BB%BF%E8%B2%AB%E5%BD%88-%E9%9A%8A%E5%8F%B2%E7%AC%AC11%E4%BA%BA-101050215.html",
       "pubDate": "7/12 2:10",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_8",
+      "id": "rss_16",
       "title": "中職新莊戰 兄弟德保拉扛先發 (圖)",
       "description": "中華職棒12日在新莊棒球場由中信兄弟客場對決富邦悍將，中信兄弟派出德保拉擔任先發投手。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E5%85%84%E5%BC%9F%E5%BE%B7%E4%BF%9D%E6%8B%89%E6%89%9B%E5%85%88%E7%99%BC-%E5%9C%96-095647750.html",
       "pubDate": "7/12 1:56",
       "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/4720d1555f294529c2c994543c3f27f6",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_9",
+      "id": "rss_17",
       "title": "中職新莊戰　悍將魔力藍扛先發 (圖)",
       "description": "中華職棒12日在新莊棒球場由富邦悍將與中信兄弟交手，悍將由洋投魔力藍（Shawn Morimando）擔任先發。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E6%82%8D%E5%B0%87%E9%AD%94%E5%8A%9B%E8%97%8D%E6%89%9B%E5%85%88%E7%99%BC-%E5%9C%96-095645623.html",
       "pubDate": "7/12 1:56",
       "rawImg": "https://media.zenfs.com/en/cna.com.tw/322fc01c02543398abf1f101009ce441",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_10",
+      "id": "rss_18",
       "title": "中職新莊戰　「隊鴨」開球（3） (圖)",
       "description": "中華職棒富邦悍將12日下午在新莊棒球場迎戰中信兄弟，開球嘉賓由悍將團寵「隊鴨」擔任，成為全場焦點。圖右為負責照顧的二軍投手教練島崎毅。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E9%9A%8A%E9%B4%A8-%E9%96%8B%E7%90%83-3-%E5%9C%96-095443615.html",
       "pubDate": "7/12 1:54",
       "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/c1cc64e9d232f22303d971ded2642bd7",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_11",
+      "id": "rss_19",
       "title": "中職新莊戰　「隊鴨」開球（2） (圖)",
       "description": "中華職棒富邦悍將12日在新莊棒球場舉行「城堡密語」主題日，由二軍團寵「隊鴨」擔任開球嘉賓，隊鴨開球一路往本壘衝刺。圖左為負責照顧的二軍投手教練島崎毅。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E9%9A%8A%E9%B4%A8-%E9%96%8B%E7%90%83-2-%E5%9C%96-095341569.html",
       "pubDate": "7/12 1:53",
       "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/57db7a9e2a4499e7609f292d893953e3",
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_20",
+      "title": "中職》味全龍4：11輸統一獅 隊史第2次單局失10分",
+      "description": "味全龍時隔36年再被「開魯閣」，今天在亞太主球場3局下被統一獅海灌10分，寫下隊史第2次單局狂丟10分，最終以6：11落敗，味全最近4連敗、客場5連敗，對戰統一更是...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5502963",
+      "pubDate": "7/12 12:36",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_21",
+      "title": "中職》追平前兄弟洋投風神！  德保拉擠進歷史勝投榜TOP10",
+      "description": "中信兄弟今天以8：2擊敗富邦悍將，38歲的兄弟洋投德保拉用71球先發5局，其中50顆好球，只被敲出2支零星安打沒有保送，飆出4次三振無失分拿下本季第5勝，本季防禦率降至1...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5502952",
+      "pubDate": "7/12 12:18",
+      "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_12",
-      "title": "中職新莊戰　「隊鴨」開球（1） (圖)",
-      "description": "中華職棒12日在新莊棒球場由富邦悍將交手中信兄弟，悍將團寵「隊鴨」擔任開球嘉賓，負責照顧的二軍投手教練島崎毅（右2）為隊鴨戴上隊帽。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%96%B0%E8%8E%8A%E6%88%B0-%E9%9A%8A%E9%B4%A8-%E9%96%8B%E7%90%83-1-%E5%9C%96-094839784.html",
-      "pubDate": "7/12 1:48",
-      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/64ed8d0f777d6eb3ce38051917ef2892",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_13",
-      "title": "與張育成火力牽動悍將勝敗  范國宸不給自己壓力",
-      "description": "（中央社記者蘇志畬台北12日電）中華職棒富邦悍將隊近期4連敗，有3場范國宸、張育成一起熄火，2人雖是悍將火力支柱，范國宸認為不需因此將壓力一肩扛起，棒球要看整體，也會有其他人跳出來。",
-      "link": "https://tw.sports.yahoo.com/news/%E8%88%87%E5%BC%B5%E8%82%B2%E6%88%90%E7%81%AB%E5%8A%9B%E7%89%BD%E5%8B%95%E6%82%8D%E5%B0%87%E5%8B%9D%E6%95%97-%E8%8C%83%E5%9C%8B%E5%AE%B8%E4%B8%8D%E7%B5%A6%E8%87%AA%E5%B7%B1%E5%A3%93%E5%8A%9B-094729640.html",
-      "pubDate": "7/12 1:47",
+      "id": "rss_22",
+      "title": "中職》朱承洋腳踝腫脹下二軍 陳冠宇暫代樂天桃猿終結者",
+      "description": "樂天今天做出球員異動，終結者朱承洋降二軍，總教練曾豪駒表示，朱承洋的腳踝目前仍有腫脹情形，下週會安排他接受更精細的檢查，終結者暫時交給有經驗的老將陳冠宇。\n\n\n朱承洋於8...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5502834",
+      "pubDate": "7/12 9:30",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_14",
-      "title": "中職》朱承洋腳踝腫脹下二軍 陳冠宇暫代樂天桃猿終結者",
-      "description": "樂天今天做出球員異動，終結者朱承洋降二軍，總教練曾豪駒表示，朱承洋的腳踝目前仍有腫脹情形，下週會安排他接受更精細的檢查，終結者暫時交給有經驗的老將陳冠宇。朱承洋於8日在新莊對富邦悍將9局下，補位一壘時不慎成右腳踝「翻船」，雖然抓到最後1個出局數結束比賽，當下表情痛苦倒地不起，隨後被擔架抬下場，即便樂",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%9C%B1%E6%89%BF%E6%B4%8B%E8%85%B3%E8%B8%9D%E8%85%AB%E8%84%B9%E4%B8%8B%E4%BA%8C%E8%BB%8D-%E9%99%B3%E5%86%A0%E5%AE%87%E6%9A%AB%E4%BB%A3%E6%A8%82%E5%A4%A9%E6%A1%83%E7%8C%BF%E7%B5%82%E7%B5%90%E8%80%85-093055826.html",
-      "pubDate": "7/12 1:30",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/6148b54326c0650dc73bf0e262446691",
+      "id": "rss_23",
+      "title": "四國菁英棒球賽》台灣隊首戰打線僅兩名業餘 派富邦第7指名先發的考量是「怪」",
+      "description": "因颱風影響賽程的首屆「四國菁英棒球對抗賽」，今天順利開打，首戰日本隊以10：0扣倒南韓隊，晚場地主台灣隊將迎戰美國隊；台灣隊派出今年中職選秀獲富邦悍將第7指名的左投李聖韓...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5502820",
+      "pubDate": "7/12 9:17",
+      "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_15",
-      "title": "四國菁英棒球賽》台灣隊首戰打線僅兩名業餘 派富邦第7指名先發的考量是「怪」",
-      "description": "因颱風影響賽程的首屆「四國菁英棒球對抗賽」，今天順利開打，首戰日本隊以10：0扣倒南韓隊，晚場地主台灣隊將迎戰美國隊；台灣隊派出今年中職選秀獲富邦悍將第7指名的左投李聖韓先發，總教練湯登凱指出，「有跟教練團研究一下，對美國打者投愈快，他打愈遠，讓這種左投的怪投讓試一下。」",
-      "link": "https://tw.sports.yahoo.com/news/%E5%9B%9B%E5%9C%8B%E8%8F%81%E8%8B%B1%E6%A3%92%E7%90%83%E8%B3%BD-%E5%8F%B0%E7%81%A3%E9%9A%8A%E9%A6%96%E6%88%B0%E6%89%93%E7%B7%9A%E5%83%85%E5%85%A9%E5%90%8D%E6%A5%AD%E9%A4%98-%E6%B4%BE%E5%AF%8C%E9%82%A6%E7%AC%AC7%E6%8C%87%E5%90%8D%E5%85%88%E7%99%BC%E7%9A%84%E8%80%83%E9%87%8F%E6%98%AF-%E6%80%AA-091744264.html",
-      "pubDate": "7/12 1:17",
-      "rawImg": "https://media.zenfs.com/zh-tw/libertytimes_786/13ee78faf162e069c9c0cf5d2dab849c",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_16",
-      "title": "兄弟投手羅戈手肘緊繃好轉　恢復傳接球 (圖)",
-      "description": "中華職棒中信兄弟先發投手羅戈（Nivaldo Rodriguez）（圖）9日被下放二軍，原因是手肘緊繃，但經過注射玻尿酸治療已好轉，12日開始傳接球。",
-      "link": "https://tw.sports.yahoo.com/news/%E5%85%84%E5%BC%9F%E6%8A%95%E6%89%8B%E7%BE%85%E6%88%88%E6%89%8B%E8%82%98%E7%B7%8A%E7%B9%83%E5%A5%BD%E8%BD%89-%E6%81%A2%E5%BE%A9%E5%82%B3%E6%8E%A5%E7%90%83-%E5%9C%96-091123924.html",
-      "pubDate": "7/12 1:11",
-      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/d36fd075909fd4d8a1572f5e21eae5e2",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_17",
+      "id": "rss_24",
       "title": "中職》台鋼下半季不會固定終結者 優先考慮有經驗的黃群、王躍霖",
-      "description": "台鋼雄鷹終結者林詩翔因為右手肘尺側副韌帶、尺側腕屈肌肌腱斷裂，必須接受韌帶置換手術，今年球季提前報銷，投手教練曾翊誠表示，下半季不會固定由誰擔任終結者，優先交給狀況好的、有經驗的，「真要說的話，黃群、王躍霖都會考慮。」曾翊誠指出，雖然林詩翔的狀況很突然，下半季由誰負責投第9局，教練團會依據面對各隊的",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%8F%B0%E9%8B%BC%E4%B8%8B%E5%8D%8A%E5%AD%A3%E4%B8%8D%E6%9C%83%E5%9B%BA%E5%AE%9A%E7%B5%82%E7%B5%90%E8%80%85-%E5%84%AA%E5%85%88%E8%80%83%E6%85%AE%E6%9C%89%E7%B6%93%E9%A9%97%E7%9A%84%E9%BB%83%E7%BE%A4-%E7%8E%8B%E8%BA%8D%E9%9C%96-091041178.html",
-      "pubDate": "7/12 1:10",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/d4097866969f2002bdbd019427ad1f58",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_18",
-      "title": "中職》樂天桃猿預計明星賽後 推出雙洋砲打線",
-      "description": "樂天桃猿洋砲道威聖今天第2次在中職出賽，先發守左外野打第3棒，6局下擊出來台首安延續攻勢，隨後跑回生涯首得分。總教練曾豪駒賽前表示，道威聖的打擊與守備都沒有問題，另1位洋...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5502929",
-      "pubDate": "7/12 11:32",
+      "description": "台鋼雄鷹終結者林詩翔因為右手肘尺側副韌帶、尺側腕屈肌肌腱斷裂，必須接受韌帶置換手術，今年球季提前報銷，投手教練曾翊誠表示，下半季不會固定由誰擔任終結者，優先交給狀況好的、...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5502818",
+      "pubDate": "7/12 9:10",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_19",
+      "id": "rss_25",
       "title": "四國菁英賽》兄弟潛力外野手征戰國際賽  平野惠一有話想對他說",
       "description": "今天在台中開打的首屆四國菁英棒球對抗賽（WCBC），台灣隊以U23世界盃培訓名單為主體，由總教練湯登凱領軍，中職支援6名現役球員參賽，包括味全龍吳承皓、曾聖安，樂天桃猿張...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502789",
       "pubDate": "7/12 8:39",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_20",
+      "id": "rss_26",
       "title": "中職》羅戈奪勝投後隔天遭下放二軍 王建民解釋原因",
       "description": "7月8日中信兄弟洋投羅戈對統一獅先發6局失5分，投球內容並不理想，靠隊友火力掩護拿下勝投，隔天遭下放二軍，今天賽前兄弟投手教練王建民表示，羅戈似乎有骨刺的問題，最近手肘有點壓到...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502783",
       "pubDate": "7/12 8:29",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_21",
+      "id": "rss_27",
       "title": "四國菁英棒球賽》黑田博樹留台開球 親錄影片傳承職棒經驗",
       "description": "「2026年四國菁英棒球對抗賽」今（12）日在台中洲際棒球場正式開打，原本昨日開幕，但因巴威颱風攪局而延至今日，同意擔任開球嘉賓的日職傳奇投手黑田博樹，也願意為此比賽延後...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502775",
       "pubDate": "7/12 8:26",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_22",
+      "id": "rss_28",
       "title": "日職》火腿先發遭林安可雙轟狙擊 新庄監督說話了：希望他重新鍛鍊",
       "description": "日本火腿今天在主場以1:12慘敗給西武，錯失自4月11日以來重返洋聯第2名的機會，與排名第2的西武勝差也擴大至1場。\n\n\n包括林安可前兩打席都開轟、合計3分打點在內，日本...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502771",
       "pubDate": "7/12 8:22",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_23",
+      "id": "rss_29",
       "title": "日職》火腿投捕挨林安可單場雙轟！前名捕點出問題：應該反省",
       "description": "在林安可日職生涯首次單場雙響狂轟之下，西武隊今天12:1大勝日本火腿隊。賽後，前日本國家隊名捕、現任《日刊體育》評論員谷繁元信直言，日本火腿捕手田宮裕涼在配球上有值得檢討...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502761",
       "pubDate": "7/12 8:09",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_30",
       "title": "MLB》投手大谷因膝傷跳過先發 美媒直言：塞揚獎希望恐破滅",
       "description": "道奇日本二刀流巨星大谷翔平本季再現強投豪打身手，繳出8勝、防禦率1.79的出色表現，力拚生涯首座塞揚獎。不過日前因左膝發炎臨時取消先發，美媒認為大谷挑戰國聯塞揚的機會越來越...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502724",
       "pubDate": "7/12 8:09",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_25",
+      "id": "rss_31",
       "title": "MLB選秀》釀酒人連兩年選進道奇教練的兩個兒子 挑戰隊史首對兄弟檔",
       "description": "道奇三壘指導教練、60歲的艾柏（Dino Ebel）有兩個兒子。去年美職選秀會，釀酒人隊才在首輪補償順位（第32順位）選進B.艾柏（Brady Ebel），今年選秀會又在...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502753",
       "pubDate": "7/12 7:57",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_26",
+      "id": "rss_32",
       "title": "四國菁英棒球賽》日本王牌只用80球 教頭笑：或許對台灣再上來先發",
       "description": "首屆四國菁英棒球對抗賽（WCBC）今天登場，來自青山學院大學的日本隊先發右投鈴木泰成一出場就技驚全場，只用80球就投完6局飆14次三振無失分，最快球速飆到152公里。日本...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502750",
       "pubDate": "7/12 7:50",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_27",
+      "id": "rss_33",
       "title": "中職》後藤光尊大讚威戈神  解釋下放聯盟勝投王的考量",
       "description": "富邦悍將本土王牌李東洺本季先發13場，戰績10勝2敗、防禦率2.05，目前暫居聯盟勝投王，防禦率排行榜名列第4，7月5日他對味全龍先發4.1局失4分苦吞敗投，8日遭下放二...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502736",
       "pubDate": "7/12 7:38",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_28",
+      "id": "rss_34",
       "title": "中職》後藤光尊期許富邦球員  有一個點能向「隊鴨」看齊",
       "description": "今天新莊金控大戰富邦悍將邀請的開球嘉賓非常特別，牠是陪伴富邦二軍一路成長的「隊鴨」，字面上是「鴨」，實際上是隻「鵝」，「隊鴨」在富邦二軍日籍投手教練島﨑毅陪伴下，今天搭乘...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502731",
       "pubDate": "7/12 7:28",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_29",
+      "id": "rss_35",
       "title": "四國菁英棒球賽》日本大學王牌太狂 鈴木泰成6局14K封鎖南韓",
       "description": "首屆四國菁棒球對抗賽今天登場，首戰上演日本迎戰南韓的好戲，但來自青山學院大學的日本隊先發右投鈴木泰成不但一上場飆出三振，先發6局被敲1支安打，更狂飆14次三振，吸引在場大...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502727",
       "pubDate": "7/12 7:27",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_30",
+      "id": "rss_36",
       "title": "日職》林安可赴日首度單場雙響！助西武客場勝日本火腿",
       "description": "西武隊台灣重砲林安可近兩天火力大復甦，繼昨天開轟之後，今天再接再厲上演單場雙響，兩天合計3轟。西武隊先發投手隅田知一郎好投，林安可火力挹注，讓西武終場12:1擊敗日本火腿...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502719",
       "pubDate": "7/12 7:14",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_31",
+      "id": "rss_37",
       "title": "中職》超卡哇伊開球主角  竟是富邦悍將日本教練的「女朋友」",
       "description": "今天新莊金控大戰，富邦悍將邀請的開球嘉賓非常特別，牠是陪伴富邦二軍一路成長的「隊鴨」，字面上是「鴨」，實際上是隻「鵝」，富邦球團工作人員透露，3個月大的「隊鴨」由於幼時羽...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502714",
       "pubDate": "7/12 7:10",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_32",
+      "id": "rss_38",
       "title": "日職》超狂平射砲宣告火力復甦！林安可談狙擊內角球過程",
       "description": "西武隊台灣重砲林安可近期火力大復甦，繼昨天開轟之後，今天前兩打席也擊出全壘打，近兩天已累積3轟。\n\n\n其中，首局面對日本火腿隊先發投手福島蓮，林安可擊出的平射砲，第一時間...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502669",
       "pubDate": "7/12 6:21",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_33",
+      "id": "rss_39",
       "title": "棒球》和郭泓志暢談過去 黑田博樹也期許徐若熙的未來",
       "description": "這次首度來台，日本傳奇球星黑田博樹也和15年不見的昔日戰友郭泓志見面，直言：「他一直是我很喜歡的選手，我們一起度過許多美好的時光」；至於台灣的新生代投手，黑田認為徐若熙是...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502652",
       "pubDate": "7/12 6:04",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_34",
+      "id": "rss_40",
       "title": "四國菁英棒球賽》替首屆開出紀念一球 黑田博樹直呼興奮：「很久沒有這樣投球了」",
       "description": "日本傳奇球星黑田博樹受邀來台推廣「四國菁英棒球對抗賽」，今天則在午場日本和南韓之戰賽前擔任開球嘉賓，他坦言：「已經很久沒有這樣投球了，非常開心、很興奮。」在黑田開球...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502623",
       "pubDate": "7/12 5:39",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_35",
+      "id": "rss_41",
       "title": "日職》超火燙！林安可單場雙響、2天3轟 重擊日本火腿",
       "description": "繼昨天擊出2分砲，率隊打破鴨蛋，相隔77天再開轟之後，西武隊台灣重砲林安可今天首局再次開轟、上演連續2天開轟，4局上，林安可追加一支陽春砲，西武隊取得4:0領先。\n\n\n1...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5502603",
       "pubDate": "7/12 5:14",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_36",
-      "title": "日職》台灣重砲火力復甦！林安可連兩天開轟、西武首局取得領先",
-      "description": "繼昨天擊出2分砲，率隊打破鴨蛋，相隔77天再開轟之後，西武隊台灣重砲林安可今天再次開轟、上演連續2天開轟。西武隊首局就以3:0領先日本火腿。\n\n\n林安可今天擔任先發第5棒...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5502567",
-      "pubDate": "7/12 4:32",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
