@@ -12152,7 +12152,7 @@
         "stats_completeness": "PITCH",
         "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "陰時多雲;10",
         "winner_side": "HOME"
@@ -12247,7 +12247,7 @@
         "stats_completeness": "PITCH",
         "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "陰時多雲;10",
         "winner_side": "AWAY"
@@ -12342,7 +12342,7 @@
         "stats_completeness": "PITCH",
         "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "陰時多雲;20",
         "winner_side": "HOME"
