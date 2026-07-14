@@ -1,15 +1,15 @@
 {
   "data": [
     {
-      "DIFF": 83,
+      "DIFF": 84,
       "E": -1,
       "GB": 0,
       "M": -1,
-      "PCT": 0.612,
-      "STRK": -4,
+      "PCT": 0.618,
+      "STRK": 1,
       "draws": 0,
-      "finished": 67,
-      "last_updated_at": "2026-07-12 19:37",
+      "finished": 68,
+      "last_updated_at": "2026-07-14 21:25",
       "loses": 26,
       "order": 1,
       "team": {
@@ -20,18 +20,18 @@
         "uniqid": "0MJKt"
       },
       "total": 120,
-      "wins": 41
+      "wins": 42
     },
     {
-      "DIFF": -2,
-      "E": 49,
+      "DIFF": 0,
+      "E": 48,
       "GB": 5.5,
       "M": -1,
-      "PCT": 0.53,
-      "STRK": -5,
+      "PCT": 0.537,
+      "STRK": 1,
       "draws": 0,
-      "finished": 66,
-      "last_updated_at": "2026-07-12 20:13",
+      "finished": 67,
+      "last_updated_at": "2026-07-14 21:35",
       "loses": 31,
       "order": 2,
       "team": {
@@ -42,19 +42,19 @@
         "uniqid": "TPKQm"
       },
       "total": 120,
-      "wins": 35
+      "wins": 36
     },
     {
-      "DIFF": 29,
-      "E": 48,
-      "GB": 6,
+      "DIFF": 27,
+      "E": 46,
+      "GB": 7,
       "M": -1,
-      "PCT": 0.523,
-      "STRK": -1,
+      "PCT": 0.515,
+      "STRK": -2,
       "draws": 1,
-      "finished": 66,
-      "last_updated_at": "2026-07-12 19:57",
-      "loses": 31,
+      "finished": 67,
+      "last_updated_at": "2026-07-14 21:35",
+      "loses": 32,
       "order": 3,
       "team": {
         "abbr": "鷹",
@@ -68,8 +68,8 @@
     },
     {
       "DIFF": 7,
-      "E": 47,
-      "GB": 7,
+      "E": 46,
+      "GB": 7.5,
       "M": -1,
       "PCT": 0.508,
       "STRK": 2,
@@ -90,8 +90,8 @@
     },
     {
       "DIFF": -52,
-      "E": 44,
-      "GB": 10.5,
+      "E": 43,
+      "GB": 11,
       "M": -1,
       "PCT": 0.453,
       "STRK": 4,
@@ -111,16 +111,16 @@
       "wins": 29
     },
     {
-      "DIFF": -65,
-      "E": 39,
-      "GB": 16,
+      "DIFF": -66,
+      "E": 37,
+      "GB": 17,
       "M": -1,
-      "PCT": 0.365,
-      "STRK": 2,
+      "PCT": 0.359,
+      "STRK": -1,
       "draws": 2,
-      "finished": 65,
-      "last_updated_at": "2026-07-12 20:13",
-      "loses": 40,
+      "finished": 66,
+      "last_updated_at": "2026-07-14 21:25",
+      "loses": 41,
       "order": 6,
       "team": {
         "abbr": "象",
