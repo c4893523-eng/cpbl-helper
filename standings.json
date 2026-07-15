@@ -23,16 +23,16 @@
       "wins": 43
     },
     {
-      "DIFF": 0,
-      "E": 47,
-      "GB": 6,
+      "DIFF": -12,
+      "E": 46,
+      "GB": 6.5,
       "M": -1,
-      "PCT": 0.537,
-      "STRK": 1,
+      "PCT": 0.529,
+      "STRK": -1,
       "draws": 0,
-      "finished": 67,
-      "last_updated_at": "2026-07-14 21:35",
-      "loses": 31,
+      "finished": 68,
+      "last_updated_at": "2026-07-15 21:50",
+      "loses": 32,
       "order": 2,
       "team": {
         "abbr": "悍",
@@ -45,15 +45,15 @@
       "wins": 36
     },
     {
-      "DIFF": 27,
+      "DIFF": 39,
       "E": 45,
-      "GB": 7.5,
+      "GB": 7,
       "M": -1,
-      "PCT": 0.515,
-      "STRK": -2,
+      "PCT": 0.522,
+      "STRK": 1,
       "draws": 1,
-      "finished": 67,
-      "last_updated_at": "2026-07-14 21:35",
+      "finished": 68,
+      "last_updated_at": "2026-07-15 21:50",
       "loses": 32,
       "order": 3,
       "team": {
@@ -64,18 +64,18 @@
         "uniqid": "LH4lt"
       },
       "total": 120,
-      "wins": 34
+      "wins": 35
     },
     {
-      "DIFF": 7,
+      "DIFF": 8,
       "E": 45,
-      "GB": 8,
+      "GB": 7.5,
       "M": -1,
-      "PCT": 0.508,
-      "STRK": 2,
+      "PCT": 0.515,
+      "STRK": 3,
       "draws": 1,
-      "finished": 66,
-      "last_updated_at": "2026-07-12 19:37",
+      "finished": 67,
+      "last_updated_at": "2026-07-15 22:41",
       "loses": 32,
       "order": 4,
       "team": {
@@ -86,19 +86,19 @@
         "uniqid": "hThSB"
       },
       "total": 120,
-      "wins": 33
+      "wins": 34
     },
     {
-      "DIFF": -52,
-      "E": 42,
-      "GB": 11.5,
+      "DIFF": -53,
+      "E": 41,
+      "GB": 12,
       "M": -1,
-      "PCT": 0.453,
-      "STRK": 4,
+      "PCT": 0.446,
+      "STRK": -1,
       "draws": 2,
-      "finished": 66,
-      "last_updated_at": "2026-07-12 19:57",
-      "loses": 35,
+      "finished": 67,
+      "last_updated_at": "2026-07-15 22:41",
+      "loses": 36,
       "order": 5,
       "team": {
         "abbr": "猿",

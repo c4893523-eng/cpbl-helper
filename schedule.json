@@ -11712,9 +11712,9 @@
         },
         "errors": 1,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 8,
+        "hits": 14,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
-        "runs": 0,
+        "runs": 3,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -11725,7 +11725,8 @@
           "0",
           "0",
           "0",
-          "0"
+          "1",
+          "2"
         ],
         "season_team_uniqid": "NsGzj",
         "team": "統一7-ELEVEn獅",
@@ -11742,9 +11743,9 @@
         },
         "errors": 3,
         "hex_color": "#671a19;#fefefe",
-        "hits": 6,
+        "hits": 8,
         "icon_url": "https://usermedia.rebas.tw/t/1zODE/icon/1703833017-hSmVvyPzYd_th",
-        "runs": 1,
+        "runs": 2,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -11754,7 +11755,9 @@
           "0",
           "0",
           "0",
-          "0"
+          "0",
+          "0",
+          "1"
         ],
         "season_team_uniqid": "b7yJt",
         "team": "樂天桃猿",
@@ -11762,10 +11765,10 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-07-15 22:41",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 9,
+        "innings": 10,
         "links": [],
         "location": "樂天桃園棒球場",
         "location_abbr": "樂天桃園",
@@ -11774,12 +11777,12 @@
         "scheduled_start_at": "2026-07-15 18:35",
         "started_at": "2026-07-15 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "PITCH_MISSING",
-        "status": "PLAYING",
+        "stats_status": "CRITICAL",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "多雲時晴;10",
-        "winner_side": "HOME"
+        "winner_side": "AWAY"
       },
       "is_formal": true,
       "season": {
@@ -11848,6 +11851,7 @@
           "2",
           "2",
           "2",
+          "0",
           "0"
         ],
         "season_team_uniqid": "UuZ3x",
@@ -11856,7 +11860,7 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-07-15 21:50",
         "finished_status": "NORMAL",
         "history": [],
         "innings": 9,
@@ -11866,10 +11870,10 @@
         "location_uniqid": "P34i",
         "public_video_url": "",
         "scheduled_start_at": "2026-07-15 18:35",
-        "started_at": "2026-07-15 18:35",
+        "started_at": "2026-07-15 18:36",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "stats_status": "PITCH_MISSING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "晴時多雲;10",
