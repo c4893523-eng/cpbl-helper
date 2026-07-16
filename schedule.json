@@ -11641,7 +11641,10 @@
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
         "runs": 0,
         "scheduled_SP": null,
-        "scores": [],
+        "scores": [
+          "0",
+          "0"
+        ],
         "season_team_uniqid": "NsGzj",
         "team": "統一7-ELEVEn獅",
         "team_uniqid": "hThSB"
@@ -11657,11 +11660,13 @@
         },
         "errors": 0,
         "hex_color": "#671a19;#fefefe",
-        "hits": 0,
+        "hits": 2,
         "icon_url": "https://usermedia.rebas.tw/t/1zODE/icon/1703833017-hSmVvyPzYd_th",
         "runs": 0,
         "scheduled_SP": null,
-        "scores": [],
+        "scores": [
+          "0"
+        ],
         "season_team_uniqid": "b7yJt",
         "team": "樂天桃猿",
         "team_uniqid": "1zODE"
@@ -11671,21 +11676,21 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 0,
+        "innings": 2,
         "links": [],
         "location": "樂天桃園棒球場",
         "location_abbr": "樂天桃園",
         "location_uniqid": "dX3X",
         "public_video_url": "",
         "scheduled_start_at": "2026-07-16 18:35",
-        "started_at": "",
-        "stats_completeness": "NONE",
+        "started_at": "2026-07-16 18:35",
+        "stats_completeness": "PITCH",
         "stats_status": "NORMAL",
-        "status": "SCHEDULED",
+        "status": "PLAYING",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
-        "winner_side": "NONE"
+        "weather": "晴時多雲;10",
+        "winner_side": "TIE"
       },
       "is_formal": true,
       "season": {
@@ -11777,9 +11782,9 @@
         "scheduled_start_at": "2026-07-15 18:35",
         "started_at": "2026-07-15 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "多雲時晴;10",
         "winner_side": "AWAY"
@@ -11872,9 +11877,9 @@
         "scheduled_start_at": "2026-07-15 18:35",
         "started_at": "2026-07-15 18:36",
         "stats_completeness": "PITCH",
-        "stats_status": "PITCH_MISSING",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "晴時多雲;10",
         "winner_side": "HOME"
@@ -11967,9 +11972,9 @@
         "scheduled_start_at": "2026-07-15 18:35",
         "started_at": "2026-07-15 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "PITCH_MISSING",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "晴時多雲;20",
         "winner_side": "AWAY"
