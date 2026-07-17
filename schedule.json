@@ -11700,9 +11700,9 @@
         "scheduled_start_at": "2026-07-16 18:35",
         "started_at": "2026-07-16 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "晴時多雲;10",
         "winner_side": "HOME"
