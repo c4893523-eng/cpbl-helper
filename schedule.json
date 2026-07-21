@@ -11485,13 +11485,16 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 2,
         "hex_color": "#671a19;#fefefe",
-        "hits": 0,
+        "hits": 1,
         "icon_url": "https://usermedia.rebas.tw/t/1zODE/icon/1703833017-hSmVvyPzYd_th",
         "runs": 0,
         "scheduled_SP": null,
-        "scores": [],
+        "scores": [
+          "0",
+          "0"
+        ],
         "season_team_uniqid": "b7yJt",
         "team": "樂天桃猿",
         "team_uniqid": "1zODE"
@@ -11507,11 +11510,14 @@
         },
         "errors": 0,
         "hex_color": "#bd2e34;#fefefe",
-        "hits": 0,
+        "hits": 2,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
         "runs": 0,
         "scheduled_SP": null,
-        "scores": [],
+        "scores": [
+          "0",
+          "0"
+        ],
         "season_team_uniqid": "GJ5tu",
         "team": "味全龍",
         "team_uniqid": "0MJKt"
@@ -11521,21 +11527,21 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 0,
+        "innings": 2,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
         "location_uniqid": "H7qs",
         "public_video_url": "",
         "scheduled_start_at": "2026-07-21 18:35",
-        "started_at": "",
-        "stats_completeness": "NONE",
+        "started_at": "2026-07-21 18:36",
+        "stats_completeness": "PITCH",
         "stats_status": "NORMAL",
-        "status": "SCHEDULED",
+        "status": "PLAYING",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
-        "winner_side": "NONE"
+        "weather": "多雲短暫陣雨;30",
+        "winner_side": "TIE"
       },
       "is_formal": true,
       "season": {
@@ -11560,13 +11566,16 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 1,
         "hex_color": "#1e4639;#fefefe",
-        "hits": 0,
+        "hits": 2,
         "icon_url": "https://usermedia.rebas.tw/t/LH4lt/icon/1679389670-rWKGjIod7O_th",
         "runs": 0,
         "scheduled_SP": null,
-        "scores": [],
+        "scores": [
+          "0",
+          "0"
+        ],
         "season_team_uniqid": "UuZ3x",
         "team": "台鋼雄鷹",
         "team_uniqid": "LH4lt"
@@ -11582,11 +11591,13 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 0,
+        "hits": 2,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
-        "runs": 0,
+        "runs": 4,
         "scheduled_SP": null,
-        "scores": [],
+        "scores": [
+          "4"
+        ],
         "season_team_uniqid": "RAe8S",
         "team": "中信兄弟",
         "team_uniqid": "HCHks"
@@ -11596,21 +11607,21 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 0,
+        "innings": 2,
         "links": [],
         "location": "臺中市洲際棒球場",
         "location_abbr": "洲際",
         "location_uniqid": "2FBj",
         "public_video_url": "",
         "scheduled_start_at": "2026-07-21 18:35",
-        "started_at": "",
-        "stats_completeness": "NONE",
-        "stats_status": "NORMAL",
-        "status": "SCHEDULED",
+        "started_at": "2026-07-21 18:36",
+        "stats_completeness": "PITCH",
+        "stats_status": "CRITICAL",
+        "status": "PLAYING",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
-        "winner_side": "NONE"
+        "weather": "多雲時陰短暫陣雨;30",
+        "winner_side": "HOME"
       },
       "is_formal": true,
       "season": {
