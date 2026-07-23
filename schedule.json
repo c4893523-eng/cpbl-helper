@@ -11185,7 +11185,7 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 1,
         "hex_color": "#204e93;#fefefe",
         "hits": 7,
         "icon_url": "https://usermedia.rebas.tw/t/TPKQm/icon/1703832992-wbJvcOUBba_th",
@@ -11197,6 +11197,8 @@
           "3",
           "0",
           "1",
+          "0",
+          "0",
           "0",
           "0"
         ],
@@ -11226,6 +11228,8 @@
           "0",
           "0",
           "0",
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "NsGzj",
@@ -11234,10 +11238,10 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-07-23 21:23",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 7,
+        "innings": 9,
         "links": [],
         "location": "亞太國際棒球訓練中心-主球場",
         "location_abbr": "亞太",
@@ -11247,7 +11251,7 @@
         "started_at": "2026-07-23 18:35",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "晴時多雲;10",
