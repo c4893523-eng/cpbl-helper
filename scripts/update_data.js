@@ -122,28 +122,49 @@ function parseYahooRss(xmlText) {
     return items;
 }
 
-async function fetchAndSave(url, filename) {
+async function fetchJson(url, label) {
     try {
         console.log(`Fetching ${url}...`);
         const response = await fetch(url, { headers: HEADERS });
-        
-        if (!response.ok) {
-            throw new Error(`HTTP Error: ${response.status} ${response.statusText}`);
-        }
-        
+        if (!response.ok) throw new Error(`HTTP Error: ${response.status} ${response.statusText}`);
         const data = await response.json();
-        
-        if (data && data.data) {
-            const outputPath = getOutputPath(filename);
-            fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
-            console.log(`✅ Successfully saved to ${filename}`);
-        } else {
-            console.error(`❌ Invalid data format for ${filename}`);
-        }
+        if (data && data.data) return data;
+        throw new Error(`Invalid data format for ${label}`);
     } catch (error) {
-        console.error(`❌ Error fetching ${filename}:`, error.message);
-        process.exit(1); // Fail the GitHub action if we can't fetch standings or schedule
+        console.error(`❌ Error fetching ${label}:`, error.message);
+        process.exit(1);
     }
+}
+
+function saveJson(filename, data) {
+    fs.writeFileSync(getOutputPath(filename), JSON.stringify(data, null, 2));
+    console.log(`✅ Successfully saved to ${filename}`);
+}
+
+// Rebas 的排行榜偶爾會比單場賽果晚更新。以已結束的正式比賽重算連勝／連敗，
+// 和局與無效比賽不會中斷連勝／連敗。
+function calculateStreaks(standings, games) {
+    const finishedGames = games
+        .filter(game => game.is_formal && game.info?.status === 'FINISHED')
+        .sort((a, b) => new Date(b.info.ended_at || b.info.scheduled_start_at) - new Date(a.info.ended_at || a.info.scheduled_start_at));
+
+    return standings.map(row => {
+        const teamId = row.team?.season_team_uniqid;
+        let streak = 0;
+        let result = null;
+        for (const game of finishedGames) {
+            const isAway = game.away?.season_team_uniqid === teamId;
+            const isHome = game.home?.season_team_uniqid === teamId;
+            if (!isAway && !isHome) continue;
+            const winnerSide = game.info?.winner_side;
+            if (winnerSide !== 'AWAY' && winnerSide !== 'HOME') continue;
+            const won = (isAway && winnerSide === 'AWAY') || (isHome && winnerSide === 'HOME');
+            if (result === null) result = won;
+            if (result !== won) break;
+            streak += won ? 1 : -1;
+        }
+        return { ...row, STRK: streak };
+    });
 }
 
 async function fetchAndSaveNews() {
@@ -198,8 +219,11 @@ async function fetchAndSaveNews() {
 
 async function main() {
     console.log("Starting data update...");
-    await fetchAndSave(SCHEDULE_URL, 'schedule.json');
-    await fetchAndSave(STANDINGS_URL, 'standings.json');
+    const schedule = await fetchJson(SCHEDULE_URL, 'schedule.json');
+    const standings = await fetchJson(STANDINGS_URL, 'standings.json');
+    standings.data = calculateStreaks(standings.data, schedule.data);
+    saveJson('schedule.json', schedule);
+    saveJson('standings.json', standings);
     await fetchAndSaveNews();
     console.log("Update completed.");
 }
