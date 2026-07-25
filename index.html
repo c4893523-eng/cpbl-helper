@@ -279,6 +279,17 @@
                 }
             ];
 
+            // 球隊總教練是新聞主角時，優先採用其所屬球隊，而非文中被提及的對手。
+            const teamIdentityKeywords = [
+                { key: 'dragons', keywords: ['葉君璋', '葉總'] }
+            ];
+
+            for (const identity of teamIdentityKeywords) {
+                if (identity.keywords.some(keyword => cleanTitle.includes(keyword) || cleanDesc.includes(keyword))) {
+                    return teams.find(team => team.key === identity.key);
+                }
+            }
+
             // 0. 絕對優先匹配：旅外球員/大聯盟 (避免 MLB 勇士隊被誤判為台灣職籃勇士，或日職球隊被誤判為 CPBL)
             const overseasKeywords = ['大谷', '宋家豪', '林維恩', '鄧愷威', '大聯盟', 'mlb', 'milb', '旅外', '孫易磊', '日職', '火腿'];
             if (overseasKeywords.some(kw => cleanTitle.includes(kw) || cleanDesc.includes(kw))) {
