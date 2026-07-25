@@ -10779,6 +10779,7 @@
           "0",
           "0",
           "1",
+          "0",
           "0"
         ],
         "season_team_uniqid": "b7yJt",
@@ -10787,7 +10788,7 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-07-25 19:47",
         "finished_status": "NORMAL",
         "history": [],
         "innings": 9,
@@ -10800,7 +10801,7 @@
         "started_at": "2026-07-25 17:06",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "多雲時晴;10",
