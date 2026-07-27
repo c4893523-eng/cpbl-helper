@@ -10577,7 +10577,7 @@
         "stats_completeness": "PITCH",
         "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "多雲時晴;10",
         "winner_side": "HOME"
@@ -10670,9 +10670,9 @@
         "scheduled_start_at": "2026-07-26 17:05",
         "started_at": "2026-07-26 17:05",
         "stats_completeness": "PITCH",
-        "stats_status": "PITCH_MISSING",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "多雲午後短暫雷陣雨;50",
         "winner_side": "HOME"
@@ -10765,9 +10765,9 @@
         "scheduled_start_at": "2026-07-26 16:05",
         "started_at": "2026-07-26 16:05",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "陰短暫陣雨或雷雨;30",
         "winner_side": "HOME"
