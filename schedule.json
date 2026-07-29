@@ -10184,7 +10184,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "多雲;10",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -10259,7 +10259,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "多雲時晴;10",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -10334,7 +10334,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "多雲時晴;10",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -10425,9 +10425,9 @@
         "scheduled_start_at": "2026-07-28 18:35",
         "started_at": "2026-07-28 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "PITCH_MISSING",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "多雲時晴;20",
         "winner_side": "HOME"
@@ -10520,9 +10520,9 @@
         "scheduled_start_at": "2026-07-28 18:35",
         "started_at": "2026-07-28 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "PITCH_MISSING",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "多雲;10",
         "winner_side": "AWAY"
