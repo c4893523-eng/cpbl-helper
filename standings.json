@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "DIFF": 100,
+      "DIFF": 93,
       "E": -1,
       "GB": 0,
-      "M": 35,
-      "PCT": 0.641,
-      "STRK": 4,
+      "M": -1,
+      "PCT": 0.633,
+      "STRK": -1,
       "draws": 0,
-      "finished": 78,
-      "last_updated_at": "2026-08-01 19:32",
-      "loses": 28,
+      "finished": 79,
+      "last_updated_at": "2026-08-02 18:04",
+      "loses": 29,
       "order": 1,
       "team": {
         "abbr": "龍",
@@ -25,7 +25,7 @@
     {
       "DIFF": -8,
       "E": 35,
-      "GB": 8.5,
+      "GB": 8,
       "M": -1,
       "PCT": 0.532,
       "STRK": 2,
@@ -47,7 +47,7 @@
     {
       "DIFF": 23,
       "E": 33,
-      "GB": 10,
+      "GB": 9.5,
       "M": -1,
       "PCT": 0.513,
       "STRK": -2,
@@ -69,7 +69,7 @@
     {
       "DIFF": 1,
       "E": 31,
-      "GB": 12,
+      "GB": 11.5,
       "M": -1,
       "PCT": 0.487,
       "STRK": -3,
@@ -91,7 +91,7 @@
     {
       "DIFF": -48,
       "E": 30,
-      "GB": 13.5,
+      "GB": 13,
       "M": -1,
       "PCT": 0.467,
       "STRK": 2,
@@ -111,15 +111,15 @@
       "wins": 35
     },
     {
-      "DIFF": -68,
+      "DIFF": -61,
       "E": 22,
-      "GB": 22,
+      "GB": 21,
       "M": -1,
-      "PCT": 0.351,
-      "STRK": -2,
+      "PCT": 0.36,
+      "STRK": 1,
       "draws": 2,
-      "finished": 76,
-      "last_updated_at": "2026-08-01 19:32",
+      "finished": 77,
+      "last_updated_at": "2026-08-02 18:04",
       "loses": 48,
       "order": 6,
       "team": {
@@ -130,7 +130,7 @@
         "uniqid": "HCHks"
       },
       "total": 120,
-      "wins": 26
+      "wins": 27
     }
   ],
   "error": false,
