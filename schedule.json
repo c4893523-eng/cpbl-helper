@@ -8759,7 +8759,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "多雲時陰陣雨;70",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -8834,7 +8834,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "多雲時陰陣雨;70",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -8909,7 +8909,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "多雲短暫陣雨;30",
         "winner_side": "NONE"
       },
       "is_formal": true,
