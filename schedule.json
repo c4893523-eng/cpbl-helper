@@ -8534,7 +8534,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "陰陣雨;70",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -8609,7 +8609,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "陰時多雲陣雨;70",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -8684,7 +8684,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "多雲時陰短暫陣雨;30",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -9002,7 +9002,7 @@
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "多雲短暫陣雨;50",
         "winner_side": "AWAY"
