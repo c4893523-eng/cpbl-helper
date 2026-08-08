@@ -120,15 +120,6 @@
     },
     {
       "id": "rss_13",
-      "title": "中職》富邦最成功交易案！ 強打二壘手挑戰李凱威霸業",
-      "description": "中職最佳十人二壘手近3年都被味全龍李凱威壟斷，富邦悍將林澤彬今年展現挑戰霸業的強大氣勢，不僅克服過往的守備課題、有機會生涯首次參戰最佳十人票選，更是聯盟唯一打擊率破3成的二壘手，很有機會挑戰首座個人獎項。林澤彬去年就繳出3成打擊率的生涯年，卻因身兼二游，沒能跨過單一守位出賽80場的票選資格，今年幾乎",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%AF%8C%E9%82%A6%E6%9C%80%E6%88%90%E5%8A%9F%E4%BA%A4%E6%98%93%E6%A1%88-%E5%BC%B7%E6%89%93%E4%BA%8C%E5%A3%98%E6%89%8B%E6%8C%91%E6%88%B0%E6%9D%8E%E5%87%B1%E5%A8%81%E9%9C%B8%E6%A5%AD-103017981.html",
-      "pubDate": "8/8 2:30",
-      "rawImg": "https://media.zenfs.com/zh-tw/libertytimes_786/be95ca45f8b6171a5db1cac2fc3b42ee",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_14",
       "title": "中職》10年富邦悍將主場轉播畫下句點！ 知名球評潘忠韋發聲了",
       "description": "富邦悍將主場賽事轉播球評「喇叭」潘忠韋，因個人生活步調與整體規劃考量，於即日起暫時告別富邦悍將主場賽事的轉播工作。稍早潘忠韋也在社群發文，表示：「雖然暫時不在悍將賽事轉播與...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5533342",
@@ -137,7 +128,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_15",
+      "id": "rss_14",
       "title": "棒球》中國CPB玩真的！狂簽13名古巴好手 日職184轟全壘打王參戰",
       "description": "CPB（中國城市棒球聯賽）夏至聯賽將在8月13日點燃戰火，根據古巴媒體表示，將有多達13名古巴球員參戰。\n\n\n消息指出，前往中國參賽的球員有戴斯潘（Alfredo Desp...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5533329",
@@ -146,7 +137,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_16",
+      "id": "rss_15",
       "title": "MLB》行雲流水！洋基頭號大物游擊秀美技守備 教頭讚：守起來很輕鬆",
       "description": "洋基今天靠麥克曼恩（Ryan McMahon）延長賽10局下的再見高飛犧牲打，最終以3比2擊敗勇士。而洋基21歲頭號大物游擊隆巴德（George Lombard Jr.）此...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5533291",
@@ -155,7 +146,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_17",
+      "id": "rss_16",
       "title": "中職》崩盤！兄弟第1指名0.1局慘失3分爆炸 二軍防禦率高達8.63",
       "description": "中信兄弟2023年第一指名林暉盛今天在二軍登板，先發0.1局被KO退場，失3分責失，防禦率漲到8.63。\n\n\n此役對決富邦，林暉盛開賽就陷入無人出局一二壘有人危機，接著被李...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5533282",
@@ -164,13 +155,22 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_18",
+      "id": "rss_17",
       "title": "日職》遭軟銀強投復仇！台灣重砲林安可完全熄火 慘吞2K提前退場",
       "description": "西武獅台灣重砲林安可今天扛先發第4棒，但遭軟銀強投上茶谷大河封鎖，3打數完全熄火，打擊率降至0.228。\n\n\n林安可在7月24日與上茶谷大河交手時，曾從他手中敲出全壘打，結...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5533257",
       "pubDate": "8/8 11:48",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_18",
+      "title": "中職》富邦最成功交易案！ 強打二壘手挑戰李凱威霸業",
+      "description": "中職最佳十人二壘手近3年都被味全龍李凱威壟斷，富邦悍將林澤彬今年展現挑戰霸業的強大氣勢，不僅克服過往的守備課題、有機會生涯首次參戰最佳十人票選，更是聯盟唯一打擊率破3成的...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5533215",
+      "pubDate": "8/8 10:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_19",
