@@ -8787,15 +8787,16 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 6,
+        "hits": 10,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
-        "runs": 2,
+        "runs": 5,
         "scheduled_SP": null,
         "scores": [
           "0",
           "0",
           "0",
-          "2"
+          "4",
+          "1"
         ],
         "season_team_uniqid": "RAe8S",
         "team": "中信兄弟",
@@ -8810,7 +8811,7 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 1,
+        "errors": 2,
         "hex_color": "#1e4639;#fefefe",
         "hits": 2,
         "icon_url": "https://usermedia.rebas.tw/t/LH4lt/icon/1679389670-rWKGjIod7O_th",
@@ -8818,6 +8819,8 @@
         "scheduled_SP": null,
         "scores": [
           "1",
+          "0",
+          "0",
           "0",
           "0"
         ],
@@ -8830,7 +8833,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 4,
+        "innings": 5,
         "links": [],
         "location": "澄清湖棒球場",
         "location_abbr": "澄清湖",
