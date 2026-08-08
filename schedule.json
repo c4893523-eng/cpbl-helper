@@ -8785,18 +8785,21 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 1,
         "hex_color": "#f4cf46;#000000",
-        "hits": 10,
+        "hits": 13,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
-        "runs": 5,
+        "runs": 6,
         "scheduled_SP": null,
         "scores": [
           "0",
           "0",
           "0",
           "4",
-          "1"
+          "1",
+          "1",
+          "0",
+          "0"
         ],
         "season_team_uniqid": "RAe8S",
         "team": "中信兄弟",
@@ -8822,6 +8825,8 @@
           "0",
           "0",
           "0",
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "UuZ3x",
@@ -8833,7 +8838,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 5,
+        "innings": 8,
         "links": [],
         "location": "澄清湖棒球場",
         "location_abbr": "澄清湖",
