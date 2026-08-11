@@ -8309,7 +8309,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "多雲時陰短暫陣雨或雷雨;50",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -8384,7 +8384,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "晴時多雲;10",
         "winner_side": "NONE"
       },
       "is_formal": true,
