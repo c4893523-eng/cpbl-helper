@@ -1,15 +1,15 @@
 {
   "data": [
     {
-      "DIFF": 88,
+      "DIFF": 91,
       "E": -1,
       "GB": 0,
-      "M": 31,
-      "PCT": 0.622,
-      "STRK": -2,
+      "M": 30,
+      "PCT": 0.627,
+      "STRK": 1,
       "draws": 0,
-      "finished": 82,
-      "last_updated_at": "2026-08-08 16:10",
+      "finished": 83,
+      "last_updated_at": "2026-08-11 21:30",
       "loses": 31,
       "order": 1,
       "team": {
@@ -20,12 +20,12 @@
         "uniqid": "0MJKt"
       },
       "total": 120,
-      "wins": 51
+      "wins": 52
     },
     {
       "DIFF": -16,
-      "E": 31,
-      "GB": 8.5,
+      "E": 30,
+      "GB": 9,
       "M": -1,
       "PCT": 0.519,
       "STRK": -1,
@@ -45,17 +45,39 @@
       "wins": 42
     },
     {
-      "DIFF": 8,
+      "DIFF": 11,
       "E": 28,
       "GB": 10,
       "M": -1,
-      "PCT": 0.5,
-      "STRK": -3,
+      "PCT": 0.506,
+      "STRK": 3,
       "draws": 1,
-      "finished": 83,
-      "last_updated_at": "2026-08-09 18:43",
-      "loses": 41,
+      "finished": 82,
+      "last_updated_at": "2026-08-11 21:19",
+      "loses": 40,
       "order": 3,
+      "team": {
+        "abbr": "獅",
+        "hex_color": "#dd732c;#fefefe",
+        "name": "統一7-ELEVEn獅",
+        "season_team_uniqid": "NsGzj",
+        "uniqid": "hThSB"
+      },
+      "total": 120,
+      "wins": 41
+    },
+    {
+      "DIFF": 5,
+      "E": 26,
+      "GB": 11,
+      "M": -1,
+      "PCT": 0.494,
+      "STRK": -4,
+      "draws": 1,
+      "finished": 84,
+      "last_updated_at": "2026-08-11 21:30",
+      "loses": 42,
+      "order": 4,
       "team": {
         "abbr": "鷹",
         "hex_color": "#1e4639;#fefefe",
@@ -67,38 +89,16 @@
       "wins": 41
     },
     {
-      "DIFF": 10,
-      "E": 29,
-      "GB": 10,
+      "DIFF": -43,
+      "E": 25,
+      "GB": 13.5,
       "M": -1,
-      "PCT": 0.5,
-      "STRK": 2,
-      "draws": 1,
-      "finished": 81,
-      "last_updated_at": "2026-08-08 15:50",
-      "loses": 40,
-      "order": 3,
-      "team": {
-        "abbr": "獅",
-        "hex_color": "#dd732c;#fefefe",
-        "name": "統一7-ELEVEn獅",
-        "season_team_uniqid": "NsGzj",
-        "uniqid": "hThSB"
-      },
-      "total": 120,
-      "wins": 40
-    },
-    {
-      "DIFF": -42,
-      "E": 27,
-      "GB": 12.5,
-      "M": -1,
-      "PCT": 0.468,
-      "STRK": 1,
+      "PCT": 0.463,
+      "STRK": -1,
       "draws": 2,
-      "finished": 81,
-      "last_updated_at": "2026-08-08 16:10",
-      "loses": 42,
+      "finished": 82,
+      "last_updated_at": "2026-08-11 21:19",
+      "loses": 43,
       "order": 5,
       "team": {
         "abbr": "猿",
@@ -112,8 +112,8 @@
     },
     {
       "DIFF": -48,
-      "E": 20,
-      "GB": 19,
+      "E": 19,
+      "GB": 19.5,
       "M": -1,
       "PCT": 0.388,
       "STRK": 3,

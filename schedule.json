@@ -8262,9 +8262,9 @@
         },
         "errors": 1,
         "hex_color": "#bd2e34;#fefefe",
-        "hits": 3,
+        "hits": 9,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
-        "runs": 1,
+        "runs": 7,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -8274,7 +8274,8 @@
           "0",
           "0",
           "0",
-          "0"
+          "0",
+          "6"
         ],
         "season_team_uniqid": "GJ5tu",
         "team": "味全龍",
@@ -8289,11 +8290,11 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 1,
+        "errors": 2,
         "hex_color": "#1e4639;#fefefe",
-        "hits": 5,
+        "hits": 11,
         "icon_url": "https://usermedia.rebas.tw/t/LH4lt/icon/1679389670-rWKGjIod7O_th",
-        "runs": 2,
+        "runs": 4,
         "scheduled_SP": null,
         "scores": [
           "2",
@@ -8302,7 +8303,9 @@
           "0",
           "0",
           "0",
-          "0"
+          "0",
+          "0",
+          "2"
         ],
         "season_team_uniqid": "UuZ3x",
         "team": "台鋼雄鷹",
@@ -8310,24 +8313,24 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-08-11 21:30",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 8,
+        "innings": 9,
         "links": [],
         "location": "澄清湖棒球場",
         "location_abbr": "澄清湖",
         "location_uniqid": "rgVX",
         "public_video_url": "",
         "scheduled_start_at": "2026-08-11 18:35",
-        "started_at": "2026-08-11 18:36",
+        "started_at": "2026-08-11 18:35",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "多雲時陰短暫陣雨或雷雨;50",
-        "winner_side": "HOME"
+        "winner_side": "AWAY"
       },
       "is_formal": true,
       "season": {
@@ -8354,7 +8357,7 @@
         },
         "errors": 0,
         "hex_color": "#671a19;#fefefe",
-        "hits": 5,
+        "hits": 6,
         "icon_url": "https://usermedia.rebas.tw/t/1zODE/icon/1703833017-hSmVvyPzYd_th",
         "runs": 2,
         "scheduled_SP": null,
@@ -8363,6 +8366,8 @@
           "1",
           "0",
           "1",
+          "0",
+          "0",
           "0",
           "0",
           "0"
@@ -8382,9 +8387,9 @@
         },
         "errors": 1,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 5,
+        "hits": 7,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
-        "runs": 1,
+        "runs": 3,
         "scheduled_SP": null,
         "scores": [
           "1",
@@ -8392,6 +8397,9 @@
           "0",
           "0",
           "0",
+          "0",
+          "0",
+          "2",
           "0"
         ],
         "season_team_uniqid": "NsGzj",
@@ -8400,10 +8408,10 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-08-11 21:19",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 7,
+        "innings": 9,
         "links": [],
         "location": "臺東棒球村第一棒球場",
         "location_abbr": "臺東",
@@ -8413,11 +8421,11 @@
         "started_at": "2026-08-11 18:35",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "晴時多雲;10",
-        "winner_side": "AWAY"
+        "winner_side": "HOME"
       },
       "is_formal": true,
       "season": {
