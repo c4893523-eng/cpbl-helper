@@ -201,24 +201,6 @@
     },
     {
       "id": "rss_22",
-      "title": "中職》被兄弟新星擠出三壘 黃韋盛「完美守備率」無緣金手套",
-      "description": "自從中信兄弟新星張士綸竄起，黃韋盛從6月底就淡出守備無失誤的三壘防區，必須在一壘防區找到上場機會，導致連2年無緣符合金手套和最佳九人的票選資格，他直言並不覺得可惜，「我知道這是個殊榮，但必須打擊夠穩定才能繼續守，不然球隊守備好的選手也不少。」",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E8%A2%AB%E5%85%84%E5%BC%9F%E6%96%B0%E6%98%9F%E6%93%A0%E5%87%BA%E4%B8%89%E5%A3%98-%E9%BB%83%E9%9F%8B%E7%9B%9B-%E5%AE%8C%E7%BE%8E%E5%AE%88%E5%82%99%E7%8E%87-%E7%84%A1%E7%B7%A3%E9%87%91%E6%89%8B%E5%A5%97-113144676.html",
-      "pubDate": "8/12 3:31",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/62b813b52676487830f838f7ba02705a.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_23",
-      "title": "台鋼雄鷹2.5年約綁定永田颯太郎　合約細節曝光了",
-      "description": "台鋼雄鷹在2026新人球員選拔會第二輪選進內野好手永田颯太郎，8月10日完成簽約，並於今（12）日在澄清湖主場舉辦加盟儀式，雙方簽下2.5年合約，2026年月薪20萬元、2027年月薪24萬元，2028年薪資則依照2027年表現採變動制，保障月薪24萬元。",
-      "link": "https://tw.sports.yahoo.com/news/%E5%8F%B0%E9%8B%BC%E9%9B%84%E9%B7%B92-5%E5%B9%B4%E7%B4%84%E7%B6%81%E5%AE%9A%E6%B0%B8%E7%94%B0%E9%A2%AF%E5%A4%AA%E9%83%8E-%E5%90%88%E7%B4%84%E7%B4%B0%E7%AF%80%E6%9B%9D%E5%85%89%E4%BA%86-112806437.html",
-      "pubDate": "8/12 3:28",
-      "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/d970d9206e2ba252576bf9c9f833c677.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_24",
       "title": "日職》飆速158公里！孫易磊連3場無失分 火腿遭西武逆轉吞連敗",
       "description": "日本火腿21歲台灣火球男孫易磊相隔4天後再度登板，中繼1局無失分，飆速158公里追平生涯最速，火腿7局上狂失5分，終場以2：5遭西武逆轉，苦吞2連敗。\n\n\n火腿前6局靠著清...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537855",
@@ -227,7 +209,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_25",
+      "id": "rss_23",
       "title": "中職》謝謝你兄弟！ 新莊球場創週三最多觀眾紀錄",
       "description": "新莊球場今天上演富邦悍將跟中信兄弟的「金控大戰」，象迷踴躍進場，左外野黃澄澄一片，合計有高達9002人進場，寫下本季新莊週三最多觀眾紀錄。…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537870",
@@ -236,7 +218,16 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_26",
+      "id": "rss_24",
+      "title": "中職》被兄弟新星擠出三壘 黃韋盛「完美守備率」無緣金手套",
+      "description": "自從中信兄弟新星張士綸竄起，黃韋盛從6月底就淡出守備無失誤的三壘防區，必須在一壘防區找到上場機會，導致連2年無緣符合金手套和最佳九人的票選資格，他直言並不覺得可惜，「我知...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5537784",
+      "pubDate": "8/12 11:31",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_25",
       "title": "中職》曾助日職球隊奪冠！28歲日本強投台灣初登板 5.2局飆6K三振秀",
       "description": "樂天桃猿日前以育成洋將合約，簽下28歲日籍右投京山將彌，今天他在二軍迎來台灣初登板，先發5.2局僅失1分。\n\n\n京山將彌生涯起步於日職橫濱DeNA，生涯在一軍累積出賽84場...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537727",
@@ -245,7 +236,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_27",
+      "id": "rss_26",
       "title": "中職》兄弟下半季火力超兇猛 平野惠一：關鍵在投手",
       "description": "中信兄弟近6戰狂掃5勝，包含3連勝，只要今明2天都贏球，將是本季第一次在半季「儲金生活」，挑戰前段班排名，談到下半季復甦的打擊，中信總教練平野惠一直言跟投手戰力有關。\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537725",
@@ -254,7 +245,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_28",
+      "id": "rss_27",
       "title": "中職》台鋼本季首位加盟新秀！永田颯太郎合約條件公布",
       "description": "台鋼雄鷹今年選秀會選進6位選手，其中次輪選進曾在台灣就讀台體、2022年加入日職東北樂天金鷲的永田颯太郎，球團今天賽前為他舉辦加盟儀式。\n\n\n賽前，永田颯太郎先隨隊練球，...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537711",
@@ -263,7 +254,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_29",
+      "id": "rss_28",
       "title": "新竹市立棒球場1.33億改善工程8月底竣工 何時啟用仍未知",
       "description": "新竹市府今（12）日發布新聞稿稱，已召開市立棒球場工程體檢會第7次會議，目前棒球場改善工程進入收尾階段，預計8月底竣工，同時針對原統包廠商的履約缺失，已提出逾4億元的民事...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537701",
@@ -272,7 +263,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_30",
+      "id": "rss_29",
       "title": "中職》日籍投手向兄弟報到！ 153公里火球男黃玠瀚是即戰力候選",
       "description": "中信兄弟領隊彭政閔今天證實，今年選秀挑中的日籍投手大瀧幸治已向球隊報到，另外今年評估有機會上一軍的即戰力選手，第4指名的黃玠瀚是候選，「但還是要看選手的狀況，有些還不是很...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537697",
@@ -281,7 +272,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_31",
+      "id": "rss_30",
       "title": "中職》曾在日職幫助永田颯太郎 吳念庭再給這位新隊友建言",
       "description": "台鋼雄鷹今年選秀會選進6位新人，今天稍後預計幫次輪的永田颯太郎舉辦加盟儀式。永田颯太郎曾在2022年日職育成選秀會被東北樂天金鷲選上，去年底遭戰力外後，今年參與中職選秀。...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537685",
@@ -290,7 +281,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_32",
+      "id": "rss_31",
       "title": "中職》再1勝並列龍隊史最多勝教頭 葉總「從零開始」更在意養成",
       "description": "今天賽前，味全龍隊總教練葉君璋執教龍隊累積334勝，再1勝能追平已故龍隊總教練徐生明，並列龍隊隊史最多勝總教練。賽前被問到生涯執教勝場數，葉總笑說：「很多勝場紀錄通常都是...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537684",
@@ -299,7 +290,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_33",
+      "id": "rss_32",
       "title": "中職》二軍雙冠王卻苦等不到升一軍！日本強投失7分大核爆防禦率破5",
       "description": "台鋼雄鷹日籍投手櫻井周斗持續在二軍等待機會，今天後援6局狂失7分都是自責分，防禦率大暴漲。\n\n\n櫻井周斗有7年日本職棒經驗，2018至2023年效力橫濱DeNA灣星，202...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537650",
@@ -308,7 +299,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_34",
+      "id": "rss_33",
       "title": "中職》富邦簽下新洋投 可能面臨「極限測試」",
       "description": "富邦悍將昨天宣布簽下新洋投A.J. Candelario，中文命名為「悍里歐」，他已經抵達台灣完成體檢並和二軍報到，富邦總教練後藤光尊表示，有看過他的投球影片，「應該就是...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537676",
@@ -317,7 +308,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_35",
+      "id": "rss_34",
       "title": "中職》富邦勝投王李東洺回來了 跟兄弟新星上演「本土對決」",
       "description": "暫居聯盟勝投王的富邦悍將李東洺明天扛下先發投手，跟中信兄弟新星伍立辰上演土投大對決。\n\n\n李東洺在7月31日投5.1局失2分無關勝敗，本季局數已締造單季新高的85局，隔天...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537657",
@@ -326,7 +317,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_36",
+      "id": "rss_35",
       "title": "中職》遭日職戰力外曾考慮放棄棒球 永田颯太郎帶感恩的心返台",
       "description": "台鋼雄鷹今年選秀第2輪選進日籍內野手永田颯太郎，也讓這位「永田條款」本人正式成為受益者。\n\n\n永田在2022年日職育成選秀被東北樂天金鷲選中，但並未上一軍就在去年底遭釋出...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537613",
@@ -335,7 +326,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_37",
+      "id": "rss_36",
       "title": "MLB》大谷翔平MVP快被「PCA」搶走怎麼辦？356轟名將竟異想天開",
       "description": "大谷翔平仍被視為今年國聯MVP大熱門，有望挑戰四連霸，但小熊明星強打「PCA」阿姆斯壯（Pete Crow-Armstrong）會是最大競爭者，對此生涯356轟的前紅人MV...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537487",
@@ -344,7 +335,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_38",
+      "id": "rss_37",
       "title": "中職》沈柏蒼支援 台鋼一軍現有3位投手教練",
       "description": "近期4連敗的台鋼雄鷹，今天在教練團方面有小幅調整，一軍多了原二軍投手教練沈柏蒼支援。目前台鋼一軍教練團中，投手部門有投手教練蕭任汶、牛棚教練曾翊誠，和沈柏蒼3人。\n\n\n台...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537594",
@@ -353,22 +344,13 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_39",
+      "id": "rss_38",
       "title": "MLB》投手大谷復健進度良好！ 專家點出關鍵細節：還是會害怕...",
       "description": "道奇日本二刀流巨星大谷翔平因左膝不適，加上慣用手右臂肱二頭肌也感到緊繃，「投手大谷」無限期缺陣，力拚在季後賽之前復出。大谷今天再度進行傳接球練習，專家仔細觀察後點出關鍵細節...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5537481",
       "pubDate": "8/12 9:06",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_40",
-      "title": "MLB》大谷翔平預約年度陣容 有望創史上首見偉業",
-      "description": "大聯盟官網撰文預測本季最有可能入選年度最佳陣容（All-MLB Team）的球員名單，道奇二刀流球星大谷翔平和「日本最強投」山本由伸雙雙進入年度第2隊，大谷有望再堆高障礙。...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5537367",
-      "pubDate": "8/12 8:15",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
