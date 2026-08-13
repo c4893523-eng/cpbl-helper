@@ -7962,12 +7962,14 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 1,
+        "hits": 5,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
-        "runs": 0,
+        "runs": 3,
         "scheduled_SP": null,
         "scores": [
           "0",
+          "0",
+          "3",
           "0"
         ],
         "season_team_uniqid": "RAe8S",
@@ -7983,13 +7985,14 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 1,
         "hex_color": "#204e93;#fefefe",
-        "hits": 1,
+        "hits": 2,
         "icon_url": "https://usermedia.rebas.tw/t/TPKQm/icon/1703832992-wbJvcOUBba_th",
         "runs": 0,
         "scheduled_SP": null,
         "scores": [
+          "0",
           "0",
           "0"
         ],
@@ -8002,7 +8005,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 2,
+        "innings": 4,
         "links": [],
         "location": "新北市立新莊棒球場",
         "location_abbr": "新莊",
@@ -8016,7 +8019,7 @@
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "晴時多雲;20",
-        "winner_side": "TIE"
+        "winner_side": "AWAY"
       },
       "is_formal": true,
       "season": {
