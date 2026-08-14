@@ -7737,11 +7737,12 @@
         },
         "errors": 0,
         "hex_color": "#1e4639;#fefefe",
-        "hits": 6,
+        "hits": 8,
         "icon_url": "https://usermedia.rebas.tw/t/LH4lt/icon/1679389670-rWKGjIod7O_th",
         "runs": 0,
         "scheduled_SP": null,
         "scores": [
+          "0",
           "0",
           "0",
           "0",
@@ -7778,7 +7779,8 @@
           "4",
           "0",
           "2",
-          "1"
+          "1",
+          "0"
         ],
         "season_team_uniqid": "RAe8S",
         "team": "中信兄弟",
@@ -7786,10 +7788,10 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-08-14 21:38",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 8,
+        "innings": 9,
         "links": [],
         "location": "臺中市洲際棒球場",
         "location_abbr": "洲際",
@@ -7798,8 +7800,8 @@
         "scheduled_start_at": "2026-08-14 18:35",
         "started_at": "2026-08-14 18:36",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "stats_status": "PITCH_MISSING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "晴時多雲;20",
@@ -7860,9 +7862,9 @@
         },
         "errors": 0,
         "hex_color": "#bd2e34;#fefefe",
-        "hits": 7,
+        "hits": 10,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
-        "runs": 1,
+        "runs": 2,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -7873,7 +7875,7 @@
           "0",
           "0",
           "1",
-          "0"
+          "1"
         ],
         "season_team_uniqid": "GJ5tu",
         "team": "味全龍",
@@ -7881,7 +7883,7 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-08-14 21:32",
         "finished_status": "NORMAL",
         "history": [],
         "innings": 9,
@@ -7893,12 +7895,12 @@
         "scheduled_start_at": "2026-08-14 18:35",
         "started_at": "2026-08-14 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "stats_status": "NORMAL",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "多雲短暫陣雨;50",
-        "winner_side": "TIE"
+        "winner_side": "HOME"
       },
       "is_formal": true,
       "season": {
@@ -7925,7 +7927,7 @@
         },
         "errors": 0,
         "hex_color": "#204e93;#fefefe",
-        "hits": 13,
+        "hits": 14,
         "icon_url": "https://usermedia.rebas.tw/t/TPKQm/icon/1703832992-wbJvcOUBba_th",
         "runs": 7,
         "scheduled_SP": null,
@@ -7953,11 +7955,11 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 3,
+        "errors": 4,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 9,
+        "hits": 10,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
-        "runs": 2,
+        "runs": 3,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -7967,7 +7969,8 @@
           "0",
           "0",
           "0",
-          "0"
+          "0",
+          "1"
         ],
         "season_team_uniqid": "NsGzj",
         "team": "統一7-ELEVEn獅",
@@ -7975,7 +7978,7 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-08-14 21:42",
         "finished_status": "NORMAL",
         "history": [],
         "innings": 9,
@@ -7988,7 +7991,7 @@
         "started_at": "2026-08-14 18:35",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰時多雲陣雨或雷雨;70",
