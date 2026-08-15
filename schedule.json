@@ -7539,16 +7539,17 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 2,
+        "hits": 5,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
-        "runs": 0,
+        "runs": 1,
         "scheduled_SP": null,
         "scores": [
           "0",
           "0",
           "0",
           "0",
-          "0"
+          "0",
+          "1"
         ],
         "season_team_uniqid": "RAe8S",
         "team": "中信兄弟",
@@ -7573,7 +7574,7 @@
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰短暫陣雨或雷雨;40",
-        "winner_side": "AWAY"
+        "winner_side": "TIE"
       },
       "is_formal": true,
       "season": {
@@ -7626,16 +7627,16 @@
         },
         "errors": 0,
         "hex_color": "#bd2e34;#fefefe",
-        "hits": 3,
+        "hits": 4,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
-        "runs": 4,
+        "runs": 5,
         "scheduled_SP": null,
         "scores": [
           "4",
           "0",
           "0",
           "0",
-          "0"
+          "1"
         ],
         "season_team_uniqid": "GJ5tu",
         "team": "味全龍",
@@ -7714,9 +7715,9 @@
         },
         "errors": 1,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 9,
+        "hits": 10,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
-        "runs": 4,
+        "runs": 5,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -7724,7 +7725,7 @@
           "0",
           "0",
           "3",
-          "0"
+          "1"
         ],
         "season_team_uniqid": "NsGzj",
         "team": "統一7-ELEVEn獅",
