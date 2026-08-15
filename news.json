@@ -3,6 +3,51 @@
   "data": [
     {
       "id": "rss_0",
+      "title": "中職》首次在客場一軍隨隊 永田颯太郎做好隨時上場的準備",
+      "description": "台鋼雄鷹昨天註冊12日於主場澄清湖舉行加盟儀式的永田颯太郎，今天立刻安排他首次在客場洲際隨一軍練習，最快明天正式登錄一軍，永田表示，只要球團願意給他機會，讓他可以在一軍表現，他當然是全力以赴。永田曾在台灣就讀台體大，2022年在日職育成選秀第4輪被樂天金鷲指名，2023-25年在日職二軍累計出賽23",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E9%A6%96%E6%AC%A1%E5%9C%A8%E5%AE%A2%E5%A0%B4-%E8%BB%8D%E9%9A%A8%E9%9A%8A-%E6%B0%B8%E7%94%B0%E9%A2%AF%E5%A4%AA%E9%83%8E%E5%81%9A%E5%A5%BD%E9%9A%A8%E6%99%82%E4%B8%8A%E5%A0%B4%E7%9A%84%E6%BA%96%E5%82%99-093245047.html",
+      "pubDate": "8/15 1:32",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/021822a9b0a84d3ce0ac7ef560b405c6.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_1",
+      "title": "7月翻身繳好投　艾菩樂談6月低潮：要怪就怪卡特球",
+      "description": "（中央社記者蘇志畬台北15日電）7、8月的洋投艾菩樂（Tyler Eppler），與6月的他判若兩人；在下半季投球表現漸入佳境，中華職棒樂天桃猿隊洋投艾菩樂笑說：「要怪就怪卡特球吧」。",
+      "link": "https://tw.sports.yahoo.com/news/7%E6%9C%88%E7%BF%BB%E8%BA%AB%E7%B9%B3%E5%A5%BD%E6%8A%95-%E8%89%BE%E8%8F%A9%E6%A8%82%E8%AB%876%E6%9C%88%E4%BD%8E%E6%BD%AE-%E8%A6%81%E6%80%AA%E5%B0%B1%E6%80%AA%E5%8D%A1%E7%89%B9%E7%90%83-092503361.html",
+      "pubDate": "8/15 1:25",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_2",
+      "title": "睽違23天大谷翔平再度進牛棚練投！未來計畫總ㄟ全說了",
+      "description": "體育中心／綜合報導道奇日籍二刀流巨星大谷翔平，今（8/15）賽前進牛棚練投，這也是他睽違23天再度進牛棚，又往重返投手丘的目標跨出巨大的一步，賽後主帥羅伯斯（Dave Roberts）被問到大谷未來投球計畫時，不藏全說了。",
+      "link": "https://tw.sports.yahoo.com/news/%E7%9D%BD%E9%81%9523%E5%A4%A9%E5%A4%A7%E8%B0%B7%E7%BF%94%E5%B9%B3%E5%86%8D%E5%BA%A6%E9%80%B2%E7%89%9B%E6%A3%9A%E7%B7%B4%E6%8A%95-%E6%9C%AA%E4%BE%86%E8%A8%88%E7%95%AB%E7%B8%BD-%E5%85%A8%E8%AA%AA%E4%BA%86-091517719.html",
+      "pubDate": "8/15 1:15",
+      "rawImg": "https://media.zenfs.com/en/ftvn_sports_106/707542b92a743bfdf4f264f3bf302cd0.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_3",
+      "title": "中職》艾菩樂肋骨傷勢纏身 「棄切球」找到解方",
+      "description": "今年轉戰樂天桃猿的洋投艾菩樂，截至6月表現起伏較大，自責分率高達4.48，原本預期可能會在831大限前遭到割捨，然而7月表現觸底反彈，艾菩樂透露由於受到「肋骨」傷勢所困，特別停止使用切球，近期效果頗佳。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E8%89%BE%E8%8F%A9%E6%A8%82%E8%82%8B%E9%AA%A8%E5%82%B7%E5%8B%A2%E7%BA%8F%E8%BA%AB-%E6%A3%84%E5%88%87%E7%90%83-%E6%89%BE%E5%88%B0%E8%A7%A3%E6%96%B9-091415853.html",
+      "pubDate": "8/15 1:14",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_4",
+      "title": "「台灣至寶」孫易磊大展K功！中繼1局飆2K演3上3下完全宰制",
+      "description": "體育中心／綜合報導北海道日本火腿鬥士21歲「台灣至寶」孫易磊，稍早登板面對歐力士猛牛，中繼1局飆出2K，演出乾淨俐落3上3下，完全宰制歐力士。",
+      "link": "https://tw.sports.yahoo.com/news/%E5%8F%B0%E7%81%A3%E8%87%B3%E5%AF%B6-%E5%AD%AB%E6%98%93%E7%A3%8A%E5%A4%A7%E5%B1%95k%E5%8A%9F-%E4%B8%AD%E7%B9%BC1%E5%B1%80%E9%A3%862k%E6%BC%943%E4%B8%8A3%E4%B8%8B%E5%AE%8C%E5%85%A8%E5%AE%B0%E5%88%B6-091220061.html",
+      "pubDate": "8/15 1:12",
+      "rawImg": "https://media.zenfs.com/en/ftvn_sports_106/4d5164d073e65d3446f90202df739cd2.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_5",
       "title": "中職樂天桃猿雙洋砲將同場先發（1） (圖)",
       "description": "中華職棒樂天桃猿隊今年找來外籍打者威克（Adam Walker）（圖）、道威聖（Ronnie Dawson），2人在15日對戰味全龍隊，將首次同場先發。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%A8%82%E5%A4%A9%E6%A1%83%E7%8C%BF%E9%9B%99%E6%B4%8B%E7%A0%B2%E5%B0%87%E5%90%8C%E5%A0%B4%E5%85%88%E7%99%BC-1-%E5%9C%96-090329375.html",
@@ -11,7 +56,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_1",
+      "id": "rss_6",
       "title": "中職隔11年再現雙洋砲先發　「使用說明書」猿隊有掌握",
       "description": "（中央社記者蘇志畬台北15日電）樂天桃猿隊本季首度啟用雙洋砲先發，這是以洋投為主的中華職棒相隔11年再現此景；總教練曾豪駒期待他們有所發揮，而與洋投同場出賽時的「使用說明書」也已有所掌握。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E9%9A%9411%E5%B9%B4%E5%86%8D%E7%8F%BE%E9%9B%99%E6%B4%8B%E7%A0%B2%E5%85%88%E7%99%BC-%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E%E6%9B%B8-%E7%8C%BF%E9%9A%8A%E6%9C%89%E6%8E%8C%E6%8F%A1-084739005.html",
@@ -20,7 +65,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_2",
+      "id": "rss_7",
       "title": "中職》龍隊先被得分勝率竟逼近5成 葉總笑回一句話",
       "description": "味全龍隊今年戰績優異，還多次上演逆轉勝，截至今天賽前，龍隊先被得分的成績竟達18勝20敗，勝率逼近5成，也大勝其他隊伍。去年球季，龍隊只要先被得分必定苦戰，成績僅9勝42敗，今年團隊展現韌性，先被得分不再是「輸球保證」。被問到兩季間先被得分的戰況差異，龍隊總教練葉君璋先是笑回：「我們去年先得分，也沒",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E9%BE%8D%E9%9A%8A%E5%85%88%E8%A2%AB%E5%BE%97%E5%88%86%E5%8B%9D%E7%8E%87%E7%AB%9F%E9%80%BC%E8%BF%915%E6%88%90-%E8%91%89%E7%B8%BD%E7%AC%91%E5%9B%9E-%E5%8F%A5%E8%A9%B1-084554238.html",
@@ -29,7 +74,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_3",
+      "id": "rss_8",
       "title": "孫易磊飆156公里中繼成功　宋家豪隔2個月一軍登板",
       "description": "（中央社記者謝靜雯台北15日電）日職北海道日本火腿鬥士隊台灣投手孫易磊今天一軍中繼登板，投1局飆速156公里、無失分，拿下中繼成功；樂天金鷲投手宋家豪睽違近2個月一軍登板，中繼0.2局無責失分、無關勝敗。",
       "link": "https://tw.sports.yahoo.com/news/%E5%AD%AB%E6%98%93%E7%A3%8A%E9%A3%86156%E5%85%AC%E9%87%8C%E4%B8%AD%E7%B9%BC%E6%88%90%E5%8A%9F-%E5%AE%8B%E5%AE%B6%E8%B1%AA%E9%9A%942%E5%80%8B%E6%9C%88-%E8%BB%8D%E7%99%BB%E6%9D%BF-083733887.html",
@@ -38,7 +83,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_4",
+      "id": "rss_9",
       "title": "中職》7月起脫胎換骨 樂天洋投艾菩樂揭「封印」卡特球原因",
       "description": "樂天桃猿下半季大膽變陣啟用雙洋砲，對洋投艾菩樂而言，競爭挑戰依舊。不過，6月中防禦率一度漲至4.48的艾菩樂，7月起回穩，連同昨天，他近6場有5場優質先發。艾菩樂今天受訪，除了坦言自己第一根肋骨的傷勢，處理傷勢花了一段時間，也透露自己近幾場和教練討論、確認數據後，決定在配球場改變，不投卡特球。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-7%E6%9C%88%E8%B5%B7%E8%84%AB%E8%83%8E%E6%8F%9B%E9%AA%A8-%E6%A8%82%E5%A4%A9%E6%B4%8B%E6%8A%95%E8%89%BE%E8%8F%A9%E6%A8%82%E6%8F%AD-%E5%B0%81%E5%8D%B0-%E5%8D%A1%E7%89%B9%E7%90%83%E5%8E%9F%E5%9B%A0-083324187.html",
@@ -47,7 +92,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_5",
+      "id": "rss_10",
       "title": "稱山本由伸「有部分可以借鑑」　釀酒人怪物火球男不在意是否拿塞揚獎",
       "description": "洛杉磯道奇與密爾瓦基釀酒人的系列賽，外界高度關注釀酒人塞揚獎熱門Jacob Misiorowski與大谷翔平的對決，他今天（15日）賽前受訪時也談到此戰的道奇先發投手山本由伸，並稱他「有部分可以借鑑」，至於塞揚獎部分，他則是不在意是否可以得獎。",
       "link": "https://tw.sports.yahoo.com/news/%E7%A8%B1%E5%B1%B1%E6%9C%AC%E7%94%B1%E4%BC%B8-%E6%9C%89%E9%83%A8%E5%88%86%E5%8F%AF%E4%BB%A5%E5%80%9F%E9%91%91-%E9%87%80%E9%85%92%E4%BA%BA%E6%80%AA%E7%89%A9%E7%81%AB%E7%90%83%E7%94%B7%E4%B8%8D%E5%9C%A8%E6%84%8F%E6%98%AF%E5%90%A6%E6%8B%BF%E5%A1%9E%E6%8F%9A%E7%8D%8E-083321947.html",
@@ -56,7 +101,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_6",
+      "id": "rss_11",
       "title": "黃偉哲赴日本職棒開球 06號球衣藏「台南」巧思亮相西武獅主場",
       "description": "日本職棒埼玉西武獅隊昨在主場Belluna巨蛋舉辦「台南觀光日」，台南市觀旅局特別冠名贊助主題日，並由市長黃偉哲出席擔任開球嘉賓，其穿上印有台南電話區碼「06」球衣，同時與台南觀光大使魚頭君一同...",
       "link": "https://tw.sports.yahoo.com/news/%E9%BB%83%E5%81%89%E5%93%B2%E8%B5%B4%E6%97%A5%E6%9C%AC%E8%81%B7%E6%A3%92%E9%96%8B%E7%90%83-06%E8%99%9F%E7%90%83%E8%A1%A3%E8%97%8F-%E5%8F%B0%E5%8D%97-%E5%B7%A7%E6%80%9D%E4%BA%AE%E7%9B%B8%E8%A5%BF%E6%AD%A6%E7%8D%85%E4%B8%BB%E5%A0%B4-082349850.html",
@@ -65,7 +110,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_7",
+      "id": "rss_12",
       "title": "中職》樂天下週需多一位本土先發 曾總點名邱駿威機會大",
       "description": "樂天桃猿本週啟用雙洋砲，威能帝下二軍、一軍洋投剩下艾菩樂，下週很可能需要多一位本土先發分擔場次。今天賽前受訪，樂天總教練曾豪駒點名，邱駿威上一軍的機會大。邱駿威本季出賽18場皆是後援，近期以長局數調整，8月6日面對中信兄弟二軍中繼出賽，單場用69球，4局失3分。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%A8%82%E5%A4%A9%E4%B8%8B%E9%80%B1%E9%9C%80%E5%A4%9A-%E4%BD%8D%E6%9C%AC%E5%9C%9F%E5%85%88%E7%99%BC-%E6%9B%BE%E7%B8%BD%E9%BB%9E%E5%90%8D%E9%82%B1%E9%A7%BF%E5%A8%81%E6%A9%9F%E6%9C%83%E5%A4%A7-081737072.html",
@@ -74,7 +119,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_8",
+      "id": "rss_13",
       "title": "中職》陳子豪扛3棒、石翔宇本季初先發 葉總透露打線人力",
       "description": "味全龍昨險勝樂天桃猿，今天兩隊再戰，味全打線再次變陣。今天龍隊安排陳子豪打第3棒，主力三壘手劉基鴻休兵，石翔宇本季初先發守三壘。石翔宇2016年起效力義大和後來的富邦，2021年轉戰味全龍，今天賽前，他本季出賽6場、3打席，本季首安尚未出爐。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E9%99%B3%E5%AD%90%E8%B1%AA%E6%89%9B3%E6%A3%92-%E7%9F%B3%E7%BF%94%E5%AE%87%E6%9C%AC%E5%AD%A3%E5%88%9D%E5%85%88%E7%99%BC-%E8%91%89%E7%B8%BD%E9%80%8F%E9%9C%B2%E6%89%93%E7%B7%9A%E4%BA%BA%E5%8A%9B-080549273.html",
@@ -83,7 +128,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_9",
+      "id": "rss_14",
       "title": "MLB》日職MVP佐藤輝明 獲大都會、道奇、洋基關注",
       "description": "日本職棒阪神虎猛將佐藤輝明被看好成為下一位旅美球員，27歲的佐藤是2025年度央聯MVP、打擊雙冠王（40轟102打點），締造過日職左打新秀的全壘打紀錄（24轟），是大聯盟球隊喜歡的強力左打。",
       "link": "https://tw.sports.yahoo.com/news/mlb-%E6%97%A5%E8%81%B7mvp%E4%BD%90%E8%97%A4%E8%BC%9D%E6%98%8E-%E7%8D%B2%E5%A4%A7%E9%83%BD%E6%9C%83-%E9%81%93%E5%A5%87-%E6%B4%8B%E5%9F%BA%E9%97%9C%E6%B3%A8-080533714.html",
@@ -92,7 +137,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_10",
+      "id": "rss_15",
       "title": "TPBL》師徒最後合影？ 攻城獅主帥威森現身瓊斯盃巧遇高國豪",
       "description": "TPBL新竹攻城獅主帥威森卸下約旦國家隊兵符，今來到瓊斯盃現場和約旦隊成員敘舊，在休息區的通道接受媒體採訪時，更巧遇抵達球場的攻城獅一哥高國豪，兩人開心打招呼留下合影，新賽季是否能並肩作戰受到關注。攻城獅上季在威森帶領下重返季後賽，最終止步首輪，威森透露，大概兩週前抵台投入攻城獅的季前訓練，「我在約",
       "link": "https://tw.sports.yahoo.com/news/tpbl-%E5%B8%AB%E5%BE%92%E6%9C%80%E5%BE%8C%E5%90%88%E5%BD%B1-%E6%94%BB%E5%9F%8E%E7%8D%85%E4%B8%BB%E5%B8%A5%E5%A8%81%E6%A3%AE%E7%8F%BE%E8%BA%AB%E7%93%8A%E6%96%AF%E7%9B%83%E5%B7%A7%E9%81%87%E9%AB%98%E5%9C%8B%E8%B1%AA-075750174.html",
@@ -101,7 +146,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_11",
+      "id": "rss_16",
       "title": "瓊斯盃》師徒最後一次合照？威森樂見高國豪打出好表現",
       "description": "正當新竹御嵿攻城獅總教練威森15日在新莊體育館跟媒體談到高國豪前役在中華白對美國的優異表現，且稱讚高國豪確實是名很好球員之際，高國豪就剛好走了過來，兩人也熱情擁抱且合照，不過高國豪目前還沒決定自己新東家，也很可能離開攻城獅，所以這張上季攻城獅「師徒合照」，或許很可能成為兩人最後一次合照。",
       "link": "https://tw.sports.yahoo.com/news/%E7%93%8A%E6%96%AF%E7%9B%83-%E5%B8%AB%E5%BE%92%E6%9C%80%E5%BE%8C-%E6%AC%A1%E5%90%88%E7%85%A7-%E5%A8%81%E6%A3%AE%E6%A8%82%E8%A6%8B%E9%AB%98%E5%9C%8B%E8%B1%AA%E6%89%93%E5%87%BA%E5%A5%BD%E8%A1%A8%E7%8F%BE-075635050.html",
@@ -110,7 +155,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_12",
+      "id": "rss_17",
       "title": "中職》昨道威聖代打時機「聯盟有先確認」 曾總解釋規定細節",
       "description": "中職聯盟現規章規定，外籍選手每隊註冊4人、一軍登錄3人、同時上場2人。在艾菩樂掛帥先發之下，樂天桃猿昨天安排威克先發、道威聖替補。艾菩樂昨投滿7局，道威聖則在8局上代打第8棒嚴宏鈞的棒次。而在紀錄上，若該半局結束，艾菩樂並未退場的狀況下，仍可投8局下，屆時便與規章不符。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%98%A8%E9%81%93%E5%A8%81%E8%81%96%E4%BB%A3%E6%89%93%E6%99%82%E6%A9%9F-%E8%81%AF%E7%9B%9F%E6%9C%89%E5%85%88%E7%A2%BA%E8%AA%8D-%E6%9B%BE%E7%B8%BD%E8%A7%A3%E9%87%8B%E8%A6%8F%E5%AE%9A%E7%B4%B0%E7%AF%80-072628105.html",
@@ -119,121 +164,94 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_13",
-      "title": "中職》聯盟睽違11年再現！樂天首啟雙洋砲棒次出爐",
-      "description": "樂天桃猿今天作客大巨蛋面對味全龍，由於先發投手是本土的曾家輝，今天終於能將威克、道威聖同時放在先發打線。今天威克擔任第3棒、道威聖第5棒。繼中信兄弟2015年耐克、佩卓之後，暌違11年再次有雙洋砲同隊同場先發。樂天先發打序：1. 林立 RF",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E8%81%AF%E7%9B%9F%E7%9D%BD%E9%81%9511%E5%B9%B4%E5%86%8D%E7%8F%BE-%E6%A8%82%E5%A4%A9%E9%A6%96%E5%95%9F%E9%9B%99%E6%B4%8B%E7%A0%B2%E6%A3%92%E6%AC%A1%E5%87%BA%E7%88%90-070339240.html",
-      "pubDate": "8/14 23:03",
-      "rawImg": "https://media.zenfs.com/vi/libertytimes_786/a4d49d1195d1219b0412540fc8e46207.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_14",
-      "title": "棒球》酒駕遭中職開除 「東體彭于晏」李育朋疑赴陸打球",
-      "description": "因為出色的外型擁有「東體彭于晏」之稱，前樂天桃猿李育朋進入職棒僅半年，就因為酒駕遭到球團開除。近期大陸棒球城市聯賽（CPB）開打，李育朋突然現身宣傳影片，疑似找到新東家延續棒球生涯。",
-      "link": "https://tw.sports.yahoo.com/news/%E6%A3%92%E7%90%83-%E9%85%92%E9%A7%95%E9%81%AD%E4%B8%AD%E8%81%B7%E9%96%8B%E9%99%A4-%E6%9D%B1%E9%AB%94%E5%BD%AD%E4%BA%8E%E6%99%8F-%E6%9D%8E%E8%82%B2%E6%9C%8B%E7%96%91%E8%B5%B4%E9%99%B8%E6%89%93%E7%90%83-063720485.html",
-      "pubDate": "8/14 22:37",
+      "id": "rss_18",
+      "title": "中職》樂天本土新星生涯首挨滿貫砲！雙洋砲連線前就大幅落後",
+      "description": "樂天桃猿今天客場出戰味全龍，今由本土強投曾家輝掛帥先發，也因此能將威克、道威聖兩位外籍打者都安排在先發打線上。不過，兩位洋砲還沒能發揮，曾家輝首局就挨了吉力吉撈．鞏冠滿貫...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5541065",
+      "pubDate": "8/15 9:44",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_15",
-      "title": "只用快速球對決大谷翔平！米肖羅斯基放話要討回上次挨轟的顏面",
-      "description": "體育中心／綜合報導道奇與釀酒人兩支國聯分區龍頭展開4連戰，系列賽第三戰將迎來最受矚目的強投豪打對決。釀酒人王牌米肖羅斯基（Jacob Misiorowski），將正面迎戰大谷翔平。談到兩人即將第二度交手，米肖羅斯基直接放話，這次要用自己最有自信的快速球挑戰大谷。",
-      "link": "https://tw.sports.yahoo.com/news/%E5%8F%AA%E7%94%A8%E5%BF%AB%E9%80%9F%E7%90%83%E5%B0%8D%E6%B1%BA%E5%A4%A7%E8%B0%B7%E7%BF%94%E5%B9%B3-%E7%B1%B3%E8%82%96%E7%BE%85%E6%96%AF%E5%9F%BA%E6%94%BE%E8%A9%B1%E8%A6%81%E8%A8%8E%E5%9B%9E%E4%B8%8A%E6%AC%A1%E6%8C%A8%E8%BD%9F%E7%9A%84%E9%A1%8F%E9%9D%A2-050318761.html",
-      "pubDate": "8/14 21:03",
-      "rawImg": "https://media.zenfs.com/en/ftvn_sports_106/ba7e1329803c24f846f08f72a54c023e.jpg",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_16",
-      "title": "山本由伸6局狂飆9K僅失1分！道奇扳回一城險勝釀酒人",
-      "description": "體育中心／綜合報導道奇釀酒人4連戰第2戰，昨（8/14）慘遭逆轉輸球的道奇，本戰推派日籍王牌山本由伸掛帥先發、二刀流巨星大谷翔平開路先鋒，終場道奇3：1險勝釀酒人，系列賽扳回一城，4連戰前2戰打成1：1平手。",
-      "link": "https://tw.sports.yahoo.com/news/%E5%B1%B1%E6%9C%AC%E7%94%B1%E4%BC%B86%E5%B1%80%E7%8B%82%E9%A3%869k%E5%83%85%E5%A4%B11%E5%88%86-%E9%81%93%E5%A5%87%E6%89%B3%E5%9B%9E-%E5%9F%8E%E9%9A%AA%E5%8B%9D%E9%87%80%E9%85%92%E4%BA%BA-045926872.html",
-      "pubDate": "8/14 20:59",
-      "rawImg": "https://media.zenfs.com/en/ftvn_sports_106/3b7bfe7ee5a44d9eee7cfeaff53b6476.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_17",
+      "id": "rss_19",
       "title": "棒球》在中職拿過金手套、最佳十人！ 前富邦明星鐵捕轉戰中國打球",
       "description": "離開中職賽場5年的38歲捕手方克偉，如今加盟中國球隊長沙旺旺，參戰CPB（中國城市棒球聯賽）夏至聯賽。\n\n\n方克偉生涯在中職效力過兄弟象、興農牛、義大犀牛、富邦悍將，合計出...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5541008",
       "pubDate": "8/15 9:06",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_18",
+      "id": "rss_20",
       "title": "日職》最快156公里！孫易磊1局飆2K收中繼成功 宋家豪0.2局失2分",
       "description": "日本火腿台灣21歲火球男孫易磊今天後援1局送出2次三振沒有失分，日本火腿最終在客場以12比4大勝歐力士猛牛，孫易磊收下本季第3次中繼成功。樂天金鷲台灣好手宋家豪後援0.2局...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5540942",
       "pubDate": "8/15 8:28",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_19",
+      "id": "rss_21",
       "title": "中職》2100位長庚人前進大巨蛋 創醫療院所家庭日參與新紀錄",
       "description": "慶祝長庚醫療體系創院50週年，長庚醫院把「幸福職場」搬進台北大巨蛋！邀請員工8月14日晚走出醫院、放下工作與壓力，齊聚大巨蛋看職棒，吸引超過2,100位員工暨家屬參加，創下...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5540969",
       "pubDate": "8/15 8:18",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_20",
+      "id": "rss_22",
       "title": "瓊斯盃》歐拉朱萬之子還沒學會夢幻腳步 對台灣賀家兄弟有印象",
       "description": "NBA傳奇中鋒歐拉朱萬（Hakeem Olajuwon）的兒子阿卜杜拉（Abdullah Olajuwon），代表約旦首度參加瓊斯盃，擔任後衛的他透露，有藉機學一下老爸招...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5540974",
       "pubDate": "8/15 8:18",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_21",
+      "id": "rss_23",
       "title": "好痛！韓職NC恐龍投手遭強襲球擊中臉部 下顎粉碎性骨折將開刀",
       "description": "南韓職棒NC恐龍右投林知民，14日在對陣樂天巨人隊時遭強襲球擊中臉部，導致口腔撕裂傷、下顎骨粉碎性骨折，送醫後撕裂傷已縫合完畢，預計將於下週開刀處理下顎的情況。\n\n\n據《韓...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5540960",
       "pubDate": "8/15 8:08",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_22",
+      "id": "rss_24",
+      "title": "中職》聯盟睽違11年再現！樂天首啟雙洋砲棒次出爐",
+      "description": "樂天桃猿今天作客大巨蛋面對味全龍，由於先發投手是本土的曾家輝，今天終於能將威克、道威聖同時放在先發打線。今天威克擔任第3棒、道威聖第5棒。繼中信兄弟2015年耐克、佩卓之...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5540900",
+      "pubDate": "8/15 7:03",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_25",
       "title": "山本由伸9K壓制大聯盟龍頭 今日MLB戰績",
       "description": "紅雀0：3小熊\n\n\n馬林魚0：1紅人\n\n\n紅襪4：8海盜\n\n\n白襪9：5老虎\n\n\n金鶯6：5光芒\n\n\n教士7：5守護者\n\n\n國民1：4大都會\n\n\n響尾蛇2：0勇士\n\n\n洋基1：3藍鳥\n\n\n水手7...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5540768",
       "pubDate": "8/15 5:00",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_23",
+      "id": "rss_26",
       "title": "MLB》大谷躺平沒差！山本由伸9K超狂三振秀 道奇2轟打敗大聯盟龍頭",
       "description": "衛冕軍道奇與大聯盟龍頭釀酒人系列賽第2戰，雖然日本巨星大谷翔平熄火只選到1保送，但學弟山本由伸主投6局狂飆9K，幫助道奇以3：1力克釀酒人。\n\n\n曾在去年國聯冠軍賽G2對釀...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5540674",
       "pubDate": "8/15 4:46",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_27",
       "title": "棒球》因無照酒駕車禍遭開除！前樂天桃猿19歲左投驚傳轉戰中國賽場",
       "description": "前樂天桃猿投手李育朋，在今年4月因無照酒駕車禍遭球團開除，近期卻再度出現在外界視線中。日前中國棒球城市聯賽（CPB）發布廈門海豚隊相關影片，出現李育朋的身影，引發熱議。\n\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5540633",
       "pubDate": "8/15 2:45",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_25",
-      "title": "MLB》道奇5王牌邁向完全體！大谷翔平重返鬼神二刀流邁出巨大一步",
-      "description": "道奇日本巨星大谷翔平因左膝傷勢，自美國時間7月22日以來便沒有投球，不過近期已經恢復投球訓練，今天更是朝重返投打二刀流邁出巨大一步。\n\n\n根據日媒報導，大谷今天在主場迎戰釀...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5540522",
-      "pubDate": "8/15 0:41",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
