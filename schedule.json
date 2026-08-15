@@ -7512,9 +7512,9 @@
         },
         "errors": 0,
         "hex_color": "#1e4639;#fefefe",
-        "hits": 7,
+        "hits": 9,
         "icon_url": "https://usermedia.rebas.tw/t/LH4lt/icon/1679389670-rWKGjIod7O_th",
-        "runs": 1,
+        "runs": 3,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -7524,7 +7524,7 @@
           "0",
           "1",
           "0",
-          "0"
+          "2"
         ],
         "season_team_uniqid": "UuZ3x",
         "team": "台鋼雄鷹",
@@ -7539,9 +7539,9 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 1,
         "hex_color": "#f4cf46;#000000",
-        "hits": 6,
+        "hits": 7,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
         "runs": 1,
         "scheduled_SP": null,
@@ -7552,6 +7552,7 @@
           "0",
           "0",
           "1",
+          "0",
           "0"
         ],
         "season_team_uniqid": "RAe8S",
@@ -7563,7 +7564,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 7,
+        "innings": 8,
         "links": [],
         "location": "臺中市洲際棒球場",
         "location_abbr": "洲際",
@@ -7577,7 +7578,7 @@
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰短暫陣雨或雷雨;40",
-        "winner_side": "TIE"
+        "winner_side": "AWAY"
       },
       "is_formal": true,
       "season": {
@@ -7604,9 +7605,9 @@
         },
         "errors": 0,
         "hex_color": "#671a19;#fefefe",
-        "hits": 5,
+        "hits": 7,
         "icon_url": "https://usermedia.rebas.tw/t/1zODE/icon/1703833017-hSmVvyPzYd_th",
-        "runs": 0,
+        "runs": 2,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -7614,7 +7615,8 @@
           "0",
           "0",
           "0",
-          "0"
+          "0",
+          "2"
         ],
         "season_team_uniqid": "b7yJt",
         "team": "樂天桃猿",
@@ -7641,6 +7643,7 @@
           "0",
           "0",
           "5",
+          "0",
           "0"
         ],
         "season_team_uniqid": "GJ5tu",
@@ -7652,7 +7655,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 6,
+        "innings": 7,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
@@ -7704,6 +7707,7 @@
           "0",
           "0",
           "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "H0zzP",
@@ -7721,9 +7725,9 @@
         },
         "errors": 1,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 12,
+        "hits": 15,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
-        "runs": 9,
+        "runs": 12,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -7732,7 +7736,7 @@
           "0",
           "3",
           "5",
-          "0"
+          "3"
         ],
         "season_team_uniqid": "NsGzj",
         "team": "統一7-ELEVEn獅",
@@ -7743,7 +7747,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 7,
+        "innings": 8,
         "links": [],
         "location": "亞太國際棒球訓練中心-主球場",
         "location_abbr": "亞太",
