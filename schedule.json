@@ -7437,9 +7437,9 @@
         },
         "errors": 0,
         "hex_color": "#204e93;#fefefe",
-        "hits": 12,
+        "hits": 14,
         "icon_url": "https://usermedia.rebas.tw/t/TPKQm/icon/1703832992-wbJvcOUBba_th",
-        "runs": 5,
+        "runs": 8,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -7449,7 +7449,7 @@
           "0",
           "0",
           "1",
-          "0"
+          "3"
         ],
         "season_team_uniqid": "H0zzP",
         "team": "富邦悍將",
@@ -7476,6 +7476,7 @@
           "0",
           "0",
           "1",
+          "0",
           "0",
           "0"
         ],
