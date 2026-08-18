@@ -7260,7 +7260,7 @@
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "晴時多雲;20",
-        "winner_side": "NONE"
+        "winner_side": "TIE"
       },
       "is_formal": true,
       "season": {
@@ -7335,7 +7335,7 @@
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰時多雲短暫陣雨;60",
-        "winner_side": "NONE"
+        "winner_side": "TIE"
       },
       "is_formal": true,
       "season": {
