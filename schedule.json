@@ -7263,7 +7263,7 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-08-18 21:53",
         "finished_status": "NORMAL",
         "history": [],
         "innings": 9,
@@ -7276,7 +7276,7 @@
         "started_at": "2026-08-18 18:36",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "晴時多雲;20",
