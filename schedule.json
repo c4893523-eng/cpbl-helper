@@ -431,7 +431,7 @@
         "started_at": "",
         "stats_completeness": "NONE",
         "stats_status": "NORMAL",
-        "status": "POSTPONED",
+        "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "",
@@ -7259,7 +7259,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "晴時多雲;20",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -7334,7 +7334,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "陰時多雲短暫陣雨;60",
         "winner_side": "NONE"
       },
       "is_formal": true,
