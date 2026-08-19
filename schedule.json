@@ -6987,9 +6987,9 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 7,
+        "hits": 10,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
-        "runs": 4,
+        "runs": 6,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -6999,7 +6999,8 @@
           "0",
           "3",
           "1",
-          "0"
+          "0",
+          "2"
         ],
         "season_team_uniqid": "RAe8S",
         "team": "中信兄弟",
@@ -7028,6 +7029,7 @@
           "0",
           "0",
           "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "GJ5tu",
@@ -7036,10 +7038,10 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-08-19 21:25",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 8,
+        "innings": 9,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
@@ -7049,7 +7051,7 @@
         "started_at": "2026-08-19 18:36",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰短暫陣雨或雷雨;60",
@@ -7155,9 +7157,9 @@
         },
         "errors": 1,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 8,
+        "hits": 13,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
-        "runs": 3,
+        "runs": 5,
         "scheduled_SP": null,
         "scores": [
           "2",
@@ -7166,7 +7168,8 @@
           "0",
           "1",
           "0",
-          "0"
+          "0",
+          "2"
         ],
         "season_team_uniqid": "NsGzj",
         "team": "統一7-ELEVEn獅",
@@ -7181,11 +7184,11 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 1,
         "hex_color": "#1e4639;#fefefe",
-        "hits": 5,
+        "hits": 8,
         "icon_url": "https://usermedia.rebas.tw/t/LH4lt/icon/1679389670-rWKGjIod7O_th",
-        "runs": 3,
+        "runs": 5,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -7194,7 +7197,8 @@
           "1",
           "0",
           "2",
-          "0"
+          "0",
+          "2"
         ],
         "season_team_uniqid": "UuZ3x",
         "team": "台鋼雄鷹",
@@ -7205,7 +7209,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 7,
+        "innings": 8,
         "links": [],
         "location": "臺東棒球村第一棒球場",
         "location_abbr": "臺東",
