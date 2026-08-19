@@ -6987,9 +6987,9 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 4,
+        "hits": 7,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
-        "runs": 0,
+        "runs": 4,
         "scheduled_SP": null,
         "scores": [
           "0",
@@ -6997,6 +6997,8 @@
           "0",
           "0",
           "0",
+          "3",
+          "1",
           "0"
         ],
         "season_team_uniqid": "RAe8S",
@@ -7012,7 +7014,7 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 1,
         "hex_color": "#bd2e34;#fefefe",
         "hits": 5,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
@@ -7023,6 +7025,9 @@
           "1",
           "0",
           "1",
+          "0",
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "GJ5tu",
@@ -7034,7 +7039,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 6,
+        "innings": 8,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
@@ -7048,7 +7053,7 @@
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰短暫陣雨或雷雨;60",
-        "winner_side": "HOME"
+        "winner_side": "AWAY"
       },
       "is_formal": true,
       "season": {
@@ -7150,13 +7155,16 @@
         },
         "errors": 1,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 5,
+        "hits": 8,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
-        "runs": 2,
+        "runs": 3,
         "scheduled_SP": null,
         "scores": [
           "2",
           "0",
+          "0",
+          "0",
+          "1",
           "0",
           "0"
         ],
@@ -7175,14 +7183,17 @@
         },
         "errors": 0,
         "hex_color": "#1e4639;#fefefe",
-        "hits": 4,
+        "hits": 5,
         "icon_url": "https://usermedia.rebas.tw/t/LH4lt/icon/1679389670-rWKGjIod7O_th",
-        "runs": 0,
+        "runs": 3,
         "scheduled_SP": null,
         "scores": [
           "0",
           "0",
           "0",
+          "1",
+          "0",
+          "2",
           "0"
         ],
         "season_team_uniqid": "UuZ3x",
@@ -7194,7 +7205,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 4,
+        "innings": 7,
         "links": [],
         "location": "臺東棒球村第一棒球場",
         "location_abbr": "臺東",
@@ -7208,7 +7219,7 @@
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰時多雲短暫陣雨或雷雨;40",
-        "winner_side": "AWAY"
+        "winner_side": "TIE"
       },
       "is_formal": true,
       "season": {
