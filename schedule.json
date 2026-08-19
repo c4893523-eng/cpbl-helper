@@ -6987,11 +6987,13 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 2,
+        "hits": 4,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
         "runs": 0,
         "scheduled_SP": null,
         "scores": [
+          "0",
+          "0",
           "0",
           "0",
           "0"
@@ -7011,11 +7013,13 @@
         },
         "errors": 0,
         "hex_color": "#bd2e34;#fefefe",
-        "hits": 2,
+        "hits": 4,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
-        "runs": 1,
+        "runs": 2,
         "scheduled_SP": null,
         "scores": [
+          "0",
+          "1",
           "0",
           "1"
         ],
@@ -7028,7 +7032,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 2,
+        "innings": 5,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
@@ -7037,7 +7041,7 @@
         "scheduled_start_at": "2026-08-19 18:35",
         "started_at": "2026-08-19 18:36",
         "stats_completeness": "PITCH",
-        "stats_status": "NORMAL",
+        "stats_status": "CRITICAL",
         "status": "PLAYING",
         "strikezone_completeness": 0,
         "umpire": {},
@@ -7150,6 +7154,8 @@
         "scheduled_SP": null,
         "scores": [
           "2",
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "NsGzj",
@@ -7172,6 +7178,8 @@
         "runs": 0,
         "scheduled_SP": null,
         "scores": [
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "UuZ3x",
@@ -7183,7 +7191,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 2,
+        "innings": 3,
         "links": [],
         "location": "臺東棒球村第一棒球場",
         "location_abbr": "臺東",
