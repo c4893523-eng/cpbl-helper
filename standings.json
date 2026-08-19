@@ -45,16 +45,16 @@
       "wins": 46
     },
     {
-      "DIFF": 16,
-      "E": 22,
-      "GB": 11,
+      "DIFF": 14,
+      "E": 21,
+      "GB": 11.5,
       "M": -1,
-      "PCT": 0.5,
+      "PCT": 0.494,
       "STRK": -1,
       "draws": 1,
-      "finished": 87,
-      "last_updated_at": "2026-08-18 21:35",
-      "loses": 43,
+      "finished": 88,
+      "last_updated_at": "2026-08-19 22:07",
+      "loses": 44,
       "order": 3,
       "team": {
         "abbr": "獅",
@@ -67,15 +67,15 @@
       "wins": 43
     },
     {
-      "DIFF": -4,
+      "DIFF": -2,
       "E": 20,
-      "GB": 12.5,
+      "GB": 12,
       "M": -1,
-      "PCT": 0.483,
+      "PCT": 0.489,
       "STRK": 1,
       "draws": 1,
-      "finished": 88,
-      "last_updated_at": "2026-08-18 21:35",
+      "finished": 89,
+      "last_updated_at": "2026-08-19 22:07",
       "loses": 45,
       "order": 4,
       "team": {
@@ -86,7 +86,7 @@
         "uniqid": "LH4lt"
       },
       "total": 120,
-      "wins": 42
+      "wins": 43
     },
     {
       "DIFF": -47,
