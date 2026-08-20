@@ -111,15 +111,6 @@
     },
     {
       "id": "rss_12",
-      "title": "中職》外野滿滿象迷！ 大巨蛋龍象戰破週四觀眾紀錄",
-      "description": "味全龍今晚在台北大巨蛋出戰中信兄弟的比賽，全場吸引16345人進場，超越8月13日新莊球場兄弟富邦戰的9282人，寫下本季聯盟週四最多觀眾紀錄。味全和中信昨天的比賽也吸引高達17018人，創本季週三最高票房紀錄，而坐滿左外野下層看台的象迷是一大助力。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%A4%96%E9%87%8E%E6%BB%BF%E6%BB%BF%E8%B1%A1%E8%BF%B7-%E5%A4%A7%E5%B7%A8%E8%9B%8B%E9%BE%8D%E8%B1%A1%E6%88%B0%E7%A0%B4%E9%80%B1%E5%9B%9B%E8%A7%80%E7%9C%BE%E7%B4%80%E9%8C%84-125013857.html",
-      "pubDate": "8/20 4:50",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/2aa4f42641f38ef7a6eaa56d0317f824.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_13",
       "title": "中職》防禦率0破功！富邦悍將19歲驚奇自培 生涯首度失分",
       "description": "富邦悍將以自主培訓合約簽下的文化大學投手黃宇昇，目前持續在二軍磨練，今天中繼1.2局丟1分，防禦率0破功。\n\n\n現年19歲的黃宇昇是一名右側投投手，最快球速達150公里，去...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5546987",
@@ -128,13 +119,22 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_14",
+      "id": "rss_13",
       "title": "中職》富邦最資深外野手！兄弟棄將夯長打 近10戰打擊率0.448超火燙",
       "description": "本季加盟富邦悍將的33歲老將林書逸，於7月底遭下放後持續在二軍出賽，今天敲出一支二壘安打，延續火燙手感。\n\n\n林書逸在2016年季中選秀獲兄弟第5輪選進，去年季後被放在60...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5546952",
       "pubDate": "8/20 14:00",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_14",
+      "title": "中職》外野滿滿象迷！ 大巨蛋龍象戰破週四觀眾紀錄",
+      "description": "味全龍今晚在台北大巨蛋出戰中信兄弟的比賽，全場吸引16345人進場，超越8月13日新莊球場兄弟富邦戰的9282人，寫下本季聯盟週四最多觀眾紀錄。\n\n\n味全和中信昨天的比賽...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5546925",
+      "pubDate": "8/20 12:50",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_15",
