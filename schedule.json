@@ -6977,7 +6977,7 @@
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "陰時多雲短暫陣雨或雷雨;50",
         "winner_side": "AWAY"
