@@ -6918,6 +6918,9 @@
         "scheduled_SP": null,
         "scores": [
           "3",
+          "0",
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "RAe8S",
@@ -6933,13 +6936,15 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 1,
+        "errors": 2,
         "hex_color": "#bd2e34;#fefefe",
         "hits": 1,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
         "runs": 0,
         "scheduled_SP": null,
         "scores": [
+          "0",
+          "0",
           "0",
           "0"
         ],
@@ -6952,7 +6957,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 2,
+        "innings": 5,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
@@ -6961,7 +6966,7 @@
         "scheduled_start_at": "2026-08-20 18:35",
         "started_at": "2026-08-20 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "NORMAL",
+        "stats_status": "CRITICAL",
         "status": "PLAYING",
         "strikezone_completeness": 0,
         "umpire": {},
