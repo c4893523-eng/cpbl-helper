@@ -6959,7 +6959,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "陰時多雲短暫陣雨或雷雨;50",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -7050,9 +7050,9 @@
         "scheduled_start_at": "2026-08-19 18:35",
         "started_at": "2026-08-19 18:36",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "陰短暫陣雨或雷雨;60",
         "winner_side": "AWAY"
@@ -7220,9 +7220,9 @@
         "scheduled_start_at": "2026-08-19 18:35",
         "started_at": "2026-08-19 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "陰時多雲短暫陣雨或雷雨;40",
         "winner_side": "HOME"
