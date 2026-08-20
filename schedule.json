@@ -6912,11 +6912,14 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 0,
+        "hits": 4,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
-        "runs": 0,
+        "runs": 3,
         "scheduled_SP": null,
-        "scores": [],
+        "scores": [
+          "3",
+          "0"
+        ],
         "season_team_uniqid": "RAe8S",
         "team": "中信兄弟",
         "team_uniqid": "HCHks"
@@ -6930,13 +6933,16 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 1,
         "hex_color": "#bd2e34;#fefefe",
-        "hits": 0,
+        "hits": 1,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
         "runs": 0,
         "scheduled_SP": null,
-        "scores": [],
+        "scores": [
+          "0",
+          "0"
+        ],
         "season_team_uniqid": "GJ5tu",
         "team": "味全龍",
         "team_uniqid": "0MJKt"
@@ -6946,21 +6952,21 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 0,
+        "innings": 2,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
         "location_uniqid": "H7qs",
         "public_video_url": "",
         "scheduled_start_at": "2026-08-20 18:35",
-        "started_at": "",
-        "stats_completeness": "NONE",
+        "started_at": "2026-08-20 18:35",
+        "stats_completeness": "PITCH",
         "stats_status": "NORMAL",
-        "status": "SCHEDULED",
+        "status": "PLAYING",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰時多雲短暫陣雨或雷雨;50",
-        "winner_side": "TIE"
+        "winner_side": "AWAY"
       },
       "is_formal": true,
       "season": {
