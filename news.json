@@ -102,15 +102,6 @@
     },
     {
       "id": "rss_11",
-      "title": "中職》兄弟球團大紀錄M5！ 史上最多K左投完全宰制味全龍",
-      "description": "中信兄弟德保拉今天繳出7局無失分好投，全場僅被敲3支安打，助隊打完7局取得4：0領先，今晚有機會奪下生涯第78勝。德保拉今開賽被郭天信敲安，接下來連續解決14名打者，在5、6局才又被各敲1支一壘安打，前7局不讓味全龍打線獲得任何連得點圈打擊機會。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%85%84%E5%BC%9F%E7%90%83%E5%9C%98%E5%A4%A7%E7%B4%80%E9%8C%84m5-%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%9Ak%E5%B7%A6%E6%8A%95%E5%AE%8C%E5%85%A8%E5%AE%B0%E5%88%B6%E5%91%B3%E5%85%A8%E9%BE%8D-125452093.html",
-      "pubDate": "8/20 4:54",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/a861d0713599588c913423bbfae6cacd.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_12",
       "title": "中職》防禦率0破功！富邦悍將19歲驚奇自培 生涯首度失分",
       "description": "富邦悍將以自主培訓合約簽下的文化大學投手黃宇昇，目前持續在二軍磨練，今天中繼1.2局丟1分，防禦率0破功。\n\n\n現年19歲的黃宇昇是一名右側投投手，最快球速達150公里，去...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5546987",
@@ -119,13 +110,22 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_13",
+      "id": "rss_12",
       "title": "中職》富邦最資深外野手！兄弟棄將夯長打 近10戰打擊率0.448超火燙",
       "description": "本季加盟富邦悍將的33歲老將林書逸，於7月底遭下放後持續在二軍出賽，今天敲出一支二壘安打，延續火燙手感。\n\n\n林書逸在2016年季中選秀獲兄弟第5輪選進，去年季後被放在60...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5546952",
       "pubDate": "8/20 14:00",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_13",
+      "title": "中職》兄弟球團大紀錄M5！ 史上最多K左投完全宰制味全龍",
+      "description": "中信兄弟德保拉今天繳出7局無失分好投，全場僅被敲3支安打，助隊打完7局取得4：0領先，今晚有機會奪下生涯第78勝。\n\n\n德保拉今開賽被郭天信敲安，接下來連續解決14名打者...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5546931",
+      "pubDate": "8/20 12:54",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_14",
