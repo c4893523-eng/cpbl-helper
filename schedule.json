@@ -6960,7 +6960,7 @@
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "陰時多雲短暫陣雨或雷雨;50",
-        "winner_side": "NONE"
+        "winner_side": "TIE"
       },
       "is_formal": true,
       "season": {
