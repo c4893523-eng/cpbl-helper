@@ -6769,6 +6769,7 @@
         "scores": [
           "0",
           "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "RAe8S",
@@ -6786,12 +6787,14 @@
         },
         "errors": 0,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 2,
+        "hits": 5,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
         "runs": 1,
         "scheduled_SP": null,
         "scores": [
           "1",
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "NsGzj",
@@ -6803,7 +6806,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 3,
+        "innings": 4,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
