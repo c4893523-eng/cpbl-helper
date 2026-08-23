@@ -3,150 +3,168 @@
   "data": [
     {
       "id": "rss_0",
+      "title": "瓊斯盃大爆冷門  USA爾灣大學竟然在冠軍賽被南韓職籃DB隊15個三分球打爆",
+      "description": "【互傳媒／記者 魏冠中／臺北 報導】這絕對是瓊斯盃國際籃球賽最大冷門之一，美國NCAA第一級強隊加州大學爾灣分",
+      "link": "https://tw.news.yahoo.com/%E7%93%8A%E6%96%AF%E7%9B%83%E5%A4%A7%E7%88%86%E5%86%B7%E9%96%80-usa%E7%88%BE%E7%81%A3%E5%A4%A7%E5%AD%B8%E7%AB%9F%E7%84%B6%E5%9C%A8%E5%86%A0%E8%BB%8D%E8%B3%BD%E8%A2%AB%E5%8D%97%E9%9F%93%E8%81%B7%E7%B1%83db%E9%9A%8A15%E5%80%8B%E4%B8%89%E5%88%86%E7%90%83%E6%89%93%E7%88%86-160025011.html",
+      "pubDate": "8/23 8:00",
+      "rawImg": "https://media.zenfs.com/ko/hoomedia_675/75bcd20d5063033e8d84eba6f71a9b2f.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_1",
+      "title": "「首勝有一種魔力」游竣宥賽後收領隊彭政閔鼓勵：還有99勝要拿",
+      "description": "中信兄弟左投游竣宥今天（23日）在台北大巨蛋拿下生涯首勝，賽後他直呼「第1勝有一種魔力，感覺老天爺沒有要那麼舒服讓你拿到這一勝」，他接著透露，這一勝進帳後領隊「恰哥」（彭政閔）鼓勵他「還有99勝要拿」。",
+      "link": "https://tw.sports.yahoo.com/news/%E9%A6%96%E5%8B%9D%E6%9C%89-%E7%A8%AE%E9%AD%94%E5%8A%9B-%E6%B8%B8%E7%AB%A3%E5%AE%A5%E8%B3%BD%E5%BE%8C%E6%94%B6%E9%A0%98%E9%9A%8A%E5%BD%AD%E6%94%BF%E9%96%94%E9%BC%93%E5%8B%B5-%E9%82%84%E6%9C%8999%E5%8B%9D%E8%A6%81%E6%8B%BF-153226759.html",
+      "pubDate": "8/23 7:32",
+      "rawImg": "https://media.zenfs.com/zh-tw/taisounds_com_380/dba5d2fa2a09505840b6f0b934899eb6.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_2",
       "title": "笑稱「大巨蛋93球等於戶外球場40球」游竣宥首勝球想錶框",
       "description": "中信兄弟左投游竣宥今天（23日）在台北大巨蛋生涯第4場先發就拿下首勝，過往在戶外球場先發都有體力不支問題的他，賽後笑說：「今天丟93顆，我覺得很像丟30、40顆的感覺」，表達了與戶外球場的差距，另外首勝球的部分，他則是要「寫上今天日期後框起來放在家裡可以每天看到的地方」。",
       "link": "https://tw.sports.yahoo.com/news/%E7%AC%91%E7%A8%B1-%E5%A4%A7%E5%B7%A8%E8%9B%8B93%E7%90%83%E7%AD%89%E6%96%BC%E6%88%B6%E5%A4%96%E7%90%83%E5%A0%B440%E7%90%83-%E6%B8%B8%E7%AB%A3%E5%AE%A5%E9%A6%96%E5%8B%9D%E7%90%83%E6%83%B3%E9%8C%B6%E6%A1%86-151157315.html",
       "pubDate": "8/23 7:11",
       "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/b524e90c9717d7d736cdd5f2de56fe39.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_1",
+      "id": "rss_3",
       "title": "江少慶飆速154公里讓中信兄弟滿壘殘　平野惠一坦承「有嚇到」",
       "description": "統一獅江少慶今天（23日）相隔111天重返一軍先發，雖然只先發1局，還造成滿壘危機，最終仍安全下庄沒失分，最快球速達154公里，賽後中信兄弟平野惠一總教練坦言，確實給予球隊蠻大壓迫感，還投出154公里，真的有嚇一跳。",
       "link": "https://tw.sports.yahoo.com/news/%E6%B1%9F%E5%B0%91%E6%85%B6%E9%A3%86%E9%80%9F154%E5%85%AC%E9%87%8C%E8%AE%93%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F%E6%BB%BF%E5%A3%98%E6%AE%98-%E5%B9%B3%E9%87%8E%E6%83%A0-%E5%9D%A6%E6%89%BF-%E6%9C%89%E5%9A%87%E5%88%B0-145544370.html",
       "pubDate": "8/23 6:55",
       "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/b09e8281f2514d7df8507bb901d9cbc6.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_2",
+      "id": "rss_4",
       "title": "練習量前3名的游竣宥5局無失分首勝入袋　平野惠一大讚「練習不會騙人」",
       "description": "中信兄弟與統一獅在台北大巨蛋系列賽最終戰，中信靠著游竣宥5局無失分好投加上打線全場16支安打大爆發，終場11：1大勝，生涯第4場先發就收下生涯首勝，賽後總教練平野惠一大讚，「練習不會騙人」。",
       "link": "https://tw.sports.yahoo.com/news/%E7%B7%B4%E7%BF%92%E9%87%8F%E5%89%8D3%E5%90%8D%E7%9A%84%E6%B8%B8%E7%AB%A3%E5%AE%A55%E5%B1%80%E7%84%A1%E5%A4%B1%E5%88%86%E9%A6%96%E5%8B%9D%E5%85%A5%E8%A2%8B-%E5%B9%B3%E9%87%8E%E6%83%A0-%E5%A4%A7%E8%AE%9A-%E7%B7%B4%E7%BF%92%E4%B8%8D%E6%9C%83%E9%A8%99%E4%BA%BA-142843772.html",
       "pubDate": "8/23 6:28",
       "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/3f3d03623b0f37a78023e7c7b9c61abe.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_3",
+      "id": "rss_5",
       "title": "中職》曾懷疑能否回一軍！游竣宥生涯首勝獲恰哥提點：還有99勝",
       "description": "中信兄弟先發投手游竣宥23日面對統一獅，主投5局無失分，拿下生涯首勝，不過他自評表現不及格，也認為老天爺注定要讓他以「不舒服」的方式拿下勝投，賽後領隊彭政閔提醒要持續努力。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%9B%BE%E6%87%B7%E7%96%91%E8%83%BD%E5%90%A6%E5%9B%9E-%E8%BB%8D-%E6%B8%B8%E7%AB%A3%E5%AE%A5%E7%94%9F%E6%B6%AF%E9%A6%96%E5%8B%9D%E7%8D%B2%E6%81%B0%E5%93%A5%E6%8F%90%E9%BB%9E-%E9%82%84%E6%9C%8999%E5%8B%9D-135839357.html",
       "pubDate": "8/23 5:58",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_4",
+      "id": "rss_6",
       "title": "中職》富邦悍將進擊的巨人開球秀 跟著張奕一起獻出心臟吧！",
       "description": "富邦悍將與進擊的巨人推出聯名主題日，但遭逢豪雨影響，前兩天的賽事都因雨延賽，直到星期天中午以後雨勢減緩，比賽也得以順利進行。賽前Funon angels穿上調查兵團披風搭配動畫音樂帶來舞蹈，唱名時總教練後藤光尊也穿著披風出場。開球儀式由進擊的巨人鐵粉張奕上台與大家分享，並以日文高喊經典台詞「獻出心臟",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%AF%8C%E9%82%A6%E6%82%8D%E5%B0%87%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA%E9%96%8B%E7%90%83%E7%A7%80-%E8%B7%9F%E8%91%97%E5%BC%B5%E5%A5%95-%E8%B5%B7%E7%8D%BB%E5%87%BA%E5%BF%83%E8%87%9F%E5%90%A7-135410107.html",
       "pubDate": "8/23 5:54",
       "rawImg": "https://media.zenfs.com/en/libertytimes_786/4de88368ae5cf5dfe5c3174c385ea9b8.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_5",
+      "id": "rss_7",
       "title": "中職》林凱威後援拿8勝 葉君璋：這麼會偷！",
       "description": "味全龍今天以3：2險勝富邦悍將中止3連敗，林凱威於9局下投1局無失分，靠打線於10局上拿回領先，拿到本季第8勝，在勝投排行榜只落後以10勝暫居首位的李東洺2勝，讓總教練葉君璋笑說：「這麼會偷！」林凱威9局下面對富邦第3至6棒中心打線，只讓張育成靠保送上壘，用16球中繼1局無失分，守住9局1：1平手，",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%9E%97%E5%87%B1%E5%A8%81%E5%BE%8C%E6%8F%B4%E6%8B%BF8%E5%8B%9D-%E8%91%89%E5%90%9B%E7%92%8B-%E9%80%99%E9%BA%BC%E6%9C%83%E5%81%B7-135112714.html",
       "pubDate": "8/23 5:51",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/c11c22bddb4f3ead63b6adb423a8d52a.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_6",
+      "id": "rss_8",
       "title": "悍將新洋投悍里歐初登板　先發6局失1分 (圖)",
       "description": "中華職棒富邦悍將隊新洋投悍里歐（A.J. Candelario）（前）23日初登板，面對味全龍隊先發6局，被敲5支安打失1分，另有6次三振、4次四壞保送，終場無關勝敗。",
       "link": "https://tw.sports.yahoo.com/news/%E6%82%8D%E5%B0%87%E6%96%B0%E6%B4%8B%E6%8A%95%E6%82%8D%E9%87%8C%E6%AD%90%E5%88%9D%E7%99%BB%E6%9D%BF-%E5%85%88%E7%99%BC6%E5%B1%80%E5%A4%B11%E5%88%86-%E5%9C%96-134945114.html",
       "pubDate": "8/23 5:49",
       "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/b4e5c2568e3787741e23bf90a3afa93a.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_7",
+      "id": "rss_9",
       "title": "葉總讚悍將新洋投有水準　看林凱威8勝笑問會不會拿勝投王",
       "description": "（中央社記者蘇志畬新北23日電）中華職棒味全龍隊今天以3比2擊敗富邦悍將隊，龍隊總教練葉君璋稱讚悍將新洋投悍里歐「非常有水準」，看到自家後援投手林凱威進帳第8勝則笑說：「會不會拿勝投王？」",
       "link": "https://tw.sports.yahoo.com/news/%E8%91%89%E7%B8%BD%E8%AE%9A%E6%82%8D%E5%B0%87%E6%96%B0%E6%B4%8B%E6%8A%95%E6%9C%89%E6%B0%B4%E6%BA%96-%E7%9C%8B%E6%9E%97%E5%87%B1%E5%A8%818%E5%8B%9D%E7%AC%91%E5%95%8F%E6%9C%83%E4%B8%8D%E6%9C%83%E6%8B%BF%E5%8B%9D%E6%8A%95%E7%8E%8B-134727629.html",
       "pubDate": "8/23 5:47",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_8",
+      "id": "rss_10",
       "title": "中職》6星級美技守備再見雙殺 郭天信：我5支0還拿MVP喔？",
       "description": "郭天信今天雖在進攻上5打數0安打繳白卷，10局下卻演出6星級美技守備完成再見雙殺，幫助味全龍以3：2險勝富邦悍將中止3連敗，賽後得知本季第4次獲選單場MVP，竟然有點不好意思地說：「我5支0還拿MVP喔？」兩隊打完9局以1：1平手，味全10局上靠劉基鴻、張政禹、朱育賢連續安打，以3：1拿回領先，10",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-6%E6%98%9F%E7%B4%9A%E7%BE%8E%E6%8A%80%E5%AE%88%E5%82%99%E5%86%8D%E8%A6%8B%E9%9B%99%E6%AE%BA-%E9%83%AD%E5%A4%A9%E4%BF%A1-%E6%88%915%E6%94%AF0%E9%82%84%E6%8B%BFmvp%E5%96%94-133616222.html",
       "pubDate": "8/23 5:36",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/92bd3a102fda49e13767b455683b18d4.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_9",
+      "id": "rss_11",
       "title": "瓊斯盃》韓國奪冠 洋將哈蒙茲獲兩大獎",
       "description": "（21:40更新，補充內文）2026年第45屆雙北威廉瓊斯盃國際籃球邀請賽，冠軍賽韓國職籃原州DB新世代上半場就累積雙位數領先保險，下半場持續擴大分差到超過20分，最終原州DB新世代以98比78痛宰美國加州大學爾灣分校。",
       "link": "https://tw.sports.yahoo.com/news/%E7%93%8A%E6%96%AF%E7%9B%83-%E9%9F%93%E5%9C%8B%E5%A5%AA%E5%86%A0-%E6%B4%8B%E5%B0%87%E5%93%88%E8%92%99%E8%8C%B2%E7%8D%B2%E5%85%A9%E5%A4%A7%E7%8D%8E-133416283.html",
       "pubDate": "8/23 5:34",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_10",
+      "id": "rss_12",
       "title": "味全龍郭天信美技雙殺　獲選單場MVP (圖)",
       "description": "中華職棒味全龍隊與富邦悍將23日在新莊棒球場交手，龍隊外野手郭天信（圖）10局下飛撲接殺後長傳一壘，完成雙殺美技，守住球隊勝利，賽後也獲選單場MVP。",
       "link": "https://tw.sports.yahoo.com/news/%E5%91%B3%E5%85%A8%E9%BE%8D%E9%83%AD%E5%A4%A9%E4%BF%A1%E7%BE%8E%E6%8A%80%E9%9B%99%E6%AE%BA-%E7%8D%B2%E9%81%B8%E5%96%AE%E5%A0%B4mvp-%E5%9C%96-132721347.html",
       "pubDate": "8/23 5:27",
       "rawImg": "https://media.zenfs.com/ko/cna.com.tw/ca36a5dc79e354d719b660ec2bdc67a7.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_11",
+      "id": "rss_13",
       "title": "中職》看到郭天信美技再見雙殺，葉君璋：啊！啊！",
       "description": "味全龍與富邦悍將今天廝殺到延長賽，味全先在10局上靠劉基鴻、張政禹、朱育賢連續安打拿回領先，10局下再靠郭天信6星級美技守備演出再見雙殺，以3：2險勝富邦中止3連敗，郭天信的精彩守備也讓總教練葉君璋在心裡驚呼「啊！啊！」兩隊都在第1局各得1分，打完正規9局都沒再有分數進帳，10局上味全趁曾峻岳跨局續",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E7%9C%8B%E5%88%B0%E9%83%AD%E5%A4%A9%E4%BF%A1%E7%BE%8E%E6%8A%80%E5%86%8D%E8%A6%8B%E9%9B%99%E6%AE%BA-%E8%91%89%E5%90%9B%E7%92%8B-%E5%95%8A-%E5%95%8A-132608038.html",
       "pubDate": "8/23 5:26",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/26548d1c8921b1c63f90a8f69bbe60af.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_12",
+      "id": "rss_14",
       "title": "中職》主力陳俊秀、王威晨接連受傷 平野惠一點名2人競爭",
       "description": "中信兄弟23日首局雖然被江少慶化解滿壘危機，但立刻突破胡智爲，全場猛攻16安，以11比1慘虐統一獅，本季第3度單場雙位數得分，然而比賽中重炮陳俊秀挨觸身球提前退場，賽後總教練平野惠一坦言很擔心。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E4%B8%BB%E5%8A%9B%E9%99%B3%E4%BF%8A%E7%A7%80-%E7%8E%8B%E5%A8%81%E6%99%A8%E6%8E%A5%E9%80%A3%E5%8F%97%E5%82%B7-%E5%B9%B3%E9%87%8E%E6%83%A0-%E9%BB%9E%E5%90%8D2%E4%BA%BA%E7%AB%B6%E7%88%AD-132453473.html",
       "pubDate": "8/23 5:24",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_13",
+      "id": "rss_15",
       "title": "美技雙殺救龍隊　郭天信成史上第2位5打數無安打MVP",
       "description": "（中央社記者蘇志畬新北23日電）富邦悍將在10局下燃起的攻勢，被味全龍隊外野手郭天信用美技雙殺撲滅，龍隊以3比2險勝；郭天信成為中華職棒史上第2位「5支0」的單場MVP，他笑說：「本來絕對不是我」。",
       "link": "https://tw.sports.yahoo.com/news/%E7%BE%8E%E6%8A%80%E9%9B%99%E6%AE%BA%E6%95%91%E9%BE%8D%E9%9A%8A-%E9%83%AD%E5%A4%A9%E4%BF%A1%E6%88%90%E5%8F%B2%E4%B8%8A%E7%AC%AC2%E4%BD%8D5%E6%89%93%E6%95%B8%E7%84%A1%E5%AE%89%E6%89%93mvp-132416981.html",
       "pubDate": "8/23 5:24",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_14",
+      "id": "rss_16",
       "title": "佐佐木朗希局數已逼近日美生涯新高　美媒：轉終結者最佳時機",
       "description": "洛杉磯道奇日籍投手佐佐木朗希明星賽後表現如倒吃甘蔗，愈來愈穩定，相當有機會持續被留在先發輪值中，不過就有美國媒體分析，他的投球局數已經逼近職業生涯新高，加上大谷翔平、葛拉斯諾（Tyler Glasnow）即將回歸，現在正是他轉任終結者的最佳時機。",
       "link": "https://tw.sports.yahoo.com/news/%E4%BD%90%E4%BD%90%E6%9C%A8%E6%9C%97%E5%B8%8C%E5%B1%80%E6%95%B8%E5%B7%B2%E9%80%BC%E8%BF%91%E6%97%A5%E7%BE%8E%E7%94%9F%E6%B6%AF%E6%96%B0%E9%AB%98-%E7%BE%8E%E5%AA%92-%E8%BD%89%E7%B5%82%E7%B5%90%E8%80%85%E6%9C%80%E4%BD%B3%E6%99%82%E6%A9%9F-131733686.html",
       "pubDate": "8/23 5:17",
       "rawImg": "https://media.zenfs.com/zh-tw/taisounds_com_380/1404987928f44164e175abad9bde38ae.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_15",
+      "id": "rss_17",
       "title": "瓊斯盃》「我永遠不會累！」8戰全勤的雷蒙恩相信這次亞運會成功",
       "description": "台灣藍隊今以78：65在瓊斯盃季軍戰打敗台灣白隊，成功收下季軍，3天後就要展開名古屋亞運集訓，此次唯一打滿瓊斯盃的亞運國手雷蒙恩對亞運相當有信心，更霸氣表示「我永遠不會累！」台灣藍隊本屆以亞運成員為班底，不料多名好手因傷無法上陣，只有TPBL戰神混血前鋒雷蒙恩是唯一8戰全勤的亞運國手，今天面對白隊再",
       "link": "https://tw.sports.yahoo.com/news/%E7%93%8A%E6%96%AF%E7%9B%83-%E6%88%91%E6%B0%B8%E9%81%A0%E4%B8%8D%E6%9C%83%E7%B4%AF-8%E6%88%B0%E5%85%A8%E5%8B%A4%E7%9A%84%E9%9B%B7%E8%92%99%E6%81%A9%E7%9B%B8%E4%BF%A1%E9%80%99%E6%AC%A1%E4%BA%9E%E9%81%8B%E6%9C%83%E6%88%90%E5%8A%9F-131608836.html",
       "pubDate": "8/23 5:16",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/8feec5495ad6be90b65117af1d46d7d4.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_16",
+      "id": "rss_18",
       "title": "中職》味全龍延長賽勝富邦悍將 郭天信再見雙殺美技守備獲選MVP",
       "description": "味全龍與富邦悍將經過2天因雨延賽，今天終於在新莊完成比賽，兩隊打完正規9局以1：1平，味全靠10局上劉基鴻、朱育賢各打下1分拿回領先，配合10局下郭天信6星級美技守備演出...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549776",
@@ -155,7 +173,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_17",
+      "id": "rss_19",
       "title": "中職》陳俊秀挨觸身球退場 平野直言：很擔心",
       "description": "中信兄弟今天面對統一獅，2局上單局狂攻5分，但該半局陳俊秀卻被胡智爲觸身球擊中，於3局下守備前退場、黃韋盛接替守一壘。\n\n\n陳俊秀退場後，中信兄弟球團於比賽中表示：「陳俊...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549766",
@@ -164,7 +182,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_18",
+      "id": "rss_20",
       "title": "中職》江少慶返一軍1局飆速154公里！兄弟監督坦言有嚇到",
       "description": "統一獅隊江少慶今暌違111天重返一軍先發，就面對生涯對戰1勝10敗、9連敗的中信兄弟。\n\n\n江少慶僅投1局，用29球，安打、保送各2次，最快球速154公里，因兄弟一度在本...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549763",
@@ -173,7 +191,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_19",
+      "id": "rss_21",
       "title": "中職》評游竣宥生涯首勝 平野透露二軍曾回報：努力練習的前三名",
       "description": "中信兄弟今11:1大勝統一獅，先發投手游竣宥5局無失分之姿，在隊友火力支援下，拿下生涯一軍首勝。\n\n\n游竣宥5局投滿用93球，他自評用球過多導致沒能負擔更多局數有些可惜。...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549755",
@@ -182,7 +200,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_20",
+      "id": "rss_22",
       "title": "中職》奪首勝自評「沒有及格」 游竣宥透露恰哥賽後激勵：還有99勝",
       "description": "中信兄弟今11:1大勝統一獅，先發投手游竣宥5局無失分之姿，在隊友火力支援下，拿下生涯一軍首勝。\n\n\n左投游竣宥出身輔大，是2024年中信兄弟第9輪指名。今天面對獅隊打線...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549750",
@@ -191,7 +209,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_21",
+      "id": "rss_23",
       "title": "中職》新莊本季第9場觀眾破萬人 富邦悍將主場新紀錄",
       "description": "富邦悍將今天在新莊棒球場迎戰味全龍，在「進擊的巨人」聯名主題日的帶動下，吸引10045人進場，是新莊本季第9場觀眾破萬人，超越去年8場創下富邦主場新紀錄。\n\n\n截至今天賽...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549740",
@@ -200,7 +218,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_22",
+      "id": "rss_24",
       "title": "中職》兄弟猛攻5分大局奠勝基！游竣宥好投獲生涯首勝",
       "description": "中信兄弟今天為大巨蛋客隊，和統一獅3連戰最終場，兄弟首局沒能從江少慶手中攻下分數，但次局獅隊換投後，兄弟卻把握機會串聯攻勢拿到5分奠定勝基，終場11:1贏球。兄弟左投游竣...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549730",
@@ -209,7 +227,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_23",
+      "id": "rss_25",
       "title": "中職》悍里歐一軍開箱 交出6局失1分優質先發",
       "description": "富邦悍將今天在主場新莊開箱新洋投悍里歐（A.J. Candelario），他對味全龍用99球交出6局失1分的優質先發，投到第98球的最快球速還有153公里，雖在1：1平手...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549717",
@@ -218,7 +236,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_26",
       "title": "中職》SHINee珉豪帥氣開球復刻陳傑憲招牌動作 獅隊球星大讚：有天份！",
       "description": "統一 7-ELEVEN獅 J-LIONS「非．日常」主題日在帥氣的球員與火熱的演出下來到最後一日，今天賽前特別邀請韓國超人氣男團SHINee的珉豪蒞臨開球與賽後演出。\n\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549703",
@@ -227,7 +245,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_25",
+      "id": "rss_27",
       "title": "中職》兄弟攻大局卻傳傷情！ 陳俊秀提前退場、球團曝最新狀況",
       "description": "中信兄弟今天面對統一獅，在獅隊先發投手江少慶退場、胡智爲接替後，2局單局狂攻5分大局，但該半局陳俊秀卻被胡智爲觸身球擊中，於3局下守備前退場、黃韋盛接替守一壘。\n\n\n關於...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549681",
@@ -236,7 +254,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_26",
+      "id": "rss_28",
       "title": "中職》傳統獅象戰票房再開紅盤！ 獅主場連兩天刷新最多觀眾紀錄",
       "description": "統一獅本周末在大巨蛋主場出戰中信兄弟的中職版「傳統一戰」，繼昨天合計吸引24111人進場寫下獅隊本季主場新高後，今天再以26117人刷新紀錄。\n\n\n獅隊週六觀眾人數超越3月29...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549667",
@@ -245,7 +263,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_27",
+      "id": "rss_29",
       "title": "中職》下半季補賽可能補不完 葉君璋：禮拜一沒有用到有點浪費",
       "description": "富邦悍將鑑於8月週末新莊主場已經兩度因雨延賽，領隊陳昭如有意在領隊會議提案，如果提早掌握降雨時間，在交手兩隊都同意的情形下，能否於前1天提前調整開賽時間，味全龍總教練葉君...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549570",
@@ -254,7 +272,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_28",
+      "id": "rss_30",
       "title": "中職》相隔111天重返一軍！江少慶對兄弟投1局退場、胡智爲接手卻崩盤",
       "description": "統一獅江少慶今暌違111天重返一軍先發，生涯初次在台北大巨蛋登板，面對中信兄弟。告別恢復不順的江少慶，用球量仍在教練團管控內，首局投29球但未失分，但2局起退場、胡智爲接...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549553",
@@ -263,7 +281,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_29",
+      "id": "rss_31",
       "title": "中職》洋投抉擇關鍵期卻連續因雨延賽 後藤光尊：沒有辦法贏過天氣",
       "description": "距離「831大限」只剩下不到10天，正值洋投抉擇的關鍵期，富邦悍將本週卻已經連續3場因雨延賽，今天在主場新莊對味全龍也不確定能否開打，總教練後藤光尊苦笑說：「沒有辦法贏過...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549537",
@@ -272,7 +290,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_30",
+      "id": "rss_32",
       "title": "日職》手感火燙！二軍3戰2轟 林安可3安猛打力拚重返一軍",
       "description": "西武獅台灣重砲林安可在8月9日因左膝不適遭下放二軍，復健賽手感火燙，累積6打席就出現2轟，今天更繳出單場3安猛打賞的好表現。\n\n\n林安可在8月8日對軟銀之戰，只打2打席就退...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549508",
@@ -281,7 +299,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_31",
+      "id": "rss_33",
       "title": "中職》新莊週末3場可能全延賽 陳昭如提案視天氣狀況彈性開賽",
       "description": "富邦悍將這個週末推出「進擊的巨人」主題日，很有可能因為連日下雨造成延賽變成「進水的巨人」，領隊陳昭如表示，將在領隊會議提案，如果遇到天候狀況不理想，只要交手兩隊都同意，可...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549510",
@@ -290,7 +308,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_32",
+      "id": "rss_34",
       "title": "MLB》投手大谷將回歸 史庫柏爾期待「滅世道奇」降臨",
       "description": "道奇日本二刀流巨星大谷翔平復健進度良好，今天進行實戰投打練習（Live BP），有望在9月初重返大聯盟投手丘，而明星右投葛拉斯諾（Tyler Glasnow）將回歸。今年拿...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549459",
@@ -299,7 +317,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_33",
+      "id": "rss_35",
       "title": "中職》張翔有望先歸隊再赴亞運報到 餅總：不是去打復健賽耶！",
       "description": "9月將開打的亞運，獅隊支援張翔、朱迦恩兩位選手進台灣隊出征名古屋。張翔日前傳出腳踝傷勢，但目前已隨隊正常練球，有望如期赴國家隊報到。\n\n\n獅隊總教練林岳平說，目前安排接下來這週...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549480",
@@ -308,7 +326,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_34",
+      "id": "rss_36",
       "title": "中職》王威晨因傷本季首下二軍 平野透露近況盼最短時間歸隊",
       "description": "中信兄弟隊長王威晨昨因腹部拉傷突下二軍，今天教練團安排許庭綸上一軍，補強外野板凳深度。\n\n\n昨兄弟球團解釋：「王威晨因腹部輕微拉傷，近期在打擊練習過程中仍有不適感，經討論...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549489",
@@ -317,7 +335,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_35",
+      "id": "rss_37",
       "title": "中職》成獅隊陣中「滿壘男」？林子豪謙稱可能原因",
       "description": "連同昨天4局滿壘敲安，獅隊林子豪本季在滿壘時刻打擊率高達3成75、包含1轟，生涯滿壘打擊率則有3成51。若僅計得點圈，林子豪生涯在得點圈打擊率則是2成52。\n\n\n對於自己...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549471",
