@@ -6385,11 +6385,11 @@
           "pitchings": [],
           "records": []
         },
-        "errors": 0,
+        "errors": 1,
         "hex_color": "#bd2e34;#fefefe",
-        "hits": 7,
+        "hits": 9,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
-        "runs": 2,
+        "runs": 3,
         "scheduled_SP": null,
         "scores": [
           "1",
@@ -6401,7 +6401,7 @@
           "0",
           "0",
           "0",
-          "1"
+          "2"
         ],
         "season_team_uniqid": "GJ5tu",
         "team": "味全龍",
@@ -6418,9 +6418,9 @@
         },
         "errors": 0,
         "hex_color": "#204e93;#fefefe",
-        "hits": 4,
+        "hits": 5,
         "icon_url": "https://usermedia.rebas.tw/t/TPKQm/icon/1703832992-wbJvcOUBba_th",
-        "runs": 1,
+        "runs": 2,
         "scheduled_SP": null,
         "scores": [
           "1",
@@ -6431,7 +6431,8 @@
           "0",
           "0",
           "0",
-          "0"
+          "0",
+          "1"
         ],
         "season_team_uniqid": "H0zzP",
         "team": "富邦悍將",
@@ -6439,7 +6440,7 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-08-23 20:19",
         "finished_status": "NORMAL",
         "history": [],
         "innings": 10,
@@ -6452,7 +6453,7 @@
         "started_at": "2026-08-23 17:05",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "多雲短暫陣雨或雷雨;40",
