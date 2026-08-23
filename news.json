@@ -174,15 +174,6 @@
     },
     {
       "id": "rss_19",
-      "title": "中職》獅隊洋將確定無異動 餅總更新銳力獅告假時程",
-      "description": "統一獅隊自開季起陣中就有布雷克、喬登、獅帝芬和銳力獅4位洋投。今天賽前受訪，獅隊總教練林岳平表示：「目前就這4位洋將，不會再變動。」獅隊球團日前同步評估新洋投，而銳力獅因妻子待產，日後將告假。今天賽前，餅總更新銳力獅告假時程，直言並非8月底。餅總說：「銳力獅大概9月底回去，我們知道時間，接下來會做好",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E7%8D%85%E9%9A%8A%E6%B4%8B%E5%B0%87%E7%A2%BA%E5%AE%9A%E7%84%A1%E7%95%B0%E5%8B%95-%E9%A4%85%E7%B8%BD%E6%9B%B4%E6%96%B0%E9%8A%B3%E5%8A%9B%E7%8D%85%E5%91%8A%E5%81%87%E6%99%82%E7%A8%8B-063035189.html",
-      "pubDate": "8/22 22:30",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_20",
       "title": "日職》手感火燙！二軍3戰2轟 林安可3安猛打力拚重返一軍",
       "description": "西武獅台灣重砲林安可在8月9日因左膝不適遭下放二軍，復健賽手感火燙，累積6打席就出現2轟，今天更繳出單場3安猛打賞的好表現。\n\n\n林安可在8月8日對軟銀之戰，只打2打席就退...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549508",
@@ -191,11 +182,20 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_21",
+      "id": "rss_20",
       "title": "MLB》投手大谷將回歸 史庫柏爾期待「滅世道奇」降臨",
       "description": "道奇日本二刀流巨星大谷翔平復健進度良好，今天進行實戰投打練習（Live BP），有望在9月初重返大聯盟投手丘，而明星右投葛拉斯諾（Tyler Glasnow）將回歸。今年拿...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549459",
       "pubDate": "8/23 7:57",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_21",
+      "title": "中職》獅隊洋將確定無異動 餅總更新銳力獅告假時程",
+      "description": "統一獅隊自開季起陣中就有布雷克、喬登、獅帝芬和銳力獅4位洋投。今天賽前受訪，獅隊總教練林岳平表示：「目前就這4位洋將，不會再變動。」\n\n\n獅隊球團日前同步評估新洋投，而銳...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5549424",
+      "pubDate": "8/23 6:30",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },

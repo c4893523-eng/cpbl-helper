@@ -6393,6 +6393,7 @@
         "scheduled_SP": null,
         "scores": [
           "1",
+          "0",
           "0"
         ],
         "season_team_uniqid": "GJ5tu",
@@ -6410,12 +6411,13 @@
         },
         "errors": 0,
         "hex_color": "#204e93;#fefefe",
-        "hits": 1,
+        "hits": 3,
         "icon_url": "https://usermedia.rebas.tw/t/TPKQm/icon/1703832992-wbJvcOUBba_th",
         "runs": 1,
         "scheduled_SP": null,
         "scores": [
-          "1"
+          "1",
+          "0"
         ],
         "season_team_uniqid": "H0zzP",
         "team": "富邦悍將",
@@ -6426,7 +6428,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 2,
+        "innings": 3,
         "links": [],
         "location": "新北市立新莊棒球場",
         "location_abbr": "新莊",
@@ -6435,7 +6437,7 @@
         "scheduled_start_at": "2026-08-23 17:05",
         "started_at": "2026-08-23 17:05",
         "stats_completeness": "PITCH",
-        "stats_status": "NORMAL",
+        "stats_status": "CRITICAL",
         "status": "PLAYING",
         "strikezone_completeness": 0,
         "umpire": {},
@@ -6474,7 +6476,8 @@
         "scores": [
           "0",
           "5",
-          "1"
+          "1",
+          "0"
         ],
         "season_team_uniqid": "RAe8S",
         "team": "中信兄弟",
@@ -6491,11 +6494,12 @@
         },
         "errors": 0,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 2,
+        "hits": 3,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
         "runs": 0,
         "scheduled_SP": null,
         "scores": [
+          "0",
           "0",
           "0",
           "0"
@@ -6509,7 +6513,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 3,
+        "innings": 4,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
@@ -6518,7 +6522,7 @@
         "scheduled_start_at": "2026-08-23 16:05",
         "started_at": "2026-08-23 16:05",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
+        "stats_status": "NORMAL",
         "status": "PLAYING",
         "strikezone_completeness": 0,
         "umpire": {},
