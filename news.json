@@ -39,21 +39,21 @@
     },
     {
       "id": "rss_4",
-      "title": "宜蘭棒球培育有成 江允浩勇奪亞洲少棒亞軍、郭靖源加盟統一獅",
-      "description": "宜蘭縣竹林國小應屆畢業生江允浩入選「2026年第12屆亞洲少棒錦標賽」國家代表隊並勇奪亞軍；羅東高工應屆畢業生郭靖源則憑藉優異實力，入選中華職棒統一獅隊成為職業選手；代理縣長林茂盛今接見並表揚2位傑出選手，期勉他們繼續為宜蘭及臺灣爭光。縣府表示，江允浩自竹林國小少棒隊發跡，憑藉出色的技術與靈敏球感入",
-      "link": "https://tw.sports.yahoo.com/news/%E5%AE%9C%E8%98%AD%E6%A3%92%E7%90%83%E5%9F%B9%E8%82%B2%E6%9C%89%E6%88%90-%E6%B1%9F%E5%85%81%E6%B5%A9%E5%8B%87%E5%A5%AA%E4%BA%9E%E6%B4%B2%E5%B0%91%E6%A3%92%E4%BA%9E%E8%BB%8D-%E9%83%AD%E9%9D%96%E6%BA%90%E5%8A%A0%E7%9B%9F%E7%B5%B1-%E7%8D%85-074126561.html",
-      "pubDate": "8/23 23:41",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_5",
       "title": "MLB》道奇「滅世巨團」接近完全體！羅伯斯：將成對手的惡夢",
       "description": "道奇日本二刀流巨星大谷翔平復健進度良好，昨天進行實戰投打練習（Live BP），有望在9月初重返大聯盟投手丘，而明星右投葛拉斯諾（Tyler Glasnow）本週將復出。對...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5550467",
       "pubDate": "8/24 7:48",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_5",
+      "title": "宜蘭棒球培育有成 江允浩勇奪亞洲少棒亞軍、郭靖源加盟統一獅",
+      "description": "宜蘭縣竹林國小應屆畢業生江允浩入選「2026年第12屆亞洲少棒錦標賽」國家代表隊並勇奪亞軍；羅東高工應屆畢業生郭靖源則憑藉優異實力，入選中華職棒統一獅隊成為職業選手；代理...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5550475",
+      "pubDate": "8/24 7:41",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_6",
@@ -117,15 +117,6 @@
       "pubDate": "8/24 0:29",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_13",
-      "title": "勇士與釀酒人上演「國聯分區龍頭對決」今日賽事預告與轉播",
-      "description": "大家早安，自由體育為您獻上今日精彩賽事預告與轉播！\n\n\n大聯盟賽事，勇士和釀酒人持續上演「國聯分區龍頭對決」，系列壓軸戰移師賓州威廉波特中立場地，有別於一般主客場環境，雙方不論投手與守備都亟需重...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5549487",
-      "pubDate": "8/23 23:01",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
