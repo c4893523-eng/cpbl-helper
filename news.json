@@ -30,33 +30,6 @@
     },
     {
       "id": "rss_3",
-      "title": "日職徐若熙25日正式恢復練投  有望9月中實戰",
-      "description": "（中央社記者謝靜雯台北24日電）日職福岡軟銀鷹隊25歲台灣投手徐若熙7月接受椎間盤手術，根據日媒報導，徐若熙恢復進度比預期快，投手教練倉野信次表示，明天就會正式進入練投階段，9月中恢復實戰應該沒問題。",
-      "link": "https://tw.sports.yahoo.com/news/%E6%97%A5%E8%81%B7%E5%BE%90%E8%8B%A5%E7%86%9925%E6%97%A5%E6%AD%A3%E5%BC%8F%E6%81%A2%E5%BE%A9%E7%B7%B4%E6%8A%95-%E6%9C%89%E6%9C%9B9%E6%9C%88%E4%B8%AD%E5%AF%A6%E6%88%B0-070339312.html",
-      "pubDate": "8/23 23:03",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_4",
-      "title": "「軟銀強投」徐若熙恢復速度超驚人！日媒爆料最快9月重返投手丘實戰",
-      "description": "體育中心／綜合報導日職軟銀鷹台灣火球王牌徐若熙，在7月中接受腰椎椎間盤突出手術後，恢復速度相當驚人，日媒《日刊體育》也報導徐若熙的最新狀況。",
-      "link": "https://tw.sports.yahoo.com/news/%E8%BB%9F%E9%8A%80%E5%BC%B7%E6%8A%95-%E5%BE%90%E8%8B%A5%E7%86%99%E6%81%A2%E5%BE%A9%E9%80%9F%E5%BA%A6%E8%B6%85%E9%A9%9A%E4%BA%BA-%E6%97%A5%E5%AA%92%E7%88%86%E6%96%99%E6%9C%80%E5%BF%AB9%E6%9C%88%E9%87%8D%E8%BF%94%E6%8A%95%E6%89%8B%E4%B8%98%E5%AF%A6%E6%88%B0-065008780.html",
-      "pubDate": "8/23 22:50",
-      "rawImg": "https://media.zenfs.com/ko/ftvn_sports_106/4767fff9090a7da97956e1f38ec4bc2a.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_5",
-      "title": "棒球》U18亞青賽程出爐 台灣隊9/7首戰南韓",
-      "description": "U18亞洲盃青棒賽將於9月在台灣開打，稍早賽程正式出爐，台灣隊預賽和南韓、新加坡、泰國同樣分在B組，A組則是日本、香港、菲律賓和斯里蘭卡。台灣隊將在9月7日首戰南韓。台灣隊陣中，包括富邦悍將狀元郎陳柏凱，他以簽約金650萬元加盟悍將，打破蔡仲南高懸24年的中職簽約金紀錄，同屬富邦新秀的，還有帕蘇拉．",
-      "link": "https://tw.sports.yahoo.com/news/%E6%A3%92%E7%90%83-u18%E4%BA%9E%E9%9D%92%E8%B3%BD%E7%A8%8B%E5%87%BA%E7%88%90-%E5%8F%B0%E7%81%A3%E9%9A%8A9-7%E9%A6%96%E6%88%B0%E5%8D%97%E9%9F%93-064955752.html",
-      "pubDate": "8/23 22:49",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_6",
       "title": "MLB》道奇「滅世巨團」接近完全體！羅伯斯：將成對手的惡夢",
       "description": "道奇日本二刀流巨星大谷翔平復健進度良好，昨天進行實戰投打練習（Live BP），有望在9月初重返大聯盟投手丘，而明星右投葛拉斯諾（Tyler Glasnow）本週將復出。對...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5550467",
@@ -65,7 +38,16 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_7",
+      "id": "rss_4",
+      "title": "棒球》U18亞青賽程出爐 台灣隊9/7首戰南韓",
+      "description": "U18亞洲盃青棒賽將於9月在台灣開打，稍早賽程正式出爐，台灣隊預賽和南韓、新加坡、泰國同樣分在B組，A組則是日本、香港、菲律賓和斯里蘭卡。台灣隊將在9月7日首戰南韓。\n\n...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5550443",
+      "pubDate": "8/24 6:49",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_5",
       "title": "日職》徐若熙恢復進度驚人！日媒揭最快復出時程",
       "description": "效力軟銀的台灣強投徐若熙，日前進行腰椎椎間盤突出手術，進入傷兵名單休養。徐若熙復健進度良好，《日刊體育》在訪問軟銀投手首席教練倉野信次後，提及徐若熙最快有望在9月重返實戰...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5550294",
@@ -74,7 +56,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_8",
+      "id": "rss_6",
       "title": "TPBL》獲夢想家續約 史承平：無論上場時間多少都會保持熱情",
       "description": "福爾摩沙夢想家今日正式宣布，與年輕側翼史承平完成續約，迎接 2026-27 新賽季。自 2024-25 賽季踏入職業舞台以來，史承平持續投入訓練、累積職業經驗，新賽季也將...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5550217",
@@ -83,7 +65,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_9",
+      "id": "rss_7",
       "title": "中職》「天網」7星級再見雙殺 錢公崩潰脫口經典語錄「不可能！」",
       "description": "味全龍昨（23日）客場挑戰富邦悍將，兩隊打進延長賽，最終龍隊靠著郭天信「7星級」再見雙殺美技，3比2收下客場勝利，讓富邦主播「錢公」錢定遠喊出經典語錄「不可能」。\n\n\n味全...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5550058",
@@ -92,7 +74,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_10",
+      "id": "rss_8",
       "title": "NBA》柯瑞動向本週是關鍵！美媒提出可能的3大走向",
       "description": "勇士一哥柯瑞（Stephen Curry）預計在美國時間8月29日這天起可以和球隊續約，這週預計是決定柯瑞動向的關鍵，近期甚至傳出不少交易傳聞。美媒提出柯瑞的3大走向，包...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5550053",
@@ -101,7 +83,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_11",
+      "id": "rss_9",
       "title": "MLB》大谷最狂數據被超車！MVP大熱門PCA猛夯33轟 締128年偉業",
       "description": "小熊今天以19：2血虐水手，身為國聯MVP大熱門的當家球星「PCA」阿姆斯壯（Pete Crow-Armstrong），今天敲出本季第33轟外帶3分打點，更在一項數據上超車...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549960",
@@ -110,7 +92,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_12",
+      "id": "rss_10",
       "title": "MLB》大谷躺平透心涼！塞揚左投6K無失分 道奇6連勝逼近大聯盟龍頭",
       "description": "衛冕軍道奇與海盜系列賽最終戰，日本巨星大谷翔平再度熄火，不過道奇靠著2屆塞揚強投史奈爾（Blake Snell）6局無失分好投，加上牛棚合力把關，終場4：0完封海盜收下6連...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549935",
@@ -119,7 +101,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_13",
+      "id": "rss_11",
       "title": "勇士與釀酒人上演「國聯分區龍頭對決」今日賽事預告與轉播",
       "description": "大家早安，自由體育為您獻上今日精彩賽事預告與轉播！\n\n\n大聯盟賽事，勇士和釀酒人持續上演「國聯分區龍頭對決」，系列壓軸戰移師賓州威廉波特中立場地，有別於一般主客場環境，雙方不論投手與守備都亟需重...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5549487",
@@ -128,22 +110,13 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_14",
+      "id": "rss_12",
       "title": "江少慶1局秀 游竣宥生涯首勝",
       "description": "胡智爲0.2局狂失5分\r\n〔記者林宥辰／台北報導〕統一獅江少慶昨暌違111天重返一軍投手丘，他在投滿1局、29球後退場，接手的胡智爲投不滿1局就狂失5分，中信兄弟最終11：1大勝，兄弟23歲左投游竣宥先發5局無失分，拿下生涯首勝。\r\n 江少慶僅投1局，安打、保送各2次。壘上有人下，岳政華敲安，獅隊左…",
       "link": "https://sports.ltn.com.tw/news/paper/1767929",
       "pubDate": "8/23 21:30",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_15",
-      "title": "砲打皇家強投 李灝宇本季第7轟",
-      "description": "相隔28天、20場，老虎隊「台灣怪力男」李灝宇昨再度開轟，5局上他從皇家隊強投瓦卡手中轟出左外野陽春砲，飛行距離達446英尺（約136公尺），這是他大聯盟生涯、也是本季老虎全隊最大號全壘打，本季李灝宇已敲出7發全壘打，有機會超越2021年張育成的9轟，成為大聯盟史上單季敲出最多轟的台灣選手。\b（記者…",
-      "link": "https://sports.ltn.com.tw/news/paper/1767810",
-      "pubDate": "8/23 21:30",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
