@@ -6312,12 +6312,15 @@
         },
         "errors": 0,
         "hex_color": "#671a19;#fefefe",
-        "hits": 2,
+        "hits": 5,
         "icon_url": "https://usermedia.rebas.tw/t/1zODE/icon/1703833017-hSmVvyPzYd_th",
-        "runs": 2,
+        "runs": 5,
         "scheduled_SP": null,
         "scores": [
-          "2"
+          "2",
+          "0",
+          "3",
+          "0"
         ],
         "season_team_uniqid": "b7yJt",
         "team": "樂天桃猿",
@@ -6334,11 +6337,13 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 0,
+        "hits": 1,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
-        "runs": 0,
+        "runs": 1,
         "scheduled_SP": null,
         "scores": [
+          "0",
+          "1",
           "0"
         ],
         "season_team_uniqid": "RAe8S",
@@ -6350,7 +6355,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 1,
+        "innings": 4,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
