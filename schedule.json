@@ -6281,10 +6281,10 @@
         "started_at": "",
         "stats_completeness": "NONE",
         "stats_status": "NORMAL",
-        "status": "SCHEDULED",
+        "status": "POSTPONED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "陰天;20",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -6359,7 +6359,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "陰時多雲短暫陣雨;40",
         "winner_side": "NONE"
       },
       "is_formal": true,
