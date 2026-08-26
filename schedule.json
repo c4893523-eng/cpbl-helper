@@ -6087,11 +6087,13 @@
         },
         "errors": 0,
         "hex_color": "#1e4639;#fefefe",
-        "hits": 1,
+        "hits": 4,
         "icon_url": "https://usermedia.rebas.tw/t/LH4lt/icon/1679389670-rWKGjIod7O_th",
-        "runs": 0,
+        "runs": 1,
         "scheduled_SP": null,
         "scores": [
+          "0",
+          "1",
           "0"
         ],
         "season_team_uniqid": "UuZ3x",
@@ -6109,12 +6111,14 @@
         },
         "errors": 0,
         "hex_color": "#204e93;#fefefe",
-        "hits": 1,
+        "hits": 5,
         "icon_url": "https://usermedia.rebas.tw/t/TPKQm/icon/1703832992-wbJvcOUBba_th",
-        "runs": 0,
+        "runs": 4,
         "scheduled_SP": null,
         "scores": [
-          "0"
+          "0",
+          "2",
+          "2"
         ],
         "season_team_uniqid": "H0zzP",
         "team": "富邦悍將",
@@ -6125,7 +6129,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 1,
+        "innings": 3,
         "links": [],
         "location": "新北市立新莊棒球場",
         "location_abbr": "新莊",
@@ -6139,7 +6143,7 @@
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "多雲;10",
-        "winner_side": "TIE"
+        "winner_side": "HOME"
       },
       "is_formal": true,
       "season": {
@@ -6166,11 +6170,14 @@
         },
         "errors": 0,
         "hex_color": "#bd2e34;#fefefe",
-        "hits": 1,
+        "hits": 2,
         "icon_url": "https://usermedia.rebas.tw/t/0MJKt/icon/1703832967-WyCnYYZp12_th",
         "runs": 0,
         "scheduled_SP": null,
         "scores": [
+          "0",
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "GJ5tu",
@@ -6188,11 +6195,14 @@
         },
         "errors": 0,
         "hex_color": "#dd732c;#fefefe",
-        "hits": 0,
+        "hits": 2,
         "icon_url": "https://usermedia.rebas.tw/t/hThSB/icon/1703833041-05wzu2HrsV_th",
         "runs": 0,
         "scheduled_SP": null,
         "scores": [
+          "0",
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "NsGzj",
@@ -6204,7 +6214,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 1,
+        "innings": 4,
         "links": [],
         "location": "亞太國際棒球訓練中心-主球場",
         "location_abbr": "亞太",
@@ -6213,7 +6223,7 @@
         "scheduled_start_at": "2026-08-26 18:35",
         "started_at": "2026-08-26 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "NORMAL",
+        "stats_status": "CRITICAL",
         "status": "PLAYING",
         "strikezone_completeness": 0,
         "umpire": {},
@@ -6251,6 +6261,9 @@
         "scheduled_SP": null,
         "scores": [
           "0",
+          "0",
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "b7yJt",
@@ -6268,11 +6281,14 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 0,
+        "hits": 1,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
         "runs": 0,
         "scheduled_SP": null,
         "scores": [
+          "0",
+          "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "RAe8S",
@@ -6284,7 +6300,7 @@
         "ended_at": "",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 2,
+        "innings": 5,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
