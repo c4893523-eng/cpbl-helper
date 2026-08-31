@@ -5400,9 +5400,9 @@
         "scheduled_start_at": "2026-08-30 17:05",
         "started_at": "2026-08-30 19:00",
         "stats_completeness": "PITCH",
-        "stats_status": "PITCH_MISSING",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "陰時多雲短暫陣雨;60",
         "winner_side": "HOME"
@@ -5592,7 +5592,7 @@
         "stats_completeness": "PITCH",
         "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "多雲;20",
         "winner_side": "HOME"
