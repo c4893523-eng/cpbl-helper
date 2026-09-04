@@ -45,15 +45,15 @@
       "wins": 49
     },
     {
-      "DIFF": 11,
+      "DIFF": 22,
       "E": 15,
-      "GB": 9.5,
+      "GB": 9,
       "M": -1,
-      "PCT": 0.5,
-      "STRK": 1,
+      "PCT": 0.505,
+      "STRK": 2,
       "draws": 1,
-      "finished": 97,
-      "last_updated_at": "2026-09-02 21:40",
+      "finished": 98,
+      "last_updated_at": "2026-09-04 21:05",
       "loses": 48,
       "order": 3,
       "team": {
@@ -64,19 +64,19 @@
         "uniqid": "hThSB"
       },
       "total": 120,
-      "wins": 48
+      "wins": 49
     },
     {
-      "DIFF": 0,
-      "E": 16,
-      "GB": 10,
+      "DIFF": -11,
+      "E": 15,
+      "GB": 10.5,
       "M": -1,
-      "PCT": 0.495,
-      "STRK": -1,
+      "PCT": 0.489,
+      "STRK": -2,
       "draws": 1,
-      "finished": 94,
-      "last_updated_at": "2026-09-02 15:20",
-      "loses": 47,
+      "finished": 95,
+      "last_updated_at": "2026-09-04 21:05",
+      "loses": 48,
       "order": 4,
       "team": {
         "abbr": "鷹",
