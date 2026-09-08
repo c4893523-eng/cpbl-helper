@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "DIFF": 84,
+      "DIFF": 81,
       "E": -1,
       "GB": 0,
       "M": 13,
-      "PCT": 0.606,
-      "STRK": 2,
+      "PCT": 0.6,
+      "STRK": -1,
       "draws": 0,
-      "finished": 99,
-      "last_updated_at": "2026-09-07 20:58",
-      "loses": 39,
+      "finished": 100,
+      "last_updated_at": "2026-09-08 21:07",
+      "loses": 40,
       "order": 1,
       "team": {
         "abbr": "龍",
@@ -23,9 +23,31 @@
       "wins": 60
     },
     {
+      "DIFF": -12,
+      "E": 13,
+      "GB": 8.5,
+      "M": -1,
+      "PCT": 0.515,
+      "STRK": 1,
+      "draws": 0,
+      "finished": 99,
+      "last_updated_at": "2026-09-08 21:07",
+      "loses": 48,
+      "order": 2,
+      "team": {
+        "abbr": "悍",
+        "hex_color": "#204e93;#fefefe",
+        "name": "富邦悍將",
+        "season_team_uniqid": "H0zzP",
+        "uniqid": "TPKQm"
+      },
+      "total": 120,
+      "wins": 51
+    },
+    {
       "DIFF": 32,
       "E": 12,
-      "GB": 9,
+      "GB": 8.5,
       "M": -1,
       "PCT": 0.515,
       "STRK": 4,
@@ -45,31 +67,9 @@
       "wins": 51
     },
     {
-      "DIFF": -15,
-      "E": 13,
-      "GB": 9.5,
-      "M": -1,
-      "PCT": 0.51,
-      "STRK": -2,
-      "draws": 0,
-      "finished": 98,
-      "last_updated_at": "2026-09-06 19:28",
-      "loses": 48,
-      "order": 3,
-      "team": {
-        "abbr": "悍",
-        "hex_color": "#204e93;#fefefe",
-        "name": "富邦悍將",
-        "season_team_uniqid": "H0zzP",
-        "uniqid": "TPKQm"
-      },
-      "total": 120,
-      "wins": 50
-    },
-    {
       "DIFF": -23,
       "E": 9,
-      "GB": 13,
+      "GB": 12.5,
       "M": -1,
       "PCT": 0.474,
       "STRK": -5,
@@ -91,7 +91,7 @@
     {
       "DIFF": -49,
       "E": 9,
-      "GB": 14,
+      "GB": 13.5,
       "M": -1,
       "PCT": 0.463,
       "STRK": -1,
@@ -113,7 +113,7 @@
     {
       "DIFF": -29,
       "E": 4,
-      "GB": 17.5,
+      "GB": 17,
       "M": -1,
       "PCT": 0.429,
       "STRK": 1,
