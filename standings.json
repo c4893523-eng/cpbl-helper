@@ -67,37 +67,15 @@
       "wins": 51
     },
     {
-      "DIFF": -24,
-      "E": 8,
-      "GB": 13,
-      "M": -1,
-      "PCT": 0.469,
-      "STRK": -6,
-      "draws": 1,
-      "finished": 99,
-      "last_updated_at": "2026-09-08 22:06",
-      "loses": 52,
-      "order": 4,
-      "team": {
-        "abbr": "鷹",
-        "hex_color": "#1e4639;#fefefe",
-        "name": "台鋼雄鷹",
-        "season_team_uniqid": "UuZ3x",
-        "uniqid": "LH4lt"
-      },
-      "total": 120,
-      "wins": 46
-    },
-    {
-      "DIFF": -48,
+      "DIFF": -44,
       "E": 9,
-      "GB": 13,
+      "GB": 12.5,
       "M": -1,
-      "PCT": 0.469,
-      "STRK": 1,
+      "PCT": 0.474,
+      "STRK": 2,
       "draws": 2,
-      "finished": 98,
-      "last_updated_at": "2026-09-08 22:06",
+      "finished": 99,
+      "last_updated_at": "2026-09-09 20:47",
       "loses": 51,
       "order": 4,
       "team": {
@@ -108,7 +86,29 @@
         "uniqid": "1zODE"
       },
       "total": 120,
-      "wins": 45
+      "wins": 46
+    },
+    {
+      "DIFF": -28,
+      "E": 7,
+      "GB": 13.5,
+      "M": -1,
+      "PCT": 0.465,
+      "STRK": -7,
+      "draws": 1,
+      "finished": 100,
+      "last_updated_at": "2026-09-09 20:47",
+      "loses": 53,
+      "order": 5,
+      "team": {
+        "abbr": "鷹",
+        "hex_color": "#1e4639;#fefefe",
+        "name": "台鋼雄鷹",
+        "season_team_uniqid": "UuZ3x",
+        "uniqid": "LH4lt"
+      },
+      "total": 120,
+      "wins": 46
     },
     {
       "DIFF": -29,
