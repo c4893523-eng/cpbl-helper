@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "DIFF": 81,
+      "DIFF": 79,
       "E": -1,
       "GB": 0,
       "M": 13,
-      "PCT": 0.6,
-      "STRK": -1,
+      "PCT": 0.594,
+      "STRK": -2,
       "draws": 0,
-      "finished": 100,
-      "last_updated_at": "2026-09-08 21:07",
-      "loses": 40,
+      "finished": 101,
+      "last_updated_at": "2026-09-09 21:37",
+      "loses": 41,
       "order": 1,
       "team": {
         "abbr": "龍",
@@ -23,15 +23,15 @@
       "wins": 60
     },
     {
-      "DIFF": -12,
+      "DIFF": -10,
       "E": 13,
-      "GB": 8.5,
+      "GB": 7.5,
       "M": -1,
-      "PCT": 0.515,
-      "STRK": 1,
+      "PCT": 0.52,
+      "STRK": 2,
       "draws": 0,
-      "finished": 99,
-      "last_updated_at": "2026-09-08 21:07",
+      "finished": 100,
+      "last_updated_at": "2026-09-09 21:37",
       "loses": 48,
       "order": 2,
       "team": {
@@ -42,20 +42,20 @@
         "uniqid": "TPKQm"
       },
       "total": 120,
-      "wins": 51
+      "wins": 52
     },
     {
-      "DIFF": 32,
-      "E": 12,
+      "DIFF": 30,
+      "E": 11,
       "GB": 8.5,
       "M": -1,
-      "PCT": 0.515,
-      "STRK": 4,
+      "PCT": 0.51,
+      "STRK": -1,
       "draws": 1,
-      "finished": 100,
-      "last_updated_at": "2026-09-06 19:41",
-      "loses": 48,
-      "order": 2,
+      "finished": 101,
+      "last_updated_at": "2026-09-09 21:39",
+      "loses": 49,
+      "order": 3,
       "team": {
         "abbr": "獅",
         "hex_color": "#dd732c;#fefefe",
@@ -69,7 +69,7 @@
     {
       "DIFF": -44,
       "E": 9,
-      "GB": 12.5,
+      "GB": 12,
       "M": -1,
       "PCT": 0.474,
       "STRK": 2,
@@ -91,7 +91,7 @@
     {
       "DIFF": -28,
       "E": 7,
-      "GB": 13.5,
+      "GB": 13,
       "M": -1,
       "PCT": 0.465,
       "STRK": -7,
@@ -111,15 +111,15 @@
       "wins": 46
     },
     {
-      "DIFF": -29,
+      "DIFF": -27,
       "E": 4,
-      "GB": 17,
+      "GB": 16,
       "M": -1,
-      "PCT": 0.429,
-      "STRK": 1,
+      "PCT": 0.434,
+      "STRK": 2,
       "draws": 2,
-      "finished": 100,
-      "last_updated_at": "2026-09-07 21:52",
+      "finished": 101,
+      "last_updated_at": "2026-09-09 21:39",
       "loses": 56,
       "order": 6,
       "team": {
@@ -130,7 +130,7 @@
         "uniqid": "HCHks"
       },
       "total": 120,
-      "wins": 42
+      "wins": 43
     }
   ],
   "error": false,
