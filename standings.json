@@ -9,7 +9,7 @@
       "STRK": -4,
       "draws": 0,
       "finished": 103,
-      "last_updated_at": "2026-09-13 18:39",
+      "last_updated_at": "2026-09-14 19:14",
       "loses": 43,
       "order": 1,
       "team": {
@@ -31,7 +31,7 @@
       "STRK": 3,
       "draws": 1,
       "finished": 104,
-      "last_updated_at": "2026-09-13 18:39",
+      "last_updated_at": "2026-09-14 15:59",
       "loses": 49,
       "order": 2,
       "team": {
@@ -53,7 +53,7 @@
       "STRK": -3,
       "draws": 0,
       "finished": 103,
-      "last_updated_at": "2026-09-13 19:13",
+      "last_updated_at": "2026-09-14 19:14",
       "loses": 51,
       "order": 3,
       "team": {
@@ -67,16 +67,16 @@
       "wins": 52
     },
     {
-      "DIFF": -14,
-      "E": 7,
-      "GB": 10.5,
+      "DIFF": -15,
+      "E": 6,
+      "GB": 11,
       "M": -1,
-      "PCT": 0.48,
-      "STRK": 3,
+      "PCT": 0.476,
+      "STRK": -1,
       "draws": 1,
-      "finished": 103,
-      "last_updated_at": "2026-09-13 19:13",
-      "loses": 53,
+      "finished": 104,
+      "last_updated_at": "2026-09-14 21:48",
+      "loses": 54,
       "order": 4,
       "team": {
         "abbr": "鷹",
@@ -89,17 +89,17 @@
       "wins": 49
     },
     {
-      "DIFF": -54,
+      "DIFF": -53,
       "E": 7,
-      "GB": 11.5,
+      "GB": 11,
       "M": -1,
-      "PCT": 0.47,
-      "STRK": -2,
+      "PCT": 0.475,
+      "STRK": 1,
       "draws": 2,
-      "finished": 102,
-      "last_updated_at": "2026-09-13 20:07",
+      "finished": 103,
+      "last_updated_at": "2026-09-14 21:48",
       "loses": 53,
-      "order": 5,
+      "order": 4,
       "team": {
         "abbr": "猿",
         "hex_color": "#671a19;#fefefe",
@@ -108,7 +108,7 @@
         "uniqid": "1zODE"
       },
       "total": 120,
-      "wins": 47
+      "wins": 48
     },
     {
       "DIFF": -23,
@@ -119,7 +119,7 @@
       "STRK": 2,
       "draws": 2,
       "finished": 105,
-      "last_updated_at": "2026-09-13 20:07",
+      "last_updated_at": "2026-09-14 19:15",
       "loses": 58,
       "order": 6,
       "team": {
