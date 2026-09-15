@@ -183,15 +183,6 @@
     },
     {
       "id": "rss_20",
-      "title": "中職悍將球迷噓聲伺候吉力吉撈．鞏冠 (圖)",
-      "description": "中華職棒味全龍15日在新莊棒球場交手富邦悍將，日前兩隊因近身球引發板凳清空，衝突事件主角的龍隊吉力吉撈．鞏冠上場打擊時，場邊球迷舉出「吉力急推」標語，噓聲伺候。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7%E6%82%8D%E5%B0%87%E7%90%83%E8%BF%B7%E5%99%93%E8%81%B2%E4%BC%BA%E5%80%99%E5%90%89%E5%8A%9B%E5%90%89%E6%92%88-%E9%9E%8F%E5%86%A0-%E5%9C%96-124141418.html",
-      "pubDate": "9/15 4:41",
-      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/797a0d1f9ae1faeaadc731f8bb5545a1.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_21",
       "title": "日職》好衰！台灣重砲林安可自打球受傷恐又脫離戰線 西武監督說話了",
       "description": "西武獅台灣重砲林安可，今天面對樂天金鷲擔任先發第6棒指定打擊，卻在9局上第4打席時，自打球集中膝蓋痛苦倒地，該打席未能完成就退場，賽後西武監督西口文也也面露擔憂。\n\n\n林安...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5575125",
@@ -200,7 +191,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_22",
+      "id": "rss_21",
       "title": "中職》右膝被強襲球擊中 廖任磊：還好骨頭沒有大礙",
       "description": "廖任磊於13日比賽中遭強襲球擊中右膝下方，當下忍痛完成守備，昨天就醫檢查雖然沒有大礙，今天走路仍有困難無法出賽，他表示，骨頭沒有裂痕、結構沒有明顯損傷，算是不幸中的大幸，...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5575095",
@@ -209,7 +200,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_23",
+      "id": "rss_22",
       "title": "中職》投出情緒！隊友離奇暴傳 艾速特激動跳腳",
       "description": "台鋼雄鷹艾速特今天對中信兄弟投出情緒，先是在5局上可能三振的好球未獲青睞後被敲安掉分，6局上牽制抓到跑者卻因隊友傳球失誤落空，讓他奮力一跳。\n\n\n艾速特前4局無失分，5局...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5575090",
@@ -218,7 +209,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_23",
       "title": "中職》投手丘上寫著「77早日康復」 郭俊麟留下暖心一幕",
       "description": "統一獅今在嘉義市球場迎戰樂天桃猿，場上雖是兩隊要爭奪下半季首位的激烈交鋒，但獅隊先發投手郭俊麟在投出第1球之前，卻先在投手丘上寫著「77早日康復」，替昨役挨觸身球受傷的樂...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5575069",
@@ -227,7 +218,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_25",
+      "id": "rss_24",
       "title": "中職》張育成改打開路先鋒 後藤光尊盼他盡快找回狀態",
       "description": "富邦悍將今天在主場新莊與味全龍進行補賽，打線做出部分調整，開路先鋒由張育成擔任，總教練後藤光尊表示，希望藉由增加打席數，讓張育成盡快找回比賽感覺與打擊狀態。張育成首打席抓...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5575050",
@@ -236,7 +227,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_26",
+      "id": "rss_25",
       "title": "日職》好痛！台灣重砲林安可挑戰歷史偉業 卻自打球痛苦倒地受傷退場",
       "description": "西武獅台灣重砲林安可，今天面對樂天金鷲擔任先發第6棒指定打擊，卻在9局上第4打席時，自打球集中膝蓋痛苦倒地，該打席未能完成就退場，最終西武獅以0：1遭樂天完封。\n\n\n林安可...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5574966",
@@ -245,7 +236,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_27",
+      "id": "rss_26",
       "title": "中職》推戴培峰後首次在新莊出賽 吉力吉撈．鞏冠首打席遭噓聲問候",
       "description": "富邦悍將今天在新莊與味全龍進行補賽，也是吉力吉撈．鞏冠於8日出手推戴培峰遭聯盟罰款2萬元、禁賽1場後，首次隨味全在富邦主場出賽，2局上首打席一如預期，獲得富邦球迷的噓聲問...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5575042",
@@ -254,7 +245,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_28",
+      "id": "rss_27",
       "title": "中職》連續1062次守備機會無失誤紀錄中斷 范國宸：希望再突破自己",
       "description": "范國宸13日在澄清湖對於台鋼雄鷹1局下發生失誤，中斷連續1062次守備機會無失誤的中職紀錄，他表示，那球其實可以接得到，紀錄中斷雖然很可惜，但他再會繼續努力，從今天起重新...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5575025",
@@ -263,7 +254,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_29",
+      "id": "rss_28",
       "title": "中職》兄弟29歲左投要提升職業意識 平野惠一：沒回應球團期待",
       "description": "中信兄弟29歲左投魏碩成去年在輪值偶有佳作，球迷一度封為「魏能帝」，未料今年卻1勝難求，從先發投到後援，防禦率飆到5.76，總教練平野惠一直言：「真的要講的話，我希望他職...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5575012",
@@ -272,7 +263,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_30",
+      "id": "rss_29",
       "title": "中職》被兄弟指名時還在工作 即戰力日投：我是在做夢嗎？",
       "description": "中信兄弟昨下放魏碩成，今天拉上今年選秀第10指名的日籍投手大瀧幸治，成為中信首位上一軍的2026年選秀菜鳥，即便因順位後段而未獲得簽約金，歷經3次落榜的經驗，大瀧幸治來到...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5574986",
@@ -281,7 +272,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_31",
+      "id": "rss_30",
       "title": "中職》味全龍王定穎、林逸達降二軍 葉君璋：更新一下導航",
       "description": "味全龍昨天做出球員異動，前天對統一獅都在挨轟後投出觸身球的投手王定穎、林逸達都被降二軍，總教練葉君璋苦笑說：「讓他們進廠再更新一下導航。」\n\n\n味全13日在主場天母迎戰統...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5574884",
@@ -290,7 +281,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_32",
+      "id": "rss_31",
       "title": "棒球》前富邦火球洋投驚傳降臨中國CPB！與前悍將明星左投再續前緣",
       "description": "備受富邦悍將球迷喜愛的前洋投富藍戈，今年3月轉戰墨西哥聯賽，如今卻驚傳將轉戰中國CPB夏至聯賽，加入上海虎鯨。\n\n\n富藍戈於2022年來台加盟富邦悍將，隨後和曾峻岳共築球隊...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5574859",
@@ -299,7 +290,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_33",
+      "id": "rss_32",
       "title": "中職》兄弟火速拉上日籍新秀！ 曾三度落榜迎接夢想舞台",
       "description": "中信兄弟昨天下放魏碩成，今天拉上今年選秀第10指名的日籍投手大瀧幸治，成為本屆中信第一位上一軍的2026年選秀菜鳥。\n\n\n大瀧幸治今年在二軍出賽5場，戰績1勝0敗，投5局...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5574868",
@@ -308,7 +299,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_34",
+      "id": "rss_33",
       "title": "中職》曾投到讓王建民動怒！兄弟新星5局猛飆5K破紀錄 防禦率再下修",
       "description": "中信兄弟22歲新星盧孟揚目前持續在二軍出賽，今天面對台鋼雄鷹先發5局飆出5次三振，失掉2分責失分，防禦率再下修。\n\n\n盧孟揚上一次出賽是在9月6日，當時同樣面對台鋼二軍，繳...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5574842",
@@ -317,7 +308,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_35",
+      "id": "rss_34",
       "title": "中職》莊昕諺顏面骨折手術前 暖心1舉動關心王博玄",
       "description": "樂天桃猿投手莊昕諺昨天不慎被台鋼雄鷹打者王博玄的強襲球直擊臉部，導致顏面骨折、撕裂傷及牙齒斷裂，今天進行手術治療。他擔心王博玄太過自責，特別透過前隊友黃子鵬跟他說：「希望...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5574833",
@@ -326,7 +317,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_36",
+      "id": "rss_35",
       "title": "亞運男排》2018年率隊勇奪銅牌 前台灣隊長陳建禎坦言還想打",
       "description": "名古屋亞運男排項目將在9月27日登場，36歲前台灣隊長陳建禎此次無緣進入名單，他坦言遭割愛確實覺得可惜，但也希望新生代成員能全力爭取佳績。\n\n\n現效力TPVL台鋼天鷹的陳...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5574714",
