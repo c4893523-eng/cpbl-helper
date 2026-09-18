@@ -3008,7 +3008,7 @@
         "scheduled_start_at": "2026-09-18 18:35",
         "started_at": "2026-09-18 18:36",
         "stats_completeness": "PITCH",
-        "stats_status": "CRITICAL",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
@@ -3148,6 +3148,7 @@
           "0",
           "0",
           "0",
+          "0",
           "0"
         ],
         "season_team_uniqid": "NsGzj",
@@ -3165,9 +3166,9 @@
         },
         "errors": 0,
         "hex_color": "#f4cf46;#000000",
-        "hits": 7,
+        "hits": 8,
         "icon_url": "https://usermedia.rebas.tw/t/HCHks/icon/1703832939-QFtXtMVjUc_th",
-        "runs": 3,
+        "runs": 5,
         "scheduled_SP": null,
         "scores": [
           "1",
@@ -3178,7 +3179,8 @@
           "0",
           "0",
           "0",
-          "0"
+          "1",
+          "1"
         ],
         "season_team_uniqid": "RAe8S",
         "team": "中信兄弟",
@@ -3186,10 +3188,10 @@
       },
       "info": {
         "audience": "",
-        "ended_at": "",
+        "ended_at": "2026-09-18 21:41",
         "finished_status": "NORMAL",
         "history": [],
-        "innings": 9,
+        "innings": 10,
         "links": [],
         "location": "臺北大巨蛋",
         "location_abbr": "大巨蛋",
@@ -3199,11 +3201,11 @@
         "started_at": "2026-09-18 18:35",
         "stats_completeness": "PITCH",
         "stats_status": "CRITICAL",
-        "status": "PLAYING",
+        "status": "FINISHED",
         "strikezone_completeness": 0,
         "umpire": {},
         "weather": "晴時多雲;10",
-        "winner_side": "AWAY"
+        "winner_side": "HOME"
       },
       "is_formal": true,
       "season": {
