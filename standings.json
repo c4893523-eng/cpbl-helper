@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "DIFF": 60,
+      "DIFF": 59,
       "E": -1,
       "GB": 0,
-      "M": 7,
-      "PCT": 0.579,
-      "STRK": 1,
+      "M": 6,
+      "PCT": 0.574,
+      "STRK": -1,
       "draws": 0,
-      "finished": 107,
-      "last_updated_at": "2026-09-18 21:18",
-      "loses": 45,
+      "finished": 108,
+      "last_updated_at": "2026-09-19 19:45",
+      "loses": 46,
       "order": 1,
       "team": {
         "abbr": "龍",
@@ -23,17 +23,39 @@
       "wins": 62
     },
     {
-      "DIFF": -19,
-      "E": 7,
-      "GB": 7,
+      "DIFF": 43,
+      "E": 6,
+      "GB": 6.5,
       "M": -1,
       "PCT": 0.514,
-      "STRK": 3,
-      "draws": 0,
-      "finished": 107,
-      "last_updated_at": "2026-09-18 21:18",
+      "STRK": 1,
+      "draws": 1,
+      "finished": 108,
+      "last_updated_at": "2026-09-19 18:52",
       "loses": 52,
       "order": 2,
+      "team": {
+        "abbr": "獅",
+        "hex_color": "#dd732c;#fefefe",
+        "name": "統一7-ELEVEn獅",
+        "season_team_uniqid": "NsGzj",
+        "uniqid": "hThSB"
+      },
+      "total": 120,
+      "wins": 55
+    },
+    {
+      "DIFF": -20,
+      "E": 6,
+      "GB": 7,
+      "M": -1,
+      "PCT": 0.509,
+      "STRK": -1,
+      "draws": 0,
+      "finished": 108,
+      "last_updated_at": "2026-09-19 18:52",
+      "loses": 53,
+      "order": 3,
       "team": {
         "abbr": "悍",
         "hex_color": "#204e93;#fefefe",
@@ -45,31 +67,9 @@
       "wins": 55
     },
     {
-      "DIFF": 42,
-      "E": 6,
-      "GB": 7.5,
-      "M": -1,
-      "PCT": 0.509,
-      "STRK": -3,
-      "draws": 1,
-      "finished": 107,
-      "last_updated_at": "2026-09-18 21:41",
-      "loses": 52,
-      "order": 3,
-      "team": {
-        "abbr": "獅",
-        "hex_color": "#dd732c;#fefefe",
-        "name": "統一7-ELEVEn獅",
-        "season_team_uniqid": "NsGzj",
-        "uniqid": "hThSB"
-      },
-      "total": 120,
-      "wins": 54
-    },
-    {
       "DIFF": -15,
       "E": 2,
-      "GB": 11.5,
+      "GB": 11,
       "M": -1,
       "PCT": 0.472,
       "STRK": -1,
@@ -91,7 +91,7 @@
     {
       "DIFF": -52,
       "E": 3,
-      "GB": 11.5,
+      "GB": 11,
       "M": -1,
       "PCT": 0.471,
       "STRK": -2,
@@ -111,15 +111,15 @@
       "wins": 49
     },
     {
-      "DIFF": -16,
+      "DIFF": -15,
       "E": 0,
-      "GB": 13.5,
+      "GB": 12.5,
       "M": -1,
-      "PCT": 0.453,
-      "STRK": 5,
+      "PCT": 0.458,
+      "STRK": 6,
       "draws": 2,
-      "finished": 108,
-      "last_updated_at": "2026-09-18 21:41",
+      "finished": 109,
+      "last_updated_at": "2026-09-19 19:45",
       "loses": 58,
       "order": 6,
       "team": {
@@ -130,7 +130,7 @@
         "uniqid": "HCHks"
       },
       "total": 120,
-      "wins": 48
+      "wins": 49
     }
   ],
   "error": false,
