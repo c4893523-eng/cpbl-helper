@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "DIFF": 67,
+      "DIFF": 65,
       "E": -1,
       "GB": 0,
       "M": 3,
-      "PCT": 0.563,
-      "STRK": -2,
+      "PCT": 0.558,
+      "STRK": -3,
       "draws": 0,
-      "finished": 112,
-      "last_updated_at": "2026-09-25 19:14",
-      "loses": 49,
+      "finished": 113,
+      "last_updated_at": "2026-09-26 20:11",
+      "loses": 50,
       "order": 1,
       "team": {
         "abbr": "龍",
@@ -23,15 +23,15 @@
       "wins": 63
     },
     {
-      "DIFF": 33,
+      "DIFF": 34,
       "E": 3,
-      "GB": 5.5,
+      "GB": 4.5,
       "M": -1,
-      "PCT": 0.514,
-      "STRK": 2,
+      "PCT": 0.518,
+      "STRK": 3,
       "draws": 1,
-      "finished": 112,
-      "last_updated_at": "2026-09-25 19:14",
+      "finished": 113,
+      "last_updated_at": "2026-09-26 18:36",
       "loses": 54,
       "order": 2,
       "team": {
@@ -42,19 +42,19 @@
         "uniqid": "hThSB"
       },
       "total": 120,
-      "wins": 57
+      "wins": 58
     },
     {
-      "DIFF": -13,
-      "E": 3,
+      "DIFF": -17,
+      "E": 2,
       "GB": 6,
       "M": -1,
-      "PCT": 0.509,
-      "STRK": -1,
+      "PCT": 0.504,
+      "STRK": -2,
       "draws": 0,
-      "finished": 112,
-      "last_updated_at": "2026-09-25 19:33",
-      "loses": 55,
+      "finished": 113,
+      "last_updated_at": "2026-09-26 20:41",
+      "loses": 56,
       "order": 3,
       "team": {
         "abbr": "悍",
@@ -67,15 +67,15 @@
       "wins": 57
     },
     {
-      "DIFF": -41,
+      "DIFF": -39,
       "E": 1,
-      "GB": 8.5,
+      "GB": 7.5,
       "M": -1,
-      "PCT": 0.486,
-      "STRK": 4,
+      "PCT": 0.491,
+      "STRK": 5,
       "draws": 2,
-      "finished": 111,
-      "last_updated_at": "2026-09-25 19:36",
+      "finished": 112,
+      "last_updated_at": "2026-09-26 20:11",
       "loses": 56,
       "order": 4,
       "team": {
@@ -86,19 +86,19 @@
         "uniqid": "1zODE"
       },
       "total": 120,
-      "wins": 53
+      "wins": 54
     },
     {
-      "DIFF": -26,
+      "DIFF": -27,
       "E": 0,
       "GB": 10.5,
       "M": -1,
-      "PCT": 0.468,
-      "STRK": 1,
+      "PCT": 0.464,
+      "STRK": -1,
       "draws": 1,
-      "finished": 112,
-      "last_updated_at": "2026-09-25 19:33",
-      "loses": 59,
+      "finished": 113,
+      "last_updated_at": "2026-09-26 18:36",
+      "loses": 60,
       "order": 5,
       "team": {
         "abbr": "鷹",
@@ -111,17 +111,17 @@
       "wins": 52
     },
     {
-      "DIFF": -20,
+      "DIFF": -16,
       "E": 0,
-      "GB": 11.5,
+      "GB": 10.5,
       "M": -1,
-      "PCT": 0.459,
-      "STRK": -2,
+      "PCT": 0.464,
+      "STRK": 1,
       "draws": 2,
-      "finished": 113,
-      "last_updated_at": "2026-09-25 19:36",
+      "finished": 114,
+      "last_updated_at": "2026-09-26 20:41",
       "loses": 60,
-      "order": 6,
+      "order": 5,
       "team": {
         "abbr": "象",
         "hex_color": "#f4cf46;#000000",
@@ -130,7 +130,7 @@
         "uniqid": "HCHks"
       },
       "total": 120,
-      "wins": 51
+      "wins": 52
     }
   ],
   "error": false,
