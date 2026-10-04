@@ -59,7 +59,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "陰短暫陣雨;40",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -134,7 +134,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "晴時多雲;0",
         "winner_side": "NONE"
       },
       "is_formal": true,
