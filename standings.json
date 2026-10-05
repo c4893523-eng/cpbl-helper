@@ -23,15 +23,15 @@
       "wins": 67
     },
     {
-      "DIFF": 45,
+      "DIFF": 48,
       "E": 0,
-      "GB": 3,
+      "GB": 2.5,
       "M": -1,
-      "PCT": 0.534,
-      "STRK": 5,
+      "PCT": 0.538,
+      "STRK": 6,
       "draws": 1,
-      "finished": 119,
-      "last_updated_at": "2026-10-04 20:12",
+      "finished": 120,
+      "last_updated_at": "2026-10-05 21:58",
       "loses": 55,
       "order": 2,
       "team": {
@@ -42,7 +42,7 @@
         "uniqid": "hThSB"
       },
       "total": 120,
-      "wins": 63
+      "wins": 64
     },
     {
       "DIFF": -29,
@@ -89,16 +89,16 @@
       "wins": 57
     },
     {
-      "DIFF": 12,
+      "DIFF": 9,
       "E": 0,
-      "GB": 9.5,
+      "GB": 10,
       "M": -1,
-      "PCT": 0.479,
-      "STRK": 4,
+      "PCT": 0.475,
+      "STRK": -1,
       "draws": 2,
-      "finished": 119,
-      "last_updated_at": "2026-10-04 19:45",
-      "loses": 61,
+      "finished": 120,
+      "last_updated_at": "2026-10-05 21:58",
+      "loses": 62,
       "order": 5,
       "team": {
         "abbr": "象",
