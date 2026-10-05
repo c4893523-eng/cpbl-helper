@@ -59,7 +59,7 @@
         "status": "SCHEDULED",
         "strikezone_completeness": 0,
         "umpire": {},
-        "weather": "",
+        "weather": "陰時多雲;20",
         "winner_side": "NONE"
       },
       "is_formal": true,
@@ -225,9 +225,9 @@
         "scheduled_start_at": "2026-10-05 18:35",
         "started_at": "2026-10-05 18:35",
         "stats_completeness": "PITCH",
-        "stats_status": "PITCH_MISSING",
+        "stats_status": "NORMAL",
         "status": "FINISHED",
-        "strikezone_completeness": 0,
+        "strikezone_completeness": 1,
         "umpire": {},
         "weather": "晴時多雲;0",
         "winner_side": "AWAY"

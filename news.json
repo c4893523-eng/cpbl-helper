@@ -3,6 +3,51 @@
   "data": [
     {
       "id": "rss_0",
+      "title": "台灣大賽包場大巨蛋？ 考驗球迷口袋深度",
+      "description": "味全龍以上半季冠軍及全年勝率第一晉級今年10月17日開打的台灣大賽，按中職現行規定擁有5場主場優勢，確定全部安排在台北大巨蛋，球團昨天公布這5場的售票資訊，最貴門票各是第1、2、6場2800元與第5、7場2600元，至於第3、4場的場地將視對手是中信兄弟或統一獅而定，若由中信兄弟出線，有機會出現台灣",
+      "link": "https://tw.sports.yahoo.com/news/%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E5%8C%85%E5%A0%B4%E5%A4%A7%E5%B7%A8%E8%9B%8B-%E8%80%83%E9%A9%97%E7%90%83%E8%BF%B7%E5%8F%A3%E8%A2%8B%E6%B7%B1%E5%BA%A6-213000669.html",
+      "pubDate": "10/5 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_1",
+      "title": "季後挑戰賽》兄弟先拿1勝 獅拚下剋上",
+      "description": "中信兄弟和統一獅相隔9年後，再度在季後挑戰賽交手，面對5戰3勝短期賽，勝負難料。象獅上次在季後挑戰賽交手已是2017年，當時黃衫軍先拿到3勝晉級。中信兄弟今年因拿到下半季冠軍，先保送1勝，9日起4場挑戰賽只要再拿2勝就過關，還保有最多3場的主場優勢，兄弟總教練平野惠一掌兵符第3年，前兩年都是年度第一",
+      "link": "https://tw.sports.yahoo.com/news/%E5%AD%A3%E5%BE%8C%E6%8C%91%E6%88%B0%E8%B3%BD-%E5%85%84%E5%BC%9F%E5%85%88%E6%8B%BF1%E5%8B%9D-%E7%8D%85%E6%8B%9A%E4%B8%8B%E5%89%8B%E4%B8%8A-213000025.html",
+      "pubDate": "10/5 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_2",
+      "title": "餅總先禮後兵 平野笑稱︰玩心理戰",
+      "description": "中信兄弟前天拿到下半季冠軍，打進季後挑戰賽，將和年度戰績排第二的統一獅隊競爭晉級台灣大賽資格。昨天補賽賽前，雙方教頭互相稱讚對方，頗有為週五開打的挑戰賽先禮後兵，味道濃厚。餅總︰先吸一下冠軍空氣獅隊總教練林岳平賽前主動到中信兄弟休息室前想向平野惠一道賀，並先開玩笑說：「來吸一下冠軍空氣。」和平野見面",
+      "link": "https://tw.sports.yahoo.com/news/%E9%A4%85%E7%B8%BD%E5%85%88%E7%A6%AE%E5%BE%8C%E5%85%B5-%E5%B9%B3%E9%87%8E%E7%AC%91%E7%A8%B1-%E7%8E%A9%E5%BF%83%E7%90%86%E6%88%B0-213000789.html",
+      "pubDate": "10/5 13:30",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/55f4b3156ac82db8a101105f579e24d8.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_3",
+      "title": "沉睡2年野獸 柯爾咬住道奇",
+      "description": "勇士昨在國聯分區系列賽第2戰靠牛棚車輪戰以3：2擊敗道奇，將戰局扳成1比1，拚明、後天回主場「下剋上」衛冕軍，其中32歲奇兵柯爾再於季後賽銜命先發繳出好投，他還大讚後援3.2局失1分的火球男富恩特斯，「他才21、22歲？這個年紀就能做到這些，真的太不可思議！」",
+      "link": "https://tw.sports.yahoo.com/news/%E6%B2%89%E7%9D%A12%E5%B9%B4%E9%87%8E%E7%8D%B8-%E6%9F%AF%E7%88%BE%E5%92%AC%E4%BD%8F%E9%81%93%E5%A5%87-213000684.html",
+      "pubDate": "10/5 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_4",
+      "title": "就差一點點 野原︰想跟曾總一起努力",
+      "description": "樂天桃猿下半季拚到最後第2場比賽才確定無緣季冠軍，中斷自2023年起連續3年晉級季後賽，去年季後回任總教練的曾豪駒強調「這部分我該負責」，領隊野原武人以「就差那麼一點點，是很遺憾的結果」為今年總結，雖不方便透露曾豪駒明年是否續掌兵符，但是想要一起努力奮戰的想法沒有改變。",
+      "link": "https://tw.sports.yahoo.com/news/%E5%B0%B1%E5%B7%AE-%E9%BB%9E%E9%BB%9E-%E9%87%8E%E5%8E%9F-%E6%83%B3%E8%B7%9F%E6%9B%BE%E7%B8%BD-%E8%B5%B7%E5%8A%AA%E5%8A%9B-213000884.html",
+      "pubDate": "10/5 13:30",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/9177bfc104cda3f4c342c9d1abab9bb3.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_5",
       "title": "日職徐若熙中繼2局失1分　最速飆156公里",
       "description": "（中央社記者謝靜雯台北5日電）日職福岡軟銀鷹隊投手徐若熙10月回到一軍，今天再度中繼登板，投2局失1分、最快球速156公里，軟銀隊終場以1比3不敵東北樂天金鷲隊。",
       "link": "https://tw.sports.yahoo.com/news/%E6%97%A5%E8%81%B7%E5%BE%90%E8%8B%A5%E7%86%99%E4%B8%AD%E7%B9%BC2%E5%B1%80%E5%A4%B11%E5%88%86-%E6%9C%80%E9%80%9F%E9%A3%86156%E5%85%AC%E9%87%8C-143933798.html",
@@ -11,7 +56,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_1",
+      "id": "rss_6",
       "title": "獅象例行賽終戰多名球員初亮相　兩隊9日起挑戰賽交手",
       "description": "（中央社記者謝靜雯台北5日電）中職統一7-ELEVEn獅隊與中信兄弟今天交手，是上半季的補賽場次，兩隊有多名球員完成生涯初亮相，獅隊以7比4搶勝。兩隊結束本季例行賽程，將於9日起季後挑戰賽交手。",
       "link": "https://tw.sports.yahoo.com/news/%E7%8D%85%E8%B1%A1%E4%BE%8B%E8%A1%8C%E8%B3%BD%E7%B5%82%E6%88%B0%E5%A4%9A%E5%90%8D%E7%90%83%E5%93%A1%E5%88%9D%E4%BA%AE%E7%9B%B8-%E5%85%A9%E9%9A%8A9%E6%97%A5%E8%B5%B7%E6%8C%91%E6%88%B0%E8%B3%BD%E4%BA%A4%E6%89%8B-142731216.html",
@@ -20,7 +65,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_2",
+      "id": "rss_7",
       "title": "中職》獅象例行賽最終戰 兄弟2新秀生涯首安、獅隊周彥農拿第2勝",
       "description": "在季後挑戰賽交手前，中信兄弟和統一獅今天進行上半季補賽，也是雙方例行賽最後一場交手。兩隊都安排多數二軍年輕選手上一軍磨練，獅隊終場7:4小勝。中信兄弟今天安排左投張祖恩傷後復出，本季首次於一軍先發。首局，林佳緯敲長打，張皓崴高飛犧牲打讓獅隊先馳得點。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E7%8D%85%E8%B1%A1%E4%BE%8B%E8%A1%8C%E8%B3%BD%E6%9C%80%E7%B5%82%E6%88%B0-%E5%85%84%E5%BC%9F2%E6%96%B0%E7%A7%80%E7%94%9F%E6%B6%AF%E9%A6%96%E5%AE%89-%E7%8D%85%E9%9A%8A%E5%91%A8%E5%BD%A5%E8%BE%B2%E6%8B%BF%E7%AC%AC2%E5%8B%9D-140417779.html",
@@ -29,7 +74,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_3",
+      "id": "rss_8",
       "title": "中職》補賽象迷仍進場力挺！兄弟本季主場突破70萬人次",
       "description": "中信兄弟和統一獅隊今天進行上半季補賽，此役無關任何戰績排名，雙方也以磨練年輕選手為主。但在前一天下半季封王喜悅下，今天洲際球場進場人數仍有7184人，兄弟本季主場正式突破70萬人次。中信昨封王戰，洲際主場首次滿場，今天進場人數7184人，本季兄弟主場總觀眾人次從695744人累積到702928人，雖",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E8%A3%9C%E8%B3%BD%E8%B1%A1%E8%BF%B7%E4%BB%8D%E9%80%B2%E5%A0%B4%E5%8A%9B%E6%8C%BA-%E5%85%84%E5%BC%9F%E6%9C%AC%E5%AD%A3%E4%B8%BB%E5%A0%B4%E7%AA%81%E7%A0%B470%E8%90%AC%E4%BA%BA%E6%AC%A1-131937435.html",
@@ -38,7 +83,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_4",
+      "id": "rss_9",
       "title": "齊心拚戰再創佳績 新店高中棒球隊喜迎新北市市長盃「三連霸」",
       "description": "新北市立新店高中棒球隊再傳捷報，在總教練李秉憲帶領下，棒球隊展現驚人韌性與實力，今年連續第3年獲得新北市長盃高中職社團棒球賽總冠軍，締造「三連霸」紀錄。校方表示，本屆冠軍賽過程高潮迭起，最後半局新店高中在1出局、仍落後對手3分形勢下展開反攻，以6比5驚險逆轉勝，為球隊抱回冠軍，完成隊史史無前例的3連",
       "link": "https://tw.sports.yahoo.com/news/%E9%BD%8A%E5%BF%83%E6%8B%9A%E6%88%B0%E5%86%8D%E5%89%B5%E4%BD%B3%E7%B8%BE-%E6%96%B0%E5%BA%97%E9%AB%98%E4%B8%AD%E6%A3%92%E7%90%83%E9%9A%8A%E5%96%9C%E8%BF%8E%E6%96%B0%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E7%9B%83-%E4%B8%89%E9%80%A3%E9%9C%B8-122228972.html",
@@ -47,7 +92,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_5",
+      "id": "rss_10",
       "title": "中信兄弟勇奪下半季冠軍 季後挑戰賽首戰9日在台中洲際棒球場登場",
       "description": "職棒37年下半季冠軍由台中在地球隊中信兄弟勇奪，為隊史第21座季冠軍，並完成下半季冠軍三連霸；台中市政府運動局表示，中信兄弟拿下下半季冠軍後，將帶著1勝優勢迎戰統一7-ELEVEn獅，爭取晉級年度總冠軍賽，季後挑戰賽首戰將於10月9日在台中洲際棒球場登場。",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F%E5%8B%87%E5%A5%AA%E4%B8%8B%E5%8D%8A%E5%AD%A3%E5%86%A0%E8%BB%8D-%E5%AD%A3%E5%BE%8C%E6%8C%91%E6%88%B0%E8%B3%BD%E9%A6%96%E6%88%B09%E6%97%A5%E5%9C%A8%E5%8F%B0%E4%B8%AD%E6%B4%B2%E9%9A%9B%E6%A3%92%E7%90%83%E5%A0%B4%E7%99%BB%E5%A0%B4-122057373.html",
@@ -56,7 +101,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_6",
+      "id": "rss_11",
       "title": "中職》樂天桃猿明天最後1場補賽 將讓年輕球員出賽",
       "description": "樂天桃猿原定今天18:35與富邦悍將進行最後1場補賽，受到雨勢影響延到明天在原場地進行，總教練曾豪駒表示，明天仍會維持今天以年輕球員為主的先發名單，11月的亞洲職棒交流賽也會以年輕球員為主。曾豪駒指出，雖然比賽延到明天，畢竟是今年最後1場，希望給年輕選手表現的機會，讓他們一整年在二軍的表現帶到一軍，",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%A8%82%E5%A4%A9%E6%A1%83%E7%8C%BF%E6%98%8E%E5%A4%A9%E6%9C%80%E5%BE%8C1%E5%A0%B4%E8%A3%9C%E8%B3%BD-%E5%B0%87%E8%AE%93%E5%B9%B4%E8%BC%95%E7%90%83%E5%93%A1%E5%87%BA%E8%B3%BD-120228424.html",
@@ -65,25 +110,25 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_7",
+      "id": "rss_12",
       "title": "中職》樂天桃猿中斷連續3年晉級季後賽 曾豪駒：這部份我該負責",
-      "description": "樂天桃猿下半季拚到最後第2場比賽才確定無緣季冠軍，中斷自2023年起連續3年晉級季後賽，今年回任總教練的曾豪駒表示，選手都很努力拚到最後一刻，最終沒有達到球隊的預期，「這部份我該負責。」曾豪駒指出，昨天在比賽中有關注另一地的比賽，因為洲際比桃園早打完，確定那邊比數拉開，就先讓一直帶傷比賽的梁家榮休息",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%A8%82%E5%A4%A9%E6%A1%83%E7%8C%BF%E4%B8%AD%E6%96%B7%E9%80%A3%E7%BA%8C3%E5%B9%B4%E6%99%89%E7%B4%9A%E5%AD%A3%E5%BE%8C%E8%B3%BD-%E6%9B%BE%E8%B1%AA%E9%A7%92-%E9%80%99%E9%83%A8%E4%BB%BD%E6%88%91%E8%A9%B2%E8%B2%A0%E8%B2%AC-112509090.html",
-      "pubDate": "10/5 3:25",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/8e10b77af3352719fd07d609a492e98f.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "description": "樂天桃猿下半季拚到最後第2場比賽才確定無緣季冠軍，中斷自2023年起連續3年晉級季後賽，今年回任總教練的曾豪駒表示，選手都很努力拚到最後一刻，最終沒有達到球隊的預期，「這...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5596465",
+      "pubDate": "10/5 11:25",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_8",
+      "id": "rss_13",
       "title": "中職》曾豪駒是否續任總教練？樂天桃猿領隊：想要一起努力奮戰的想法沒有改變",
-      "description": "樂天桃猿今年讓曾豪駒回任總教練，卻中斷連續3年晉級季後賽，領隊野原武人表示，面對今年的成績，沒有任何藉口，就是準備不足，至於曾豪駒明年是否續掌兵符，目前雖不方便透露，想要一起努力奮戰的想法卻沒有改變。樂天全年戰績57勝60勝2和，即便明天贏下最後1場補賽，全年勝率仍自2021年56勝61敗3和後再次",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%9B%BE%E8%B1%AA%E9%A7%92%E6%98%AF%E5%90%A6%E7%BA%8C%E4%BB%BB%E7%B8%BD%E6%95%99%E7%B7%B4-%E6%A8%82%E5%A4%A9%E6%A1%83%E7%8C%BF%E9%A0%98%E9%9A%8A-%E6%83%B3%E8%A6%81-%E8%B5%B7%E5%8A%AA%E5%8A%9B%E5%A5%AE%E6%88%B0%E7%9A%84%E6%83%B3%E6%B3%95%E6%B2%92%E6%9C%89%E6%94%B9%E8%AE%8A-112040105.html",
-      "pubDate": "10/5 3:20",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/f058258a385e0a744b83dd89225a861b.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "description": "樂天桃猿今年讓曾豪駒回任總教練，卻中斷連續3年晉級季後賽，領隊野原武人表示，面對今年的成績，沒有任何藉口，就是準備不足，至於曾豪駒明年是否續掌兵符，目前雖不方便透露，想要...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5596448",
+      "pubDate": "10/5 11:20",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_9",
+      "id": "rss_14",
       "title": "季後挑戰賽》象獅交鋒！雙方教頭各有初步盤算",
       "description": "本季季後挑戰賽，將由中信兄弟和統一獅爭奪晉級資格，對戰採4戰3勝、下半季冠軍兄弟保送1勝。\n\n\n中信兄弟總教練平野惠一帶兵以來，兩度取得年度第一晉級台灣大賽，今年首度先打...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596430",
@@ -92,7 +137,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_10",
+      "id": "rss_15",
       "title": "中職》樂天桃猿明年考慮續用雙洋砲 提升團隊進攻火力",
       "description": "樂天桃猿雖然明天還要在主場桃園進行下半季最後1場補賽，隨著昨天中信兄弟拋下封王彩帶確定無緣晉級今年的季後賽，領隊野原武人以「就差那麼一點點，是很遺憾的結果」為今年作結，明...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596424",
@@ -101,7 +146,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_11",
+      "id": "rss_16",
       "title": "中職》昨兄弟封王前最後一刻有調度巧思 王建民透露緣由",
       "description": "中信兄弟昨12:1勝台鋼雄鷹，在下半季最後一場奪季冠軍，取得季後挑戰賽門票。9局上，兄弟先由陳琥登板，最後1人次再換投，由資深守護神李振昌拿到最後出局數，隨後球迷拋...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596399",
@@ -110,7 +155,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_12",
+      "id": "rss_17",
       "title": "中職》詹子賢賽季最終戰歸隊 平野透露王牌德保拉傷後近況",
       "description": "中信兄弟今天和統一獅還得進行上半季補賽，而由於兄弟取得下半季冠軍，兩隊要在季後挑戰賽交手，此役雙方預計都以年輕球員出戰。\n\n\n賽前先發成員中，中信兄弟先發9人多半是年輕二...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596391",
@@ -119,7 +164,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_13",
+      "id": "rss_18",
       "title": "中職》笑說「我其實也想噴香檳啊…」平野直言兄弟備戰心態",
       "description": "中信兄弟昨天在下半季最終戰才確定拿到季冠軍，在上半季墊底的狀況下，最終仍取得季後挑戰賽門票。昨天賽後，中信兄弟繞場答謝球迷，但選手們表情平靜。\n\n\n今天賽前，獅隊總教練林...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596395",
@@ -128,7 +173,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_14",
+      "id": "rss_19",
       "title": "中職》先禮後兵？餅總主動向平野道賀 平野：超喜歡餅總！",
       "description": "中信兄弟今天和統一獅還得進行上半季補賽，而由於兄弟取得下半季冠軍，兩隊要在季後挑戰賽交手，此役是季後賽前哨戰，但雙方預計都以年輕球員出戰。\n\n\n賽前，統一獅隊總教練林岳平...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596374",
@@ -137,7 +182,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_15",
+      "id": "rss_20",
       "title": "中職》桃園樂天桃猿對富邦悍將因雨延賽",
       "description": "中華職棒今年下半季的補賽週原定今天結束，但在桃園的樂天桃猿對富邦悍將賽事，受到雨勢影響無法進行比賽，從表定8月19日延到今天又再延到明天10月6日（二），場地仍在桃園，開...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596338",
@@ -146,7 +191,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_16",
+      "id": "rss_21",
       "title": "MLB季後賽》大谷妻真美子連兩天現身 日網驚艷「宛如希臘神話女神」",
       "description": "衛冕軍道奇目前在國聯分區系列賽和勇士戰成1：1平手，除了場上球員是焦點，場邊的「大嫂團」同樣是嬌點，其中又以產後久違亮相的大谷翔平妻子真美子最吸睛，她連續兩天現身引發日本...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596194",
@@ -155,7 +200,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_17",
+      "id": "rss_22",
       "title": "中職》統一獅公布季後挑戰賽主場票價",
       "description": "中職2026年季後挑戰賽將於10月9日（五）開打，由中信兄弟與統一獅爭取台灣大賽門票，獅隊只有10月10日（六）在亞太主球場1場主場，球團今天公布各區位的門票價格，最高是...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596173",
@@ -164,7 +209,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_18",
+      "id": "rss_23",
       "title": "TPBL》高國豪離隊「誰說不行」攻城獅宣布浮動票價制擴大範圍",
       "description": "TPBL新竹御嵿攻城獅休賽季面臨多年招牌球星高國豪離隊，今於攻城獅訓練基地舉辦開季媒體日，正式公布新賽季年度口號「誰說不行」。\n\n\n攻城獅本賽季陣容改頭換面，團隊本土球員...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596155",
@@ -173,7 +218,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_19",
+      "id": "rss_24",
       "title": "MLB季後賽》勇士21歲新人一度讓道奇11上11下 隊友驚：不敢相信...",
       "description": "國聯分區賽G2，勇士用5名投手車輪戰壓制道奇，最終以3比2贏球，系列賽雙方戰成1比1平手。其中勇士21歲新人右投富恩特斯（Didier Fuentes）後援3.2局失1分，...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596039",
@@ -182,7 +227,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_20",
+      "id": "rss_25",
       "title": "季後挑戰賽》佛心價！ 中信兄弟主場票價資訊公布",
       "description": "中信兄弟昨天拿下下半季冠軍，4戰3勝的季後挑戰賽面對統一獅握有保送1勝優勢，且有最多3場主場，兄弟皆安排在洲際球場。稍早，兄弟公布相關售票資訊，最貴票價是首戰內野熱區的1...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596123",
@@ -191,7 +236,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_21",
+      "id": "rss_26",
       "title": "台灣大賽》味全龍主場全數在大巨蛋 票價與售票資訊出爐！",
       "description": "味全龍以上半季冠軍及全年勝率第一之姿挺進2026台灣大賽！今年球隊在年度總冠軍賽的決戰舞台上，特別以「RUN for HONOR」為名，全隊目標一致，展現Red不可當的拚...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596046",
@@ -200,7 +245,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_22",
+      "id": "rss_27",
       "title": "中職》玩水祭被蓄意潑酒讓樂天女孩、球迷遭殃！ 球團發聲將追究法律責任",
       "description": "樂天桃猿昨天在桃園球場賽後舉辦「10號隊友玩水祭」，卻發生球迷脫序潑灑啤酒事件，導致樂天啦啦隊Rakuten Girls成員、以及附近的球迷遭受波及。樂天球團今天在社群媒體...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5596007",
@@ -209,7 +254,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_23",
+      "id": "rss_28",
       "title": "MLB季後賽》飆164公里火球！佐佐木朗希2局無失分 表明願意投延長賽",
       "description": "5戰3勝制的國聯分區賽G2，道奇今天以2比3敗給勇士，系列賽雙方戰成1比1平手。道奇日本右投佐佐木朗希此戰後援2局無失分，飆出旅美生涯最速的102.1英里（約164.3公里...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5595862",
@@ -218,76 +263,13 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_29",
       "title": "釀酒人連兩戰戲劇性贏球聽牌 今日MLB季後賽戰績",
       "description": "教士3：4釀酒人（釀酒人2比0聽牌）\n\n\n勇士3：2道奇（系列賽1比1）\n\n\n…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5595930",
       "pubDate": "10/5 4:35",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_25",
-      "title": "WTT大滿貫》15分鐘收拾納瑞許兄弟 馮翊新/郭冠宏大滿貫首勝入袋",
-      "description": "台南組合馮翊新/郭冠宏今天在WTT中國大滿貫賽男雙首輪，只花了15分鐘就以直落三輕鬆解決美國納瑞許兄弟檔，拿下兩人合體後大滿貫賽首勝，16強將挑戰世界排名第一的法國勒布朗...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5595922",
-      "pubDate": "10/5 4:35",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_26",
-      "title": "MLB季後賽》大谷翔平吞2K、94個打席未開轟 道奇教頭：追打壞球過多",
-      "description": "5戰3勝制的國聯分區賽G2，道奇今天以2比3敗給勇士，日本巨星大谷翔平敲出1安，但也吞2次三振。道奇總教練羅伯斯（Dave Roberts）指出，大谷追打壞球過多。\n\n\n大...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5595881",
-      "pubDate": "10/5 4:34",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_27",
-      "title": "MLB季後賽》道奇G3強碰勇士王牌塞爾！ 關鍵數據對衛冕軍不利",
-      "description": "5戰3勝制的國聯分區賽G2，衛冕軍道奇今天以2比3敗給勇士，系列賽雙方戰成1比1平手。後天將進行關鍵第3戰，道奇將推出日本強投山本由伸，強碰休息滿5天的勇士塞揚左投塞爾（C...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5595869",
-      "pubDate": "10/5 4:07",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_28",
-      "title": "匹克球》AEPL宜蘭站創最多觀戰人潮 15歲邱子恩助雲豹3連冠",
-      "description": "亞洲菁英匹克球聯盟（Asian Elite Pickleball League，AEPL）2026創始賽季，本週開拔到匹克球重鎮宜蘭縣，也創下3站以來最多觀戰人潮，桃園永...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5595843",
-      "pubDate": "10/5 3:41",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_29",
-      "title": "MLB季後賽》大谷翔平敲安、吞2K 道奇關鍵暴投遭勇士扳平戰局",
-      "description": "5戰3勝制的國聯分區賽G2，道奇日本巨星大谷翔平4打數敲1安，但也吞2次三振，道奇全場得點圈8支0，最終以2比3敗給勇士，系列賽雙方戰成1比1平手。\n\n\n道奇塞揚左投史奈爾...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5595721",
-      "pubDate": "10/5 3:26",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_30",
-      "title": "中職》季後賽賽程出爐！ 10/9象獅洲際開戰",
-      "description": "中華職棒例行賽鏖戰至最後終見分曉，季後挑戰賽對戰組合正式出爐！由下半季冠軍中信兄弟迎戰年度勝率第二的統一7-ELEVEN獅，兩隊將在季後挑戰賽一決高下，爭奪前進台灣大賽的...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5595801",
-      "pubDate": "10/5 3:08",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_31",
-      "title": "MLB》曾壓制U18台灣隊！日本火球男織田翔希若旅美 日媒指道奇是首選？",
-      "description": "來自橫濱高校的日本火球男織田翔希，將從本月7日起與日職、美職球團進行會面，決定未來動向。根據日媒《產經體育》報導，織田翔希如果決定挑戰大聯盟，外野認為道奇將是最有力的競爭者...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5595748",
-      "pubDate": "10/5 3:07",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
