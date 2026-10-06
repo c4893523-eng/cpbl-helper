@@ -45,15 +45,15 @@
       "wins": 64
     },
     {
-      "DIFF": -29,
+      "DIFF": -24,
       "E": 0,
-      "GB": 8.5,
+      "GB": 8,
       "M": -1,
-      "PCT": 0.487,
-      "STRK": -5,
+      "PCT": 0.492,
+      "STRK": 1,
       "draws": 0,
-      "finished": 119,
-      "last_updated_at": "2026-10-04 20:12",
+      "finished": 120,
+      "last_updated_at": "2026-10-06 21:23",
       "loses": 61,
       "order": 3,
       "team": {
@@ -64,20 +64,20 @@
         "uniqid": "TPKQm"
       },
       "total": 120,
-      "wins": 58
+      "wins": 59
     },
     {
-      "DIFF": -48,
+      "DIFF": -53,
       "E": 0,
-      "GB": 8.5,
+      "GB": 9,
       "M": -1,
-      "PCT": 0.487,
-      "STRK": -1,
+      "PCT": 0.483,
+      "STRK": -2,
       "draws": 2,
-      "finished": 119,
-      "last_updated_at": "2026-10-04 20:37",
-      "loses": 60,
-      "order": 3,
+      "finished": 120,
+      "last_updated_at": "2026-10-06 21:23",
+      "loses": 61,
+      "order": 4,
       "team": {
         "abbr": "猿",
         "hex_color": "#671a19;#fefefe",
