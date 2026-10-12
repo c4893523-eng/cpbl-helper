@@ -3,388 +3,289 @@
   "data": [
     {
       "id": "rss_0",
+      "title": "張家兄弟鬩牆 TS大場面來了",
+      "description": "中信兄弟張士綸今年卡位球隊主力，生涯初嘗季後賽滋味，不見21歲菜鳥的生澀，展現出色抗壓性，昨役關鍵殊死戰，前3打席就3安猛打賞，稱職扮演黃衫軍攻勢發動機，也達成前進台灣大賽心願，促成龍象球迷敲碗已久、和味全龍胞兄張政禹的兄弟鬩牆大戰。「被親一下」無恙 輸出猛打賞",
+      "link": "https://tw.sports.yahoo.com/news/%E5%BC%B5%E5%AE%B6%E5%85%84%E5%BC%9F%E9%AC%A9%E7%89%86-ts%E5%A4%A7%E5%A0%B4%E9%9D%A2%E4%BE%86%E4%BA%86-213000110.html",
+      "pubDate": "10/12 13:30",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/e392d9f4bd808af46b9c051937f15251.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_1",
+      "title": "TPBL戰神熱身賽全勝 楊勝凱︰不準啦！",
+      "description": "TPBL第三季10月17日將在台中洲際迷你蛋點燃戰火，由衛冕軍夢想家對上新北國王，休賽季大舉補強的台北戰神與國王在熱身賽都是2戰全勝，營運長楊勝凱表示，希望藉由熱身賽讓球隊更適應新主帥圖齊的體系。球員企圖心滿檔想表現給新帥圖齊看戰神上季名列第6無緣季後賽，休賽季迎來旅外多年的後衛林庭謙加盟，瞄準隊史",
+      "link": "https://tw.sports.yahoo.com/news/tpbl%E6%88%B0%E7%A5%9E%E7%86%B1%E8%BA%AB%E8%B3%BD%E5%85%A8%E5%8B%9D-%E6%A5%8A%E5%8B%9D%E5%87%B1-%E4%B8%8D%E6%BA%96%E5%95%A6-213000139.html",
+      "pubDate": "10/12 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_2",
+      "title": "林子豪3戰0安 苦笑收場",
+      "description": "統一獅隊季後挑戰賽功虧一簣，林子豪打得悶，1安難求，只能記取失敗經驗，明年再來。獅隊首戰敗北後陷入背水一戰，卻2連勝中信兄弟，將戰局逼到最後一場。獅隊教頭林岳平曾點名林子豪攻守不夠順暢，有點放不開去比賽，還喊話要他：「笑一個！」林子豪聽進教頭鼓勵，大賽前調適情緒。",
+      "link": "https://tw.sports.yahoo.com/news/%E6%9E%97%E5%AD%90%E8%B1%AA3%E6%88%B00%E5%AE%89-%E8%8B%A6%E7%AC%91%E6%94%B6%E5%A0%B4-213000094.html",
+      "pubDate": "10/12 13:30",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/3a1fb3542f9d50fef74a869d3206132c.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_3",
+      "title": "詹子賢飆火力 重現奪冠MVP身手",
+      "description": "中信兄弟關鍵G4投打有亮點!詹子賢把握今年首次在季後挑戰賽亮相的機會，單場擊出2支長打含生涯在挑戰賽第2轟，貢獻2分打點選到2次保送還跑回2分，完全展現2021年台灣大賽MVP的身手，中信兄弟能在關鍵第4戰的中後段發揮打擊火力不斷搶分，他的棒子絕對要記上大功一支。",
+      "link": "https://tw.sports.yahoo.com/news/%E8%A9%B9%E5%AD%90%E8%B3%A2%E9%A3%86%E7%81%AB%E5%8A%9B-%E9%87%8D%E7%8F%BE%E5%A5%AA%E5%86%A0mvp%E8%BA%AB%E6%89%8B-213000952.html",
+      "pubDate": "10/12 13:30",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/90d307cf369f5229055447c2eb5e4bf8.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_4",
+      "title": "國聯冠軍賽》道奇首戰被「灌醉」 今寄望山本扳平",
+      "description": "道奇昨在國聯冠軍賽首戰以1：2不敵釀酒人，擔任4棒的大谷翔平貢獻1安並跑回1分，但團隊在得點圈缺少適時一擊，今天第2戰要靠山本由伸將7戰4勝的系列賽扳平。道奇得點圈貧打釀酒人1分險勝大谷2局上獲保送上壘後靠後續推進站上得點圈，帕赫斯適時敲安送回全隊唯一分數，但該局道奇留下滿壘殘壘，未能擴大領先。本季",
+      "link": "https://tw.sports.yahoo.com/news/%E5%9C%8B%E8%81%AF%E5%86%A0%E8%BB%8D%E8%B3%BD-%E9%81%93%E5%A5%87%E9%A6%96%E6%88%B0%E8%A2%AB-%E7%81%8C%E9%86%89-%E4%BB%8A%E5%AF%84%E6%9C%9B%E5%B1%B1%E6%9C%AC%E6%89%B3%E5%B9%B3-213000879.html",
+      "pubDate": "10/12 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_5",
+      "title": "美美降獅 兄弟前進台灣大賽",
+      "description": "統一獅和中信兄弟昨一戰定勝負，獅隊選擇推出僅休息2日的王牌洋投布雷克，投打卻氣力放盡，中信兄弟強攻16安、包括2轟，8：2擊退統一獅，在季後挑戰賽以3勝2敗挺進，10月17日和味全龍展開7戰4勝制的台灣大賽，地點都排在台北大巨蛋。挑戰賽割喉 單局擊潰獅",
+      "link": "https://tw.sports.yahoo.com/news/%E7%BE%8E%E7%BE%8E%E9%99%8D%E7%8D%85-%E5%85%84%E5%BC%9F%E5%89%8D%E9%80%B2%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD-213000757.html",
+      "pubDate": "10/12 13:30",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/bcd68a3b07572e8d75ee7bfad32d53ab.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_6",
+      "title": "陳鏞基走下舞台 獅引退魔咒還在",
+      "description": "隨著統一獅以2勝3敗遭到中信兄弟淘汰，陳鏞基長達16年的中職生涯於昨天在洲際棒球場正式謝幕，他連生涯終點都與去年引退的胡金龍「金鏞連線」，兩人隨隊出賽的最後一役都是季後挑戰賽最終戰，都無緣把引退舞台搬上台灣大賽，沒能用總冠軍為球員生涯畫下句點，儼然成為獅隊引退球星的共同遺憾。",
+      "link": "https://tw.sports.yahoo.com/news/%E9%99%B3%E9%8F%9E%E5%9F%BA%E8%B5%B0%E4%B8%8B%E8%88%9E%E5%8F%B0-%E7%8D%85%E5%BC%95%E9%80%80%E9%AD%94%E5%92%92%E9%82%84%E5%9C%A8-213000572.html",
+      "pubDate": "10/12 13:30",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/265437b732abe0e6f48ac991e04d42d2.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_7",
       "title": "「我不行後面還有一堆投手」鄭浩均自曝：前幾戰都在牛棚待命",
       "description": "中信兄弟本土強投鄭浩均今天（13日）領銜在季後挑戰賽G4生死戰先發，最終繳出5.2局失1分好投，搭配呂彥青等人的強力把關，最終8：2贏球進軍台灣大賽，賽後他也談到了今天生死戰登板的心情。",
       "link": "https://tw.sports.yahoo.com/news/%E6%88%91%E4%B8%8D%E8%A1%8C%E5%BE%8C%E9%9D%A2%E9%82%84%E6%9C%89-%E5%A0%86%E6%8A%95%E6%89%8B-%E9%84%AD%E6%B5%A9%E5%9D%87%E8%87%AA%E6%9B%9D-%E5%89%8D%E5%B9%BE%E6%88%B0%E9%83%BD%E5%9C%A8%E7%89%9B%E6%A3%9A%E5%BE%85%E5%91%BD-164843222.html",
       "pubDate": "10/12 8:48",
       "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/5b02fe0d8c15ea17228a992713c8048c.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_1",
+      "id": "rss_8",
       "title": "龍象大戰、張家兄弟鬩牆大戲上檔　張士綸叫陣哥哥「張政禹，我來了！」",
       "description": "中信兄弟年輕內野手張士綸生涯第一次季後挑戰賽表現亮眼，4場先發16打數6安打，打擊率3成75，球隊挺進台灣大賽，他也如員能與效力味全龍隊的哥哥張政禹上演「兄弟鬩牆」，今天確定前進台灣大賽賽後他隨即向哥哥喊話「張政禹，我來了！」",
       "link": "https://tw.sports.yahoo.com/news/%E9%BE%8D%E8%B1%A1%E5%A4%A7%E6%88%B0-%E5%BC%B5%E5%AE%B6%E5%85%84%E5%BC%9F%E9%AC%A9%E7%89%86%E5%A4%A7%E6%88%B2%E4%B8%8A%E6%AA%94-%E5%BC%B5%E5%A3%AB%E7%B6%B8%E5%8F%AB%E9%99%A3%E5%93%A5%E5%93%A5-%E5%BC%B5%E6%94%BF%E7%A6%B9-%E6%88%91%E4%BE%86%E4%BA%86-162523739.html",
       "pubDate": "10/12 8:25",
       "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/774c02539e1a6fa11b120fc7925704cf.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_2",
+      "id": "rss_9",
       "title": "「獅隊因為他展現強大凝聚力」平野惠一與陳鏞基的相擁對話曝光",
       "description": "統一獅和中信兄弟交手的中職季後挑戰賽最終戰今天告一段落，也代表統一獅43歲球星陳鏞基的職業生涯告一段落，他9上從李振昌手中敲出生涯最後一支安打後由林祖傑代跑退場，接授全場球迷歡呼，賽後中信兄弟球員們也列對向他致意，總教練平野惠一也與他有言語交流，賽後他透露兩人的談話。",
       "link": "https://tw.sports.yahoo.com/news/%E7%8D%85%E9%9A%8A%E5%9B%A0%E7%82%BA%E4%BB%96%E5%B1%95%E7%8F%BE%E5%BC%B7%E5%A4%A7%E5%87%9D%E8%81%9A%E5%8A%9B-%E5%B9%B3%E9%87%8E%E6%83%A0-%E8%88%87%E9%99%B3%E9%8F%9E%E5%9F%BA%E7%9A%84%E7%9B%B8%E6%93%81%E5%B0%8D%E8%A9%B1%E6%9B%9D%E5%85%89-155945715.html",
       "pubDate": "10/12 7:59",
       "rawImg": "https://media.zenfs.com/zh-tw/taisounds_com_380/09fdc65da0d580bafd63315e0ef5f464.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_3",
+      "id": "rss_10",
       "title": "中職》關鍵戰敲雙安展現學長價值 詹子賢身兼「氣氛組」",
       "description": "中信兄弟今晚最終戰變陣，詹子賢系列賽首度先發，就交出單場雙安含1轟表現，上壘後還自創慶祝動作，點燃全隊士氣。詹子賢坦言，自己以前曾因低潮被罵過，「有相關經驗，所以也擔心年輕隊友壓力越來越大。自己想一些動作手勢，讓氣氛很像在玩棒球那樣。」詹子賢說，一翻兩瞪眼的比賽，既然上場，他盡可能喚醒自己的專注力，",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E9%97%9C%E9%8D%B5%E6%88%B0%E6%95%B2%E9%9B%99%E5%AE%89%E5%B1%95%E7%8F%BE%E5%AD%B8%E9%95%B7%E5%83%B9%E5%80%BC-%E8%A9%B9%E5%AD%90%E8%B3%A2%E8%BA%AB%E5%85%BC-%E6%B0%A3%E6%B0%9B%E7%B5%84-153657819.html",
       "pubDate": "10/12 7:36",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/144a98df82d59f95900311b742ba27af.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_4",
+      "id": "rss_11",
       "title": "中職》統一獅今年球季結束 林岳平感謝球團給他長時間執教機會",
       "description": "統一獅今天以2：8敗給中信兄弟，連續兩年都在季後挑戰賽決勝的第4戰止步，總教練林岳平表示，很可惜最終還是無法闖過這一關，感謝球團給他長時間的執教機會，恭喜中信兄弟晉級台灣大賽。林岳平指出，昨天以2勝2敗扳平戰局後，就告知布雷克要投今天這1場，布雷克也爽快答應，不但全力投球幫助球隊，狀況甚至比第1戰還",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E7%B5%B1-%E7%8D%85%E4%BB%8A%E5%B9%B4%E7%90%83%E5%AD%A3%E7%B5%90%E6%9D%9F-%E6%9E%97%E5%B2%B3%E5%B9%B3%E6%84%9F%E8%AC%9D%E7%90%83%E5%9C%98%E7%B5%A6%E4%BB%96%E9%95%B7%E6%99%82%E9%96%93%E5%9F%B7%E6%95%99%E6%A9%9F%E6%9C%83-153256292.html",
       "pubDate": "10/12 7:32",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/7d2bb0484e7f873cf206e65f6e949d4b.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_5",
+      "id": "rss_12",
       "title": "中職》「今天不評論選手表現」 平野率兄弟連3年闖台灣大賽有感觸",
       "description": "中信兄弟今晚8:2擊敗統一獅，鏖戰4場終於拿下台灣大賽門票，也是平野惠一執教以來連續3年闖進台灣大賽。賽後，被問及變陣的好效果與先發投手鄭浩均表現，平野惠一強調：「今天就不回答比賽內容相關問題了，也沒有評論選手個人的想法，今天重要的不是內容，而是結果。」",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E4%BB%8A%E5%A4%A9%E4%B8%8D%E8%A9%95%E8%AB%96%E9%81%B8%E6%89%8B%E8%A1%A8%E7%8F%BE-%E5%B9%B3%E9%87%8E%E7%8E%87%E5%85%84%E5%BC%9F%E9%80%A33%E5%B9%B4%E9%97%96%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E6%9C%89%E6%84%9F%E8%A7%B8-153059436.html",
       "pubDate": "10/12 7:30",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/73c6d21c35bf9397360bdd72117ce324.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_6",
+      "id": "rss_13",
       "title": "中職》張家兄弟台灣大賽對決！張士綸喊話：張政禹，我來了",
       "description": "中信兄弟今晚擊敗統一獅，取得台灣大賽門票，今年台灣大賽將由中信兄弟和味全龍爭霸，也意味著張家兄弟張政禹、張士綸，兩人將爭奪冠軍。張士綸昨天與隊友相撞受傷仍續戰，今天關鍵一戰上演猛打賞。對於和哥哥會師台灣大賽，張士綸說：「剛剛贏球之後，家裡的群組有在傳，最大贏家是爸爸媽媽。」",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E5%BC%B5%E5%AE%B6%E5%85%84%E5%BC%9F%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E5%B0%8D%E6%B1%BA-%E5%BC%B5%E5%A3%AB%E7%B6%B8%E5%96%8A%E8%A9%B1-%E5%BC%B5%E6%94%BF%E7%A6%B9-%E6%88%91%E4%BE%86%E4%BA%86-152429317.html",
       "pubDate": "10/12 7:24",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/44fdc0907f1be14afdac9b6a07d252fd.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_7",
+      "id": "rss_14",
       "title": "中職》昨低頭沉思、今敲季後賽首轟 張仁瑋延續球隊氣勢",
       "description": "昨中信兄弟輸球，張仁瑋被拍到在場邊用毛巾蓋頭，他賽前就澄清自己沒掉淚。今天張仁瑋改打第一棒火力爆發，單場雙安、包括雙方系列賽首轟。張仁瑋說，當下球隊領先，他將好球帶縮小，真正進到設定區域的球才揮棒。張仁瑋笑說，今天繞壘跑比較快，「很嗨，打到就有感覺。」",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%98%A8%E4%BD%8E%E9%A0%AD%E6%B2%89%E6%80%9D-%E4%BB%8A%E6%95%B2%E5%AD%A3%E5%BE%8C%E8%B3%BD%E9%A6%96%E8%BD%9F-%E5%BC%B5%E4%BB%81%E7%91%8B%E5%BB%B6%E7%BA%8C%E7%90%83%E9%9A%8A%E6%B0%A3%E5%8B%A2-151859754.html",
       "pubDate": "10/12 7:18",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/28c3d1b88fac64fc7cdbb58b68fcb731.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_8",
+      "id": "rss_15",
       "title": "中職》最後1個打席擊出安打 陳鏞基生涯風光謝幕",
       "description": "統一獅老將陳鏞基今天在季後挑戰賽第4戰後段替補上場，9局上從李振昌手中擊出安打完成生涯最後1個打席，在接近2萬人滿場的鼓掌歡呼中，眼眶泛淚卻帶著微笑風光退場，長達16年的中職生涯在洲際棒球場正式謝幕。陳鏞基於6局下替補守一壘，9局上打擊前先與主審紀華文擁抱，最後1次揮棒擊出平飛安打後由林祖傑代跑，現",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%9C%80%E5%BE%8C1%E5%80%8B%E6%89%93%E5%B8%AD%E6%93%8A%E5%87%BA%E5%AE%89%E6%89%93-%E9%99%B3%E9%8F%9E%E5%9F%BA%E7%94%9F%E6%B6%AF%E9%A2%A8%E5%85%89%E8%AC%9D%E5%B9%95-151748054.html",
       "pubDate": "10/12 7:17",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/b9e43fdd2b674d4613010b4e7a8be849.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_9",
+      "id": "rss_16",
       "title": "中職》計劃趕不上變化的G4先發 鄭浩均平常心登板",
       "description": "關鍵一戰扛先發，鄭浩均坦言，原本自己和隊友一樣牛棚備戰，但戰線延長到第4戰，他才接到先發任務。鄭浩均說：「2局時反而覺得自己不穩定，壞球比較多，還好即時修正，也很幸運化解危機。第一局起就很安心，洋將們在後面備戰、牛棚狀態也很好，我就大膽投，謹慎面對。 」",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E8%A8%88%E5%8A%83%E8%B6%95%E4%B8%8D%E4%B8%8A%E8%AE%8A%E5%8C%96%E7%9A%84g4%E5%85%88%E7%99%BC-%E9%84%AD%E6%B5%A9%E5%9D%87%E5%B9%B3%E5%B8%B8%E5%BF%83%E7%99%BB%E6%9D%BF-150325442.html",
       "pubDate": "10/12 7:03",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/6eef5a332dbea477c64acd363d79a3ee.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_10",
+      "id": "rss_17",
       "title": "陳鏞基挑戰賽最後打席敲安　球員生涯畫下句點 (圖)",
       "description": "中華職業棒球大聯盟季後挑戰賽統一7-ELEVEn獅隊野手陳鏞基（圖）12日最後一打席敲出安打，他向全場球迷脫帽致意，在球迷掌聲中退場，球員生涯畫下句點。",
       "link": "https://tw.sports.yahoo.com/news/%E9%99%B3%E9%8F%9E%E5%9F%BA%E6%8C%91%E6%88%B0%E8%B3%BD%E6%9C%80%E5%BE%8C%E6%89%93%E5%B8%AD%E6%95%B2%E5%AE%89-%E7%90%83%E5%93%A1%E7%94%9F%E6%B6%AF%E7%95%AB%E4%B8%8B%E5%8F%A5%E9%BB%9E-%E5%9C%96-150144585.html",
       "pubDate": "10/12 7:01",
       "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/08803a8a41639fac05e92a411fa7b487.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_11",
+      "id": "rss_18",
       "title": "陳鏞基球員生涯結束　與王建民握手致意 (圖)",
       "description": "中華職業棒球大聯盟季後挑戰賽統一7-ELEVEn獅隊野手陳鏞基（右）12日最後一打席敲出安打，球員生涯畫下句點，賽後與中信兄弟隊投手教練王建民（左）握手致意。",
       "link": "https://tw.sports.yahoo.com/news/%E9%99%B3%E9%8F%9E%E5%9F%BA%E7%90%83%E5%93%A1%E7%94%9F%E6%B6%AF%E7%B5%90%E6%9D%9F-%E8%88%87%E7%8E%8B%E5%BB%BA%E6%B0%91%E6%8F%A1%E6%89%8B%E8%87%B4%E6%84%8F-%E5%9C%96-145941633.html",
       "pubDate": "10/12 6:59",
       "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/4bba7a51c457337063d4d50ecbc030d4.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_12",
-      "title": "陳鏞基球員生涯結束　與彭政閔握手致意 (圖)",
-      "description": "中華職業棒球大聯盟季後挑戰賽統一7-ELEVEn獅隊野手陳鏞基（右）12日最後一打席敲出安打，球員生涯畫下句點，賽後與中信兄弟隊領隊彭政閔（左）握手擁抱。",
-      "link": "https://tw.sports.yahoo.com/news/%E9%99%B3%E9%8F%9E%E5%9F%BA%E7%90%83%E5%93%A1%E7%94%9F%E6%B6%AF%E7%B5%90%E6%9D%9F-%E8%88%87%E5%BD%AD%E6%94%BF%E9%96%94%E6%8F%A1%E6%89%8B%E8%87%B4%E6%84%8F-%E5%9C%96-145839743.html",
-      "pubDate": "10/12 6:58",
-      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/44e102bd689bafc6be92dee855941bbd.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_13",
-      "title": "鄭浩均先發勝　助兄弟闖台灣大賽 (圖)",
-      "description": "中華職棒季後挑戰賽決勝第4戰，中信兄弟投手鄭浩均（圖）12日展現「比對手更想贏的企圖心」，先發好投率隊以8比2擊敗統一7－ELEVEn獅隊、晉級總冠軍賽，也獲選單場MVP。",
-      "link": "https://tw.sports.yahoo.com/news/%E9%84%AD%E6%B5%A9%E5%9D%87%E5%85%88%E7%99%BC%E5%8B%9D-%E5%8A%A9%E5%85%84%E5%BC%9F%E9%97%96%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD-%E5%9C%96-144637716.html",
-      "pubDate": "10/12 6:46",
-      "rawImg": "https://media.zenfs.com/zh-tw/cna.com.tw/8c04483aff0495eb60cab141326d979e.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_14",
-      "title": "鄭浩均展現比對手更想贏的企圖　先發勝助兄弟闖台灣大賽",
-      "description": "（中央社記者謝靜雯台北12日電）中職季後挑戰賽今天決勝第4戰，中信兄弟投手鄭浩均展現「比對手更想贏的企圖心」，先發好投率隊以8比2擊敗統一7-ELEVEn獅隊、獲MVP。隊長王威晨則高喊：「台灣大賽，我們來了！」",
-      "link": "https://tw.sports.yahoo.com/news/%E9%84%AD%E6%B5%A9%E5%9D%87%E5%B1%95%E7%8F%BE%E6%AF%94%E5%B0%8D%E6%89%8B%E6%9B%B4%E6%83%B3%E8%B4%8F%E7%9A%84%E4%BC%81%E5%9C%96-%E5%85%88%E7%99%BC%E5%8B%9D%E5%8A%A9%E5%85%84%E5%BC%9F%E9%97%96%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD-144610008.html",
-      "pubDate": "10/12 6:46",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_15",
-      "title": "中職》超暖！兄弟晉級先不慶祝 全場合唱送別陳鏞基",
-      "description": "中信兄弟12日季後挑戰賽最終戰，把握獅隊後援不穩，加上自家打線甦醒，終場以8比2拿下關鍵勝利，以3勝2敗挺進台灣大賽，將與味全龍爭奪總冠軍。然而賽後第一時間，身為主場球隊的兄弟卻沒有急著慶祝，而是將這一刻留給職棒生涯告終的陳鏞基。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E8%B6%85%E6%9A%96-%E5%85%84%E5%BC%9F%E6%99%89%E7%B4%9A%E5%85%88%E4%B8%8D%E6%85%B6%E7%A5%9D-%E5%85%A8%E5%A0%B4%E5%90%88%E5%94%B1%E9%80%81%E5%88%A5%E9%99%B3%E9%8F%9E%E5%9F%BA-144321868.html",
-      "pubDate": "10/12 6:43",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_16",
-      "title": "陳鏞基球員生涯最後打席敲安　全場球迷歡呼聲中告別",
-      "description": "（中央社記者謝靜雯台北12日電）中華職業棒球大聯盟統一7-ELEVEn獅隊43歲老將陳鏞基今天在季後挑戰賽第4戰替補上場，敲安後在球迷掌聲中退場，球員生涯畫句點，賽後中信兄弟隊與獅隊球迷都高喊陳鏞基名字。",
-      "link": "https://tw.sports.yahoo.com/news/%E9%99%B3%E9%8F%9E%E5%9F%BA%E7%90%83%E5%93%A1%E7%94%9F%E6%B6%AF%E6%9C%80%E5%BE%8C%E6%89%93%E5%B8%AD%E6%95%B2%E5%AE%89-%E5%85%A8%E5%A0%B4%E7%90%83%E8%BF%B7%E6%AD%A1%E5%91%BC%E8%81%B2%E4%B8%AD%E5%91%8A%E5%88%A5-143405331.html",
-      "pubDate": "10/12 6:34",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_17",
-      "title": "鄭浩均挑戰賽第4戰先發　助兄弟搶勝 (圖)",
-      "description": "中華職棒季後挑戰賽12日迎來決勝第4戰，中信兄弟本土投手鄭浩均（圖）先發5.2局失1分、拿下勝投，助隊擊敗統一7-ELEVEn獅隊、闖進總冠軍賽（台灣大賽）。",
-      "link": "https://tw.sports.yahoo.com/news/%E9%84%AD%E6%B5%A9%E5%9D%87%E6%8C%91%E6%88%B0%E8%B3%BD%E7%AC%AC4%E6%88%B0%E5%85%88%E7%99%BC-%E5%8A%A9%E5%85%84%E5%BC%9F%E6%90%B6%E5%8B%9D-%E5%9C%96-142024115.html",
-      "pubDate": "10/12 6:20",
-      "rawImg": "https://media.zenfs.com/ko/cna.com.tw/4db3771841f28dc55948c3005f5d47e6.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_18",
-      "title": "中信兄弟連3年闖台灣大賽　17日起與味全龍爭冠",
-      "description": "（中央社記者謝靜雯台北12日電）中職季後挑戰賽今天決勝第4戰，中信兄弟把握5局下統一獅投手群亂流單局攻3分、拉開領先，比賽後段張仁瑋、詹子賢開轟，終場以8比2搶勝、連3年闖進台灣大賽，17日起與味全龍爭冠。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F%E9%80%A33%E5%B9%B4%E9%97%96%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD-17%E6%97%A5%E8%B5%B7%E8%88%87%E5%91%B3%E5%85%A8%E9%BE%8D%E7%88%AD%E5%86%A0-141958350.html",
-      "pubDate": "10/12 6:19",
-      "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_19",
       "title": "中職》與陳鏞基的最後對決 兄弟晉級後列隊致意",
-      "description": "中信兄弟稍早8:2擊敗統一獅，季後挑戰賽3勝2敗晉級台灣大賽。賽後，兄弟全隊列隊，向今年最後一舞的43歲獅隊名將陳鏞基致意道別。落後多達7分狀況下，獅隊9局上有感人一幕，最後一舞的陳鏞基面對李振昌敲出安打，隨即換代跑退場，現場球迷不分支持隊伍，給予陳鏞基極大掌聲，陳鏞基與下一棒陳聖平相擁後，向全場球",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E8%88%87%E9%99%B3%E9%8F%9E%E5%9F%BA%E7%9A%84%E6%9C%80%E5%BE%8C%E5%B0%8D%E6%B1%BA-%E5%85%84%E5%BC%9F%E6%99%89%E7%B4%9A%E5%BE%8C%E5%88%97%E9%9A%8A%E8%87%B4%E6%84%8F-141753339.html",
-      "pubDate": "10/12 6:17",
-      "rawImg": "https://media.zenfs.com/en/libertytimes_786/e6bf707f63926a7feb2e5b4d9e5b2d64.jpg",
+      "description": "中信兄弟稍早8:2擊敗統一獅，季後挑戰賽3勝2敗晉級台灣大賽。賽後，兄弟全隊列隊，向今年最後一舞的43歲獅隊名將陳鏞基致意道別。\n\n\n落後多達7分狀況下，獅隊9局上有感人...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5604128",
+      "pubDate": "10/12 14:17",
+      "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_20",
-      "title": "中職》中信兄弟3勝2敗拿下！挺進台灣大賽與味全龍爭冠",
-      "description": "中職季後挑戰賽打到殊死第四戰，中信兄弟從2勝0敗聽牌，遭到統一獅連追2場扳平，過去僅有1次「2勝2敗」局面，就是去年樂天桃猿的大逆轉，不過中信兄弟拒絕成為史上第2位苦主，把握住獅隊牛棚亂流，再加上打線甦醒，以8比2拿下關鍵勝利，挺進台灣大賽。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F3%E5%8B%9D2%E6%95%97%E6%8B%BF%E4%B8%8B-%E6%8C%BA%E9%80%B2%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E8%88%87%E5%91%B3%E5%85%A8%E9%BE%8D%E7%88%AD%E5%86%A0-141421707.html",
-      "pubDate": "10/12 6:14",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_21",
-      "title": "快訊／張仁瑋、詹子賢開轟！中信兄弟主場擊退統一獅　闖進台灣大賽",
-      "description": "中職季後挑戰賽G4今（12日）登場，中信兄弟整場火力全開，單場敲出16支安打，包含兩發全壘打，終場以8比2擊敗統一獅，晉級台灣大賽，將與味全龍爭奪總冠軍。",
-      "link": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%BC%B5%E4%BB%81%E7%91%8B-%E8%A9%B9%E5%AD%90%E8%B3%A2%E9%96%8B%E8%BD%9F-%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F%E4%B8%BB%E5%A0%B4%E6%93%8A%E9%80%80%E7%B5%B1-%E7%8D%85-140600223.html",
-      "pubDate": "10/12 6:06",
-      "rawImg": "https://media.zenfs.com/ko/mirrormedia.mg/4870405bd1958ef7d40a07209519598c.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_22",
-      "title": "中職／台灣大賽對戰組合確定！中信兄弟挑戰賽G4驟死戰8：2擊退統一獅搶下門票",
-      "description": "體育中心／綜合報導中華職棒37年季後挑戰賽，首戰輸球讓統一獅在讓中信兄弟取得聽牌優勢後，接著在G2、G3發揮韌性拿下二連勝，將季後挑戰賽勝場數扳成2：2平手，最後的G4殊死戰，兄弟靠著江坤二壘安打先馳得點，接著5局攻佔滿壘後，獲得3次四壞球保送攻下3分大局奠定勝基，雖然獅隊6局上追回1分，不過張仁瑋、詹子賢開轟再擴大領先比數，終場中信兄弟就以8：2擊退統一獅，拿下前進台灣大賽的門票。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%8D%E6%96%B7%E6%9B%B4%E6%96%B0-%E8%AA%B0%E8%83%BD%E6%99%89%E7%B4%9A%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E7%9C%8B%E4%BB%8A%E6%99%9A-%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F-%E7%B5%B1-%E7%8D%85g4%E6%AE%8A%E6%AD%BB%E6%88%B0%E5%85%88%E7%99%BC%E6%89%93%E7%B7%9A%E5%87%BA%E7%88%90-090424572.html",
-      "pubDate": "10/12 6:05",
-      "rawImg": "https://media.zenfs.com/ko/ftvn_sports_106/33505c642cfedaa340f9ae8032aec096.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_23",
-      "title": "調整打線順起來！中信兄弟猛攻8分力退統一獅闖台灣大賽挑戰味全龍",
-      "description": "中職季後挑戰賽最終戰G4今天在台中洲際球場（12日）在點燃戰火，統一獅輸掉首戰陷入後連追2場扳平戰局，將戰線延長到今天「Win or Go home」的殊死戰，雙方都最後一刻才公布先發投手由中信兄弟鄭浩均掛帥，面對G1用88球先發5局只休息2天的布雷克，不過統一獅在他下場後土投控球大失控，5局下單局3度滿壘保送送分，加上6、7兩局張仁瑋和詹子賢的兩發陽春砲及鄭浩均5.2局失1分好投，終場8：2贏球系列賽3勝2敗勝出，取得挺進台灣大賽挑戰味全龍隊的機會。",
-      "link": "https://tw.sports.yahoo.com/news/%E8%AA%BF%E6%95%B4%E6%89%93%E7%B7%9A%E9%A0%86%E8%B5%B7%E4%BE%86-%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F%E7%8C%9B%E6%94%BB8%E5%88%86%E5%8A%9B%E9%80%80%E7%B5%B1-%E7%8D%85%E9%97%96%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E6%8C%91%E6%88%B0%E5%91%B3%E5%85%A8%E9%BE%8D-140448061.html",
-      "pubDate": "10/12 6:04",
-      "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/207ed1f6869cfa359e41066731f47998.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_24",
       "title": "中職》中信兄弟3勝2敗戰勝統一獅！台灣大賽龍象爭霸",
       "description": "統一獅隊連2場戰勝中信兄弟，將季後挑戰賽戰局逼成平手，兩隊今晚一戰定勝負，獅隊選擇推出僅休息2日的王牌洋投布雷克，投打最終卻氣力放盡，終場中信兄弟8:2擊敗統一獅，挺進今...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5604112",
       "pubDate": "10/12 14:03",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_25",
+      "id": "rss_21",
       "title": "中職》張仁瑋、詹子賢各1轟 兄弟距台灣大賽更近一步",
       "description": "中信兄弟和統一獅鏖戰到今天最後一場，勝方晉級台灣大賽。雙方前3局都沒能得分，兄弟打線面對休息2天的獅隊王牌布雷克，4局安打串聯先馳得點。\n\n\n5局下，布雷克退場，兄弟靠著...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5604100",
       "pubDate": "10/12 13:23",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_26",
+      "id": "rss_22",
       "title": "中職》獅投手群單局3次滿壘保送！中信兄弟拉開領先差距",
       "description": "中信兄弟和統一獅今天季後挑戰賽最終戰，雙方都面臨背水一戰狀況下，獅隊選擇推出布雷克「中2日」先發。布雷克4局失1分，1分落後下退場，5局由郭俊麟接替，後援投手群卻遭中信兄...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5604075",
       "pubDate": "10/12 12:42",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_27",
+      "id": "rss_23",
       "title": "中職》單屆季後挑戰賽扛2場先發 布雷克是史上第2人",
       "description": "中職2026年季後挑戰賽今天在洲際進行最終戰，統一獅讓第1場先發投手布雷克以「中2日」再次上陣，他也成為自2005年統一獅班尼歐後，史上第2位在單屆季後挑戰賽扛2場先發的...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5604064",
       "pubDate": "10/12 12:17",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_28",
+      "id": "rss_24",
       "title": "中職》布雷克「中2日」遭攻破！詹子賢、江坤宇安打連線先馳得點",
       "description": "中信兄弟和統一獅鏖戰到今天最後一場，勝方晉級台灣大賽。雙方前3局都沒能得分，兄弟打線面對休息2天的獅隊王牌布雷克，前3局都有安打但沒能得分，終於在4局安打連線先馳得點。\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5604050",
       "pubDate": "10/12 12:00",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_29",
+      "id": "rss_25",
       "title": "中職》季後賽初先發投不滿3局 林詔恩：還好球隊贏球，不然會睡不著",
       "description": "林詔恩今年第3次打季後挑戰賽，在第3戰首次以先發登板，對於撐不完3局就掉2分、用球數多達73球的內容很不滿意，他感謝獅帝芬幫忙化解失分危機，打線也在後段逆轉戰局幫助球隊贏...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5604038",
       "pubDate": "10/12 11:43",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_30",
+      "id": "rss_26",
       "title": "日職季後賽》「投手群的奮戰與堅持是贏球關鍵」 新庄監督點名孫易磊",
       "description": "日本火腿今天在高潮系列賽首輪G3殊死戰，以4：1擊敗西武，連續3年晉級高潮系列賽決勝輪。火腿監督新庄剛志賽後受訪肯定投手群的表現。\n\n\n火腿王牌伊藤大海今天先發5局失1分，...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5603997",
       "pubDate": "10/12 11:23",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_31",
+      "id": "rss_27",
       "title": "中職》蔡其昌遇到「最大咖獅迷」：大家需要會長說些什麼嗎？",
       "description": "中職季後挑戰賽「象獅生死鬥 」，場上兩隊今日都面臨背水一戰，中職會長蔡其昌賽前特地在網路社群平台秀出一張照，即他與總統賴清德輕鬆茶敘，還意有所指寫下：「這個時間點遇到...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5604019",
       "pubDate": "10/12 11:14",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_32",
+      "id": "rss_28",
       "title": "MLB》「回過神時，棒子已經斷了」李灝宇談挑戰大谷紀錄的心有不甘",
       "description": "23歲台灣怪力男李灝宇在大聯盟留下絢爛的菜鳥球季，包括單季出賽114場、10轟和87支安打，都是旅美台將的單季新猷，其中更一度有機會挑戰大谷翔平的紀錄，他坦言上月28日最...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5603963",
       "pubDate": "10/12 10:31",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_33",
+      "id": "rss_29",
       "title": "中職》林詔恩、獅帝芬都休兵！餅總：沒電了，有的是真的累了",
       "description": "統一獅今天賽前提交出賽名單，按規定勾選4不上場登錄球員，分別是林詔恩、獅帝芬、邱浩鈞、陳重廷，總教練林岳平表示，今天不出賽的選手有的是沒電了，有的是真的累了，既然狀況不是...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5603949",
       "pubDate": "10/12 10:18",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_34",
+      "id": "rss_30",
       "title": "中職》昨代打終於「笑一個」 林子豪卻坦言是苦笑",
       "description": "統一獅隊季後挑戰賽首戰不敵中信兄弟，主力林子豪沒能接下平飛球，總教練林岳平也曾說「子豪的攻守沒有很順暢，有點放不開去比賽。」還鼓勵林子豪要他「笑一個」。\n\n\n獅隊球員這幾...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5603942",
       "pubDate": "10/12 10:09",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_35",
+      "id": "rss_31",
       "title": "中職》布雷克賽前練習未現身 休2天扛先發、投手群全員待命",
       "description": "中職2026年季後挑戰賽今天在洲際進行最終戰第4戰，中信兄弟與統一獅直到賽前提交名單都沒有公布先發投手，統一獅於開賽前1小時在臉書官方粉絲團宣布由布雷克先發，賽前唯獨他未...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5603928",
       "pubDate": "10/12 10:03",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_36",
-      "title": "中職》象獅不出賽名單出爐 獅帝芬、勝騎士今休戰",
-      "description": "中信兄弟和統一獅今晚系列賽最終決戰，勝者取得台灣大賽門票。今天稍早，獅隊確定由布雷克「中2日」先發，中信兄弟由鄭浩均先發。\n\n\n雙方不上場登錄球員中，獅隊4人分別是林詔恩...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5603927",
-      "pubDate": "10/12 9:58",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_37",
-      "title": "中職》象獅最終決戰先發投手確定！獅隊布雷克「中2日」登板",
-      "description": "中信兄弟和統一獅今天季後挑戰賽系列賽最終戰，勝者挺進台灣大賽。昨天賽後，雙方未公布先發投手，今天賽前，中信兄弟確定由鄭浩均先發，而在賽前1小時，雙方也正式由聯盟公布先發投...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5603908",
-      "pubDate": "10/12 9:36",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_38",
-      "title": "中職》最終決戰！兄弟先發投手先「亮牌」",
-      "description": "中信兄弟和統一獅今天季後挑戰賽系列賽最終戰，勝者挺進台灣大賽。昨天賽後，雙方未公布先發投手，今天賽前，中信兄弟確定由鄭浩均先發。\n\n\n鄭浩均將迎來本次系列賽首次登板。本季，鄭浩...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5603877",
-      "pubDate": "10/12 9:16",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_39",
-      "title": "中職》統一獅第4戰先發打線出爐 先發投手由聯盟公布",
-      "description": "統一獅連續2場背水一戰擊敗中信兄弟，在季後挑戰賽扳成2勝2敗平手，今天在洲際的第4戰將一戰定勝負，由勝隊晉級台灣大賽，兩隊昨天都沒宣布今天的先發投手，今天都交給聯盟...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5603847",
-      "pubDate": "10/12 9:13",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_40",
-      "title": "中職》兄弟背水一戰變陣！台灣大賽MVP重回先發",
-      "description": "中信兄弟被統一獅逼平系列賽，雙方今天都面臨背水一戰。\n\n\n稍早，兄弟先發打序出爐，不同於前幾戰，今天兄弟打序有所變動，昨天與隊友相撞的張士綸仍先發、改守二壘，而詹子賢、陳...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5603843",
-      "pubDate": "10/12 8:58",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_41",
-      "title": "TPBL》補進林庭謙的戰神來勢洶洶2連勝 楊勝凱：熱身賽不準",
-      "description": "TPBL週末7場熱身賽落幕，休賽季重磅補強的戰神與上季亞軍國王都以2勝作收，戰神營運長楊勝凱表示，各隊都以練兵為主，參考價值不高，球隊也希望藉由熱身賽讓球隊更適應新主帥圖...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5603818",
-      "pubDate": "10/12 8:35",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_42",
-      "title": "日職季後賽》孫易磊2局飆4K無失分 火腿擊敗西武挺進高潮賽決勝輪",
-      "description": "3戰2勝制的日職季後賽高潮系列賽首輪，太平洋聯盟第三的日本火腿今天在客場Belluna巨蛋面對洋聯第二的西武獅，台灣21歲新星孫易磊後援2局飆4K無失分，火腿在G3殊死戰以...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5603714",
-      "pubDate": "10/12 8:19",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     }
