@@ -120,12 +120,12 @@
     },
     {
       "id": "rss_13",
-      "title": "超馬》擔任慕獅女孩新聞盃教練  陳彥博戰術板畫笑臉提升士氣",
-      "description": "超馬好手陳彥博今受邀擔任新竹攻城獅啦啦隊在新聞盃的客座教練，他表示，透過接觸不同運動學到很多，也分享明年的參賽計畫。新竹攻城獅啦啦隊「慕獅女孩」連兩年參與新聞盃表演賽，今年邀請陳彥博擔任客座教練，球隊終場以25：30不敵「背靠背」出賽的體記女子隊，陳彥博肯定團隊表現，「大家都表現得很棒。」",
-      "link": "https://tw.sports.yahoo.com/news/%E8%B6%85%E9%A6%AC-%E6%93%94%E4%BB%BB%E6%85%95%E7%8D%85%E5%A5%B3%E5%AD%A9%E6%96%B0%E8%81%9E%E7%9B%83%E6%95%99%E7%B7%B4-%E9%99%B3%E5%BD%A5%E5%8D%9A%E6%88%B0%E8%A1%93%E6%9D%BF%E7%95%AB%E7%AC%91%E8%87%89%E6%8F%90%E5%8D%87%E5%A3%AB%E6%B0%A3-082434347.html",
-      "pubDate": "10/15 0:24",
-      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/3c8b2c49c210110aad874deda57eeec5.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "title": "NBA》退休後新工作曝光！ 林書豪自嘲：終於不再失業了",
+      "description": "37歲新北國王球星林書豪在2025年宣布退休，今天宣布將擔任《ESPN》分析師，他在社群網站直呼：「終於不再失業了！人生新篇章正式開始。」\n\n\n林書豪2023年返台加入鋼鐵...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5607825",
+      "pubDate": "10/15 15:38",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_14",
@@ -134,79 +134,88 @@
       "link": "https://sports.ltn.com.tw/news/breakingnews/5607605",
       "pubDate": "10/15 12:17",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_15",
-      "title": "中職》台灣大賽G1 味全龍宣告門票完售",
-      "description": "台灣大賽首度上演龍象大戰，稍早味全龍宣告後天G1大巨蛋門票完售，人氣超旺。\n\n\n…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5607393",
-      "pubDate": "10/15 8:22",
+      "title": "超馬》擔任慕獅女孩新聞盃教練  陳彥博戰術板畫笑臉提升士氣",
+      "description": "超馬好手陳彥博今受邀擔任新竹攻城獅啦啦隊在新聞盃的客座教練，他表示，透過接觸不同運動學到很多，也分享明年的參賽計畫。\n\n\n新竹攻城獅啦啦隊「慕獅女孩」連兩年參與新聞盃表演...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5607397",
+      "pubDate": "10/15 8:24",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_16",
-      "title": "中職》明年2月西武獅重磅來台  大巨蛋對決兄弟、統一",
-      "description": "西武獅台灣系列賽－傳奇對決－《SEIBU LIONS TAIWAN SERIES – LEGENDS GAME –》將在明年2月27、28日於臺北大巨蛋舉辦，是埼玉西武獅...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5607140",
-      "pubDate": "10/15 5:59",
+      "title": "中職》台灣大賽G1 味全龍宣告門票完售",
+      "description": "台灣大賽首度上演龍象大戰，稍早味全龍宣告後天G1大巨蛋門票完售，人氣超旺。\n\n\n…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5607393",
+      "pubDate": "10/15 8:22",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_17",
-      "title": "亞冠賽》台灣隊集訓名單出爐！兄弟4將入列 旅外3人助陣",
-      "description": "2026亞洲職棒冠軍爭霸賽將於11月12日至15日在日本東京巨蛋登場，中華隊33人集訓名單正式出爐！由高志綱總教練領軍，集結中華職棒六隊年輕好手及旅外球員，打造新世代中華...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5607015",
-      "pubDate": "10/15 4:24",
+      "title": "中職》明年2月西武獅重磅來台  大巨蛋對決兄弟、統一",
+      "description": "西武獅台灣系列賽－傳奇對決－《SEIBU LIONS TAIWAN SERIES – LEGENDS GAME –》將在明年2月27、28日於臺北大巨蛋舉辦，是埼玉西武獅...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5607140",
+      "pubDate": "10/15 5:59",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_18",
-      "title": "TPBL》夢想家主場開幕戰滅火器熱血獻唱  雙女神三上悠亞、朴藝恩首度同台",
-      "description": "TPBL福爾摩沙夢想家將於本週在臺中洲際迷你蛋展開主場首戰，先後迎戰新北國王與高雄全家海神，10月17日開幕戰當天，球團將舉行冠軍升旗儀式，並邀請金曲樂團滅火器獻唱《今天...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5606994",
-      "pubDate": "10/15 4:15",
+      "title": "亞冠賽》台灣隊集訓名單出爐！兄弟4將入列 旅外3人助陣",
+      "description": "2026亞洲職棒冠軍爭霸賽將於11月12日至15日在日本東京巨蛋登場，中華隊33人集訓名單正式出爐！由高志綱總教練領軍，集結中華職棒六隊年輕好手及旅外球員，打造新世代中華...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5607015",
+      "pubDate": "10/15 4:24",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_19",
-      "title": "國聯冠軍賽》大谷翔平選關鍵保送！44億明星逆轉長打助宇宙道奇領先",
-      "description": "衛冕軍道奇在國聯冠軍賽陷入0勝2敗劣勢，今天G3派出2屆塞揚強投史奈爾（Blake Snell）掛帥，他也不負眾望，前6局僅失1分；而道奇打線終於在6局下甦醒，靠著1.4億...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5606772",
-      "pubDate": "10/15 2:02",
+      "title": "TPBL》夢想家主場開幕戰滅火器熱血獻唱  雙女神三上悠亞、朴藝恩首度同台",
+      "description": "TPBL福爾摩沙夢想家將於本週在臺中洲際迷你蛋展開主場首戰，先後迎戰新北國王與高雄全家海神，10月17日開幕戰當天，球團將舉行冠軍升旗儀式，並邀請金曲樂團滅火器獻唱《今天...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5606994",
+      "pubDate": "10/15 4:15",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_20",
-      "title": "棒球》U18飆155公里壓制台灣！日本火球男織田翔希確定赴美挑戰大聯盟",
-      "description": "根據日媒《體育報知》報導，最快球速達到157公里的日本火球男織田翔希，已經確定不參加日本職棒選秀，即將赴美挑戰大聯盟，預計今天將召開記者會，說明未來動向。\n\n\n來自橫濱高校...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5606745",
-      "pubDate": "10/15 1:51",
+      "title": "國聯冠軍賽》大谷翔平選關鍵保送！44億明星逆轉長打助宇宙道奇領先",
+      "description": "衛冕軍道奇在國聯冠軍賽陷入0勝2敗劣勢，今天G3派出2屆塞揚強投史奈爾（Blake Snell）掛帥，他也不負眾望，前6局僅失1分；而道奇打線終於在6局下甦醒，靠著1.4億...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5606772",
+      "pubDate": "10/15 2:02",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_21",
-      "title": "中職》洋將是洋將、布雷克是布雷克！大醫生無緣台灣大賽後感性告白",
-      "description": "統一獅今年在季後挑戰賽無緣上演「讓2追3」戲碼，不敵中信兄弟，無緣晉級台灣大賽，獅隊加拿大籍洋投「大醫生」布雷克（Brock Dykxhoorn）昨天在個人Instagra...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5606739",
-      "pubDate": "10/15 1:27",
+      "title": "棒球》U18飆155公里壓制台灣！日本火球男織田翔希確定赴美挑戰大聯盟",
+      "description": "根據日媒《體育報知》報導，最快球速達到157公里的日本火球男織田翔希，已經確定不參加日本職棒選秀，即將赴美挑戰大聯盟，預計今天將召開記者會，說明未來動向。\n\n\n來自橫濱高校...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5606745",
+      "pubDate": "10/15 1:51",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_22",
+      "title": "中職》洋將是洋將、布雷克是布雷克！大醫生無緣台灣大賽後感性告白",
+      "description": "統一獅今年在季後挑戰賽無緣上演「讓2追3」戲碼，不敵中信兄弟，無緣晉級台灣大賽，獅隊加拿大籍洋投「大醫生」布雷克（Brock Dykxhoorn）昨天在個人Instagra...…",
+      "link": "https://sports.ltn.com.tw/news/breakingnews/5606739",
+      "pubDate": "10/15 1:27",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_23",
       "title": "NBA》勇士「KP」正式歸隊 本人發文報平安：我沒得愛滋",
       "description": "勇士禁區好手「KP」波辛傑斯（Kristaps Porzingis），今年訓練營前再度傳出健康問題缺席，儘管目前已經歸隊，但復出仍無時間表，而他本人稍早也在社群發文，和球迷...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5606719",
       "pubDate": "10/15 1:23",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
