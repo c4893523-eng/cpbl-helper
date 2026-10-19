@@ -75,15 +75,6 @@
     },
     {
       "id": "rss_8",
-      "title": "棒球太狂連籃球都得讓路！釀酒人44年後闖世界大賽　公鹿窩心開幕戰改時間",
-      "description": "體育中心／綜合報導一支棒球隊打進世界大賽，竟然讓同一座城市的NBA球隊主動修改比賽時間！釀酒人睽違44年重返世界大賽，讓密爾瓦基整座城市陷入棒球狂熱。為了讓球迷同時欣賞NBA與MLB兩大盛事，公鹿決定將新球季主場開幕戰提前4小時，讓球迷白天看籃球、晚上再為釀酒人加油！",
-      "link": "https://tw.sports.yahoo.com/news/%E6%A3%92%E7%90%83%E5%A4%AA%E7%8B%82%E9%80%A3%E7%B1%83%E7%90%83%E9%83%BD%E5%BE%97%E8%AE%93%E8%B7%AF-%E9%87%80%E9%85%92%E4%BA%BA44%E5%B9%B4%E5%BE%8C%E9%97%96%E4%B8%96%E7%95%8C%E5%A4%A7%E8%B3%BD-%E5%85%AC%E9%B9%BF%E7%AA%A9%E5%BF%83%E9%96%8B%E5%B9%95%E6%88%B0%E6%94%B9%E6%99%82%E9%96%93-091421954.html",
-      "pubDate": "10/19 1:14",
-      "rawImg": "https://media.zenfs.com/en/ftvn_sports_106/399c86fba8dcad5676b4f0483579209a.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_9",
       "title": "台灣大賽》再輸就幾乎沒退路！兄弟勝投王羅戈有一數據優勢",
       "description": "台灣大賽史上，前兩戰吞0勝2敗最終翻盤有2次，分別是1997年味全龍擊敗時報鷹、2016年義大犀牛擊敗中信兄弟。不過，台灣大賽史上從未出現過0勝3敗後4連勝逆轉戰局的戲碼...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611420",
@@ -92,7 +83,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_10",
+      "id": "rss_9",
       "title": "中職》競爭激烈！江坤宇中斷最佳9人游擊5連霸 張政禹生涯首獲獎",
       "description": "中職稍早公布首波個人獎，最佳9人暨指定打擊得獎名單出爐。今年球季，中信兄弟在最佳9人獎項中沒有任何選手獲獎，而連5年獲獎的當家游擊手江坤宇，今年也中斷連5年霸榜紀錄...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611425",
@@ -101,7 +92,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_11",
+      "id": "rss_10",
       "title": "台灣大賽》毫無意外！勝投王羅戈、前MVP鋼龍G3同場先發",
       "description": "台灣大賽前兩戰，味全龍隊連勝中信兄弟2場，取得2勝0敗優勢。今天休兵日，由聯盟公告雙方明天第3戰先發投手，結果也一如預期，味全龍推出鋼龍、中信兄弟推出本季勝投王羅戈。\n\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611389",
@@ -110,7 +101,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_12",
+      "id": "rss_11",
       "title": "TPBL》特攻季前冠軍預測竟墊底 林任鴻提出看法",
       "description": "TPBL新賽季上週末登場，聯盟針對新賽季冠軍開放預測，中信特攻敬陪末座。對於外界不看好，中信特攻球員林任鴻今天出席活動時表示，無須多想，一步一步來，確實照著教練和球隊的步...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611400",
@@ -119,7 +110,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_13",
+      "id": "rss_12",
       "title": "籃球》擔任中信「閱讀MVP」大使 林任鴻分享最近看的好書",
       "description": "中國信託商業銀行主辦的「2026 閱讀MVP」借書換票公益活動將於明（20）日起跑。今年攜手基隆市、台北市、新北市、桃園市四縣市共計167家公共圖書館及8所大學圖書...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611373",
@@ -128,7 +119,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_14",
+      "id": "rss_13",
       "title": "MLB》大谷鬼神二刀流面臨抉擇 美媒提建言擬出使用說明書",
       "description": "道奇日本巨星大谷翔平開季目標整季投打二刀流，但卻因傷勢未能如願，更影響了打擊表現，成為衛冕軍無法3連霸的重要原因之一。《The Athletic》道奇隨隊記者阿達亞（Fab...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611332",
@@ -137,7 +128,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_15",
+      "id": "rss_14",
       "title": "中職》最佳10人獎公布！兄弟全軍覆沒、味全和統一各拿3席",
       "description": "「2026明台產險中華職棒頒獎典禮」將於11月2日晚間6點30分在台北萬豪酒店盛大舉行。歷經一整季的激烈競爭，球員們在球場上展現精湛球技，於各守備位置繳出亮眼成績。「20...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611362",
@@ -146,7 +137,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_16",
+      "id": "rss_15",
       "title": "日職》三冠王佐藤輝明獲准挑戰大聯盟 外媒估拿23億約、點名去洋基",
       "description": "阪神虎強打佐藤輝明今年交出打擊三冠王的優異成績單，阪神球團今天宣布，正式讓佐藤輝明透過入札制度挑戰大聯盟。這也將是虎軍隊史第一位透過入札制度旅美的野手。\n\n\n現年27歲的佐...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611227",
@@ -155,7 +146,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_17",
+      "id": "rss_16",
       "title": "日職》才剛入選亞冠賽集訓 養樂多隊徐翔聖挨強襲球傷退",
       "description": "據日媒快訊報導，養樂多的徐翔聖於今日在宮崎秋季聯盟對陣羅德的比賽中，遭到羅德隊寺地隆成擊出的強襲球直接擊中腳部，因而被迫退場。\n\n\n比賽進行到3局下半、2出局一壘有人時，...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611231",
@@ -164,7 +155,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_18",
+      "id": "rss_17",
       "title": "台灣大賽票房亮眼！他致謝蔡其昌獲「1回應」：不愧是有求必應蔡總機",
       "description": "中華職棒台灣大賽首戰17日由味全龍拿下勝利，吸引滿場4萬名球迷湧入台北大巨蛋觀賽。資深媒體人黃暐瀚在社群媒體分享現場觀賽心得，除了恭喜味全龍旗開得勝，也當面向中華職棒會長蔡其昌致...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611106",
@@ -173,7 +164,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_19",
+      "id": "rss_18",
       "title": "日職》從「台灣一」拚到「日本一」 徐若熙牛棚待命 教練點出優勢",
       "description": "3年前曾助味全龍拿下「台灣一」，如今徐若熙披上軟銀鷹戰袍，也有機會朝「日本一」邁進。軟銀將在24日開打的日本大賽交手橫濱DeNA，日媒指出，最快球速158公里的徐若熙預計...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611123",
@@ -182,7 +173,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_20",
+      "id": "rss_19",
       "title": "日職》日本火腿宣布3人戰力外 28歲捕手考慮轉戰海外賽場",
       "description": "日本火腿今天宣布，不與捕手梅林優貴、內野手明瀬諒介、投手松岡洸希3人續約，這3名選手都遭到戰力外。其中，梅林優貴和明瀬諒介都想延續選手生涯。\n\n\n現年28歲的梅林優貴是在2...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611029",
@@ -191,7 +182,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_21",
+      "id": "rss_20",
       "title": "日職》直言老東家橫濱「不是單靠氣勢上來的」 軟銀上茶谷大河警戒中",
       "description": "橫濱DeNA高潮系列賽決勝輪上演「下剋上」擊敗阪神虎，日本一即將對決軟銀。\n\n\n軟銀鷹投手上茶谷大河，對於日本大賽確定將與老東家DeNA交手，展現強烈的鬥志。被問及和老東...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611062",
@@ -200,7 +191,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_22",
+      "id": "rss_21",
       "title": "台灣大賽》「讓2追4」逆轉僅發生2次 葉總皆參與、兄弟其中一次是苦主",
       "description": "中信兄弟季後挑戰賽擊敗統一獅，台灣大賽前兩戰面對例行賽霸主味全龍卻兩戰皆敗，且合計僅得1分，火力不濟成為敗因之一。\n\n\n連吞2敗的兄弟還未絕望。歷史上，台灣大賽曾有兩度先...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611041",
@@ -209,7 +200,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_23",
+      "id": "rss_22",
       "title": "MLB》混血球星費爾柴德預告返台時程！ 和「台灣隊長」陳傑憲相約",
       "description": "費仔要回台了！棒球好手費爾柴德（Stuart Fairchild）預告11月將攜家人一起返台，期間將出席棒球營等公益活動、與「台灣隊長」陳傑憲相見歡，球迷屆時也有機會能與...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5611006",
@@ -218,7 +209,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_23",
       "title": "亞洲職棒交流賽》台日韓3大啦啦隊夢幻聯動！齊聚桃園做伙應援",
       "description": "引爆全台棒球迷與啦啦隊粉絲期待的秋季棒球盛宴 —「2026桃園亞洲職棒交流賽」，主辦單位今日正式公開備受矚目的台日韓三大啦啦隊應援名單！除了坐鎮主場的樂天桃猿「樂天女孩（...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5610920",
@@ -227,7 +218,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_25",
+      "id": "rss_24",
       "title": "日職》曾壓制道奇的三振王才木浩人 傳阪神虎不願放他去旅美",
       "description": "阪神虎強打佐藤輝明今年交出打擊三冠王的優異成績單，季後有望透過入札制度挑戰大聯盟。不過，同樣希望挑戰大聯盟的阪神明星右投才木浩人，阪神球團不打算今年休賽季放他去旅美。\n\n\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5610887",
