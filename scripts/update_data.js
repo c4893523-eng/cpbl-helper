@@ -1,5 +1,12 @@
 const fs = require('fs');
 const path = require('path');
+const dns = require('dns');
+
+// GitHub Actions Linux runners frequently lack working IPv6 routing to external hosts.
+// Force IPv4 lookup first to prevent connection timeouts (128s TCP SYN retry failure).
+if (dns.setDefaultResultOrder) {
+    dns.setDefaultResultOrder('ipv4first');
+}
 
 const SCHEDULE_URL = "https://www.rebas.tw/api/seasons/CPBL-2026-oB/games";
 const STANDINGS_URL = "https://www.rebas.tw/api/seasons/CPBL-2026-oB/leaders?type=team&section=standard&pa=undefined";
@@ -122,16 +129,55 @@ function parseYahooRss(xmlText) {
     return items;
 }
 
-async function fetchJson(url, label) {
+// Fetch helper with timeout and retries
+async function fetchWithRetry(url, options = {}, retries = 3, timeoutMs = 15000) {
+    let lastError;
+    for (let attempt = 1; attempt <= retries; attempt++) {
+        let timeoutId;
+        try {
+            const controller = new AbortController();
+            timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+            const response = await fetch(url, {
+                ...options,
+                signal: controller.signal
+            });
+            clearTimeout(timeoutId);
+            return response;
+        } catch (err) {
+            if (timeoutId) clearTimeout(timeoutId);
+            lastError = err;
+            console.warn(`[Attempt ${attempt}/${retries}] Fetch failed for ${url}: ${err.message}`);
+            if (attempt < retries) {
+                await new Promise(r => setTimeout(r, 2000 * attempt));
+            }
+        }
+    }
+    throw lastError;
+}
+
+async function fetchJson(url, label, filename) {
+    const filePath = getOutputPath(filename);
     try {
         console.log(`Fetching ${url}...`);
-        const response = await fetch(url, { headers: HEADERS });
+        const response = await fetchWithRetry(url, { headers: HEADERS }, 3, 15000);
         if (!response.ok) throw new Error(`HTTP Error: ${response.status} ${response.statusText}`);
         const data = await response.json();
-        if (data && data.data) return data;
+        if (data && data.data) return { data, fromCache: false };
         throw new Error(`Invalid data format for ${label}`);
     } catch (error) {
         console.error(`❌ Error fetching ${label}:`, error.message);
+        // Fallback to local cache if available, preventing build/workflow failure
+        if (filename && fs.existsSync(filePath)) {
+            console.warn(`⚠️ Falling back to existing cached ${filename}`);
+            try {
+                const cached = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                if (cached && (cached.data || Array.isArray(cached))) {
+                    return { data: cached, fromCache: true };
+                }
+            } catch (readErr) {
+                console.error(`❌ Failed reading cache for ${filename}:`, readErr.message);
+            }
+        }
         process.exit(1);
     }
 }
@@ -144,6 +190,7 @@ function saveJson(filename, data) {
 // Rebas 的排行榜偶爾會比單場賽果晚更新。以已結束的正式比賽重算連勝／連敗，
 // 和局與無效比賽不會中斷連勝／連敗。
 function calculateStreaks(standings, games) {
+    if (!Array.isArray(standings) || !Array.isArray(games)) return standings;
     const finishedGames = games
         .filter(game => game.is_formal && game.info?.status === 'FINISHED')
         .sort((a, b) => new Date(b.info.ended_at || b.info.scheduled_start_at) - new Date(a.info.ended_at || a.info.scheduled_start_at));
@@ -177,11 +224,11 @@ async function fetchAndSaveNews() {
     for (const url of urls) {
         try {
             console.log(`Fetching Sports RSS: ${url}...`);
-            const response = await fetch(url, {
+            const response = await fetchWithRetry(url, {
                 headers: {
                     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
                 }
-            });
+            }, 2, 15000);
             
             if (!response.ok) {
                 throw new Error(`HTTP Error: ${response.status} ${response.statusText}`);
@@ -219,11 +266,24 @@ async function fetchAndSaveNews() {
 
 async function main() {
     console.log("Starting data update...");
-    const schedule = await fetchJson(SCHEDULE_URL, 'schedule.json');
-    const standings = await fetchJson(STANDINGS_URL, 'standings.json');
-    standings.data = calculateStreaks(standings.data, schedule.data);
-    saveJson('schedule.json', schedule);
-    saveJson('standings.json', standings);
+    const scheduleResult = await fetchJson(SCHEDULE_URL, 'schedule.json', 'schedule.json');
+    const standingsResult = await fetchJson(STANDINGS_URL, 'standings.json', 'standings.json');
+
+    const scheduleData = scheduleResult.data;
+    const standingsData = standingsResult.data;
+
+    if (!scheduleResult.fromCache) {
+        saveJson('schedule.json', scheduleData);
+    }
+
+    if (standingsData && standingsData.data && scheduleData && scheduleData.data) {
+        standingsData.data = calculateStreaks(standingsData.data, scheduleData.data);
+    }
+
+    if (!standingsResult.fromCache) {
+        saveJson('standings.json', standingsData);
+    }
+
     await fetchAndSaveNews();
     console.log("Update completed.");
 }
