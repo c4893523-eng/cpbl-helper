@@ -10,6 +10,12 @@ on:
     # 台灣時間 00:12 賽後補抓，涵蓋延長賽與晚到的官方結算。
     - cron: '12 16 * * *'
   workflow_dispatch: # 允許在 GitHub 網頁上手動觸發
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/auto-update.yml'
 
 jobs:
   update-data:
