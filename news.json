@@ -3,132 +3,123 @@
   "data": [
     {
       "id": "rss_0",
+      "title": "暌違4年…新竹棒球場重啟 迎首場賽",
+      "description": "新竹市立棒球場歷經整修改善，昨暌違四年多重新迎來球賽，首場賽事以「五十周年交流賽COMEBACK 竹風再起」揭開序幕，吸引大批球迷、民眾入場欣賞球賽，場內外洋溢熱鬧氣氛。場地全面鋪上人工草皮，還...",
+      "link": "https://tw.sports.yahoo.com/news/%E6%9A%8C%E9%81%954%E5%B9%B4-%E6%96%B0%E7%AB%B9%E6%A3%92%E7%90%83%E5%A0%B4%E9%87%8D%E5%95%9F-%E8%BF%8E%E9%A6%96%E5%A0%B4%E8%B3%BD-160000052.html",
+      "pubDate": "11/1 8:00",
+      "rawImg": "https://media.zenfs.com/ko/udn_com_sports_229/c881c349849d59fb1bff7ce8a22ce8e2.jpg",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_1",
       "title": "TPBL》海神背靠背出賽不敵特攻 主帥齊科：防守需改進也有很多可學習之處",
       "description": "高雄海神今天在主場迎戰中信特攻，但有別於前役對上台北台新戰神全隊狂砍132分，此役受到限制，進攻未能施展開來，最終以100：128落敗。對於球隊表現「判若兩隊」，總教練齊科認為，對方確實做了很多準備，也有很好的比賽計畫，「這讓我們學到很多，希望未來可以更好，尤其在連續背靠背比賽中，可以保持應有的東西",
       "link": "https://tw.sports.yahoo.com/news/tpbl-%E6%B5%B7%E7%A5%9E%E8%83%8C%E9%9D%A0%E8%83%8C%E5%87%BA%E8%B3%BD%E4%B8%8D%E6%95%B5%E7%89%B9%E6%94%BB-%E4%B8%BB%E5%B8%A5%E9%BD%8A%E7%A7%91-%E9%98%B2%E5%AE%88%E9%9C%80%E6%94%B9%E9%80%B2%E4%B9%9F%E6%9C%89%E5%BE%88%E5%A4%9A%E5%8F%AF%E5%AD%B8%E7%BF%92%E4%B9%8B%E8%99%95-145718671.html",
       "pubDate": "11/1 6:57",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_1",
+      "id": "rss_2",
       "title": "阿巴西全場最高29分特攻客場大勝28分　費雪教練重返海神主場認了「情緒很多」",
       "description": "台灣職業籃球大聯盟（TPBL）2026-2027賽季第10場例行賽，今日（1日）新北中信特攻南下高雄巨蛋征戰，向高雄全家海神踢館。此役特務軍團展現強大攻守火力，由阿巴西攻下全場最高29分領軍，全隊更展現高度防守強度，成功造成海神26次失誤，並累積17次抄截，終場特攻以128比100大勝海神，收下本季首勝！",
       "link": "https://tw.sports.yahoo.com/news/%E9%98%BF%E5%B7%B4%E8%A5%BF%E5%85%A8%E5%A0%B4%E6%9C%80%E9%AB%9829%E5%88%86%E7%89%B9%E6%94%BB%E5%AE%A2%E5%A0%B4%E5%A4%A7%E5%8B%9D28%E5%88%86-%E8%B2%BB%E9%9B%AA%E6%95%99%E7%B7%B4%E9%87%8D%E8%BF%94%E6%B5%B7%E7%A5%9E%E4%B8%BB%E5%A0%B4%E8%AA%8D%E4%BA%86-%E6%83%85%E7%B7%92%E5%BE%88%E5%A4%9A-145049189.html",
       "pubDate": "11/1 6:50",
       "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/250a9685508810b3b65daffb339d9dcb.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_2",
+      "id": "rss_3",
       "title": "林秉聖加盟首秀大爆發！狂轟23分全能演出　洋基工程惜敗獵鷹",
       "description": "體育中心／王人瑞、郭水城報導PLG今天由洋基工程方舟對上台鋼獵鷹，首度登場的林秉聖攻下23分7籃板4助攻3抄截表現全面，但還是不敵獵鷹的團隊戰力，獵鷹終場就以104比99擊敗洋基工程，拿下三連勝。",
       "link": "https://tw.sports.yahoo.com/news/%E6%9E%97%E7%A7%89%E8%81%96%E5%8A%A0%E7%9B%9F%E9%A6%96%E7%A7%80%E5%A4%A7%E7%88%86%E7%99%BC-%E7%8B%82%E8%BD%9F23%E5%88%86%E5%85%A8%E8%83%BD%E6%BC%94%E5%87%BA-%E6%B4%8B%E5%9F%BA%E5%B7%A5%E7%A8%8B%E6%83%9C%E6%95%97%E7%8D%B5%E9%B7%B9-141455433.html",
       "pubDate": "11/1 6:14",
       "rawImg": "https://media.zenfs.com/ko/ftvn_sports_106/801c76abdf106f467e3efe5d1b5bbb57.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_3",
+      "id": "rss_4",
       "title": "最後1分半連追5分功虧一簣　新北國王2分惜敗攻城獅苦吞本季第2敗",
       "description": "新北國王今（1日）持續在新莊城堡迎戰新竹御嵿攻城獅。在主力控衛林書緯因傷高掛免牌的情況下，臨危受命擔綱先發的林彥廷挺身而出，上半場以五記外線冷箭獨攬15分，率隊打出精彩半場。然而易籃後禁區重鎮沃許本遭驅逐出場，陷入雙位數落後的國王仍展現決心，在比賽讀秒階段強勢逼到僅剩1分差，可惜最後一擊未能命中，終場以93：95抱憾吞敗。",
       "link": "https://tw.sports.yahoo.com/news/%E6%9C%80%E5%BE%8C1%E5%88%86%E5%8D%8A%E9%80%A3%E8%BF%BD5%E5%88%86%E5%8A%9F%E8%99%A7-%E7%B0%A3-%E6%96%B0%E5%8C%97%E5%9C%8B%E7%8E%8B2%E5%88%86%E6%83%9C%E6%95%97%E6%94%BB%E5%9F%8E%E7%8D%85%E8%8B%A6%E5%90%9E%E6%9C%AC%E5%AD%A3%E7%AC%AC2%E6%95%97-133341234.html",
       "pubDate": "11/1 5:33",
       "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/04f43e2ce386e0ed88ed57f770b19cac.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_4",
+      "id": "rss_5",
       "title": "APEL》新北站掀起「小旋風」浪潮 雲豹有備而來重返王位",
       "description": "亞洲菁英匹克球聯盟（AEPL）2026創始賽季第五站，這周末在新北市政府市民廣場熱血開打，賽事大使林志穎，特別蒞臨現場為各球隊獻上祝福，現場颳起「小旋風」浪潮。本站戰況依舊激烈，桃園永豐雲豹有備而來，以3比1擋住新竹YANKEY ACE尋求衛冕氣焰，雲豹收下本季第4座冠軍，而地主新北蘆沐聲勢驚人，苦戰五點贏得季軍，創下隊史最佳成績。",
       "link": "https://tw.sports.yahoo.com/news/apel-%E6%96%B0%E5%8C%97%E7%AB%99%E6%8E%80%E8%B5%B7-%E5%B0%8F%E6%97%8B%E9%A2%A8-%E6%B5%AA%E6%BD%AE-%E9%9B%B2%E8%B1%B9%E6%9C%89%E5%82%99%E8%80%8C%E4%BE%86%E9%87%8D%E8%BF%94%E7%8E%8B%E4%BD%8D-132921704.html",
       "pubDate": "11/1 5:29",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_5",
+      "id": "rss_6",
       "title": "中職》林益全爆出財務糾紛 妻子澄清：遇到投資詐騙",
       "description": "前中職球星林益全轉往中國發展後，近期在社群爆出疑似欠債的財務糾紛，引發網路熱議；林益全今天（1日）接受電視台專訪說明事件經過，他的妻子林家嘉則先代為向本報簡單說明，表示是之前遇到投資詐騙，但目前已經處理得差不多，也感謝外界關心。林益全在中職的成績顯赫，生涯累計2013支安打居史上第3多，除了拿過新人",
       "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E6%9E%97%E7%9B%8A%E5%85%A8%E7%88%86%E5%87%BA%E8%B2%A1%E5%8B%99%E7%B3%BE%E7%B4%9B-%E5%A6%BB%E5%AD%90%E6%BE%84%E6%B8%85-%E9%81%87%E5%88%B0%E6%8A%95%E8%B3%87%E8%A9%90%E9%A8%99-132652460.html",
       "pubDate": "11/1 5:26",
       "rawImg": "https://media.zenfs.com/ko/libertytimes_786/628686aedde62a5c422f1da5a5dada7b.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_6",
+      "id": "rss_7",
       "title": "新竹市立棒球場台日韓4隊交流賽登場 (圖)",
       "description": "新竹市政府以「COMEBACK 竹風再起」為主題，舉辦2026新竹市立棒球場50週年交流賽暨開幕活動，台、日、韓4支球隊1日起展開3天交流賽，吸引球迷進場觀賽。",
       "link": "https://tw.sports.yahoo.com/news/%E6%96%B0%E7%AB%B9%E5%B8%82%E7%AB%8B%E6%A3%92%E7%90%83%E5%A0%B4%E5%8F%B0%E6%97%A5%E9%9F%934%E9%9A%8A%E4%BA%A4%E6%B5%81%E8%B3%BD%E7%99%BB%E5%A0%B4-%E5%9C%96-130945082.html",
       "pubDate": "11/1 5:09",
       "rawImg": "https://media.zenfs.com/ko/cna.com.tw/f2f8a60a57bdc4530ab9c66f8e5483ca.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_7",
+      "id": "rss_8",
       "title": "亞冠賽台灣隊下週自辦熱身賽　隊長郭天信喊話：展現年輕世代的拚勁和活力",
       "description": "2026年亞洲職棒冠軍爭霸賽即將登場，亞冠賽中華隊今（1）日起於新莊棒球場展開集訓，正式啟動備戰。亞冠賽中華隊由新世代球員組成，將透過集訓磨合團隊默契、整合整體戰力，為即將到來的國際賽事做好準備，期盼以最佳狀態迎接挑戰，在賽場上全力拚戰、爭取佳績，總教練高志綱選擇了來自味全龍的外野手郭天信擔任隊長，郭天信喊話年輕球員「展現拚勁和活力」。",
       "link": "https://tw.sports.yahoo.com/news/%E4%BA%9E%E5%86%A0%E8%B3%BD%E5%8F%B0%E7%81%A3%E9%9A%8A%E4%B8%8B%E9%80%B1%E8%87%AA%E8%BE%A6%E7%86%B1%E8%BA%AB%E8%B3%BD-%E9%9A%8A%E9%95%B7%E9%83%AD%E5%A4%A9%E4%BF%A1%E5%96%8A%E8%A9%B1-%E5%B1%95%E7%8F%BE%E5%B9%B4%E8%BC%95%E4%B8%96%E4%BB%A3%E7%9A%84%E6%8B%9A%E5%8B%81%E5%92%8C%E6%B4%BB%E5%8A%9B-125845346.html",
       "pubDate": "11/1 4:58",
       "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/ef328f01b7ea66eb782b364f06a403a8.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_8",
+      "id": "rss_9",
       "title": "新竹市立棒球場交流賽　高虹安開球 (圖)",
       "description": "2026新竹市立棒球場50週年交流賽暨開幕活動1日舉行，市長高虹安（後左）主持開球儀式，由日本球星川崎宗則擔任打擊手（前右）、新竹市政顧問張泰山（前左背對者）擔任捕手。",
       "link": "https://tw.sports.yahoo.com/news/%E6%96%B0%E7%AB%B9%E5%B8%82%E7%AB%8B%E6%A3%92%E7%90%83%E5%A0%B4%E4%BA%A4%E6%B5%81%E8%B3%BD-%E9%AB%98%E8%99%B9%E5%AE%89%E9%96%8B%E7%90%83-%E5%9C%96-125723986.html",
       "pubDate": "11/1 4:57",
       "rawImg": "https://media.zenfs.com/ko/cna.com.tw/24e9e5fd7fd3ff65fb7bb34a051321d7.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_9",
+      "id": "rss_10",
       "title": "新竹棒球場50週年重啟　台日韓4隊交流賽登場",
       "description": "（中央社記者魯鋼駿新竹市1日電）新竹市立棒球場今天舉辦50週年交流賽暨開幕活動，市長高虹安主持開球儀式，由日本球星川崎宗則擔任打擊手、張泰山擔任捕手。台、日、韓4支球隊今天起展開3天交流賽。",
       "link": "https://tw.sports.yahoo.com/news/%E6%96%B0%E7%AB%B9%E6%A3%92%E7%90%83%E5%A0%B450%E9%80%B1%E5%B9%B4%E9%87%8D%E5%95%9F-%E5%8F%B0%E6%97%A5%E9%9F%934%E9%9A%8A%E4%BA%A4%E6%B5%81%E8%B3%BD%E7%99%BB%E5%A0%B4-125446774.html",
       "pubDate": "11/1 4:54",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_10",
+      "id": "rss_11",
       "title": "TPBL阿巴西豪取29分　特攻擊敗海神 (圖)",
       "description": "台灣職業籃球大聯盟（TPBL）新北中信特攻1日到高雄巨蛋踢館高雄全家海神，特攻當家球星阿巴西（中）攻下全場最高的29分，助隊終場以128比100擊敗海神。",
       "link": "https://tw.sports.yahoo.com/news/tpbl%E9%98%BF%E5%B7%B4%E8%A5%BF%E8%B1%AA%E5%8F%9629%E5%88%86-%E7%89%B9%E6%94%BB%E6%93%8A%E6%95%97%E6%B5%B7%E7%A5%9E-%E5%9C%96-124119702.html",
       "pubDate": "11/1 4:41",
       "rawImg": "https://media.zenfs.com/ko/cna.com.tw/5178d3122a0c221557d54602beeac2c4.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_11",
+      "id": "rss_12",
       "title": "TPBL》帶領特攻重返海神主場奪勝 費雪：情緒很多",
       "description": "中信特攻今天在「黑豹」阿巴西繳全場最高29分帶領下，終場以128：100大勝高雄海神，新賽季首勝開胡，也終止對方2連勝。特攻這季改由前海神主帥費雪執掌兵符，今天是他離開海神後首次帶隊重返高雄出賽。特攻今天開賽在阿巴西單節獨攬11分帶領下取得雙位數領先，加上強勢防守製造海神不少失誤，半場已建立超過20",
       "link": "https://tw.sports.yahoo.com/news/tpbl-%E5%B8%B6%E9%A0%98%E7%89%B9%E6%94%BB%E9%87%8D%E8%BF%94%E6%B5%B7%E7%A5%9E%E4%B8%BB%E5%A0%B4%E5%A5%AA%E5%8B%9D-%E8%B2%BB%E9%9B%AA-%E6%83%85%E7%B7%92%E5%BE%88%E5%A4%9A-123917379.html",
       "pubDate": "11/1 4:39",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_12",
-      "title": "亞冠賽中華隊集訓啟動 高志綱領軍出征、郭天信接「台灣隊長」",
-      "description": "亞洲職棒冠軍爭霸賽，中華隊展開集訓，由總教練高志綱領軍，指派味全龍的郭天信出任隊長，其中旅日三位台將徐翔聖、陳睦衡與陽柏翔已報到加入訓練。不過33人集訓名單中，原先入選的統一獅投手林詔恩、富邦悍將外野",
-      "link": "https://tw.news.yahoo.com/%E4%BA%9E%E5%86%A0%E8%B3%BD%E4%B8%AD%E8%8F%AF%E9%9A%8A%E9%9B%86%E8%A8%93%E5%95%9F%E5%8B%95-%E9%AB%98%E5%BF%97%E7%B6%B1%E9%A0%98%E8%BB%8D%E5%87%BA%E5%BE%81-%E9%83%AD%E5%A4%A9%E4%BF%A1%E6%8E%A5-%E5%8F%B0%E7%81%A3%E9%9A%8A%E9%95%B7-122724625.html",
-      "pubDate": "11/1 4:27",
-      "rawImg": "https://media.zenfs.com/ko/news_ttv_com_tw_433/a1673cbeddde9e8473729b4ef0672c87.jpg",
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_13",
-      "title": "TPBL／特攻教頭首度對決前東家 率隊28分血洗海神",
-      "description": "曾是高雄全家海神總教練的費雪（Mathias Fischer），上季因戰績不佳提前「下課」，休賽季接下新北中信特攻兵符，今天首度「回娘家」到熟悉的高雄巨蛋，率特攻打出主宰內容，首節就取得兩位數優...",
-      "link": "https://tw.sports.yahoo.com/news/tpbl-%E7%89%B9%E6%94%BB%E6%95%99%E9%A0%AD%E9%A6%96%E5%BA%A6%E5%B0%8D%E6%B1%BA%E5%89%8D%E6%9D%B1%E5%AE%B6-%E7%8E%87%E9%9A%8A28%E5%88%86%E8%A1%80%E6%B4%97%E6%B5%B7%E7%A5%9E-122433772.html",
-      "pubDate": "11/1 4:24",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_14",
       "title": "圖輯》河智媛台籃首跳 「河大叔」降臨新莊城堡",
       "description": "韓籍啦啦隊河智媛夏季時在紅土場上為樂天桃猿應援，今年棒球休賽季則是加入新北國王啦啦隊，首度站上台灣籃球的應援舞台。活力滿點的河智媛十分享受在新北國王啦啦隊的舞蹈中，每個動作都可...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5626004",
@@ -137,7 +128,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_15",
+      "id": "rss_14",
       "title": "PLG》打到抽筋！林秉聖首秀23分洋基惜敗 獵鷹開季豪取3連勝",
       "description": "PLG洋基工程方舟今作客台鋼獵鷹進行本季首戰，林秉聖在PLG生涯首秀燃燒35分鐘攻下23分，不過球隊仍以99：104敗下陣來，無緣開胡，獵鷹開季豪取3連勝。\n\n\n林秉聖休...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5626009",
@@ -146,7 +137,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_16",
+      "id": "rss_15",
       "title": "TPBL》阿巴西砍29分 特攻擊潰海神本季首勝入袋",
       "description": "中信特攻今天作客高雄海神，阿巴西攻下全場最高29分，加上洋將猛士貢獻19分，聯手率隊以128：100大勝海神，新賽季首勝開張。\n\n\n海神迎來開幕主場週，昨天擊敗由林庭謙領...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625996",
@@ -155,7 +146,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_17",
+      "id": "rss_16",
       "title": "TPBL》攻城獅帥哥新人生涯首秀拿9分 威森：我們很愛他",
       "description": "新竹攻城獅今踢館新莊體育館，靠德魯攻下18分，隊長盧冠軒挹注17分，以95：93逆轉新北國王，收下本季首勝，新人傅友今迎來生涯初登場拿下9分，他表示，雖然很緊張，但上場就...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625973",
@@ -164,7 +155,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_18",
+      "id": "rss_17",
       "title": "TPBL》8字總結國王敗仗 洪志善被問最後6秒佈局：還是要講裁判？",
       "description": "新北國王今在主場第三節進攻當機，單節僅拿下15分，終場以93：95不敵新竹攻城獅，總教練洪志善賽後也對最後的吹判頗有微詞。\n\n\n國王一哥林書緯今因腳踝傷勢高掛免戰牌，頂替...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625943",
@@ -173,7 +164,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_19",
+      "id": "rss_18",
       "title": "MLB》官網預測道奇明年開季名單 先發左外野恐換人、投手大谷定位未明",
       "description": "道奇本季無緣達成三連霸壯舉，大聯盟官網道奇記者Sonja Chen撰文分析2027年開季名單，德保拉（Josue De Paula）有望取代T.赫南德茲（Teoscar H...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625853",
@@ -182,7 +173,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_20",
+      "id": "rss_19",
       "title": "TPBL》林彥廷6顆三分球21分無用 攻城獅逆轉國王收本季首勝",
       "description": "新竹攻城獅今踢館新莊體育館，靠德魯攻下18分，隊長盧冠軒挹注17分，以95：93逆轉新北國王，收下本季首勝，國王吞下2連敗。\n\n\n國王一哥林書緯今因腳踝傷勢高掛免戰牌，頂...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625884",
@@ -191,7 +182,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_21",
+      "id": "rss_20",
       "title": "TPBL》海神場邊席設點心bar有尊榮感 執行長點出韓啦帶來意想不到效應",
       "description": "高雄海神主場開幕週本週登場，昨日首戰吸引1萬824名球迷進場觀戰。新賽季海神在行銷活動上下了不少功夫，除了首次引進韓籍啦啦隊，這季特別設置了點心吧提供場邊席球迷飲料、點心...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625869",
@@ -200,7 +191,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_22",
+      "id": "rss_21",
       "title": "中職》今年讓王建民動怒甩電話門 盧孟揚：很悔恨的賽季",
       "description": "中信兄弟22歲右投盧孟揚今年度過不如意的球季，6月中降二軍後就沒在上一軍，這4年依舊一勝難求，不過季後仍被選進亞冠賽台灣隊，希望從東京巨蛋重新出發。\n\n\n盧孟揚從2022...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625848",
@@ -209,7 +200,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_23",
+      "id": "rss_22",
       "title": "NBA》比肩歐尼爾神獸偉業！國王新星轟38分締多項鬼神紀錄",
       "description": "國王今天以105：136不敵灰熊，開季苦吞6連敗，至今一勝難求。當家19歲新星小阿卡夫（Darius Acuff Jr.）轟下生涯新高的38分，成為本場國王的最大亮點，他同...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625780",
@@ -218,7 +209,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_23",
       "title": "中職》培育有一套的日籍教練離隊 台鋼新人王候選直呼很可惜",
       "description": "從台鋼雄鷹建隊至今培育投手的日籍教練橫田久則，今年季後自請離隊，明年有機會回日本球界發展，入圍新人王的26歲右投李欣穎也從他身上獲取信心，坦言橫田教練離隊很可惜。\n\n\n台...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625823",
@@ -227,7 +218,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_25",
+      "id": "rss_24",
       "title": "日職》一軍初登板遭軟銀震撼教育 陳睦衡澄清「當下沒哭」",
       "description": "歐力士猛牛台灣20歲新星陳睦衡，今年轉支配下之後，9月25日一軍初登板面對軟銀，但遭震撼教育，受到隊友2次守備失誤影響，先發僅投0.2局失6分僅1分自責。\n\n\n陳睦衡坦言...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625822",
@@ -236,7 +227,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_26",
+      "id": "rss_25",
       "title": "日職》喜獲兩位可愛同鄉新隊友 陳睦衡開啟「學長模式」",
       "description": "歐力士本季再添兩名台灣小將張乙安、許宸緯，20歲投手陳睦衡成為學長，開心當起「兄貴」（日語：大哥之意）。「體育報知」日前報導，兩人抵達日本後，陳睦衡就帶兩位學弟參觀設施認...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625805",
@@ -245,7 +236,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_27",
+      "id": "rss_26",
       "title": "中職》從擔心戰力外到入圍新人王 台鋼建隊元老：成長幅度我自己也嚇到",
       "description": "台鋼雄鷹26歲右投李欣穎入選亞冠賽台灣隊集訓名單，報到前確定入圍年度新人王，將首度出席中職頒獎典禮，他直言，「沒有想到可以入圍，這對我來說是一個很大的肯定，讓我之後會更有...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625804",
@@ -254,7 +245,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_28",
+      "id": "rss_27",
       "title": "亞冠賽》隊長郭天信指派任務前 「氣氛組」陽柏翔已有藍圖",
       "description": "亞冠賽今天開訓，除了部分母隊安排另有訓練與辭退選手之外，選手們全員到齊，包括旅日養樂多隊徐翔聖、歐力士隊陳睦衡和東北樂天金鷲陽柏翔3人。其中，徐翔聖和陽柏翔今年都先後入選...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625787",
@@ -263,7 +254,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_29",
+      "id": "rss_28",
       "title": "MLB》透露已約費爾柴德見面 蔡其昌表達感謝但不提「不禮貌」一問",
       "description": "經典賽台灣隊國手、混血球星費爾柴德（Stuart Fairchild）日前預告本月將攜家人一起返台，近期也透過經紀團隊，安排公開活動與11月5日舉辦記者會。\n\n\n中職會長...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625775",
@@ -272,7 +263,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_30",
+      "id": "rss_29",
       "title": "MLB》火腿同意了！日本澤村賞強投確定挑戰大聯盟 喊話12月前簽約",
       "description": "根據日媒《日刊體育》報導，日本火腿王牌投手伊藤大海已取得球團同意，將透過入札制度挑戰大聯盟舞台。\n\n\n伊藤大海上季拿下日職投手最高榮譽的「澤村賞」，今年季前也入選日本隊征戰...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625743",
@@ -281,7 +272,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_31",
+      "id": "rss_30",
       "title": "昔中職頂薪球星竟遭網友公開追債 同名百萬本票裁定書曝光",
       "description": "前中華職棒球星「神全」林益全2025年遭統一7-ELEVEn獅釋出後，轉戰中國城市棒球聯賽（CPB）延續球員生涯，不過近日卻在Threads遭網友公開「追債」，儘管相關貼文...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625698",
@@ -290,7 +281,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_32",
+      "id": "rss_31",
       "title": "亞冠賽》集訓納進3旅日好手 高志綱揭選材過程",
       "description": "亞冠賽今天開訓，除了部分母隊安排另有訓練與辭退選手之外，選手們全員到齊，包括旅日徐翔聖、陳睦衡和陽柏翔3人。\n\n\n本屆亞冠賽台灣隊由高志綱擔任總教練，集訓名單包括日職養樂...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625748",
@@ -299,22 +290,13 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_33",
+      "id": "rss_32",
       "title": "TPBL》大讚王彥程人品好人氣高！河智媛首度參與台灣職籃應援",
       "description": "新北國王啦啦隊「New Taipei Queens」韓籍新成員河智媛，首度挑戰台灣職籃應援，她同時也是韓職韓華鷹啦啦隊成員，今被問及對台灣左投王彥程的印象，她表示，王彥程...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5625713",
       "pubDate": "11/1 6:19",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_34",
-      "title": "亞冠賽》獅隊本土左腕林詔恩宣告辭退！台灣隊先發人選少1人",
-      "description": "亞冠賽台灣隊今年由高志綱執掌兵符，今天首度在新莊球場亮相，展開赴日前的集訓，不過33位選手並未全員出席，甫奪台灣大賽冠軍的劉俊緯和曾聖安被味全派到軟銀秋訓，另外，近期傳出...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5625700",
-      "pubDate": "11/1 6:11",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
