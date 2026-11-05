@@ -3,6 +3,51 @@
   "data": [
     {
       "id": "rss_0",
+      "title": "11月有職棒看 明天兩地開打",
+      "description": "台灣大賽上週落幕，味全龍勇奪隊史第6冠，為中職37年賽季畫下句點，棒球熱潮未停歇，週末亞冠賽熱身賽、桃園亞洲職棒交流賽接力登場。第3屆亞冠賽下週將在東京巨蛋點燃戰火，台灣隊由高志綱執掌兵符，納入許多中職年輕好手，包括郭天信、曾聖安、張士綸、張仁瑋、馬傑森和救援、新人雙冠王鍾允華，為了備戰亞冠賽，台灣",
+      "link": "https://tw.sports.yahoo.com/news/11%E6%9C%88%E6%9C%89%E8%81%B7%E6%A3%92%E7%9C%8B-%E6%98%8E%E5%A4%A9%E5%85%A9%E5%9C%B0%E9%96%8B%E6%89%93-213000418.html",
+      "pubDate": "11/5 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_1",
+      "title": "費仔台美混血 加盟中職算洋將",
+      "description": "台美混血戰將「費仔」費爾柴德訪台行程滿檔，前天造訪媽媽的故鄉台中，昨天在台北舉行記者會，老婆漢娜和費仔父母、弟弟隨行出席，一家人難得公開同框合影，費仔溫情喊話，「台灣是我的第二故鄉！」前天費仔第一次和家人到台中，嚐了許多美食，當然也包括「國民小吃」臭豆腐，他笑說，「嗯......味道真的很特別，跟我",
+      "link": "https://tw.sports.yahoo.com/news/%E8%B2%BB%E4%BB%94%E5%8F%B0%E7%BE%8E%E6%B7%B7%E8%A1%80-%E5%8A%A0%E7%9B%9F%E4%B8%AD%E8%81%B7%E7%AE%97%E6%B4%8B%E5%B0%87-213000021.html",
+      "pubDate": "11/5 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_2",
+      "title": "FA轉隊後刷負評 導致市場冷清",
+      "description": "中職近年行使自由球員（FA）權利的球員中，成功轉隊的6人有將近一半表現不如預期，包括味全龍陳子豪和富邦悍將林岱安，可能是今年自由市場較冷清的原因之一。朱育賢、黃子鵬少數穩定輸出龍隊在2024年季後砸5年保障約、最長10年總值1.3億元網羅陳子豪，他卻連續2季打擊不如聯盟平均水準，本季打擊率更低到1成",
+      "link": "https://tw.sports.yahoo.com/news/fa%E8%BD%89%E9%9A%8A%E5%BE%8C%E5%88%B7%E8%B2%A0%E8%A9%95-%E5%B0%8E%E8%87%B4%E5%B8%82%E5%A0%B4%E5%86%B7%E6%B8%85-213000195.html",
+      "pubDate": "11/5 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_3",
+      "title": "兩大終結者想旅外 球團的60人名單魔考",
+      "description": "今年中職自由球員（FA）市場反應冷清，只有王威晨行使，比旅外球員權利行使選手還少，各隊的休季補強將劍指戰力外選手，考驗各隊針對60人契約保留名單的安排，富邦悍將和味全龍也須謹慎考量是否將林凱威和曾峻岳放進名單內。曾峻岳、林凱威行使旅外FA各隊將在11月30日遞交60人契約保留名單，名單外選手將成為自",
+      "link": "https://tw.sports.yahoo.com/news/%E5%85%A9%E5%A4%A7%E7%B5%82%E7%B5%90%E8%80%85%E6%83%B3%E6%97%85%E5%A4%96-%E7%90%83%E5%9C%98%E7%9A%8460%E4%BA%BA%E5%90%8D%E5%96%AE%E9%AD%94%E8%80%83-213000070.html",
+      "pubDate": "11/5 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_4",
+      "title": "王威晨FA唱獨角戲 35歲轉隊有前例",
+      "description": "中職自由球員（FA）權利行使期限昨截止，統一獅2位球星陳重羽和潘傑楷都確定續留，只有中信兄弟35歲的王威晨宣告FA，全額轉隊費創下史上最高的1260萬，拚成功轉隊難度不小，迎來近4年FA市場最冷清的現象。唯一自由球員中職近4年最冷清中職球員累計達9個球季，就可獲得FA資格，今年自由球員市場被看好能補",
+      "link": "https://tw.sports.yahoo.com/news/%E7%8E%8B%E5%A8%81%E6%99%A8fa%E5%94%B1%E7%8D%A8%E8%A7%92%E6%88%B2-35%E6%AD%B2%E8%BD%89%E9%9A%8A%E6%9C%89%E5%89%8D%E4%BE%8B-213000037.html",
+      "pubDate": "11/5 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_5",
       "title": "費仔回來了！大秀中文打招呼 感性告白「台灣是第二個家」",
       "description": "世界棒球經典賽國手「費仔」費爾柴德，帶著爸媽和妻子抵台，今天在記者會亮相，從經典賽到現在，台灣球迷的熱情，讓費仔感動直呼「台灣是第二個故鄉」。目前是自由球員的他，被問到是否可能來中職打球，他表示感謝球",
       "link": "https://tw.news.yahoo.com/%E8%B2%BB%E4%BB%94%E5%9B%9E%E4%BE%86%E4%BA%86-%E5%A4%A7%E7%A7%80%E4%B8%AD%E6%96%87%E6%89%93%E6%8B%9B%E5%91%BC-%E6%84%9F%E6%80%A7%E5%91%8A%E7%99%BD-%E5%8F%B0%E7%81%A3%E6%98%AF%E7%AC%AC%E4%BA%8C%E5%80%8B%E5%AE%B6-125452154.html",
@@ -11,7 +56,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_1",
+      "id": "rss_6",
       "title": "統一獅、西武獅和中信兄弟三大球星喊話球迷「西武獅台灣系列賽」進場應援",
       "description": "Kintone Presents 西武獅台灣系列賽 – 傳奇對決 –《Kintone Presents SEIBU LIONS TAIWAN SERIES – LEGENDS GAME –》將在2027年2月27、28日於臺北大巨蛋舉辦，門票2026年11月4日中午12點全面開售，另外下午2點也將舉辦售票記者會，邀請埼玉西武獅、統一7-ELEVEN獅和中信兄弟球星，以及傳奇OB齊聚現身，為這場跨越世代的棒球盛宴宣傳，號召臺、日棒球迷進場。",
       "link": "https://tw.sports.yahoo.com/news/%E7%B5%B1-%E7%8D%85-%E8%A5%BF%E6%AD%A6%E7%8D%85%E5%92%8C%E4%B8%AD%E4%BF%A1%E5%85%84%E5%BC%9F%E4%B8%89%E5%A4%A7%E7%90%83%E6%98%9F%E5%96%8A%E8%A9%B1%E7%90%83%E8%BF%B7-%E8%A5%BF%E6%AD%A6%E7%8D%85%E5%8F%B0%E7%81%A3%E7%B3%BB%E5%88%97%E8%B3%BD-%E9%80%B2%E5%A0%B4%E6%87%89%E6%8F%B4-123125906.html",
@@ -20,16 +65,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_2",
-      "title": "「費仔」費柴德休賽季與家人一同回台 (圖)",
-      "description": "台美混血棒球好手「費仔」費柴德（Stuart Fairchild）（中）參加2026世界棒球經典賽（WBC）時曾短暫來台，近期則趁休賽季帶著父母、弟弟及太太韓納（Hanna Fairchild）（右2）再度訪台，5日一家人開心在台北出席記者會。",
-      "link": "https://tw.sports.yahoo.com/news/%E8%B2%BB%E4%BB%94-%E8%B2%BB%E6%9F%B4%E5%BE%B7%E4%BC%91%E8%B3%BD%E5%AD%A3%E8%88%87%E5%AE%B6%E4%BA%BA-%E5%90%8C%E5%9B%9E%E5%8F%B0-%E5%9C%96-095032991.html",
-      "pubDate": "11/5 1:50",
-      "rawImg": "https://media.zenfs.com/vi/cna.com.tw/8a82e54f503ce36fe7a27168d15e6863.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_3",
+      "id": "rss_7",
       "title": "中職》自由市場近4年最冷清！3大好手續留 僅兄弟名將行使FA",
       "description": "中職自由球員（FA）權利行使期限今（5日）下午4時截止，今年只有生涯千安的中信兄弟隊長王威晨行使，寫下2023年以來最冷清。\n\n\n中職今年自由市場被看好的選手有統一獅雙將...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5630760",
@@ -38,7 +74,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_4",
+      "id": "rss_8",
       "title": "籃球》百萬贊助3年有成 雲豹射手莊博元勉勵安坑國小學弟妹",
       "description": "自2024年起安葆電能、原長照明、原藤貿易3家企業攜手贊助新北市安坑國小籃球隊，並繼今年兒童節再次造訪安坑國小，還邀請TPBL桃園台啤永豐雲豹射手莊博元回母校，與學弟妹來...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5630681",
@@ -47,7 +83,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_5",
+      "id": "rss_9",
       "title": "中職》隊長王威晨行使FA 兄弟球團回應了！",
       "description": "中職自由球員（FA）權利行使期限今（5日）下午4時截止，中信兄弟隊長王威晨打響第一砲，確認行使自由球員權利，成為本季第一人。對此，中信球團表示，持續與王威晨保持良好溝通。...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5630602",
@@ -56,7 +92,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_6",
+      "id": "rss_10",
       "title": "中職》旅外FA選手若放60人名單外 有被其他球隊接觸的風險",
       "description": "今年中職自由球員（FA）市場反應冷清，休季補強將劍指戰力外選手，考驗各隊在60人契約保留名單的安排，值得關注的是行使旅外FA的富邦悍將曾峻岳和味全龍林凱威，如果無法在11...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5630583",
@@ -65,7 +101,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_7",
+      "id": "rss_11",
       "title": "MLB》明年來台打中職？   台灣英雄「費仔」親自回應",
       "description": "今年WBC經典賽台灣隊國手、台美混血戰將「費仔」費爾柴德（Stuart Fairchild），今天他跟老婆、父母、弟弟共同出席訪台記者會。\n\n\n外界關心，明年費仔有沒有機...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5630531",
@@ -74,7 +110,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_8",
+      "id": "rss_12",
       "title": "中職》兄弟隊長王威晨行使FA 35+歲選手只有1人成功轉隊",
       "description": "中信兄弟隊長王威晨以35歲之齡行使自由球員權利，過去能在超過35歲轉隊成功的選手只有陳俊秀，他在2023年季後行使FA，最終以3年合約轉戰中信兄弟。\n\n\n過去超過35歲行...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5630476",
@@ -83,40 +119,13 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_9",
+      "id": "rss_13",
       "title": "NBA》終於兌現天賦！前勇士新星狂下三分雨 關鍵時刻飆分殺瘋了",
       "description": "前勇士大物庫明加（Jonathan Kuminga）本季在灰狼兌現天賦，今在決勝節關鍵時刻接管比賽，率隊以117：107擊敗強敵火箭。\n\n\n庫明加休季以2年1240萬美元加...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5630412",
       "pubDate": "11/5 6:39",
       "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_10",
-      "title": "中職》兄弟隊長王威晨行使FA 寫下史上最高的另類紀錄",
-      "description": "中信兄弟隊長王威晨今天行使自由球員權利，他今年月薪84萬元，全額轉隊費高達1260萬，創下史上最高紀錄。\n\n\n王威晨在2025年跟中信兄弟簽下複數年合約，今年是合約第2年...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5630404",
-      "pubDate": "11/5 6:16",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_11",
-      "title": "中職》震撼彈！兄弟隊長王威晨行使FA 本季第一人",
-      "description": "中職自由球員（FA）權利行使期限今（5日）下午4時截止，中信兄弟隊長王威晨打響第一砲，確認行使自由球員權利，成為本季第一人，中職連續6年有選手行使FA。\n\n\n王威晨在20...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5630370",
-      "pubDate": "11/5 5:53",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_12",
-      "title": "NBA》共和黨期中選舉慘敗 勇士教頭調侃：很失望沒領到5000美元",
-      "description": "今年美國期中選舉開票，執政的共和黨選舉結果慘敗，民主黨奪回國會參、眾兩院的控制權。曾為民主黨站台的勇士隊總教練柯爾（Steve Kerr）今天開玩笑說，很失望沒有拿到500...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5630281",
-      "pubDate": "11/5 5:08",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
