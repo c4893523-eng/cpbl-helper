@@ -192,24 +192,6 @@
     },
     {
       "id": "rss_21",
-      "title": "戰神與和平雙贏  林庭謙為戰神摘下返台第一勝",
-      "description": "【互傳媒／記者 魏冠中／臺北 報導】戰神隊在和平館迎接本季第一個主場周末，擁有TPBL最高身價的林庭謙今天幫助",
-      "link": "https://tw.news.yahoo.com/%E6%88%B0%E7%A5%9E%E8%88%87%E5%92%8C%E5%B9%B3%E9%9B%99%E8%B4%8F-%E6%9E%97%E5%BA%AD%E8%AC%99%E7%82%BA%E6%88%B0%E7%A5%9E%E6%91%98%E4%B8%8B%E8%BF%94%E5%8F%B0%E7%AC%AC-%E5%8B%9D-114430401.html",
-      "pubDate": "11/7 3:44",
-      "rawImg": "https://media.zenfs.com/ko/hoomedia_675/523e17732c773941aa07d4690dda9bf3.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_22",
-      "title": "超過3000人進場！台鋼雄鷹「2026有鷹來同樂TSG Party」回饋球迷相挺",
-      "description": "台鋼雄鷹本（7）日在澄清湖球場舉辦「2026有鷹來同樂TSG Party」，吸引超過3000人購票進場，為感謝球迷朋友大力支持，現場規畫豐富活動，洪一中總教練帶領選手近距離與球迷朋友互動，踏進場內體驗、簽名會、應援舞台表演、趣味對抗賽……以精采又充實活動，回饋球迷朋友相挺。",
-      "link": "https://tw.sports.yahoo.com/news/%E8%B6%85%E9%81%8E3000%E4%BA%BA%E9%80%B2%E5%A0%B4-%E5%8F%B0%E9%8B%BC%E9%9B%84%E9%B7%B9-2026%E6%9C%89%E9%B7%B9%E4%BE%86%E5%90%8C%E6%A8%82tsg-party-%E5%9B%9E%E9%A5%8B%E7%90%83%E8%BF%B7%E7%9B%B8%E6%8C%BA-114251126.html",
-      "pubDate": "11/7 3:42",
-      "rawImg": "https://media.zenfs.com/ko/taisounds_com_380/91012dad5fbb9a64830e3c916cd9d54a.jpg",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_23",
       "title": "中職》逾3000人進場！台鋼雄鷹「TSG Party」 回饋球迷相挺",
       "description": "台鋼雄鷹本今天在澄清湖球場舉辦「2026有鷹來同樂TSG Party」，吸引超過3000人購票進場，為感謝球迷朋友大力支持，現場規畫豐富活動，洪一中總教練帶領選手近距離與球...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5633088",
@@ -218,7 +200,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_24",
+      "id": "rss_22",
       "title": "NBA》「不能一直煩惱壞掉的牛奶」 嘴綠談暫離球場的勇士12億長人「KP」",
       "description": "勇士長人「KP」波辛傑斯（Kristaps Porzingis）新賽季至今因病缺陣，今天宣佈暫時離開籃球，也希望與勇士球團討論出解決方案。勇士明星前鋒D.格林（Draymo...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5633041",
@@ -227,7 +209,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_25",
+      "id": "rss_23",
       "title": "亞冠賽》台灣隊VS.味全龍熱身賽  新莊城堡人氣超旺！",
       "description": "今天在新莊球場進行亞冠賽台灣隊首場熱身賽，對戰今年中職總冠軍球隊味全龍，新莊城堡現場湧入6088名球迷入場，場面氣氛相當熱烈，台灣大賽落幕後，棒球熱潮不停歇。…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5633039",
@@ -236,7 +218,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_26",
+      "id": "rss_24",
       "title": "中職》觀眾驚呼！桃園交流賽導入新制度 樂天打者不知所措",
       "description": "2026桃園亞洲職棒交流賽今、明於桃園棒球場舉行，樂天桃猿跟培證英雄在4局下突然出現自動好壞球判定挑戰系統（ABS），由培證英雄隊捕手金乾凞提出，因為中職尚未使用過ABS...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632962",
@@ -245,7 +227,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_27",
+      "id": "rss_25",
       "title": "中職》成為35歲「大齡FA」 王威晨的回應很無奈",
       "description": "在中職前天（5日）行使自由球員權利期限截止前，35歲的中信兄弟隊長王威晨正式宣告行使FA，成為今年唯一提出的球員，今天也在中信兄弟球迷會上成為焦點；對於...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632950",
@@ -254,7 +236,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_28",
+      "id": "rss_26",
       "title": "亞冠賽》金倒永太熱門！  台灣主戰投手點名對決「看有沒有辦法...」",
       "description": "亞冠賽台灣隊第2場熱身賽，明天下午1點在新莊球場迎戰中信兄弟，台灣隊推出陳克羿先發，上一屆亞冠賽他對澳洲先發7局只被敲2安飆5K無失分無關勝敗，這一屆可望以外卡身分再度參...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632934",
@@ -263,7 +245,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_29",
+      "id": "rss_27",
       "title": "TPBL》林庭謙大讚「澎澎」是贏球關鍵 陳冠全：希望他帶戰神拿下總冠軍",
       "description": "TPBL台北台新戰神今以103：90大勝夢想家，除馬利攻下31分，林庭謙進帳18分，本土長人陳冠全也飆進3顆三分球拿下11分，總教練圖齊與林庭謙賽後都對陳冠全讚譽有加。\n...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632929",
@@ -272,7 +254,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_30",
+      "id": "rss_28",
       "title": "TPBL》「教練我很喜歡你但這不是犯規」馬建豪分享與圖齊的對話",
       "description": "衛冕軍夢想家今在客場以90：103不敵台北台新戰神，吞下本季第2敗，總教練簡浩坦言，球隊近三個禮拜沒有比賽，上半場打得不夠強勢，馬建豪則分享與前國家隊主帥圖齊在場上互動時...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632892",
@@ -281,7 +263,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_31",
+      "id": "rss_29",
       "title": "MLB》「對你嚴格的人快要絕跡了」白襪日本新星談職業棒球難題",
       "description": "日本18歲火球男織田翔希雖然在今年日本職棒選秀會中，被讀賣巨人以第一指名選走，但他依然表態想要直接挑戰美國大聯盟舞台。白襪25歲日本新星外野手西田陸浮近日在社群媒體X分享經...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632845",
@@ -290,7 +272,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_32",
+      "id": "rss_30",
       "title": "TPBL》林庭謙主場首秀18分 戰神終止對戰6連敗擊敗夢想家",
       "description": "台北台新戰神今迎來主場開幕戰，靠馬利攻下31分，林庭謙進帳18分，聯手以103：90擊敗衛冕軍福爾摩沙夢想家，收下本季首勝，也終結對戰6連敗。\n\n\n戰神前戰在客場不敵海神...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632873",
@@ -299,7 +281,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_33",
+      "id": "rss_31",
       "title": "亞冠賽》「要走得更長遠的話...」  高志綱有話想對張翔說",
       "description": "亞冠賽台灣隊陣中有兩大鐵捕坐鎮，包括中職新科捕手金手套得主宋嘉翔，以及名古屋亞運國家隊主戰捕手張翔。\n\n\n亞冠賽台灣隊總教練高志綱過去是國家隊鐵捕，以捕手視角看宋嘉翔、張...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632871",
@@ -308,7 +290,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_34",
+      "id": "rss_32",
       "title": "亞冠賽》「原來...當總教練要去記這些事情喔！」  高志綱笑了",
       "description": "今天對味全龍熱身賽前，媒體詢問投手出賽安排序列，亞冠賽台灣隊總教練高志綱笑說，「原來...當總教練要去記這些事情喔！」顯見國家隊總教練工作真的相當繁瑣。\n\n\n綱總解釋，今...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632840",
@@ -317,7 +299,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_35",
+      "id": "rss_33",
       "title": "日職》暫時不旅美？ 前安打王辰己涼介 以1年約續留樂天金鷲",
       "description": "樂天金鷲29歲明星外野手辰己涼介今年交出單季15轟創生涯新高，今天與球團談薪，雙方簽下1年合約，金額並未公開。辰己涼介表示，明天首先只想專注於一件事，那就是幫助樂天奪得優勝...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632772",
@@ -326,7 +308,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_36",
+      "id": "rss_34",
       "title": "中職》「怎麼會這樣⋯」 樂天1指大物初登板核爆餘悸猶存",
       "description": "2026桃園亞洲職棒交流賽今、明於桃園棒球場舉行，由地主球隊樂天桃猿分別迎戰韓職培證英雄、日職東北樂天金鷲，樂天桃猿第一指名鍾亦恩明天將肩扛對上樂天金鷲的先發，談到10月...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632823",
@@ -335,7 +317,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_37",
+      "id": "rss_35",
       "title": "亞冠賽》還要刷掉5人！  台灣隊28人正選名單即將揭曉",
       "description": "台灣隊備戰亞冠賽，今天首場熱身賽迎戰中職總冠軍球對味全龍，先發打序出爐，其中隊長郭天信擔任先發3棒、指定打擊，林佳緯扛先發1棒，王念好打4棒，二游搭檔則是陽柏翔、馬傑森；...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632819",
@@ -344,7 +326,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_38",
+      "id": "rss_36",
       "title": "亞冠賽》熱身賽葉總不見人影  原因曝光！",
       "description": "今天下午5點在新莊球場，亞冠賽熱身賽台灣隊迎戰今年中職總冠軍球隊味全龍，只是味全龍並非由總教練葉君璋督軍，而是由二軍總教練劉榮華暫代兵符，且多名奪冠主力球員不在陣中，以年...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632780",
@@ -353,7 +335,7 @@
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_39",
+      "id": "rss_37",
       "title": "中職》平野惠一力留王威晨 卻可能被反問「那你明年在嗎？」",
       "description": "中信兄弟總教練平野惠一明年續約尚未定案，隊長王威晨則在日前宣布行使自由球員權利，兩人去留都備受關注。平野今天出席兄弟球迷感謝祭時強調，比起自己能否留下來...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5632774",
