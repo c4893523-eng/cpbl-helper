@@ -3,147 +3,84 @@
   "data": [
     {
       "id": "rss_0",
-      "title": "NBA／勇士又贏了！柯瑞率隊51分差痛宰鵜鶘　2022年後首度8連勝",
-      "description": "[FTNN新聞網]記者周孫磊／綜合報導勇士隊連勝之旅持續挺進！今天灣區大軍在主場迎戰鵜鶘隊，當家球星柯瑞（StephenCurry）攻下25分，加上鵜鶘兩名主力威廉森...",
-      "link": "https://tw.news.yahoo.com/nba-%E5%8B%87%E5%A3%AB%E5%8F%88%E8%B4%8F%E4%BA%86-%E6%9F%AF%E7%91%9E%E7%8E%87%E9%9A%8A51%E5%88%86%E5%B7%AE%E7%97%9B%E5%AE%B0%E9%B5%9C%E9%B6%98-2022%E5%B9%B4%E5%BE%8C%E9%A6%96%E5%BA%A68%E9%80%A3%E5%8B%9D-092600175.html",
-      "pubDate": "11/10 1:26",
-      "rawImg": "https://media.zenfs.com/ko/ftnn_com_tw_939/8ce49eab51f6f1a4cb194b399cf5ce4b.jpg",
+      "title": "勇士8連勝 新秀輩出挺柯瑞",
+      "description": "勇士昨在一哥柯瑞和波傑姆斯基合拿50分帶領下，終場以138：87痛宰鵜鶘，成為NBA史上首支開季吞下3連敗後又拉出8連勝的隊伍，而鵜鶘以51分差輸球，寫下隊史最大分差落敗的尷尬紀錄。近況頗佳的勇士昨面對少了當家一哥威廉森坐鎮的鵜鶘，全隊進攻多點開花，半場打完已領先多達29分，第3節全隊單節灌進40分",
+      "link": "https://tw.sports.yahoo.com/news/%E5%8B%87%E5%A3%AB8%E9%80%A3%E5%8B%9D-%E6%96%B0%E7%A7%80%E8%BC%A9%E5%87%BA%E6%8C%BA%E6%9F%AF%E7%91%9E-213000249.html",
+      "pubDate": "11/10 13:30",
+      "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_1",
-      "title": "台灣隊平安抵達東京！「棒球情人」高國輝大秀舞技畫面曝光網笑翻",
-      "description": "體育中心／綜合報導2026年亞洲職棒冠軍爭霸賽（以下簡稱亞冠賽），將在11/12於東京巨蛋點燃戰火，今天（11/10）上午台灣隊從桃園機場啟程赴日，稍早已經平安抵達，富邦悍將也在IG用跳舞影片報平安，連教練「棒球情人」高國輝都跳下去大秀舞技，讓網友全笑翻。",
-      "link": "https://tw.sports.yahoo.com/news/%E5%8F%B0%E7%81%A3%E9%9A%8A%E5%B9%B3%E5%AE%89%E6%8A%B5%E9%81%94%E6%9D%B1%E4%BA%AC-%E6%A3%92%E7%90%83%E6%83%85%E4%BA%BA-%E9%AB%98%E5%9C%8B%E8%BC%9D%E5%A4%A7%E7%A7%80%E8%88%9E%E6%8A%80%E7%95%AB%E9%9D%A2%E6%9B%9D%E5%85%89%E7%B6%B2%E7%AC%91%E7%BF%BB-090611942.html",
-      "pubDate": "11/10 1:06",
-      "rawImg": "https://media.zenfs.com/en/ftvn_sports_106/df127b4b538820e4a786c82f7c3e117a.jpg",
+      "title": "日本武士首度出海交流 明年3月登台",
+      "description": "和台灣隊在大巨蛋打2場中職會長蔡其昌昨在送行亞冠賽台灣隊時透露，日本武士隊首次海外交流賽，將於明年3月來台，在台北大巨蛋和台灣隊打2場。蔡其昌後天與日方簽約蔡其昌將於後天赴日觀戰，並與日本武士隊正式簽約，他表示，當初規劃台日交流賽的契機與國家隊常態化有關係，由於明年年底才有世界12強棒球賽，希望利用",
+      "link": "https://tw.sports.yahoo.com/news/%E6%97%A5%E6%9C%AC%E6%AD%A6%E5%A3%AB%E9%A6%96%E5%BA%A6%E5%87%BA%E6%B5%B7%E4%BA%A4%E6%B5%81-%E6%98%8E%E5%B9%B43%E6%9C%88%E7%99%BB%E5%8F%B0-213000788.html",
+      "pubDate": "11/10 13:30",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/9f02b8f2a9554f5177bca9ea343131ba.jpg",
       "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_2",
-      "title": "中職/美媒分析曾峻岳旅美隱憂　肩傷後球速衰退成最大挑戰",
-      "description": "中職富邦悍將當家守護神曾峻岳正式啟動入札程序挑戰美職大聯盟，美媒《MLB Trade Rumors》近日刊登深度分析文章，對他的旅外前景提出評估與隱憂。根據該媒體分析，曾峻岳面臨的最大挑戰來自肩傷後的球速衰退，這將直接影響大聯盟球團的合約開價。",
-      "link": "https://tw.sports.yahoo.com/news/%E4%B8%AD%E8%81%B7-%E7%BE%8E%E5%AA%92%E5%88%86%E6%9E%90%E6%9B%BE%E5%B3%BB%E5%B2%B3%E6%97%85%E7%BE%8E%E9%9A%B1%E6%86%82-%E8%82%A9%E5%82%B7%E5%BE%8C%E7%90%83%E9%80%9F%E8%A1%B0%E9%80%80%E6%88%90%E6%9C%80%E5%A4%A7%E6%8C%91%E6%88%B0-085646885.html",
-      "pubDate": "11/10 0:56",
-      "rawImg": "https://media.zenfs.com/ko/gotv_ctitv_com_tw_678/365bdc6d5173d39e527dc79efda1d24a.jpg",
+      "title": "亞冠賽》台灣隊昨啟程 綱總喊話︰百分之百拚勝",
+      "description": "餅總、曾總到場相挺2026亞冠賽台灣隊昨啟程前往日本，準備迎戰將於明天（12日）在東京巨蛋展開的賽事，中職在全隊出發前舉行送機儀式，兩位前任經典賽台灣隊總教練林岳平、曾豪駒都到場相挺，會長蔡其昌感謝特地來為台灣隊加油打氣的球迷，期盼選手們帶著信心出發，在亞冠賽舞台全力奪勝，朝冠軍目標邁進。",
+      "link": "https://tw.sports.yahoo.com/news/%E4%BA%9E%E5%86%A0%E8%B3%BD-%E5%8F%B0%E7%81%A3%E9%9A%8A%E6%98%A8%E5%95%9F%E7%A8%8B-%E7%B6%B1%E7%B8%BD%E5%96%8A%E8%A9%B1-%E7%99%BE%E5%88%86%E4%B9%8B%E7%99%BE%E6%8B%9A%E5%8B%9D-213000698.html",
+      "pubDate": "11/10 13:30",
+      "rawImg": "https://media.zenfs.com/ko/libertytimes_786/b5d602af3dbb13936e662a06df1aa16e.jpg",
       "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
       "id": "rss_3",
+      "title": "亞冠賽》南韓隊連2亞 金倒永︰終結對日不勝",
+      "description": "本屆力拚隊史首冠南韓隊在前兩屆亞冠賽都奪下亞軍，本屆由前韓華鷹總教練崔元浩領軍，陣中最受矚目的球星，就是今年以45轟登上韓職全壘打王的金倒永，他也喊話要帶領球隊奪冠，一舉終結對日本隊的不勝紀錄。南韓隊由樂天巨人韓東熙擔任隊長，崔元浩指出，考慮將金倒永安排在第2或第3棒，而剛打完韓國大賽的金智讚、李在",
+      "link": "https://tw.sports.yahoo.com/news/%E4%BA%9E%E5%86%A0%E8%B3%BD-%E5%8D%97%E9%9F%93%E9%9A%8A%E9%80%A32%E4%BA%9E-%E9%87%91%E5%80%92%E6%B0%B8-%E7%B5%82%E7%B5%90%E5%B0%8D%E6%97%A5%E4%B8%8D%E5%8B%9D-213000991.html",
+      "pubDate": "11/10 13:30",
+      "rawImg": "",
+      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "rss_4",
       "title": "棒球》曾是MLB日本新星隊友！25歲韓裔美籍好手遭釋出 有意打中職",
       "description": "第5屆日本冬季聯盟（Japan Winter League，JWL）將於21日開打，根據日媒報導，預計將有來自日本在內共16個國家及地區、約160名球員參加，創下歷屆新高。...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5636079",
       "pubDate": "11/10 11:13",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_4",
+      "id": "rss_5",
       "title": "U23世界盃》猛！兄弟19歲大物超殺 國際賽登板無失分狂飆2K",
       "description": "中信兄弟19歲大物徐磊入選U23世界盃台灣隊，今天面對澳洲後援出賽，1局無失分猛飆2次三振。\n\n\n畢業自麥寮高中的徐磊，去年參加選秀獲黃衫軍第2指名，但在體檢發現舊傷，經過...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5635988",
       "pubDate": "11/10 9:27",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_5",
+      "id": "rss_6",
       "title": "日職》想留住旅美心意堅定的織田翔希？巨人有育成計畫...但還沒做好",
       "description": "來自橫濱高中的日本18歲火球男織田翔希表明要挑戰美職大聯盟，但讀賣巨人卻在今年日職選秀會以第一指名選走織田翔希。巨人隊編成本部長水野雄仁今天率隊到橫濱高中拜訪，但織田翔希沒...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5635738",
       "pubDate": "11/10 7:27",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_6",
+      "id": "rss_7",
       "title": "NBA》狂勝51分！柯瑞繳25分 勇士痛宰鵜鶘豪取8連勝",
       "description": "近況不錯的勇士今天在主場面對鵜鶘，當家一哥柯瑞（Stephen Curry）攻下25分，波傑姆斯基（Brandin Podziemski）也貢獻25分，聯手助隊以138：...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5635635",
       "pubDate": "11/10 5:41",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
+      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     },
     {
-      "id": "rss_7",
+      "id": "rss_8",
       "title": "中職》日職1914場資歷歸零！日本裁判木內九二生在台灣學到一課",
       "description": "在日本職棒執法28年、累計1914場比賽的資深裁判木內九二生，今年轉戰中華職棒，並將於14日迎接60歲生日。他接受日本《讀賣新聞》專訪時坦言，來台灣後才深刻體會到，過往資...…",
       "link": "https://sports.ltn.com.tw/news/breakingnews/5635524",
       "pubDate": "11/10 4:38",
       "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_8",
-      "title": "日職》季後恐有3人行使FA轉隊 廣島網羅身高201公分的前釀酒人右投",
-      "description": "日職廣島鯉魚今天宣布，網羅28歲前釀酒人右投麥基（Easton McGee）。根據日媒《體育報知》報導，麥基的年薪為65萬美元，簽約金25萬美元，外加激勵獎金。\n\n\n麥基今...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5635433",
-      "pubDate": "11/10 4:20",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_9",
-      "title": "PLG》開季連敗三連霸浮現危機 領航猿找回米爾納助拳",
-      "description": "桃園璞園領航猿今正式宣布，與洋將米爾納（Setric Millner Jr.）完成續約，米爾納（Setric Millner Jr.）將於本賽季繼續為璞園領航猿披掛上陣。...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5635467",
-      "pubDate": "11/10 4:00",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_10",
-      "title": "台南「全民選秀站」登場 AI分析球速還能生成數位球員卡",
-      "description": "想體驗AI科技如何讓棒球變得更有趣嗎？南市政府推出「全民智慧體感運動科技應用」棒球科技體驗活動，結合AI球路追蹤及數據分析，讓民眾親自站上投手丘，挑戰投球準度、掌握個人投...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5635440",
-      "pubDate": "11/10 3:51",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_11",
-      "title": "中職》樂天桃猿續約艾菩樂 繼威能帝之後球隊第2位續留的洋將",
-      "description": "樂天桃猿隊今日宣布，已與洋投艾菩樂達成續約共識，繼威能帝之後成為球隊明年第2位確定續留的洋將。\n\n\n艾菩樂本季轉戰樂天桃猿，例行賽共出賽23場，皆擔任先發投手，累積150...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5635444",
-      "pubDate": "11/10 3:48",
-      "rawImg": "",
       "fallbackImg": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_12",
-      "title": "日職》強行指名想旅美的火球男織田翔希 巨人軍今拜訪卻撲空了",
-      "description": "來自橫濱高中的日本18歲火球男織田翔希，雖然在今年日本職棒選秀會中，被讀賣巨人以第一指名選走，但他依然表態想要直接挑戰美國大聯盟舞台。巨人軍球團今天到橫濱高中拜訪，但織田翔...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5635369",
-      "pubDate": "11/10 3:20",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_13",
-      "title": "U23世界盃》詭譎戰局！台灣與3隊戰績相同 明搶晉級還得看TQB",
-      "description": "U23世界盃棒球賽，台灣隊今天以0比4遭到澳洲完封，加上同為A組的波多黎各、巴拿馬都贏球，台灣隊與A組其他3隊的戰績都是2勝2敗，明天小組賽最終戰，台灣隊若要晉級不只要贏球...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5635311",
-      "pubDate": "11/10 3:01",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_14",
-      "title": "NBA》7連勝勇士遇傷兵！二年級生理查德拇指韌帶撕裂 恐缺陣一段時間",
-      "description": "近期處於7連勝的勇士，陣中二年級生理查德（Will Richard）因左手拇指韌帶撕裂，預計將缺席一段時間，目前尚未有具體的歸隊時間。\n\n\n現年23歲的理查德是在去年選秀會...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5635240",
-      "pubDate": "11/10 2:10",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1558000143-a6217b1b3699?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "rss_15",
-      "title": "NBA》魏少迷報到！ 雷霆新同學穿上18號致敬歷史大三元之王",
-      "description": "雷霆、國王日前完成一筆交易，國王送出後衛克利福德（Nique Clifford），換回雷霆兩張次輪籤，如今克利福德選擇在雷霆穿上18號球衣，他也透露原因與「魏少」魏斯布魯克...…",
-      "link": "https://sports.ltn.com.tw/news/breakingnews/5635241",
-      "pubDate": "11/10 2:00",
-      "rawImg": "",
-      "fallbackImg": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&w=1200&q=80"
     }
   ]
 }
